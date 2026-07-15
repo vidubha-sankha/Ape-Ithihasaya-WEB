@@ -1,0 +1,69 @@
+[
+  {
+    "id": "king-vasabha",
+    "slug": "vasabha",
+    "nameEn": "King Vasabha",
+    "nameSi": "වසභ රජතුමා",
+    "kingdomNameEn": "Anuradhapura Kingdom",
+    "kingdomNameSi": "අනුරාධපුර රාජධානිය",
+    "reign": {
+      "displayEn": "67–111 CE",
+      "displaySi": "ක්‍රි.ව. 67–111"
+    },
+    "predecessorId": null,
+    "successorId": "king-vankanasika-tissa",
+    "fatherId": null,
+    "childIds": [
+      "king-vankanasika-tissa"
+    ],
+    "image": "/images/kings/vasabha",
+    "summarySi": "වසභ රජතුමා අනුරාධපුර රාජධානියේ වැදගත් පාලකයෙකි.",
+    "summaryEn": "King Vasabha was an important ruler of the Anuradhapura Kingdom.",
+    "evidenceLevel": "chronicle-based",
+    "status": "published"
+  },
+  {
+    "id": "king-vankanasika-tissa",
+    "slug": "vankanasika-tissa",
+    "nameEn": "Vankanasika Tissa",
+    "nameSi": "වංකනාසික තිස්ස රජතුමා",
+    "kingdomNameEn": "Anuradhapura Kingdom",
+    "kingdomNameSi": "අනුරාධපුර රාජධානිය",
+    "reign": {
+      "displayEn": "111–114 CE",
+      "displaySi": "ක්‍රි.ව. 111–114"
+    },
+    "predecessorId": "king-vasabha",
+    "successorId": "king-gajabahu-i",
+    "fatherId": "king-vasabha",
+    "childIds": [
+      "king-gajabahu-i"
+    ],
+    "image": "/images/kings/vankanasika-tissa",
+    "summarySi": "වංකනාසික තිස්ස රජතුමා වසභ රජුගෙන් පසු අනුරාධපුර රාජධානියේ රජ විය.",
+    "summaryEn": "Vankanasika Tissa ruled Anuradhapura after King Vasabha.",
+    "evidenceLevel": "chronicle-based",
+    "status": "published"
+  },
+  {
+    "id": "king-gajabahu-i",
+    "slug": "gajabahu-i",
+    "nameEn": "King Gajabahu I",
+    "nameSi": "පළමුවන ගජබාහු රජතුමා",
+    "kingdomNameEn": "Anuradhapura Kingdom",
+    "kingdomNameSi": "අනුරාධපුර රාජධානිය",
+    "reign": {
+      "displayEn": "114–136 CE",
+      "displaySi": "ක්‍රි.ව. 114–136"
+    },
+    "predecessorId": "king-vankanasika-tissa",
+    "successorId": null,
+    "fatherId": "king-vankanasika-tissa",
+    "childIds": [],
+    "image": "/images/kings/gajabahu-i",
+    "summarySi": "පළමුවන ගජබාහු රජතුමා වංකනාසික තිස්ස රජුගෙන් පසු රාජ්‍යයට පත්විය.",
+    "summaryEn": "King Gajabahu I succeeded Vankanasika Tissa.",
+    "evidenceLevel": "chronicle-based",
+    "status": "published"
+  }
+]

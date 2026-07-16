@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 type Locale = "si" | "en";
 
@@ -13,6 +14,13 @@ export default function Footer({ locale }: FooterProps) {
     <footer className="border-t border-amber-500/25 bg-black px-6 py-16 text-stone-300">
       <div className="mx-auto grid max-w-7xl gap-12 md:grid-cols-2 lg:grid-cols-4">
         <div>
+        <Image
+            src="/logo.png"
+            alt="Ape Ithihasaya Logo"
+            width={120}
+            height={80}
+            className="mb-4"
+          />
           <h2 className="text-2xl font-bold text-amber-400">
             {isSinhala ? "අපේ ඉතිහාසය" : "Ape Ithihasaya"}
           </h2>
@@ -99,15 +107,17 @@ export default function Footer({ locale }: FooterProps) {
         </div>
       </div>
 
-      <div className="mx-auto mt-14 flex max-w-7xl flex-col gap-4 border-t border-stone-800 pt-8 text-sm text-stone-500 md:flex-row md:items-center md:justify-between">
-        <p>© 2026 Vidubha Sankha. All rights reserved.</p>
+      <div className="mx-auto mt-14 flex max-w-7xl flex-col items-center justify-center gap-3 border-t border-stone-800 pt-8 text-center text-sm text-stone-500 md:flex-row">
+  <p>© 2026 Vidubha Sankha. All rights reserved.</p>
 
-        <p>
-          {isSinhala
-            ? "ශ්‍රී ලංකාවේ පොහොසත් ඉතිහාසය සුරකිමින්"
-            : "Preserving the rich history of Sri Lanka"}
-        </p>
-      </div>
+  
+
+  <p>
+    {isSinhala
+      ? "ශ්‍රී ලංකාවේ පොහොසත් ඉතිහාසය සුරකිමින්"
+      : "Preserving the rich history of Sri Lanka"}
+  </p>
+</div>
     </footer>
   );
 }

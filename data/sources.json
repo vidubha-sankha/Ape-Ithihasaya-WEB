@@ -1,0 +1,37 @@
+[
+  {
+    "id": "source-mahavamsa",
+
+    "title": {
+      "si": "මහාවංසය",
+      "en": "Mahavamsa"
+    },
+
+    "type": "chronicle",
+
+    "description": {
+      "si": "ශ්‍රී ලංකාවේ රජවරුන්, බුදුදහම සහ ප්‍රධාන ඓතිහාසික සිදුවීම් පිළිබඳ සඳහන් කරන ප්‍රධාන පාලි වංශකතාවකි.",
+      "en": "A major Pali chronicle containing accounts of Sri Lankan rulers, Buddhism and important historical events."
+    },
+
+    "evidenceCategory": "chronicle-based"
+  },
+
+  {
+    "id": "source-dipavamsa",
+
+    "title": {
+      "si": "දීපවංසය",
+      "en": "Dipavamsa"
+    },
+
+    "type": "chronicle",
+
+    "description": {
+      "si": "ශ්‍රී ලංකා ඉතිහාසය පිළිබඳ පැරණිතම පාලි වංශකතා අතරින් එකකි.",
+      "en": "One of the earliest surviving Pali chronicles relating to the history of Sri Lanka."
+    },
+
+    "evidenceCategory": "chronicle-based"
+  }
+]

@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import kings from "@/data/kings.json";
+
+import { getKings } from "@/lib/kings";
 
 export default function KingsPage() {
-  const publishedKings = kings.filter(
-    (king) => king.status === "published"
-  );
+  const publishedKings = getKings("si");
 
   return (
     <main className="min-h-screen bg-stone-100 px-6 py-12">
@@ -41,7 +40,7 @@ export default function KingsPage() {
               <div className="relative aspect-[4/5] bg-stone-200">
                 <Image
                   src={king.image}
-                  alt={king.nameEn}
+                  alt={king.name}
                   fill
                   className="object-cover"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -50,17 +49,17 @@ export default function KingsPage() {
 
               <div className="p-6">
                 <p className="text-sm font-semibold text-amber-700">
-                  {king.kingdomNameSi ?? "Anuradhapura"}
+                  {king.kingdomName}
                 </p>
 
                 <h2 className="mt-2 text-2xl font-bold text-stone-900">
-                  {king.nameSi}
+                  {king.name}
                 </h2>
 
-                <p className="mt-1 text-stone-500">{king.nameEn}</p>
+                <p className="mt-1 text-stone-500">{king.name}</p>
 
                 <p className="mt-4 text-sm font-medium text-stone-700">
-                  රාජ්‍ය සමය: {king.reign.displaySi}
+                  රාජ්‍ය සමය: {king.reignDisplay}
                 </p>
 
                 <Link

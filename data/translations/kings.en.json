@@ -1,0 +1,78 @@
+{
+  "king-vasabha": {
+    "name": "King Vasabha",
+    "shortName": "Vasabha",
+    "kingdomName": "Anuradhapura Kingdom",
+    "dynastyName": "First Lambakanna Dynasty",
+    "reignDisplay": "67–111 CE",
+
+    "summary": "King Vasabha was an important ruler of the Anuradhapura Kingdom.",
+
+    "biography": "King Vasabha is described in the chronicles as an important ruler of the Anuradhapura Kingdom. He was succeeded by King Vankanasika Tissa.",
+
+    "importantEvents": [
+      "Ruled the Anuradhapura Kingdom",
+      "Associated with the First Lambakanna Dynasty",
+      "Traditionally identified as the father of Vankanasika Tissa"
+    ],
+
+    "constructions": [
+      "Information will be added later"
+    ],
+
+    "relatedPlaces": [
+      "Anuradhapura"
+    ]
+  },
+
+  "king-vankanasika-tissa": {
+    "name": "King Vankanasika Tissa",
+    "shortName": "Vankanasika Tissa",
+    "kingdomName": "Anuradhapura Kingdom",
+    "dynastyName": "First Lambakanna Dynasty",
+    "reignDisplay": "111–114 CE",
+
+    "summary": "King Vankanasika Tissa succeeded King Vasabha as ruler of the Anuradhapura Kingdom.",
+
+    "biography": "King Vankanasika Tissa was a ruler of the Anuradhapura Kingdom. Traditional sources identify him as the son of King Vasabha. He was succeeded by King Gajabahu I.",
+
+    "importantEvents": [
+      "Succeeded King Vasabha",
+      "Belonged to the First Lambakanna Dynasty",
+      "Traditionally identified as the father of King Gajabahu I"
+    ],
+
+    "constructions": [
+      "Information will be added later"
+    ],
+
+    "relatedPlaces": [
+      "Anuradhapura"
+    ]
+  },
+
+  "king-gajabahu-i": {
+    "name": "King Gajabahu I",
+    "shortName": "Gajabahu I",
+    "kingdomName": "Anuradhapura Kingdom",
+    "dynastyName": "First Lambakanna Dynasty",
+    "reignDisplay": "114–136 CE",
+
+    "summary": "King Gajabahu I succeeded King Vankanasika Tissa.",
+
+    "biography": "King Gajabahu I was a ruler of the Anuradhapura Kingdom. He is traditionally identified as the son of King Vankanasika Tissa and is remembered as an important ruler in Sri Lankan chronicles and later traditions.",
+
+    "importantEvents": [
+      "Succeeded King Vankanasika Tissa",
+      "Ruled the Anuradhapura Kingdom"
+    ],
+
+    "constructions": [
+      "Information will be added later"
+    ],
+
+    "relatedPlaces": [
+      "Anuradhapura"
+    ]
+  }
+}

@@ -28,32 +28,46 @@ export type KingBaseRecord = {
 };
 
 export type KingTranslationRecord = {
-  id: string;
   name: string;
   kingdomName: string;
+  dynastyName: string; // Added dynastyName field
   summary: string;
   reignDisplay: string;
 };
 
 export type KingSourceRecord = {
   id: string;
-  entityId: string;
+  title: {
+    si: string;
+    en: string;
+  };
   type: string;
-  title: string;
-  citation: string;
+  description: {
+    si: string;
+    en: string;
+  };
+  evidenceCategory: string;
 };
 
 export type KingRecord = KingBaseRecord & {
   name: string;
   kingdomName: string;
+  dynastyName: string;
   summary: string;
   reignDisplay: string;
+  biography: string;
+  importantEvents: string[];
+  constructions: string[];
+  relatedPlaces: string[];
   sources: KingSourceRecord[];
 };
 
-const translations: Record<Locale, KingTranslationRecord[]> = {
-  en: enTranslations as KingTranslationRecord[],
-  si: siTranslations as KingTranslationRecord[],
+type TranslationMap = Record<string, KingTranslationRecord>;
+
+// Updated translations to be maps of id => record
+const translations: Record<Locale, TranslationMap> = {
+  en: enTranslations as TranslationMap,
+  si: siTranslations as TranslationMap,
 };
 
 const sources = sourcesData as KingSourceRecord[];
@@ -66,19 +80,19 @@ export function getKings(locale: Locale): KingRecord[] {
   return (kingsData as KingBaseRecord[])
     .filter((king) => king.status === "published")
     .map((king) => {
-      const translation = translations[locale].find(
-        (item) => item.id === king.id
-      );
-
+      const translation = translations[locale][king.id];
       return {
         ...king,
         name: translation?.name ?? king.slug,
         kingdomName: translation?.kingdomName ?? "",
+        dynastyName: translation?.dynastyName ?? "",
         summary: translation?.summary ?? "",
         reignDisplay: translation?.reignDisplay ?? "",
-        sources: sources.filter(
-          (source) => source.entityId === king.id && source.type === "king"
-        ),
+        biography: (translation as any)?.biography ?? "",
+        importantEvents: (translation as any)?.importantEvents ?? [],
+        constructions: (translation as any)?.constructions ?? [],
+        relatedPlaces: (translation as any)?.relatedPlaces ?? [],
+        sources: sources.filter((source) => king.sourceIds.includes(source.id)),
       };
     });
 }

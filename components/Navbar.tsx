@@ -179,7 +179,7 @@ export default function Navbar({ locale }: NavbarProps) {
               width={40}
               height={40}
               priority
-              className="h-10 w-10 rounded-md object-contain"
+              className="rounded-md object-contain"
             />
 
             <span className="whitespace-nowrap text-lg font-bold tracking-wide text-amber-400 xl:text-xl">

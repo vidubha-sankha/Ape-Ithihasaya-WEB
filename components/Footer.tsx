@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import { FaFacebookF, FaYoutube, FaTiktok } from "react-icons/fa";
 type Locale = "si" | "en";
 
 type FooterProps = {
@@ -81,30 +81,30 @@ export default function Footer({ locale }: FooterProps) {
         </div>
 
         <div>
-          <h3 className="font-bold text-white">
-            {isSinhala ? "අප සමඟ සම්බන්ධ වන්න" : "Follow Us"}
-          </h3>
+  <h3 className="font-bold text-white">
+    {isSinhala ? "අප සමඟ සම්බන්ධ වන්න" : "Follow Us"}
+  </h3>
 
-          <div className="mt-5 flex flex-wrap gap-3">
-            <SocialLink
-              href="facebook.com/share/18V4nETiSk"
-              label="Facebook"
-              icon="f"
-            />
+  <div className="mt-5 flex items-center gap-4">
+    <SocialLink
+      href="https://www.facebook.com/YOUR_PAGE"
+      label="Facebook"
+      icon={<FaFacebookF />}
+    />
 
-            <SocialLink
-              href="https://www.youtube.com/@ApeIthihasaya"
-              label="YouTube"
-              icon="▶"
-            />
+    <SocialLink
+      href="https://www.youtube.com/@ApeIthihasaya"
+      label="YouTube"
+      icon={<FaYoutube />}
+    />
 
-            <SocialLink
-              href="https://www.tiktok.com/@apeithihasaya?_r=1&_t=ZS-94LhwW95l3p"
-              label="TikTok"
-              icon="♪"
-            />
-          </div>
-        </div>
+    <SocialLink
+      href="https://www.tiktok.com/@apeithihasaya"
+      label="TikTok"
+      icon={<FaTiktok />}
+    />
+  </div>
+</div>
       </div>
 
       <div className="mx-auto mt-14 flex max-w-7xl flex-col items-center justify-center gap-3 border-t border-stone-800 pt-8 text-center text-sm text-stone-500 md:flex-row">
@@ -129,15 +129,16 @@ function SocialLink({
 }: {
   href: string;
   label: string;
-  icon: string;
+  icon: React.ReactNode;
 }) {
   return (
     <a
       href={href}
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
       aria-label={label}
-      className="flex h-11 w-11 items-center justify-center rounded-full border border-stone-700 bg-stone-900 font-bold text-amber-400 transition duration-300 hover:scale-110 hover:border-amber-500 hover:bg-amber-500 hover:text-black"
+      title={label}
+      className="flex h-12 w-12 items-center justify-center rounded-full border border-stone-700 bg-stone-900 text-xl text-amber-400 transition duration-300 hover:-translate-y-1 hover:scale-110 hover:border-amber-500 hover:bg-amber-500 hover:text-black hover:shadow-[0_0_25px_rgba(245,158,11,0.35)]"
     >
       {icon}
     </a>

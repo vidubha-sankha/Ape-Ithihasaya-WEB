@@ -1,0 +1,222 @@
+[
+  {
+    "id": "prehistory",
+    "order": 1,
+    "slug": "prehistory",
+    "name": {
+      "en": "Prehistory",
+      "si": "ප්‍රාග් ඉතිහාසය"
+    },
+    "type": "historical-period",
+    "evidenceLevel": "archaeological"
+  },
+  {
+    "id": "early-traditional-age",
+    "order": 2,
+    "slug": "early-traditional-age",
+    "name": {
+      "en": "Early Traditional Age",
+      "si": "පූර්ව සම්ප්‍රදායික යුගය"
+    },
+    "type": "traditional-period",
+    "evidenceLevel": "traditional"
+  },
+  {
+    "id": "chronological-gap",
+    "order": 3,
+    "slug": "chronological-gap",
+    "name": {
+      "en": "Chronological Gap",
+      "si": "කාලානුක්‍රමික පරතරය"
+    },
+    "type": "transitional-period",
+    "evidenceLevel": "uncertain"
+  },
+  {
+    "id": "early-historical-period",
+    "order": 4,
+    "slug": "early-historical-period",
+    "name": {
+      "en": "Early Historical Period",
+      "si": "මුල් ඓතිහාසික යුගය"
+    },
+    "type": "historical-period",
+    "evidenceLevel": "chronicle"
+  },
+  {
+    "id": "tambapanni-kingdom",
+    "order": 5,
+    "slug": "tambapanni",
+    "name": {
+      "en": "Tambapanni Kingdom",
+      "si": "තම්බපණ්ණි රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "chronicle"
+  },
+  {
+    "id": "anuradhapura-kingdom",
+    "order": 6,
+    "slug": "anuradhapura",
+    "name": {
+      "en": "Anuradhapura Kingdom",
+      "si": "අනුරාධපුර රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "chronicle-and-archaeological"
+  },
+  {
+    "id": "polonnaruwa-kingdom",
+    "order": 7,
+    "slug": "polonnaruwa",
+    "name": {
+      "en": "Polonnaruwa Kingdom",
+      "si": "පොළොන්නරුව රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "dambadeniya-kingdom",
+    "order": 8,
+    "slug": "dambadeniya",
+    "name": {
+      "en": "Dambadeniya Kingdom",
+      "si": "දඹදෙණිය රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "yapahuwa-kingdom",
+    "order": 9,
+    "slug": "yapahuwa",
+    "name": {
+      "en": "Yapahuwa Kingdom",
+      "si": "යාපහුව රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "kurunegala-kingdom",
+    "order": 10,
+    "slug": "kurunegala",
+    "name": {
+      "en": "Kurunegala Kingdom",
+      "si": "කුරුණෑගල රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "gampola-kingdom",
+    "order": 11,
+    "slug": "gampola",
+    "name": {
+      "en": "Gampola Kingdom",
+      "si": "ගම්පොළ රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "kotte-kingdom",
+    "order": 12,
+    "slug": "kotte",
+    "name": {
+      "en": "Kotte Kingdom",
+      "si": "කෝට්ටේ රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "jaffna-kingdom",
+    "order": 13,
+    "slug": "jaffna",
+    "name": {
+      "en": "Kingdom of Jaffna",
+      "si": "යාපනය රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "sitawaka-kingdom",
+    "order": 14,
+    "slug": "sitawaka",
+    "name": {
+      "en": "Kingdom of Sitawaka",
+      "si": "සීතාවක රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "raigama-kingdom",
+    "order": 15,
+    "slug": "raigama",
+    "name": {
+      "en": "Kingdom of Raigama",
+      "si": "රයිගම රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "kandy-kingdom",
+    "order": 16,
+    "slug": "kandy",
+    "name": {
+      "en": "Kingdom of Kandy",
+      "si": "මහනුවර රාජධානිය"
+    },
+    "type": "kingdom",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "portuguese-period",
+    "order": 17,
+    "slug": "portuguese-period",
+    "name": {
+      "en": "Portuguese Period",
+      "si": "පෘතුගීසි යුගය"
+    },
+    "type": "colonial-period",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "dutch-period",
+    "order": 18,
+    "slug": "dutch-period",
+    "name": {
+      "en": "Dutch Period",
+      "si": "ලන්දේසි යුගය"
+    },
+    "type": "colonial-period",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "british-period",
+    "order": 19,
+    "slug": "british-period",
+    "name": {
+      "en": "British Period",
+      "si": "බ්‍රිතාන්‍ය යුගය"
+    },
+    "type": "colonial-period",
+    "evidenceLevel": "documented"
+  },
+  {
+    "id": "modern-sri-lanka",
+    "order": 20,
+    "slug": "modern-sri-lanka",
+    "name": {
+      "en": "Modern Sri Lanka",
+      "si": "නූතන ශ්‍රී ලංකාව"
+    },
+    "type": "modern-period",
+    "evidenceLevel": "documented"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ruhuna",
+    "slug": "ruhuna",
+    "name": {
+      "en": "Ruhuna",
+      "si": "රුහුණ"
+    },
+    "alternativeNames": {
+      "en": [
+        "Rohana"
+      ],
+      "si": [
+        "රෝහණ"
+      ]
+    },
+    "type": "historical-region",
+    "description": {
+      "en": "An important historical region in southern and southeastern Sri Lanka, associated with early settlements, regional rulers and the rise of the Magama political centre.",
+      "si": "ශ්‍රී ලංකාවේ දකුණු සහ ගිනිකොණදිග ප්‍රදේශ ආවරණය කළ, මුල් ජනාවාස, ප්‍රාදේශීය පාලකයන් සහ මාගම දේශපාලන මධ්‍යස්ථානය සමඟ සම්බන්ධ වූ වැදගත් ඓතිහාසික ප්‍රදේශයකි."
+    },
+    "importantCentres": [
+      "magama",
+      "kataragama",
+      "tissamaharama",
+      "kirinda"
+    ],
+    "relatedPeopleIds": [
+      "prince-mahanaga",
+      "gothabhaya-of-ruhuna",
+      "kavantissa",
+      "viharamahadevi",
+      "dutugemunu",
+      "saddhatissa"
+    ],
+    "relatedKingdomIds": [
+      "anuradhapura-kingdom"
+    ],
+    "evidenceLevel": "chronicle-and-archaeological"
+  }
+]

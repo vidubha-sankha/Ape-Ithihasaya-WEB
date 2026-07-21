@@ -1,0 +1,630 @@
+[
+  {
+    "id": "maha-sammata-manu",
+    "slug": "maha-sammata-manu",
+    "name": {
+      "en": "Maha Sammata Manu",
+      "si": "මහා සම්මත මනු"
+    },
+    "alternativeNames": {
+      "en": [
+        "Mahasammata"
+      ],
+      "si": [
+        "මහාසම්මත"
+      ]
+    },
+    "roles": [
+      "traditional-ruler"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "maha-sammata-manu-tradition"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [],
+    "spouseIds": [],
+    "childIds": [],
+    "relatedPeopleIds": [],
+    "image": "/images/people/maha-sammata-manu.webp",
+    "summary": {
+      "en": "A traditional primordial ruler mentioned in Buddhist and South Asian literary traditions.",
+      "si": "බෞද්ධ සහ දකුණු ආසියානු සාහිත්‍ය සම්ප්‍රදායන්හි සඳහන් ආදිකාලීන සම්ප්‍රදායික පාලකයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "buddhist-literary-tradition"
+    ]
+  },
+  {
+    "id": "brahma",
+    "slug": "brahma",
+    "name": {
+      "en": "Brahma",
+      "si": "බ්‍රහ්ම"
+    },
+    "alternativeNames": {
+      "en": [],
+      "si": []
+    },
+    "roles": [
+      "traditional-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "brahma-tradition"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [],
+    "spouseIds": [],
+    "childIds": [],
+    "relatedPeopleIds": [
+      "heti"
+    ],
+    "image": "/images/people/brahma.webp",
+    "summary": {
+      "en": "A religious and traditional figure connected with several South Asian creation and genealogical traditions.",
+      "si": "දකුණු ආසියානු ආගමික, නිර්මාණ සහ වංශ සම්ප්‍රදායන් කිහිපයකට සම්බන්ධ චරිතයකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "traditional-literature"
+    ]
+  },
+  {
+    "id": "heti",
+    "slug": "heti",
+    "name": {
+      "en": "Heti",
+      "si": "හෙති"
+    },
+    "alternativeNames": {
+      "en": [
+        "Hethi"
+      ],
+      "si": [
+        "හේති"
+      ]
+    },
+    "roles": [
+      "traditional-lineage-founder"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "heti-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [],
+    "spouseIds": [],
+    "childIds": [
+      "vidyutkesha"
+    ],
+    "relatedPeopleIds": [
+      "brahma"
+    ],
+    "image": "/images/people/heti.webp",
+    "summary": {
+      "en": "A traditional ancestral figure associated with the early Rakshasa lineage.",
+      "si": "මුල් රක්ෂ වංශ සම්ප්‍රදාය සමඟ සම්බන්ධ සම්ප්‍රදායික පූර්වජ චරිතයකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition",
+      "traditional-literature"
+    ]
+  },
+  {
+    "id": "vidyutkesha",
+    "slug": "vidyutkesha",
+    "name": {
+      "en": "Vidyutkesha",
+      "si": "විද්‍යුත්කේශ"
+    },
+    "alternativeNames": {
+      "en": [
+        "Vidyutkesha"
+      ],
+      "si": [
+        "විද්‍යුත්කේෂ"
+      ]
+    },
+    "roles": [
+      "traditional-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "heti-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [
+      "heti"
+    ],
+    "spouseIds": [],
+    "childIds": [
+      "sukesha"
+    ],
+    "relatedPeopleIds": [],
+    "image": "/images/people/vidyutkesha.webp",
+    "summary": {
+      "en": "A traditional descendant of Heti and an ancestor within the Rakshasa genealogy.",
+      "si": "හෙතිගේ වංශයෙන් පැවත එන රක්ෂ වංශාවලියේ සම්ප්‍රදායික පූර්වජයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "sukesha",
+    "slug": "sukesha",
+    "name": {
+      "en": "Sukesha",
+      "si": "සුකේශ"
+    },
+    "alternativeNames": {
+      "en": [],
+      "si": []
+    },
+    "roles": [
+      "traditional-ruler"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "heti-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [
+      "vidyutkesha"
+    ],
+    "spouseIds": [],
+    "childIds": [
+      "mali",
+      "malyavan",
+      "sumali"
+    ],
+    "relatedPeopleIds": [],
+    "image": "/images/people/sukesha.webp",
+    "summary": {
+      "en": "A traditional ruler and the father of Mali, Malyavan and Sumali.",
+      "si": "මාලි, මාල්‍යවාන් සහ සුමාලිගේ පියා ලෙස සඳහන් සම්ප්‍රදායික පාලකයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "mali",
+    "slug": "mali",
+    "name": {
+      "en": "Mali",
+      "si": "මාලි"
+    },
+    "alternativeNames": {
+      "en": [],
+      "si": []
+    },
+    "roles": [
+      "traditional-ruler",
+      "yaksha-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "yaksha-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [
+      "sukesha"
+    ],
+    "spouseIds": [],
+    "childIds": [],
+    "relatedPeopleIds": [
+      "malyavan",
+      "sumali"
+    ],
+    "image": "/images/people/mali.webp",
+    "summary": {
+      "en": "One of the three traditional sons of Sukesha.",
+      "si": "සුකේශගේ සම්ප්‍රදායික පුත්‍රයන් තිදෙනාගෙන් එක් අයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "malyavan",
+    "slug": "malyavan",
+    "name": {
+      "en": "Malyavan",
+      "si": "මාල්‍යවාන්"
+    },
+    "alternativeNames": {
+      "en": [
+        "Malyavana"
+      ],
+      "si": [
+        "මාල්‍යවාන"
+      ]
+    },
+    "roles": [
+      "traditional-ruler",
+      "advisor"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "yaksha-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [
+      "sukesha"
+    ],
+    "spouseIds": [],
+    "childIds": [],
+    "relatedPeopleIds": [
+      "mali",
+      "sumali",
+      "ravana"
+    ],
+    "image": "/images/people/malyavan.webp",
+    "summary": {
+      "en": "A traditional elder of the lineage and a figure associated with the Ravana narrative.",
+      "si": "රාවණ සම්ප්‍රදාය සමඟ සම්බන්ධ වංශයේ ජ්‍යෙෂ්ඨ චරිතයකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "sumali",
+    "slug": "sumali",
+    "name": {
+      "en": "Sumali",
+      "si": "සුමාලි"
+    },
+    "alternativeNames": {
+      "en": [],
+      "si": []
+    },
+    "roles": [
+      "traditional-ruler",
+      "yaksha-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "yaksha-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [
+      "sukesha"
+    ],
+    "spouseIds": [
+      "ketumati"
+    ],
+    "childIds": [
+      "kaikesi"
+    ],
+    "relatedPeopleIds": [
+      "mali",
+      "malyavan"
+    ],
+    "image": "/images/people/sumali.webp",
+    "summary": {
+      "en": "A traditional ruler and an important ancestor in the Ravana genealogy.",
+      "si": "රාවණ වංශ සම්ප්‍රදායේ වැදගත් පූර්වජයෙකු ලෙස සඳහන් සම්ප්‍රදායික පාලකයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "ketumati",
+    "slug": "ketumati",
+    "name": {
+      "en": "Ketumati",
+      "si": "කේතුමතී"
+    },
+    "alternativeNames": {
+      "en": [],
+      "si": []
+    },
+    "roles": [
+      "traditional-queen"
+    ],
+    "gender": "female",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "yaksha-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [],
+    "spouseIds": [
+      "sumali"
+    ],
+    "childIds": [
+      "kaikesi"
+    ],
+    "relatedPeopleIds": [],
+    "image": "/images/people/ketumati.webp",
+    "summary": {
+      "en": "A traditional female figure associated with Sumali and the ancestry of Kaikesi.",
+      "si": "සුමාලි සහ කෛකේසිගේ වංශ සම්බන්ධතාවය සමඟ සඳහන් සම්ප්‍රදායික කාන්තා චරිතයකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "traditional-literature"
+    ]
+  },
+  {
+    "id": "kaikesi",
+    "slug": "kaikesi",
+    "name": {
+      "en": "Kaikesi",
+      "si": "කෛකේසි"
+    },
+    "alternativeNames": {
+      "en": [
+        "Kaikasi"
+      ],
+      "si": [
+        "කයිකසි"
+      ]
+    },
+    "roles": [
+      "traditional-queen"
+    ],
+    "gender": "female",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "yaksha-lineage",
+      "ravana-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [
+      "sumali",
+      "ketumati"
+    ],
+    "spouseIds": [
+      "vishrava"
+    ],
+    "childIds": [
+      "ravana",
+      "kumbhakarna",
+      "vibhishana"
+    ],
+    "relatedPeopleIds": [
+      "kubera"
+    ],
+    "image": "/images/people/kaikesi.webp",
+    "summary": {
+      "en": "The traditional mother of Ravana, Kumbhakarna and Vibhishana.",
+      "si": "රාවණ, කුම්බකර්ණ සහ විභීෂණගේ මව ලෙස සඳහන් සම්ප්‍රදායික චරිතයකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "kubera",
+    "slug": "kubera",
+    "name": {
+      "en": "Kubera",
+      "si": "කුවේර"
+    },
+    "alternativeNames": {
+      "en": [
+        "Kuvera"
+      ],
+      "si": [
+        "කුබේර"
+      ]
+    },
+    "roles": [
+      "traditional-ruler",
+      "deity"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "kubera-tradition"
+    ],
+    "regionIds": [],
+    "kingdomIds": [
+      "traditional-lanka"
+    ],
+    "parentIds": [
+      "vishrava"
+    ],
+    "spouseIds": [],
+    "childIds": [],
+    "relatedPeopleIds": [
+      "ravana",
+      "kaikesi"
+    ],
+    "image": "/images/people/kubera.webp",
+    "summary": {
+      "en": "A traditional ruler associated with Lanka before Ravana in later literary traditions.",
+      "si": "පසුකාලීන සාහිත්‍ය සම්ප්‍රදායන් අනුව රාවණට පෙර ලංකාව සමඟ සම්බන්ධ පාලකයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition",
+      "puranic-tradition"
+    ]
+  },
+  {
+    "id": "ravana",
+    "slug": "ravana",
+    "name": {
+      "en": "Ravana",
+      "si": "රාවණ"
+    },
+    "alternativeNames": {
+      "en": [
+        "King Ravana"
+      ],
+      "si": [
+        "රාවණ රජු"
+      ]
+    },
+    "roles": [
+      "traditional-ruler",
+      "warrior",
+      "traditional-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "ravana-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [
+      "traditional-lanka"
+    ],
+    "parentIds": [
+      "vishrava",
+      "kaikesi"
+    ],
+    "spouseIds": [
+      "mandodari"
+    ],
+    "childIds": [
+      "indrajit"
+    ],
+    "relatedPeopleIds": [
+      "kubera",
+      "kumbhakarna",
+      "vibhishana",
+      "malyavan"
+    ],
+    "image": "/images/people/ravana.webp",
+    "summary": {
+      "en": "A central traditional ruler in the Ramayana narrative and later traditions associated with Lanka.",
+      "si": "රාමායණ කතාවේ සහ ලංකාව සම්බන්ධ පසුකාලීන සම්ප්‍රදායන්හි ප්‍රධාන පාලක චරිතයකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "kumbhakarna",
+    "slug": "kumbhakarna",
+    "name": {
+      "en": "Kumbhakarna",
+      "si": "කුම්බකර්ණ"
+    },
+    "alternativeNames": {
+      "en": [],
+      "si": []
+    },
+    "roles": [
+      "traditional-warrior",
+      "traditional-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "ravana-lineage"
+    ],
+    "regionIds": [],
+    "kingdomIds": [
+      "traditional-lanka"
+    ],
+    "parentIds": [
+      "vishrava",
+      "kaikesi"
+    ],
+    "spouseIds": [],
+    "childIds": [],
+    "relatedPeopleIds": [
+      "ravana",
+      "vibhishana"
+    ],
+    "image": "/images/people/kumbhakarna.webp",
+    "summary": {
+      "en": "A traditional warrior and brother of Ravana and Vibhishana.",
+      "si": "රාවණ සහ විභීෂණගේ සහෝදරයා ලෙස සඳහන් සම්ප්‍රදායික යෝධ රණශූරයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition"
+    ]
+  },
+  {
+    "id": "vibhishana",
+    "slug": "vibhishana",
+    "name": {
+      "en": "Vibhishana",
+      "si": "විභීෂණ"
+    },
+    "alternativeNames": {
+      "en": [
+        "Vibishana"
+      ],
+      "si": [
+        "විභීෂණ දෙවියන්"
+      ]
+    },
+    "roles": [
+      "traditional-ruler",
+      "traditional-figure",
+      "deity"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "dynastyIds": [
+      "ravana-lineage",
+      "vibhishana-tradition"
+    ],
+    "regionIds": [],
+    "kingdomIds": [
+      "traditional-lanka"
+    ],
+    "parentIds": [
+      "vishrava",
+      "kaikesi"
+    ],
+    "spouseIds": [
+      "sarama"
+    ],
+    "childIds": [
+      "trijata"
+    ],
+    "relatedPeopleIds": [
+      "ravana",
+      "kumbhakarna"
+    ],
+    "image": "/images/people/vibhishana.webp",
+    "summary": {
+      "en": "A traditional brother of Ravana who is associated with the rule of Lanka after the Ramayana conflict.",
+      "si": "රාමායණ සටනෙන් පසු ලංකාවේ පාලනය සමඟ සම්බන්ධ කරන රාවණගේ සම්ප්‍රදායික සහෝදරයෙකි."
+    },
+    "evidenceLevel": "traditional",
+    "sourceIds": [
+      "ramayana-tradition",
+      "local-tradition"
+    ]
+  }
+]

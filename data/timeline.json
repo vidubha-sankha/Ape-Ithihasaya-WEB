@@ -1,0 +1,767 @@
+[
+  {
+    "id": "prehistory",
+    "order": 1,
+    "slug": "prehistory",
+    "categoryId": "prehistory",
+    "name": {
+      "en": "Prehistory",
+      "si": "ප්‍රාග් ඉතිහාසය"
+    },
+    "shortDescription": {
+      "en": "The period before written historical records, reconstructed mainly through archaeology, geology and scientific research.",
+      "si": "ලිඛිත ඓතිහාසික වාර්තා ඇතිවීමට පෙර පැවති, පුරාවිද්‍යාව, භූ විද්‍යාව සහ විද්‍යාත්මක පර්යේෂණ මගින් අධ්‍යයනය කරන කාලයයි."
+    },
+    "type": "historical-period",
+    "evidenceLevel": "archaeological",
+    "sourceCategory": "archaeology",
+    "items": [
+      {
+        "id": "geological-formation",
+        "order": 1,
+        "slug": "geological-formation-of-sri-lanka",
+        "name": {
+          "en": "Geological Formation of Sri Lanka",
+          "si": "ශ්‍රී ලංකා දූපතේ භූ විද්‍යාත්මක ආරම්භය"
+        },
+        "type": "topic"
+      },
+      {
+        "id": "palaeolithic-period",
+        "order": 2,
+        "slug": "palaeolithic-period",
+        "name": {
+          "en": "Palaeolithic Period",
+          "si": "පැලියොලිතික යුගය"
+        },
+        "type": "period"
+      },
+      {
+        "id": "mesolithic-period",
+        "order": 3,
+        "slug": "mesolithic-period",
+        "name": {
+          "en": "Mesolithic Period",
+          "si": "මෙසොලිතික යුගය"
+        },
+        "type": "period"
+      },
+      {
+        "id": "balangoda-man",
+        "order": 4,
+        "slug": "balangoda-man",
+        "name": {
+          "en": "Balangoda Man",
+          "si": "බලංගොඩ මානවයා"
+        },
+        "type": "archaeological-culture"
+      },
+      {
+        "id": "early-human-settlements",
+        "order": 5,
+        "slug": "early-human-settlements",
+        "name": {
+          "en": "Early Human Settlements",
+          "si": "ප්‍රාථමික මානව ජනාවාස"
+        },
+        "type": "topic"
+      },
+      {
+        "id": "stone-tool-culture",
+        "order": 6,
+        "slug": "stone-tool-culture",
+        "name": {
+          "en": "Stone Tool Culture",
+          "si": "ගල් ආයුධ සංස්කෘතිය"
+        },
+        "type": "archaeological-culture"
+      },
+      {
+        "id": "cave-settlements",
+        "order": 7,
+        "slug": "cave-settlements",
+        "name": {
+          "en": "Cave Settlements",
+          "si": "ගුහා ජනාවාස"
+        },
+        "type": "topic"
+      },
+      {
+        "id": "hunting-and-gathering",
+        "order": 8,
+        "slug": "hunting-and-gathering",
+        "name": {
+          "en": "Hunting and Gathering Society",
+          "si": "දඩයම් හා ආහාර එකතු කිරීමේ සමාජය"
+        },
+        "type": "topic"
+      },
+      {
+        "id": "prehistoric-archaeological-evidence",
+        "order": 9,
+        "slug": "prehistoric-archaeological-evidence",
+        "name": {
+          "en": "Prehistoric Archaeological Evidence",
+          "si": "ප්‍රාග් ඓතිහාසික පුරාවිද්‍යාත්මක සාක්ෂි"
+        },
+        "type": "evidence"
+      },
+      {
+        "id": "protohistoric-sri-lanka",
+        "order": 10,
+        "slug": "protohistoric-sri-lanka",
+        "name": {
+          "en": "Protohistoric Sri Lanka",
+          "si": "පූර්ව ඓතිහාසික ශ්‍රී ලංකාව"
+        },
+        "type": "transitional-period"
+      }
+    ]
+  },
+  {
+    "id": "early-traditional-age",
+    "order": 2,
+    "slug": "early-traditional-age",
+    "categoryId": "early-traditional-age",
+    "name": {
+      "en": "Early Traditional Age",
+      "si": "පූර්ව සම්ප්‍රදායික යුගය"
+    },
+    "shortDescription": {
+      "en": "A collection of traditional genealogies, religious narratives and legendary accounts associated with ancient Lanka.",
+      "si": "පුරාණ ලංකාව සමඟ සම්බන්ධ සම්ප්‍රදායික වංශාවලි, ආගමික කතා සහ පුරාවෘත්ත ඇතුළත් යුගයකි."
+    },
+    "type": "traditional-period",
+    "evidenceLevel": "traditional",
+    "sourceCategory": "traditional-literature",
+    "items": [
+      {
+        "id": "maha-sammata-manu-tradition",
+        "order": 1,
+        "slug": "maha-sammata-manu-tradition",
+        "name": {
+          "en": "Maha Sammata Manu Tradition",
+          "si": "මහා සම්මත මනු සම්ප්‍රදාය"
+        },
+        "type": "tradition",
+        "relatedPeopleIds": [
+          "maha-sammata-manu"
+        ]
+      },
+      {
+        "id": "brahma-tradition",
+        "order": 2,
+        "slug": "brahma-tradition",
+        "name": {
+          "en": "Brahma Tradition",
+          "si": "බ්‍රහ්ම සම්ප්‍රදාය"
+        },
+        "type": "tradition",
+        "relatedPeopleIds": [
+          "brahma"
+        ]
+      },
+      {
+        "id": "heti-lineage",
+        "order": 3,
+        "slug": "heti-lineage",
+        "name": {
+          "en": "Heti Lineage",
+          "si": "හෙති වංශ සම්ප්‍රදාය"
+        },
+        "type": "traditional-lineage",
+        "relatedPeopleIds": [
+          "heti",
+          "vidyutkesha",
+          "sukesha"
+        ]
+      },
+      {
+        "id": "yaksha-lineage",
+        "order": 4,
+        "slug": "yaksha-lineage",
+        "name": {
+          "en": "Yaksha Lineage",
+          "si": "යක්ෂ වංශ සම්ප්‍රදාය"
+        },
+        "type": "traditional-lineage",
+        "relatedPeopleIds": [
+          "mali",
+          "malyavan",
+          "sumali",
+          "kaikesi"
+        ]
+      },
+      {
+        "id": "kubera-tradition",
+        "order": 5,
+        "slug": "kubera-tradition",
+        "name": {
+          "en": "Kubera Tradition",
+          "si": "කුවේර සම්ප්‍රදාය"
+        },
+        "type": "tradition",
+        "relatedPeopleIds": [
+          "kubera"
+        ]
+      },
+      {
+        "id": "ravana-tradition",
+        "order": 6,
+        "slug": "ravana-tradition",
+        "name": {
+          "en": "Ravana Tradition",
+          "si": "රාවණ සම්ප්‍රදාය"
+        },
+        "type": "tradition",
+        "relatedPeopleIds": [
+          "ravana",
+          "mandodari",
+          "kumbhakarna",
+          "vibhishana"
+        ]
+      },
+      {
+        "id": "vibhishana-tradition",
+        "order": 7,
+        "slug": "vibhishana-tradition",
+        "name": {
+          "en": "Vibhishana Tradition",
+          "si": "විභීෂණ සම්ප්‍රදාය"
+        },
+        "type": "tradition",
+        "relatedPeopleIds": [
+          "vibhishana",
+          "sarama",
+          "trijata"
+        ]
+      },
+      {
+        "id": "yaksha-civilization",
+        "order": 8,
+        "slug": "yaksha-civilization",
+        "name": {
+          "en": "Yaksha Civilization",
+          "si": "යක්ෂ ශිෂ්ටාචාරය"
+        },
+        "type": "traditional-community"
+      },
+      {
+        "id": "naga-civilization",
+        "order": 9,
+        "slug": "naga-civilization",
+        "name": {
+          "en": "Naga Civilization",
+          "si": "නාග ශිෂ්ටාචාරය"
+        },
+        "type": "traditional-community"
+      },
+      {
+        "id": "deva-tribe",
+        "order": 10,
+        "slug": "deva-tribe",
+        "name": {
+          "en": "Deva Tribe",
+          "si": "දේව ගෝත්‍රය"
+        },
+        "type": "traditional-community"
+      },
+      {
+        "id": "rakshasa-tradition",
+        "order": 11,
+        "slug": "rakshasa-tradition",
+        "name": {
+          "en": "Rakshasa Tradition",
+          "si": "රක්ෂ සම්ප්‍රදාය"
+        },
+        "type": "traditional-community"
+      }
+    ]
+  },
+  {
+    "id": "chronological-gap",
+    "order": 3,
+    "slug": "chronological-gap",
+    "categoryId": "chronological-gap",
+    "name": {
+      "en": "Chronological Gap",
+      "si": "කාලානුක්‍රමික පරතරය"
+    },
+    "shortDescription": {
+      "en": "A transitional section separating traditional narratives from the early chronicle-based historical period.",
+      "si": "සම්ප්‍රදායික කතා සහ වංශකතා මත පදනම් වූ මුල් ඓතිහාසික යුගය අතර ඇති සංක්‍රාන්තික කොටසකි."
+    },
+    "type": "transitional-period",
+    "evidenceLevel": "uncertain",
+    "sourceCategory": "limited-evidence",
+    "items": [
+      {
+        "id": "post-vibhishana-period",
+        "order": 1,
+        "slug": "post-vibhishana-period",
+        "name": {
+          "en": "Period Following the Vibhishana Tradition",
+          "si": "විභීෂණ සම්ප්‍රදායෙන් පසු කාලය"
+        },
+        "type": "uncertain-period"
+      },
+      {
+        "id": "period-without-continuous-records",
+        "order": 2,
+        "slug": "period-without-continuous-written-records",
+        "name": {
+          "en": "Period Without Continuous Written Records",
+          "si": "අඛණ්ඩ ලිඛිත වාර්තා නොමැති කාලය"
+        },
+        "type": "uncertain-period"
+      },
+      {
+        "id": "limited-evidence-period",
+        "order": 3,
+        "slug": "period-of-limited-evidence",
+        "name": {
+          "en": "Period of Limited Evidence",
+          "si": "සාක්ෂි සීමිත කාලය"
+        },
+        "type": "uncertain-period"
+      },
+      {
+        "id": "pre-vijaya-period",
+        "order": 4,
+        "slug": "period-before-vijaya",
+        "name": {
+          "en": "Period Before the Arrival of Prince Vijaya",
+          "si": "විජය කුමරුගේ පැමිණීමට පෙර අවධිය"
+        },
+        "type": "transitional-period"
+      }
+    ]
+  },
+  {
+    "id": "early-historical-period",
+    "order": 4,
+    "slug": "early-historical-period",
+    "categoryId": "early-historical-period",
+    "name": {
+      "en": "Early Historical Period",
+      "si": "මුල් ඓතිහාසික යුගය"
+    },
+    "shortDescription": {
+      "en": "The early chronicle-based period associated with the Vijaya narrative and the formation of early political centres.",
+      "si": "විජය සම්ප්‍රදාය සහ මුල් දේශපාලන මධ්‍යස්ථාන බිහිවීම සමඟ සම්බන්ධ වංශකතා මත පදනම් වූ යුගයයි."
+    },
+    "type": "historical-period",
+    "evidenceLevel": "chronicle",
+    "sourceCategory": "chronicle",
+    "items": [
+      {
+        "id": "sinhabahu-tradition",
+        "order": 1,
+        "slug": "sinhabahu",
+        "name": {
+          "en": "Sinhabahu",
+          "si": "සිංහබාහු"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "sinhabahu"
+        ]
+      },
+      {
+        "id": "sinhasivali-tradition",
+        "order": 2,
+        "slug": "sinhasivali",
+        "name": {
+          "en": "Sinhasivali",
+          "si": "සිංහසීවලී"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "sinhasivali"
+        ]
+      },
+      {
+        "id": "prince-vijaya",
+        "order": 3,
+        "slug": "prince-vijaya",
+        "name": {
+          "en": "Prince Vijaya",
+          "si": "විජය කුමරු"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "prince-vijaya",
+          "kuveni"
+        ]
+      },
+      {
+        "id": "tambapanni-kingdom",
+        "order": 4,
+        "slug": "tambapanni-kingdom",
+        "name": {
+          "en": "Tambapanni Kingdom",
+          "si": "තම්බපණ්ණි රාජධානිය"
+        },
+        "type": "kingdom",
+        "relatedKingdomIds": [
+          "tambapanni-kingdom"
+        ]
+      },
+      {
+        "id": "upatissa",
+        "order": 5,
+        "slug": "upatissa",
+        "name": {
+          "en": "Upatissa",
+          "si": "උපතිස්ස"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "upatissa"
+        ]
+      },
+      {
+        "id": "panduvasdeva",
+        "order": 6,
+        "slug": "panduvasdeva",
+        "name": {
+          "en": "Panduvasdeva",
+          "si": "පණ්ඩුවාසදේව"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "panduvasdeva"
+        ]
+      },
+      {
+        "id": "bhaddakaccana",
+        "order": 7,
+        "slug": "bhaddakaccana",
+        "name": {
+          "en": "Bhaddakaccana",
+          "si": "භද්දකච්චානා"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "bhaddakaccana"
+        ]
+      },
+      {
+        "id": "abhaya",
+        "order": 8,
+        "slug": "abhaya",
+        "name": {
+          "en": "Abhaya",
+          "si": "අභය"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "abhaya"
+        ]
+      },
+      {
+        "id": "pandukabhaya",
+        "order": 9,
+        "slug": "pandukabhaya",
+        "name": {
+          "en": "Pandukabhaya",
+          "si": "පණ්ඩුකාභය"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "pandukabhaya"
+        ]
+      },
+      {
+        "id": "mutasiva",
+        "order": 10,
+        "slug": "mutasiva",
+        "name": {
+          "en": "Mutasiva",
+          "si": "මුටසීව"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "mutasiva"
+        ]
+      },
+      {
+        "id": "devanampiya-tissa",
+        "order": 11,
+        "slug": "devanampiya-tissa",
+        "name": {
+          "en": "Devanampiya Tissa",
+          "si": "දේවානම්පිය තිස්ස"
+        },
+        "type": "person",
+        "relatedPeopleIds": [
+          "devanampiya-tissa",
+          "mahinda-thera",
+          "sanghamitta-theri"
+        ]
+      },
+      {
+        "id": "introduction-of-buddhism",
+        "order": 12,
+        "slug": "introduction-of-buddhism",
+        "name": {
+          "en": "Introduction of Buddhism to Sri Lanka",
+          "si": "බුදු දහම ශ්‍රී ලංකාවට හඳුන්වා දීම"
+        },
+        "type": "historical-event",
+        "relatedPeopleIds": [
+          "devanampiya-tissa",
+          "mahinda-thera",
+          "sanghamitta-theri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anuradhapura-kingdom",
+    "order": 5,
+    "slug": "anuradhapura",
+    "categoryId": "anuradhapura-kingdom",
+    "name": {
+      "en": "Anuradhapura Kingdom",
+      "si": "අනුරාධපුර රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "chronicle-and-archaeological",
+    "sourceCategory": "chronicle-inscription-archaeology",
+    "relatedKingdomIds": [
+      "anuradhapura-kingdom"
+    ],
+    "relatedRegionIds": [
+      "rajarata",
+      "ruhuna"
+    ],
+    "items": []
+  },
+  {
+    "id": "polonnaruwa-kingdom",
+    "order": 6,
+    "slug": "polonnaruwa",
+    "categoryId": "polonnaruwa-kingdom",
+    "name": {
+      "en": "Polonnaruwa Kingdom",
+      "si": "පොළොන්නරුව රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription-archaeology",
+    "relatedKingdomIds": [
+      "polonnaruwa-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "dambadeniya-kingdom",
+    "order": 7,
+    "slug": "dambadeniya",
+    "categoryId": "dambadeniya-kingdom",
+    "name": {
+      "en": "Dambadeniya Kingdom",
+      "si": "දඹදෙණිය රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription",
+    "relatedKingdomIds": [
+      "dambadeniya-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "yapahuwa-kingdom",
+    "order": 8,
+    "slug": "yapahuwa",
+    "categoryId": "yapahuwa-kingdom",
+    "name": {
+      "en": "Yapahuwa Kingdom",
+      "si": "යාපහුව රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription-archaeology",
+    "relatedKingdomIds": [
+      "yapahuwa-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "kurunegala-kingdom",
+    "order": 9,
+    "slug": "kurunegala",
+    "categoryId": "kurunegala-kingdom",
+    "name": {
+      "en": "Kurunegala Kingdom",
+      "si": "කුරුණෑගල රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription",
+    "relatedKingdomIds": [
+      "kurunegala-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "gampola-kingdom",
+    "order": 10,
+    "slug": "gampola",
+    "categoryId": "gampola-kingdom",
+    "name": {
+      "en": "Gampola Kingdom",
+      "si": "ගම්පොළ රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription-archaeology",
+    "relatedKingdomIds": [
+      "gampola-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "kotte-kingdom",
+    "order": 11,
+    "slug": "kotte",
+    "categoryId": "kotte-kingdom",
+    "name": {
+      "en": "Kotte Kingdom",
+      "si": "කෝට්ටේ රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription-foreign-records",
+    "relatedKingdomIds": [
+      "kotte-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "jaffna-kingdom",
+    "order": 12,
+    "slug": "jaffna",
+    "categoryId": "jaffna-kingdom",
+    "name": {
+      "en": "Kingdom of Jaffna",
+      "si": "යාපනය රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription-foreign-records",
+    "relatedKingdomIds": [
+      "jaffna-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "sitawaka-kingdom",
+    "order": 13,
+    "slug": "sitawaka",
+    "categoryId": "sitawaka-kingdom",
+    "name": {
+      "en": "Kingdom of Sitawaka",
+      "si": "සීතාවක රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-foreign-records",
+    "relatedKingdomIds": [
+      "sitawaka-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "raigama-kingdom",
+    "order": 14,
+    "slug": "raigama",
+    "categoryId": "raigama-kingdom",
+    "name": {
+      "en": "Kingdom of Raigama",
+      "si": "රයිගම රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-foreign-records",
+    "relatedKingdomIds": [
+      "raigama-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "kandy-kingdom",
+    "order": 15,
+    "slug": "kandy",
+    "categoryId": "kandy-kingdom",
+    "name": {
+      "en": "Kingdom of Kandy",
+      "si": "මහනුවර රාජධානිය"
+    },
+    "type": "kingdom-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "chronicle-inscription-foreign-records",
+    "relatedKingdomIds": [
+      "kandy-kingdom"
+    ],
+    "items": []
+  },
+  {
+    "id": "portuguese-period",
+    "order": 16,
+    "slug": "portuguese-period",
+    "categoryId": "portuguese-period",
+    "name": {
+      "en": "Portuguese Period",
+      "si": "පෘතුගීසි යුගය"
+    },
+    "type": "colonial-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "colonial-records",
+    "items": []
+  },
+  {
+    "id": "dutch-period",
+    "order": 17,
+    "slug": "dutch-period",
+    "categoryId": "dutch-period",
+    "name": {
+      "en": "Dutch Period",
+      "si": "ලන්දේසි යුගය"
+    },
+    "type": "colonial-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "colonial-records",
+    "items": []
+  },
+  {
+    "id": "british-period",
+    "order": 18,
+    "slug": "british-period",
+    "categoryId": "british-period",
+    "name": {
+      "en": "British Period",
+      "si": "බ්‍රිතාන්‍ය යුගය"
+    },
+    "type": "colonial-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "colonial-records",
+    "items": []
+  },
+  {
+    "id": "modern-sri-lanka",
+    "order": 19,
+    "slug": "modern-sri-lanka",
+    "categoryId": "modern-sri-lanka",
+    "name": {
+      "en": "Modern Sri Lanka",
+      "si": "නූතන ශ්‍රී ලංකාව"
+    },
+    "type": "modern-period",
+    "evidenceLevel": "documented",
+    "sourceCategory": "modern-records",
+    "items": []
+  }
+]

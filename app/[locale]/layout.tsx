@@ -5,13 +5,6 @@ import Navbar from "@/components/Navbar";
 
 type Locale = "si" | "en";
 
-type LocaleLayoutProps = {
-  children: React.ReactNode;
-  params: Promise<{
-    locale: string;
-  }>;
-};
-
 const supportedLocales: Locale[] = ["si", "en"];
 
 export function generateStaticParams() {
@@ -23,7 +16,10 @@ export function generateStaticParams() {
 export default async function LocaleLayout({
   children,
   params,
-}: LocaleLayoutProps) {
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
 
   if (!supportedLocales.includes(locale as Locale)) {

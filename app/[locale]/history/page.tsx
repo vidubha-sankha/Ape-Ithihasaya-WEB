@@ -1,433 +1,193 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import {
+  evidenceLabels,
+  historyTimeline,
+  parallelHistoricalRegions,
+  type EvidenceType,
+  type Locale,
+  type TimelineItem,
+} from "@/data/history-timeline";
 
-type Locale = "si" | "en";
-
-interface HistoryIntroductionPageProps {
+interface TimelinePageProps {
   params: Promise<{
     locale: string;
   }>;
 }
 
-const pageContent = {
+const pageText = {
   si: {
     eyebrow: "අපේ ඉතිහාසය",
-    title: "ඉතිහාස හැඳින්වීම",
-    subtitle: "ශ්‍රී ලංකාවේ ඉතිහාසය",
-
-    introduction: [
-      "ශ්‍රී ලංකාව වසර දහස් ගණනක් පුරා විහිදී ගිය අතිශය පොහොසත් ඉතිහාසයක් සහිත දූපතකි. ප්‍රාග් ඓතිහාසික මානව ජනාවාසවල සිට නූතන ශ්‍රී ලංකාව දක්වා පැමිණි ගමන්මඟ තුළ රාජධානි, ආගම්, සංස්කෘතික සම්ප්‍රදායන්, ජල කළමනාකරණය, වෙළඳාම, කලා හා තාක්ෂණය වැනි බොහෝ ක්ෂේත්‍රවල විශිෂ්ට දියුණුවක් දක්නට ලැබේ.",
-
-      "ඉතිහාසය යනු අතීතයේ සිදු වූ සිදුවීම් පමණක් නොව, ඒවාට හේතු වූ සමාජ, දේශපාලන, ආර්ථික හා සංස්කෘතික වෙනස්කම් පිළිබඳ අධ්‍යයනයකි. අතීතය නිවැරදිව අවබෝධ කර ගැනීමෙන් වර්තමානය තේරුම් ගැනීමටත්, අනාගතය සඳහා වටිනා පාඩම් ලබා ගැනීමටත් හැකි වේ. මෙය ඉතිහාසය හැදෑරීමේ ප්‍රධාන අරමුණකි.",
-    ],
-
-    importanceTitle: "ඉතිහාසය හැදෑරීමේ වැදගත්කම",
-    importanceDescription: "ඉතිහාසය හැදෑරීම මඟින්,",
-
-    importanceItems: [
-      "ශ්‍රී ලංකාවේ උරුමය හා අනන්‍යතාවය අවබෝධ කරගත හැක.",
-      "අතීතයේ සිදුවීම් විවේචනාත්මකව විමසා බැලීමේ හැකියාව වර්ධනය වේ.",
-      "විවිධ සංස්කෘතීන් සහ ජනතාව අතර ඇති සම්බන්ධතා තේරුම් ගත හැක.",
-      "ජාතික උරුමය ආරක්ෂා කිරීමේ වැදගත්කම අවබෝධ වේ.",
-      "අනාගත පරම්පරාව සඳහා ඉතිහාසය නිවැරදිව සංරක්ෂණය කිරීමේ අවශ්‍යතාව හඳුනාගත හැක.",
-    ],
-
-    sourcesTitle: "ඉතිහාසය සඳහා භාවිත වන ප්‍රධාන මූලාශ්‍ර",
-
-    sourcesDescription:
-      "ශ්‍රී ලංකාවේ ඉතිහාසය ගොඩනැගෙන්නේ විවිධ මූලාශ්‍ර එකට සසඳා විමර්ශනය කිරීමෙනි. ප්‍රධාන වශයෙන් සාහිත්‍ය මූලාශ්‍ර සහ පුරාවිද්‍යාත්මක මූලාශ්‍ර යන වර්ග දෙක භාවිතා වේ.",
-
-    literaryTitle: "සාහිත්‍ය මූලාශ්‍ර",
-
-    literarySources: [
-      "මහාවංශය",
-      "දීපවංශය",
-      "චූලවංශය",
-      "රාජාවලිය",
-      "බෝධිවංශය",
-      "ධාතුවංශය",
-      "පූජාවලිය",
-      "විදේශීය වාර්තා හා සංචාරක සටහන්",
-    ],
-
-    archaeologicalTitle: "පුරාවිද්‍යාත්මක මූලාශ්‍ර",
-
-    archaeologicalSources: [
-      "ශිලා ලේඛන",
-      "පුරාවස්තු",
-      "කාසි",
-      "නටබුන්",
-      "ප්‍රතිමා",
-      "චිත්‍ර",
-      "පුරාණ ගොඩනැගිලි",
-      "පුරාවිද්‍යා කැණීම්",
-    ],
-
-    sourceConclusion:
-      "ඉතිහාසඥයන් මෙම සියලු මූලාශ්‍ර එකිනෙක සසඳා, ඒවායේ විශ්වසනීයත්වය පරීක්ෂා කර ඉතිහාසය ගොඩනඟයි. එක් මූලාශ්‍රයක සඳහන් තොරතුරක් වෙනත් සාහිත්‍ය හෝ පුරාවිද්‍යාත්මක සාක්ෂියකින් තහවුරු වන විට එම තොරතුරේ විශ්වසනීයත්වය වැඩි වේ.",
-
-    missionTitle: "Ape Ithihasaya හි අරමුණ",
-
-    missionDescription:
-      "Ape Ithihasaya හි අරමුණ වන්නේ ශ්‍රී ලංකාවේ ඉතිහාසය පිළිබඳ විශ්වාසදායක, ක්‍රමානුකූල සහ පර්යේෂණාත්මක දැනුම් සම්භාරයක් එකම වේදිකාවකින් ලබාදීමයි.",
-
-    exploreTitle: "මෙම වෙබ් අඩවිය තුළ ගවේෂණය කළ හැකි දේ",
-
-    exploreItems: [
+    title: "ශ්‍රී ලංකාවේ සම්පූර්ණ ඉතිහාස කාලරේඛාව",
+    description:
+      "ප්‍රාග් ඉතිහාසයේ සිට නූතන ශ්‍රී ලංකාව දක්වා පුරාවිද්‍යාත්මක සාක්ෂි, සාහිත්‍ය සම්ප්‍රදායන්, වංශකථා, රාජධානි සහ යටත්විජිත වාර්තා වෙන වෙනම හඳුනාගෙන ගවේෂණය කරන්න.",
+    timelineTitle: "ප්‍රධාන කාලානුක්‍රමික ගමන්මඟ",
+    timelineDescription:
+      "පහත අනුපිළිවෙළ ප්‍රධාන ඓතිහාසික අවධි සහ දේශපාලන මධ්‍යස්ථාන පෙන්වයි.",
+    evidenceTitle: "සාක්ෂි වර්ග හඳුනාගන්න",
+    evidenceDescription:
+      "එක් එක් යුගය සඳහා භාවිත වන සාක්ෂි එකම මට්ටමේ නොවේ. Badge එකෙන් එම තොරතුරේ මූලාශ්‍ර ස්වභාවය පෙන්වයි.",
+    highlightsTitle: "ප්‍රධාන කරුණු",
+    exploreButton: "විස්තර බලන්න",
+    parallelTitle: "සමාන්තර ඓතිහාසික ප්‍රදේශ",
+    parallelDescription:
+      "සියලුම ප්‍රදේශ ප්‍රධාන රාජධානි අනුපිළිවෙළේ successor kingdom එකක් නොවේ. ඒවා සමහරවිට ප්‍රධාන රාජධානියක් සමඟ සමාන්තරව පැවති ප්‍රාදේශීය බල මධ්‍යස්ථාන වේ.",
+    peopleTitle: "සම්බන්ධ පුද්ගලයන්",
+    overviewTitle: "කාලරේඛාවේ සාරාංශය",
+    overviewItems: [
       {
-        icon: "🦴",
-        title: "ප්‍රාග් ඉතිහාසය",
-        description:
-          "මුල් මානව ජනාවාස, බලංගොඩ මානවයා සහ පුරාවිද්‍යා සාක්ෂි.",
+        value: "20",
+        label: "ප්‍රධාන යුග සහ රාජධානි",
       },
       {
-        icon: "👑",
-        title: "පූර්ව සම්ප්‍රදායික යුගය",
-        description:
-          "මහා සම්මත මනු, යක්ෂ වංශ, රාවණ සහ විභීෂණ සම්ප්‍රදායන්.",
+        value: "4",
+        label: "ප්‍රධාන සාක්ෂි කාණ්ඩ",
       },
       {
-        icon: "🏛",
-        title: "මුල් ඓතිහාසික යුගය",
-        description:
-          "විජය කුමරු, මුල් පාලකයන් සහ පුරාණ දේශපාලන මධ්‍යස්ථාන.",
+        value: "250+",
+        label: "අනාගතයේ සම්බන්ධ කළ හැකි පාලකයන්",
       },
       {
-        icon: "🏯",
-        title: "ශ්‍රී ලංකාවේ රාජධානි",
-        description:
-          "අනුරාධපුරයේ සිට මහනුවර දක්වා ප්‍රධාන රාජධානි.",
-      },
-      {
-        icon: "👑",
-        title: "රජවරු සහ රැජිනන්",
-        description:
-          "පාලන කාල, රාජවංශ, පවුල් සම්බන්ධතා සහ ජීවන තොරතුරු.",
-      },
-      {
-        icon: "🏺",
-        title: "පුරාවිද්‍යා ස්ථාන",
-        description:
-          "පුරාණ නගර, විහාර, බලකොටු, නටබුන් සහ පුරාවස්තු.",
-      },
-      {
-        icon: "📜",
-        title: "ශිලා ලේඛන",
-        description:
-          "පුරාණ සෙල්ලිපි සහ ඒවායෙන් අනාවරණය වන ඓතිහාසික තොරතුරු.",
-      },
-      {
-        icon: "🪙",
-        title: "කාසි හා පුරාවස්තු",
-        description:
-          "පුරාණ ආර්ථිකය, වෙළඳාම, කලාව සහ තාක්ෂණය පිළිබඳ සාක්ෂි.",
-      },
-      {
-        icon: "👨‍👩‍👦",
-        title: "රාජවංශ පවුල් සම්බන්ධතා",
-        description:
-          "පියවරුන්, මව්වරුන්, සහෝදරයන්, විවාහ සහ පරම්පරා.",
-      },
-      {
-        icon: "🗺️",
-        title: "අන්තර්ක්‍රියාකාරී කාලරේඛාව",
-        description:
-          "ප්‍රාග් ඉතිහාසයේ සිට නූතන ශ්‍රී ලංකාව දක්වා සම්පූර්ණ ගමන්මඟ.",
+        value: "2",
+        label: "සිංහල සහ ඉංග්‍රීසි භාෂා",
       },
     ],
-
-    timelineButton: "සම්පූර්ණ කාලරේඛාව බලන්න",
-    kingsButton: "රජවරු ගවේෂණය කරන්න",
-    homeButton: "මුල් පිටුවට යන්න",
-
-    sourceNote:
-      "මෙම හැඳින්වීම සකස් කිරීමේදී ශ්‍රී ලංකාවේ ඉතිහාසය හැදෑරීමේ සාහිත්‍ය හා පුරාවිද්‍යාත්මක මූලාශ්‍ර පිළිබඳ අධ්‍යාපනික කරුණු සැලකිල්ලට ගෙන ඇත.",
+    noticeTitle: "වැදගත් කාලරේඛා සටහන",
+    noticeDescription:
+      "පූර්ව සම්ප්‍රදායික යුගය සහ කාලානුක්‍රමික පරතරය නිල වශයෙන් දින නියම කළ පුරාවිද්‍යාත්මක යුග නොවේ. ඒවා Ape Ithihasaya තුළ සාහිත්‍ය සම්ප්‍රදාය, අවිනිශ්චිතතාව සහ තහවුරු කළ ඉතිහාසය පැහැදිලිව වෙන් කර පෙන්වීම සඳහා භාවිත කරන සංස්කාරක වර්ගීකරණ වේ.",
+    historyButton: "ඉතිහාස හැඳින්වීම",
+    prehistoryButton: "ප්‍රාග් ඉතිහාසයෙන් ආරම්භ කරන්න",
   },
 
   en: {
     eyebrow: "APE ITHIHASAYA",
-    title: "Introduction to History",
-    subtitle: "The History of Sri Lanka",
-
-    introduction: [
-      "Sri Lanka is an island with a rich history extending across thousands of years. From prehistoric human settlements to modern Sri Lanka, its historical journey includes remarkable achievements in kingdoms, religions, cultural traditions, water management, trade, art and technology.",
-
-      "History is not limited to events that occurred in the past. It also examines the social, political, economic and cultural changes that influenced those events. Understanding the past helps us interpret the present and gain valuable lessons for the future.",
-    ],
-
-    importanceTitle: "Why Studying History Is Important",
-    importanceDescription: "The study of history helps us to:",
-
-    importanceItems: [
-      "Understand Sri Lanka's heritage and national identity.",
-      "Develop the ability to examine past events critically.",
-      "Understand relationships between different cultures and communities.",
-      "Recognise the importance of protecting national heritage.",
-      "Preserve historical knowledge accurately for future generations.",
-    ],
-
-    sourcesTitle: "Major Sources Used to Study History",
-
-    sourcesDescription:
-      "The history of Sri Lanka is reconstructed by comparing and evaluating different forms of evidence. Historical sources can primarily be divided into literary sources and archaeological sources.",
-
-    literaryTitle: "Literary Sources",
-
-    literarySources: [
-      "Mahavamsa",
-      "Dipavamsa",
-      "Culavamsa",
-      "Rajavaliya",
-      "Bodhivamsa",
-      "Dhatuvamsa",
-      "Pujavaliya",
-      "Foreign records and travel accounts",
-    ],
-
-    archaeologicalTitle: "Archaeological Sources",
-
-    archaeologicalSources: [
-      "Inscriptions",
-      "Artifacts",
-      "Coins",
-      "Ancient ruins",
-      "Sculptures",
-      "Paintings",
-      "Ancient buildings",
-      "Archaeological excavations",
-    ],
-
-    sourceConclusion:
-      "Historians compare these sources and evaluate their reliability when reconstructing the past. Historical information becomes more reliable when a literary account is supported by inscriptions, artifacts or other archaeological evidence.",
-
-    missionTitle: "The Purpose of Ape Ithihasaya",
-
-    missionDescription:
-      "The purpose of Ape Ithihasaya is to provide a trustworthy, systematic and research-oriented knowledge platform dedicated to the complete history of Sri Lanka.",
-
-    exploreTitle: "What You Can Explore",
-
-    exploreItems: [
+    title: "Complete Timeline of Sri Lankan History",
+    description:
+      "Explore Sri Lanka from prehistory to the modern period while distinguishing archaeological evidence, literary traditions, chronicles, kingdoms and colonial records.",
+    timelineTitle: "Main Chronological Journey",
+    timelineDescription:
+      "The sequence below presents the principal historical phases and political centres.",
+    evidenceTitle: "Understanding the Evidence",
+    evidenceDescription:
+      "The evidence used for each period is not identical. Each badge identifies the primary nature of its sources.",
+    highlightsTitle: "Key Highlights",
+    exploreButton: "Explore Details",
+    parallelTitle: "Parallel Historical Regions",
+    parallelDescription:
+      "Not every region was a successor kingdom in the main capital sequence. Some existed as regional political centres alongside larger kingdoms.",
+    peopleTitle: "Related People",
+    overviewTitle: "Timeline Overview",
+    overviewItems: [
       {
-        icon: "🦴",
-        title: "Prehistory",
-        description:
-          "Early human settlements, Balangoda Man and archaeological evidence.",
+        value: "20",
+        label: "Major periods and kingdoms",
       },
       {
-        icon: "👑",
-        title: "Early Traditional Age",
-        description:
-          "Maha Sammata Manu, Yaksha lineages, Ravana and Vibhishana traditions.",
+        value: "4",
+        label: "Major evidence categories",
       },
       {
-        icon: "🏛",
-        title: "Early Historical Period",
-        description:
-          "Prince Vijaya, early rulers and ancient political centres.",
+        value: "250+",
+        label: "Future connected rulers",
       },
       {
-        icon: "🏯",
-        title: "Kingdoms of Sri Lanka",
-        description:
-          "Major kingdoms from Anuradhapura to the Kingdom of Kandy.",
-      },
-      {
-        icon: "👑",
-        title: "Kings and Queens",
-        description:
-          "Reign periods, dynasties, family relationships and biographies.",
-      },
-      {
-        icon: "🏺",
-        title: "Archaeological Sites",
-        description:
-          "Ancient cities, temples, fortresses, monuments and artifacts.",
-      },
-      {
-        icon: "📜",
-        title: "Inscriptions",
-        description:
-          "Ancient inscriptions and the historical information they preserve.",
-      },
-      {
-        icon: "🪙",
-        title: "Coins and Artifacts",
-        description:
-          "Evidence about ancient economies, trade, art and technology.",
-      },
-      {
-        icon: "👨‍👩‍👦",
-        title: "Royal Family Trees",
-        description:
-          "Parents, siblings, marriages, descendants and royal lineages.",
-      },
-      {
-        icon: "🗺️",
-        title: "Interactive Timeline",
-        description:
-          "A complete journey from prehistory to modern Sri Lanka.",
+        value: "2",
+        label: "Sinhala and English languages",
       },
     ],
-
-    timelineButton: "Explore the Complete Timeline",
-    kingsButton: "Explore the Kings",
-    homeButton: "Return Home",
-
-    sourceNote:
-      "This introduction was prepared using educational concepts concerning the literary and archaeological sources used to study Sri Lankan history.",
+    noticeTitle: "Important Timeline Notice",
+    noticeDescription:
+      "The Early Traditional Age and Chronological Gap are not formally dated archaeological periods. They are editorial categories used by Ape Ithihasaya to distinguish literary tradition, uncertainty and verified history.",
+    historyButton: "History Introduction",
+    prehistoryButton: "Begin with Prehistory",
   },
 } satisfies Record<Locale, unknown>;
 
-export default async function HistoryIntroductionPage({
+const evidenceTypesToShow: EvidenceType[] = [
+  "archaeological",
+  "traditional",
+  "uncertain",
+  "chronicle",
+  "chronicle-and-archaeological",
+  "documented",
+  "colonial-records",
+  "modern-records",
+];
+
+export default async function CompleteTimelinePage({
   params,
-}: HistoryIntroductionPageProps) {
+}: TimelinePageProps) {
   const { locale } = await params;
 
   if (locale !== "si" && locale !== "en") {
     notFound();
   }
 
-  const text = pageContent[locale as Locale];
+  const currentLocale = locale as Locale;
+  const text = pageText[currentLocale];
+
+  const orderedTimeline = [...historyTimeline].sort(
+    (first, second) => first.order - second.order,
+  );
 
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-[#3b2900] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,157,0,0.14),transparent_60%)]" />
+      <section className="relative overflow-hidden border-b border-[#3d2900] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,157,0,0.16),transparent_62%)]" />
 
-        <div className="relative mx-auto max-w-5xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.4em] text-[#ffad0a]">
+        <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ff9d00]/5 blur-3xl" />
+
+        <div className="relative mx-auto max-w-6xl text-center">
+          <p className="text-sm font-bold uppercase tracking-[0.42em] text-[#ffad0a]">
             {text.eyebrow}
           </p>
 
-          <h1 className="mt-6 font-serif text-4xl font-bold leading-tight sm:text-6xl lg:text-7xl">
-            🌍 {text.title}
+          <h1 className="mt-7 font-serif text-4xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
+            🕰️ {text.title}
           </h1>
 
-          <p className="mt-6 text-xl font-semibold text-[#ffad0a] sm:text-2xl">
-            {text.subtitle}
+          <p className="mx-auto mt-7 max-w-4xl text-base leading-8 text-zinc-300 sm:text-lg">
+            {text.description}
           </p>
 
-          <div className="mx-auto mt-8 h-px w-24 bg-[#ff9d00]" />
-        </div>
-      </section>
+          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href={`/${currentLocale}/history`}
+              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#a66d00] px-8 py-3 font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+            >
+              ← {text.historyButton}
+            </Link>
 
-      {/* Introduction */}
-      <section className="border-b border-zinc-900 bg-[#070707] px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-5xl">
-          <div className="space-y-7 text-base leading-9 text-zinc-300 sm:text-lg">
-            {text.introduction.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
+            <Link
+              href={`/${currentLocale}/history/prehistory`}
+              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-8 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb42a]"
+            >
+              {text.prehistoryButton} →
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Importance */}
-      <section className="border-b border-zinc-900 bg-black px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-6xl">
-          <SectionHeading
-            icon="📚"
-            title={text.importanceTitle}
-            description={text.importanceDescription}
-          />
-
-          <div className="mt-10 grid gap-5 md:grid-cols-2">
-            {text.importanceItems.map((item, index) => (
-              <article
-                key={item}
-                className="flex gap-4 rounded-2xl border border-zinc-900 bg-[#080808] p-6 transition hover:border-[#805400]"
-              >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#ff9d00] font-bold text-black">
-                  {index + 1}
-                </div>
-
-                <p className="leading-8 text-zinc-300">{item}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Sources */}
-      <section className="border-b border-zinc-900 bg-[#070707] px-5 py-20 sm:px-8 lg:px-12">
+      {/* Overview */}
+      <section className="border-b border-zinc-900 bg-[#070707] px-5 py-16 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-7xl">
-          <SectionHeading
-            icon="🔎"
-            title={text.sourcesTitle}
-            description={text.sourcesDescription}
-          />
-
-          <div className="mt-12 grid gap-8 lg:grid-cols-2">
-            <SourceCard
-              icon="📖"
-              title={text.literaryTitle}
-              items={text.literarySources}
-            />
-
-            <SourceCard
-              icon="🏺"
-              title={text.archaeologicalTitle}
-              items={text.archaeologicalSources}
-            />
-          </div>
-
-          <div className="mt-10 rounded-3xl border border-[#4e3500] bg-black p-7 sm:p-9">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">💡</span>
-
-              <p className="leading-8 text-zinc-300">
-                {text.sourceConclusion}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Mission */}
-      <section className="border-b border-zinc-900 bg-black px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#ff9d00]">
-            Ape Ithihasaya
-          </p>
-
-          <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
-            {text.missionTitle}
+          <h2 className="text-center font-serif text-3xl font-bold sm:text-4xl">
+            {text.overviewTitle}
           </h2>
 
-          <p className="mx-auto mt-7 max-w-4xl text-base leading-9 text-zinc-300 sm:text-lg">
-            {text.missionDescription}
-          </p>
-        </div>
-      </section>
-
-      {/* Explore Cards */}
-      <section className="border-b border-zinc-900 bg-[#070707] px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-7xl">
-          <SectionHeading
-            icon="🧭"
-            title={text.exploreTitle}
-            description=""
-            centered
-          />
-
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {text.exploreItems.map((item) => (
+          <div className="mt-10 grid grid-cols-2 gap-5 lg:grid-cols-4">
+            {text.overviewItems.map((item) => (
               <article
-                key={item.title}
-                className="group rounded-3xl border border-zinc-900 bg-black p-7 transition duration-300 hover:-translate-y-1 hover:border-[#8a5900]"
+                key={item.label}
+                className="rounded-2xl border border-zinc-900 bg-black p-6 text-center"
               >
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[#704900] bg-[#120d00] text-2xl transition group-hover:bg-[#ff9d00]">
-                  {item.icon}
-                </div>
+                <p className="text-3xl font-bold text-[#ffad0a] sm:text-4xl">
+                  {item.value}
+                </p>
 
-                <h3 className="mt-6 text-xl font-bold text-white">
-                  {item.title}
-                </h3>
-
-                <p className="mt-3 leading-7 text-zinc-400">
-                  {item.description}
+                <p className="mt-3 text-sm leading-6 text-zinc-400">
+                  {item.label}
                 </p>
               </article>
             ))}
@@ -435,105 +195,308 @@ export default async function HistoryIntroductionPage({
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-black px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-5xl rounded-[2rem] border border-[#6f4900] bg-[radial-gradient(circle_at_center,rgba(255,157,0,0.12),transparent_70%)] px-6 py-14 text-center sm:px-10">
-          <h2 className="font-serif text-3xl font-bold sm:text-5xl">
-            {locale === "si"
-              ? "ශ්‍රී ලංකාවේ ඉතිහාස ගමන්මඟ ආරම්භ කරන්න"
-              : "Begin Your Journey Through Sri Lankan History"}
-          </h2>
+      {/* Evidence legend */}
+      <section className="border-b border-zinc-900 bg-black px-5 py-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-7xl">
+          <div className="mx-auto max-w-4xl text-center">
+            <p className="text-3xl">🔎</p>
 
-          <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
-            <Link
-              href={`/${locale}/history/timeline`}
-              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-8 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb42a]"
-            >
-              {text.timelineButton}
-            </Link>
+            <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
+              {text.evidenceTitle}
+            </h2>
 
-            <Link
-              href={`/${locale}/kings`}
-              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#b97900] px-8 py-3 font-bold text-[#ffad0a] transition hover:-translate-y-1 hover:bg-[#ff9d00] hover:text-black"
-            >
-              {text.kingsButton}
-            </Link>
+            <p className="mt-6 leading-8 text-zinc-400">
+              {text.evidenceDescription}
+            </p>
           </div>
 
-          <Link
-            href={`/${locale}`}
-            className="mt-7 inline-flex text-sm text-zinc-400 transition hover:text-[#ffad0a]"
-          >
-            ← {text.homeButton}
-          </Link>
+          <div className="mt-12 flex flex-wrap justify-center gap-3">
+            {evidenceTypesToShow.map((type) => (
+              <EvidenceBadge
+                key={type}
+                type={type}
+                locale={currentLocale}
+              />
+            ))}
+          </div>
         </div>
+      </section>
 
-        <p className="mx-auto mt-10 max-w-4xl text-center text-xs leading-6 text-zinc-600">
-          {text.sourceNote}
-        </p>
+      {/* Timeline heading */}
+      <section className="bg-[#070707] px-5 pb-8 pt-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="text-3xl">🌍</p>
+
+          <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
+            {text.timelineTitle}
+          </h2>
+
+          <p className="mt-6 leading-8 text-zinc-400">
+            {text.timelineDescription}
+          </p>
+        </div>
+      </section>
+
+      {/* Complete timeline */}
+      <section className="border-b border-zinc-900 bg-[#070707] px-5 pb-24 pt-10 sm:px-8 lg:px-12">
+        <div className="relative mx-auto max-w-6xl">
+          <div className="absolute bottom-0 left-6 top-0 hidden w-px bg-gradient-to-b from-[#ff9d00] via-[#6e4900] to-transparent md:block" />
+
+          <div className="space-y-8">
+            {orderedTimeline.map((item, index) => (
+              <TimelineCard
+                key={item.id}
+                item={item}
+                index={index}
+                locale={currentLocale}
+                highlightsTitle={text.highlightsTitle}
+                exploreButton={text.exploreButton}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Parallel regions */}
+      <section className="border-b border-zinc-900 bg-black px-5 py-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-7xl">
+          <div className="max-w-4xl">
+            <p className="text-3xl">🗺️</p>
+
+            <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
+              {text.parallelTitle}
+            </h2>
+
+            <p className="mt-6 leading-8 text-zinc-400">
+              {text.parallelDescription}
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-7">
+            {parallelHistoricalRegions.map((region) => (
+              <article
+                key={region.id}
+                className="rounded-3xl border border-[#5b3c00] bg-[#080808] p-7 sm:p-9"
+              >
+                <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
+                  <div>
+                    <div className="flex items-center gap-4">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ff9d00] text-2xl">
+                        {region.icon}
+                      </div>
+
+                      <div>
+                        <h3 className="text-2xl font-bold text-white">
+                          {region.name[currentLocale]}
+                        </h3>
+
+                        <p className="mt-2 text-sm text-[#ffad0a]">
+                          {region.period[currentLocale]}
+                        </p>
+                      </div>
+                    </div>
+
+                    <p className="mt-7 max-w-4xl leading-8 text-zinc-300">
+                      {region.description[currentLocale]}
+                    </p>
+
+                    <div className="mt-7">
+                      <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-zinc-500">
+                        {text.peopleTitle}
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {region.relatedPeopleIds.map((personId) => (
+                          <span
+                            key={personId}
+                            className="rounded-full border border-zinc-800 bg-black px-4 py-2 text-sm text-zinc-300"
+                          >
+                            {formatPersonId(personId)}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  <Link
+                    href={`/${currentLocale}${region.href}`}
+                    className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#a66d00] px-7 py-3 font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+                  >
+                    {text.exploreButton} →
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Notice */}
+      <section className="bg-[#070707] px-5 py-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-6xl">
+          <aside className="rounded-3xl border border-amber-900/70 bg-amber-950/10 p-7 sm:p-10">
+            <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+              <span className="text-4xl">⚠️</span>
+
+              <div>
+                <h2 className="text-2xl font-bold text-amber-300">
+                  {text.noticeTitle}
+                </h2>
+
+                <p className="mt-4 leading-8 text-zinc-300">
+                  {text.noticeDescription}
+                </p>
+              </div>
+            </div>
+          </aside>
+
+          <div className="mt-12 flex flex-col justify-between gap-4 border-t border-zinc-900 pt-10 sm:flex-row">
+            <Link
+              href={`/${currentLocale}/history`}
+              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#7e5400] px-7 py-3 font-semibold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+            >
+              ← {text.historyButton}
+            </Link>
+
+            <Link
+              href={`/${currentLocale}/history/prehistory`}
+              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-7 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb42a]"
+            >
+              {text.prehistoryButton} →
+            </Link>
+          </div>
+        </div>
       </section>
     </main>
   );
 }
 
-interface SectionHeadingProps {
-  icon: string;
-  title: string;
-  description: string;
-  centered?: boolean;
+interface TimelineCardProps {
+  item: TimelineItem;
+  index: number;
+  locale: Locale;
+  highlightsTitle: string;
+  exploreButton: string;
 }
 
-function SectionHeading({
-  icon,
-  title,
-  description,
-  centered = false,
-}: SectionHeadingProps) {
+function TimelineCard({
+  item,
+  index,
+  locale,
+  highlightsTitle,
+  exploreButton,
+}: TimelineCardProps) {
   return (
-    <div className={centered ? "mx-auto max-w-3xl text-center" : "max-w-4xl"}>
-      <p className="text-3xl">{icon}</p>
-
-      <h2 className="mt-5 font-serif text-3xl font-bold leading-tight text-white sm:text-5xl">
-        {title}
-      </h2>
-
-      {description && (
-        <p className="mt-6 text-base leading-8 text-zinc-400 sm:text-lg">
-          {description}
-        </p>
-      )}
-    </div>
-  );
-}
-
-interface SourceCardProps {
-  icon: string;
-  title: string;
-  items: string[];
-}
-
-function SourceCard({ icon, title, items }: SourceCardProps) {
-  return (
-    <article className="rounded-3xl border border-[#4d3400] bg-black p-7 sm:p-9">
-      <div className="flex items-center gap-4">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ff9d00] text-2xl">
-          {icon}
-        </div>
-
-        <h3 className="text-2xl font-bold text-white">{title}</h3>
+    <article className="group relative md:pl-20">
+      <div className="absolute left-0 top-8 z-10 hidden h-12 w-12 items-center justify-center rounded-full border border-[#b87800] bg-black text-sm font-bold text-[#ffad0a] transition group-hover:bg-[#ff9d00] group-hover:text-black md:flex">
+        {String(index + 1).padStart(2, "0")}
       </div>
 
-      <ul className="mt-7 grid gap-3 sm:grid-cols-2">
-        {items.map((item) => (
-          <li
-            key={item}
-            className="flex items-start gap-3 rounded-xl border border-zinc-900 bg-[#080808] px-4 py-4 text-zinc-300"
-          >
-            <span className="mt-1 text-[#ff9d00]">◆</span>
-            <span>{item}</span>
-          </li>
-        ))}
-      </ul>
+      <div className="rounded-3xl border border-zinc-900 bg-black p-6 transition duration-300 hover:-translate-y-1 hover:border-[#835700] sm:p-8">
+        <div className="grid gap-8 lg:grid-cols-[1fr_260px]">
+          <div>
+            <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#6e4900] bg-[#120c00] text-3xl transition group-hover:bg-[#ff9d00]">
+                {item.icon}
+              </div>
+
+              <div>
+                <div className="flex flex-wrap items-center gap-3">
+                  <span className="rounded-full border border-zinc-800 bg-[#080808] px-3 py-1 text-xs font-bold text-zinc-500 md:hidden">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+
+                  <EvidenceBadge
+                    type={item.evidenceType}
+                    locale={locale}
+                  />
+                </div>
+
+                <h3 className="mt-4 font-serif text-2xl font-bold text-white sm:text-4xl">
+                  {item.name[locale]}
+                </h3>
+
+                <p className="mt-3 font-semibold text-[#ffad0a]">
+                  {item.period[locale]}
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-7 max-w-4xl text-base leading-8 text-zinc-300">
+              {item.description[locale]}
+            </p>
+
+            <Link
+              href={`/${locale}${item.href}`}
+              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full border border-[#906000] px-6 py-2 font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+            >
+              {exploreButton}
+              <span className="ml-3 transition group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
+          </div>
+
+          <aside className="rounded-2xl border border-zinc-900 bg-[#080808] p-5">
+            <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-zinc-500">
+              {highlightsTitle}
+            </h4>
+
+            <ul className="mt-5 space-y-4">
+              {item.highlights.map((highlight) => (
+                <li
+                  key={highlight[locale]}
+                  className="flex items-start gap-3 text-sm leading-6 text-zinc-300"
+                >
+                  <span className="mt-1 text-[#ff9d00]">◆</span>
+                  <span>{highlight[locale]}</span>
+                </li>
+              ))}
+            </ul>
+          </aside>
+        </div>
+      </div>
     </article>
   );
+}
+
+interface EvidenceBadgeProps {
+  type: EvidenceType;
+  locale: Locale;
+}
+
+function EvidenceBadge({ type, locale }: EvidenceBadgeProps) {
+  const styles: Record<EvidenceType, string> = {
+    archaeological:
+      "border-emerald-800/70 bg-emerald-950/30 text-emerald-300",
+    traditional:
+      "border-purple-800/70 bg-purple-950/30 text-purple-300",
+    uncertain:
+      "border-amber-800/70 bg-amber-950/30 text-amber-300",
+    chronicle:
+      "border-blue-800/70 bg-blue-950/30 text-blue-300",
+    "chronicle-and-archaeological":
+      "border-cyan-800/70 bg-cyan-950/30 text-cyan-300",
+    documented:
+      "border-[#805400] bg-[#171000] text-[#ffbd42]",
+    "colonial-records":
+      "border-red-900/70 bg-red-950/20 text-red-300",
+    "modern-records":
+      "border-zinc-700 bg-zinc-900 text-zinc-300",
+  };
+
+  return (
+    <span
+      className={`inline-flex rounded-full border px-4 py-2 text-xs font-bold ${styles[type]}`}
+    >
+      {evidenceLabels[type][locale]}
+    </span>
+  );
+}
+
+function formatPersonId(personId: string) {
+  return personId
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }

@@ -8,10 +8,436 @@
     },
     "alternativeNames": {
       "en": [
-        "Mahasammata"
+        "Mahasammata",
+        "Maha Sammata",
+        "Mahasammata Manu"
       ],
       "si": [
-        "මහාසම්මත"
+        "මහාසම්මත",
+        "මහා සම්මත",
+        "මනු රජු"
+      ]
+    },
+    "titles": {
+      "en": [
+        "The Great Elect",
+        "Primordial King in Buddhist Tradition",
+        "First Elected Ruler"
+      ],
+      "si": [
+        "මහා ජන සම්මතයෙන් තෝරාගත් තැනැත්තා",
+        "බෞද්ධ සම්ප්‍රදායේ ආදිකාලීන රජු",
+        "ජනතාව විසින් තෝරාගත් පළමු පාලකයා"
+      ]
+    },
+    "roles": [
+      "traditional-ruler",
+      "primordial-ruler",
+      "dynasty-founder",
+      "buddhist-traditional-figure"
+    ],
+    "gender": "male",
+    "periodId": "early-traditional-age",
+    "timelineItemId": "maha-sammata-manu-tradition",
+    "dynastyIds": [
+      "maha-sammata-manu-tradition"
+    ],
+    "regionIds": [],
+    "kingdomIds": [],
+    "parentIds": [],
+    "spouseIds": [],
+    "childIds": [
+      "roja"
+    ],
+    "relatedPeopleIds": [
+      "roja"
+    ],
+    "image": "/images/people/maha-sammata-manu.webp",
+    "summary": {
+      "en": "Maha Sammata Manu is presented in Buddhist literary tradition as the primordial ruler chosen by the consent of the people when disorder arose in human society. The narrative is mainly understood as a religious and philosophical explanation of the origin of kingship, government and social law rather than as a securely dated historical biography.",
+      "si": "මහා සම්මත මනු රජු බෞද්ධ සාහිත්‍ය සම්ප්‍රදායේ මිනිස් සමාජයේ අක්‍රමිකතා ඇති වූ අවස්ථාවක ජනතාවගේ එකඟතාවයෙන් තෝරාගත් ආදිකාලීන පාලකයා ලෙස ඉදිරිපත් වේ. මෙම කතාව නිශ්චිත කාලයක ජීවත් වූ රජෙකුගේ තහවුරු කළ ඉතිහාසමය චරිතාපදානයකට වඩා, රාජ්‍යය, පාලනය සහ සමාජ නීතිය බිහි වූ ආකාරය පැහැදිලි කරන ආගමික හා දාර්ශනික සංකල්පයක් ලෙස සැලකේ."
+    },
+    "etymology": {
+      "term": "Mahāsammata",
+      "language": "Pali",
+      "meaning": {
+        "en": "The person chosen or approved by the great majority of the people.",
+        "si": "මහා ජනතාවගේ සම්මතයෙන් හෝ එකඟතාවයෙන් තෝරාගත් තැනැත්තා."
+      }
+    },
+    "selectionNarrative": {
+      "en": [
+        "Buddhist literature describes a stage in human society when theft, conflict and disorder increased.",
+        "The people assembled and selected a capable and morally respected person to judge disputes and restrain wrongdoing.",
+        "In return for governing society, the people agreed to provide him with a share of their produce.",
+        "Because he was selected by common consent, he became known as Maha Sammata."
+      ],
+      "si": [
+        "බෞද්ධ සාහිත්‍යය අනුව මිනිස් සමාජයේ සොරකම්, ආරවුල් සහ අක්‍රමිකතා වැඩි වූ අවස්ථාවක් ඇති විය.",
+        "එම ගැටලු පාලනය කර වැරදි විනිශ්චය කිරීම සඳහා සදාචාරවත් හා හැකියාව ඇති පුද්ගලයෙකු ජනතාව විසින් තෝරාගන්නා ලදී.",
+        "රට පාලනය කිරීම වෙනුවෙන් ඔහුට ජනතාවගේ අස්වැන්නෙන් කොටසක් ලබාදීමට එකඟ විය.",
+        "මහා ජනතාවගේ සම්මතයෙන් තෝරාගත් බැවින් ඔහු මහා සම්මත ලෙස හඳුන්වනු ලැබීය."
+      ]
+    },
+    "traditionalTitlesExplanation": [
+      {
+        "id": "maha-sammata-title",
+        "title": {
+          "en": "Maha Sammata",
+          "si": "මහා සම්මත"
+        },
+        "meaning": {
+          "en": "Chosen by the consent of the great body of people.",
+          "si": "මහා ජනතාවගේ එකඟතාවයෙන් තෝරාගත් තැනැත්තා."
+        }
+      },
+      {
+        "id": "khattiya-title",
+        "title": {
+          "en": "Khattiya",
+          "si": "ක්ෂත්‍රිය"
+        },
+        "meaning": {
+          "en": "One entrusted with protecting the land and the community.",
+          "si": "දේශය සහ ජන සමාජය ආරක්ෂා කිරීමේ වගකීම භාරගත් තැනැත්තා."
+        }
+      },
+      {
+        "id": "raja-title",
+        "title": {
+          "en": "Raja",
+          "si": "රාජා"
+        },
+        "meaning": {
+          "en": "A ruler associated in the tradition with governing according to righteousness and maintaining social order.",
+          "si": "ධර්මයට අනුව පාලනය කර සමාජයේ පිළිවෙළ පවත්වාගෙන යන පාලකයා."
+        }
+      }
+    ],
+    "politicalSignificance": {
+      "en": "The narrative presents kingship as a human social institution created through collective agreement. Royal authority is therefore explained as arising from public consent and responsibility rather than solely from divine appointment.",
+      "si": "මෙම සම්ප්‍රදායික කතාවෙන් රජකම මිනිස් සමාජය විසින් සාමූහික එකඟතාවයෙන් ගොඩනගාගත් ආයතනයක් ලෙස ඉදිරිපත් කරයි. ඒ අනුව රාජ්‍ය බලය දිව්‍යමය වරප්‍රසාදයකින් පමණක් නොව, ජනතා සම්මතිය සහ පාලක වගකීම මත ඇති වූවක් ලෙස පැහැදිලි වේ."
+    },
+    "buddhistLiteraryPosition": {
+      "en": "The Aggañña Sutta of the Digha Nikaya contains the best-known early Buddhist account of the election of Maha Sammata. In that context, the figure forms part of a moral and philosophical explanation of the development of society, property, wrongdoing, law and political authority.",
+      "si": "මහා සම්මත පිළිබඳ ප්‍රසිද්ධ මුල් බෞද්ධ විස්තරය දීඝ නිකායේ අග්ගඤ්ඤ සූත්‍රයේ හමුවේ. එහි ඔහු ඉදිරිපත් වන්නේ සමාජය, දේපළ, වැරදි ක්‍රියා, නීතිය සහ දේශපාලන බලය ක්‍රමයෙන් බිහි වූ ආකාරය පැහැදිලි කරන සදාචාරාත්මක හා දාර්ශනික විස්තරයක කොටසක් ලෙසය."
+    },
+    "chronicleTradition": {
+      "en": "Later chronicles and genealogical traditions place Maha Sammata at the beginning of a long royal lineage. These genealogies link him with later legendary rulers and ultimately with royal traditions associated with South Asia and Sri Lanka.",
+      "si": "පසුකාලීන වංශකථා සහ රාජවංශ සම්ප්‍රදායන් මහා සම්මත රජු දීර්ඝ රාජ පරම්පරාවක ආරම්භකයා ලෙස දක්වයි. එම වංශාවලි ඔහු පසුකාලීන පුරාණ රජවරුන් හා දකුණු ආසියානු සහ ශ්‍රී ලාංකීය රාජ සම්ප්‍රදායන් සමඟ සම්බන්ධ කිරීමට උත්සාහ කරයි."
+    },
+    "rajavaliyaTradition": {
+      "description": {
+        "en": "The Rajavaliya presents a traditional royal genealogy beginning with Maha Sammata. Since the text was compiled long after the period it describes, its early genealogy should be studied as a literary and traditional account rather than as a directly contemporary historical record.",
+        "si": "රාජාවලිය මහා සම්මත රජුගෙන් ආරම්භ වන සම්ප්‍රදායික රාජවංශයක් ඉදිරිපත් කරයි. එය විස්තර කරන ආදිකාලීන සිදුවීම්වලට බොහෝ කලකට පසුව රචනා වූ බැවින්, එහි මුල් රාජවංශ විස්තර සෘජු සමකාලීන ඉතිහාසමය වාර්තාවක් ලෙස නොව සාහිත්‍යමය හා සම්ප්‍රදායික වාර්තාවක් ලෙස අධ්‍යයනය කළ යුතුය."
+      },
+      "rulerCount": 28,
+      "rulers": [
+        {
+          "order": 1,
+          "id": "maha-sammata-manu",
+          "name": {
+            "en": "Maha Sammata Manu",
+            "si": "මහා සම්මත මනු"
+          }
+        },
+        {
+          "order": 2,
+          "id": "roja",
+          "name": {
+            "en": "Roja",
+            "si": "රෝජ"
+          }
+        },
+        {
+          "order": 3,
+          "id": "vararoja",
+          "name": {
+            "en": "Vararoja",
+            "si": "වරරෝජ"
+          }
+        },
+        {
+          "order": 4,
+          "id": "kalyana",
+          "name": {
+            "en": "Kalyana",
+            "si": "කල්‍යාණ"
+          }
+        },
+        {
+          "order": 5,
+          "id": "varakalyana",
+          "name": {
+            "en": "Varakalyana",
+            "si": "වරකල්‍යාණ"
+          }
+        },
+        {
+          "order": 6,
+          "id": "uposatha",
+          "name": {
+            "en": "Uposatha",
+            "si": "උපෝසථ"
+          }
+        },
+        {
+          "order": 7,
+          "id": "maha-mandhatu",
+          "name": {
+            "en": "Maha Mandhatu",
+            "si": "මහා මන්දාතු"
+          }
+        },
+        {
+          "order": 8,
+          "id": "vara-mandhatu",
+          "name": {
+            "en": "Vara Mandhatu",
+            "si": "වරමන්දාතු"
+          }
+        },
+        {
+          "order": 9,
+          "id": "chetiya",
+          "name": {
+            "en": "Chetiya",
+            "si": "චේතිය"
+          }
+        },
+        {
+          "order": 10,
+          "id": "chetiya-first-son",
+          "name": {
+            "en": "First Son of Chetiya",
+            "si": "චේතියගේ පළමු පුත්‍රයා"
+          }
+        },
+        {
+          "order": 11,
+          "id": "chetiya-second-son",
+          "name": {
+            "en": "Second Son of Chetiya",
+            "si": "චේතියගේ දෙවන පුත්‍රයා"
+          }
+        },
+        {
+          "order": 12,
+          "id": "chetiya-third-son",
+          "name": {
+            "en": "Third Son of Chetiya",
+            "si": "චේතියගේ තෙවන පුත්‍රයා"
+          }
+        },
+        {
+          "order": 13,
+          "id": "chetiya-fourth-son",
+          "name": {
+            "en": "Fourth Son of Chetiya",
+            "si": "චේතියගේ සිව්වන පුත්‍රයා"
+          }
+        },
+        {
+          "order": 14,
+          "id": "chetiya-fifth-son",
+          "name": {
+            "en": "Fifth Son of Chetiya",
+            "si": "චේතියගේ පස්වන පුත්‍රයා"
+          }
+        },
+        {
+          "order": 15,
+          "id": "maha-muchalinda",
+          "name": {
+            "en": "Maha Muchalinda",
+            "si": "මහා මුචලින්ද"
+          }
+        },
+        {
+          "order": 16,
+          "id": "muchalinda",
+          "name": {
+            "en": "Muchalinda",
+            "si": "මුචලින්ද"
+          }
+        },
+        {
+          "order": 17,
+          "id": "sagara-i",
+          "name": {
+            "en": "Sagara I",
+            "si": "පළමුවන සාගර"
+          }
+        },
+        {
+          "order": 18,
+          "id": "sagara-ii",
+          "name": {
+            "en": "Sagara II",
+            "si": "දෙවන සාගර"
+          }
+        },
+        {
+          "order": 19,
+          "id": "bharata",
+          "name": {
+            "en": "Bharata",
+            "si": "භරත"
+          }
+        },
+        {
+          "order": 20,
+          "id": "ruchi",
+          "name": {
+            "en": "Ruchi",
+            "si": "රුචි"
+          }
+        },
+        {
+          "order": 21,
+          "id": "suruchi",
+          "name": {
+            "en": "Suruchi",
+            "si": "සුරුචි"
+          }
+        },
+        {
+          "order": 22,
+          "id": "patapa",
+          "name": {
+            "en": "Patapa",
+            "si": "පතාප"
+          }
+        },
+        {
+          "order": 23,
+          "id": "maha-patapa",
+          "name": {
+            "en": "Maha Patapa",
+            "si": "මහා පතාප"
+          }
+        },
+        {
+          "order": 24,
+          "id": "pahada",
+          "name": {
+            "en": "Pahada",
+            "si": "පහද"
+          }
+        },
+        {
+          "order": 25,
+          "id": "sudassi",
+          "name": {
+            "en": "Sudassi",
+            "si": "සුදස්සි"
+          }
+        },
+        {
+          "order": 26,
+          "id": "nerupa",
+          "name": {
+            "en": "Nerupa",
+            "si": "නෙරුප"
+          }
+        },
+        {
+          "order": 27,
+          "id": "maha-nerupa",
+          "name": {
+            "en": "Maha Nerupa",
+            "si": "මහා නෙරුප"
+          }
+        },
+        {
+          "order": 28,
+          "id": "asirimath",
+          "name": {
+            "en": "Asirimath",
+            "si": "අසිරිමත්"
+          }
+        }
+      ]
+    },
+    "sriLankaConnection": {
+      "status": "unverified",
+      "classification": "modern-hypothesis",
+      "description": {
+        "en": "Some modern Sri Lankan writers have proposed a connection between Maha Sammata Manu and the Mannar region. One interpretation associates the place-name Mannar with a constructed expression such as Manu-na-arama. However, this proposal is not supported by sufficient archaeological, epigraphic or securely dated historical evidence and should not be presented as established history.",
+        "si": "නූතන ශ්‍රී ලාංකික ලේඛකයන් කිහිපදෙනෙකු මහා සම්මත මනු සහ මන්නාරම ප්‍රදේශය අතර සම්බන්ධයක් යෝජනා කර ඇත. එක් අදහසක් අනුව මන්නාරම යන ස්ථාන නාමය ‘මනු + නා + අරම’ වැනි ව්‍යුත්පත්තියක් සමඟ සම්බන්ධ කරයි. එහෙත් මෙම අදහස සනාථ කිරීමට ප්‍රමාණවත් පුරාවිද්‍යාත්මක, අභිලේඛනමය හෝ නිශ්චිතව දින නියම කළ ඓතිහාසික සාක්ෂි නොමැති බැවින්, එය තහවුරු වූ ඉතිහාසයක් ලෙස ඉදිරිපත් නොකළ යුතුය."
+      },
+      "associatedPlaces": [
+        {
+          "id": "mannar",
+          "name": {
+            "en": "Mannar",
+            "si": "මන්නාරම"
+          },
+          "relationship": "proposed-location",
+          "evidenceStatus": "unverified"
+        },
+        {
+          "id": "adams-bridge",
+          "name": {
+            "en": "Adam's Bridge",
+            "si": "ආදම්ගේ පාලම"
+          },
+          "relationship": "regional-geographical-feature",
+          "evidenceStatus": "does-not-directly-prove-maha-sammata-connection"
+        },
+        {
+          "id": "pomparippu",
+          "name": {
+            "en": "Pomparippu",
+            "si": "පොම්පරිප්පුව"
+          },
+          "relationship": "archaeological-site-in-the-wider-region",
+          "evidenceStatus": "archaeologically-important-but-not-direct-proof"
+        }
+      ]
+    },
+    "historicalAssessment": {
+      "classification": "traditional-and-philosophical",
+      "historicity": "not-archaeologically-verified",
+      "statement": {
+        "en": "Maha Sammata should be presented as a major figure of Buddhist social and royal tradition. His importance lies in the concept of authority arising through collective consent. Claims concerning a specific reign date, capital, kingdom or Sri Lankan archaeological identity remain unverified.",
+        "si": "මහා සම්මත බෞද්ධ සමාජ හා රාජ්‍ය සම්ප්‍රදායේ වැදගත් චරිතයක් ලෙස ඉදිරිපත් කළ යුතුය. ඔහුගේ ප්‍රධාන වැදගත්කම වන්නේ ජනතා එකඟතාවයෙන් පාලන බලය බිහිවීම පිළිබඳ සංකල්පයයි. ඔහුගේ නිශ්චිත පාලන කාලය, අගනුවර, රාජධානිය හෝ ශ්‍රී ලාංකීය පුරාවිද්‍යාත්මක අනන්‍යතාව පිළිබඳ ප්‍රකාශ තවමත් තහවුරු වී නොමැත."
+      }
+    },
+    "evidenceLevel": "traditional-literary",
+    "evidenceBadges": [
+      "buddhist-tradition",
+      "chronicle-tradition",
+      "philosophical-narrative",
+      "not-archaeologically-verified"
+    ],
+    "sourceIds": [
+      "agganna-sutta",
+      "digha-nikaya",
+      "mahavamsa",
+      "dipavamsa",
+      "rajavaliya",
+      "buddhist-literary-tradition",
+      "modern-sri-lankan-interpretations"
+    ],
+    "sourceNote": {
+      "en": "Traditional genealogy, philosophical narrative and modern interpretation must be clearly distinguished from archaeologically verified history.",
+      "si": "සම්ප්‍රදායික වංශාවලිය, දාර්ශනික කතාව සහ නූතන අර්ථකථන පුරාවිද්‍යාත්මකව තහවුරු කළ ඉතිහාසයෙන් පැහැදිලිව වෙන් කර දැක්විය යුතුය."
+    }
+  },
+  {
+    "id": "roja",
+    "slug": "roja",
+    "name": {
+      "en": "Roja",
+      "si": "රෝජ"
+    },
+    "alternativeNames": {
+      "en": [
+        "King Roja"
+      ],
+      "si": [
+        "රෝජ රජු"
       ]
     },
     "roles": [
@@ -24,18 +450,26 @@
     ],
     "regionIds": [],
     "kingdomIds": [],
-    "parentIds": [],
+    "parentIds": [
+      "maha-sammata-manu"
+    ],
     "spouseIds": [],
-    "childIds": [],
-    "relatedPeopleIds": [],
-    "image": "/images/people/maha-sammata-manu.webp",
+    "childIds": [
+      "vararoja"
+    ],
+    "relatedPeopleIds": [
+      "maha-sammata-manu"
+    ],
+    "image": "/images/people/roja.webp",
     "summary": {
-      "en": "A traditional primordial ruler mentioned in Buddhist and South Asian literary traditions.",
-      "si": "බෞද්ධ සහ දකුණු ආසියානු සාහිත්‍ය සම්ප්‍රදායන්හි සඳහන් ආදිකාලීන සම්ප්‍රදායික පාලකයෙකි."
+      "en": "The second traditional ruler in the primordial Mahasammata royal lineage recorded in chronicle traditions and son of Maha Sammata Manu.",
+      "si": "වංශකථා සම්ප්‍රදායන්හි සඳහන් මහාසම්මත රාජ පරම්පරාවේ දෙවන සම්ප්‍රදායික පාලකයා සහ මහා සම්මත මනු රජුගේ පුත්‍රයාය."
     },
     "evidenceLevel": "traditional",
     "sourceIds": [
-      "buddhist-literary-tradition"
+      "rajavaliya",
+      "mahavamsa",
+      "dipavamsa"
     ]
   },
   {

@@ -5,20 +5,26 @@ import kingdomsData from "@/data/kingdoms.json";
 
 export type Locale = "si" | "en";
 
+export type LocalizedText = {
+  en: string;
+  si: string;
+};
+
+export type LocalizedList = {
+  en: string[];
+  si: string[];
+};
+
 export type PersonBaseRecord = {
   id: string;
   slug: string;
-  name: {
-    en: string;
-    si: string;
-  };
-  alternativeNames: {
-    en: string[];
-    si: string[];
-  };
+  name: LocalizedText;
+  alternativeNames: LocalizedList;
+  titles?: LocalizedList;
   roles: string[];
   gender: string;
   periodId: string;
+  timelineItemId?: string;
   dynastyIds: string[];
   regionIds: string[];
   kingdomIds: string[];
@@ -27,17 +33,59 @@ export type PersonBaseRecord = {
   childIds: string[];
   relatedPeopleIds: string[];
   image: string;
-  summary: {
-    en: string;
-    si: string;
-  };
+  summary: LocalizedText;
   evidenceLevel: string;
+  evidenceBadges?: string[];
   sourceIds: string[];
+  etymology?: {
+    term: string;
+    language: string;
+    meaning: LocalizedText;
+  };
+  selectionNarrative?: LocalizedList;
+  traditionalTitlesExplanation?: {
+    id: string;
+    title: LocalizedText;
+    meaning: LocalizedText;
+  }[];
+  politicalSignificance?: LocalizedText;
+  buddhistLiteraryPosition?: LocalizedText;
+  chronicleTradition?: LocalizedText;
+  rajavaliyaTradition?: {
+    description: LocalizedText;
+    rulerCount: number;
+    rulers: {
+      order: number;
+      id: string;
+      name: LocalizedText;
+    }[];
+  };
+  sriLankaConnection?: {
+    status: string;
+    classification: string;
+    description: LocalizedText;
+    associatedPlaces: {
+      id: string;
+      name: LocalizedText;
+      relationship: string;
+      evidenceStatus: string;
+    }[];
+  };
+  historicalAssessment?: {
+    classification: string;
+    historicity: string;
+    statement: LocalizedText;
+  };
+  sourceNote?: LocalizedText;
 };
 
-export type PersonRecord = Omit<PersonBaseRecord, "name" | "alternativeNames" | "summary"> & {
+export type PersonRecord = Omit<
+  PersonBaseRecord,
+  "name" | "alternativeNames" | "titles" | "summary"
+> & {
   name: string;
   alternativeNames: string[];
+  titles: string[];
   summary: string;
   dynastyNames: string[];
   kingdomNames: string[];
@@ -56,7 +104,6 @@ export function getPeople(locale: Locale): PersonRecord[] {
       if (dynasty) {
         return dynasty.name[locale] || dynasty.name.en;
       }
-      // Fallback: format id to readable string
       return dynId.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
     });
 
@@ -80,20 +127,30 @@ export function getPeople(locale: Locale): PersonRecord[] {
           description: source.description[locale] || source.description.en,
         };
       }
-      // Fallback details if source is not in sources.json
-      const title = srcId.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+      const title = srcId
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase());
       return {
         id: srcId,
         title,
         type: "literature",
-        description: locale === "si" ? "ඓතිහාසික මූලාශ්‍ර සහ සාහිත්‍ය" : "Historical literature and sources.",
+        description:
+          locale === "si"
+            ? "ඓතිහාසික මූලාශ්‍ර සහ සාහිත්‍ය"
+            : "Historical literature and sources.",
       };
     });
+
+    const titlesResolved = person.titles
+      ? person.titles[locale] || person.titles.en || []
+      : [];
 
     return {
       ...person,
       name: person.name[locale] || person.name.en,
-      alternativeNames: person.alternativeNames[locale] || person.alternativeNames.en || [],
+      alternativeNames:
+        person.alternativeNames[locale] || person.alternativeNames.en || [],
+      titles: titlesResolved,
       summary: person.summary[locale] || person.summary.en,
       dynastyNames: personDynastyNames,
       kingdomNames: personKingdomNames,
@@ -102,6 +159,9 @@ export function getPeople(locale: Locale): PersonRecord[] {
   });
 }
 
-export function getPersonBySlug(slug: string, locale: Locale): PersonRecord | null {
+export function getPersonBySlug(
+  slug: string,
+  locale: Locale
+): PersonRecord | null {
   return getPeople(locale).find((person) => person.slug === slug) ?? null;
 }

@@ -47,6 +47,8 @@ interface SectionHeadingProps {
   centered?: boolean;
 }
 
+import { DynamicIcon } from "@/components/DynamicIcon";
+
 export function SectionHeading({
   icon,
   title,
@@ -61,7 +63,11 @@ export function SectionHeading({
           : "max-w-4xl"
       }
     >
-      <p className="text-3xl">{icon}</p>
+      <div className={centered ? "flex justify-center" : ""}>
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[#704900] bg-[#130d00] text-[#ffad0a]">
+          <DynamicIcon name={icon} className="h-7 w-7 text-[#ffad0a]" />
+        </div>
+      </div>
 
       <h2 className="mt-5 font-serif text-3xl font-bold leading-tight text-white sm:text-5xl">
         {title}

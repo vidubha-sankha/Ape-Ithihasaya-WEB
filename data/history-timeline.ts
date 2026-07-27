@@ -10,6 +10,24 @@ export type EvidenceType =
   | "colonial-records"
   | "modern-records";
 
+export type TimelineIconName =
+  | "bone"
+  | "crown"
+  | "circle-help"
+  | "landmark"
+  | "ship"
+  | "building"
+  | "book-open"
+  | "castle"
+  | "mountain"
+  | "scroll"
+  | "shield"
+  | "swords"
+  | "flag"
+  | "globe"
+  | "columns"
+  | "anchor";
+
 export interface LocalizedText {
   si: string;
   en: string;
@@ -23,7 +41,7 @@ export interface TimelineItem {
   | "kingdom"
   | "colonial-period"
   | "modern-period";
-  icon: string;
+  iconName: TimelineIconName;
   name: LocalizedText;
   period: LocalizedText;
   description: LocalizedText;
@@ -32,6 +50,16 @@ export interface TimelineItem {
   highlights: LocalizedText[];
   relatedPeopleIds?: string[];
   relatedRegionIds?: string[];
+}
+
+export interface ParallelRegion {
+  id: string;
+  iconName?: TimelineIconName;
+  name: LocalizedText;
+  period: LocalizedText;
+  description: LocalizedText;
+  href: string;
+  relatedPeopleIds: string[];
 }
 
 export const evidenceLabels: Record<EvidenceType, LocalizedText> = {
@@ -74,7 +102,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "prehistory",
     order: 1,
     type: "period",
-    icon: "🦴",
+    iconName: "bone",
     name: {
       si: "ප්‍රාග් ඉතිහාසය",
       en: "Prehistory",
@@ -84,8 +112,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "Before written historical records",
     },
     description: {
-      si: "ශ්‍රී ලංකාවේ මුල් Homo sapiens ජනාවාස, ගල් මෙවලම්, ගුහා වාසස්ථාන, දඩයම් හා ආහාර එකතු කිරීමේ ජීවන රටාව සහ බලංගොඩ මානව සම්ප්‍රදාය පිළිබඳ අධ්‍යයනයයි.",
-      en: "The study of Sri Lanka's earliest Homo sapiens settlements, stone tools, cave habitation, hunting and gathering communities, and the populations commonly described as Balangoda Man.",
+      si: "ශ්‍රී ලංකාවේ මුල් මානව ජනාවාස, ගල් මෙවලම්, ගුහා වාසස්ථාන, දඩයම් හා ආහාර එකතු කිරීමේ ජීවන රටාව සහ බලංගොඩ මානවයා පිළිබඳ අධ්‍යයනයයි.",
+      en: "The study of Sri Lanka's earliest human settlements, stone tools, cave habitation, hunting and gathering communities, and the people commonly described as Balangoda Man.",
     },
     evidenceType: "archaeological",
     href: "/history/prehistory",
@@ -112,7 +140,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "early-traditional-age",
     order: 2,
     type: "period",
-    icon: "👑",
+    iconName: "crown",
     name: {
       si: "පූර්ව සම්ප්‍රදායික යුගය",
       en: "Early Traditional Age",
@@ -134,7 +162,7 @@ export const historyTimeline: TimelineItem[] = [
       },
       {
         si: "හෙති සහ යක්ෂ වංශ සම්ප්‍රදාය",
-        en: "Heti and Yaksha genealogical traditions",
+        en: "Heti and Yaksha genealogies",
       },
       {
         si: "කුවේර සහ රාවණ සම්ප්‍රදාය",
@@ -145,26 +173,12 @@ export const historyTimeline: TimelineItem[] = [
         en: "Vibhishana tradition",
       },
     ],
-    relatedPeopleIds: [
-      "maha-sammata-manu",
-      "brahma",
-      "heti",
-      "vidyutkesha",
-      "sukesha",
-      "mali",
-      "malyavan",
-      "sumali",
-      "kubera",
-      "ravana",
-      "kumbhakarna",
-      "vibhishana",
-    ],
   },
   {
     id: "chronological-gap",
     order: 3,
     type: "period",
-    icon: "❓",
+    iconName: "circle-help",
     name: {
       si: "කාලානුක්‍රමික පරතරය",
       en: "Chronological Gap",
@@ -174,8 +188,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "Between traditional narratives and chronicle history",
     },
     description: {
-      si: "පූර්ව සම්ප්‍රදායික විස්තර සහ විජය සම්බන්ධ වංශකථා අතර අඛණ්ඩව සනාථ කළ හැකි පාලක අනුපිළිවෙළක් හෝ නිශ්චිත කාලරේඛාවක් නොමැති බව පැහැදිලි කරන සංක්‍රාන්තික අංශයකි.",
-      en: "An editorial transition explaining that no continuous and securely verified ruler sequence currently connects early traditional narratives with the chronicle account of Vijaya.",
+      si: "පූර්ව සම්ප්‍රදායික විස්තර සහ විජය සම්බන්ධ වංශකථා අතර අඛණ්ඩව සනාථ කළ හැකි පාලක අනුපිළිවෙළක් හෝ නිශ්චිත කාලරේඛාවක් නොමැති බව පැහැදිලි කරන අංශයකි.",
+      en: "A transitional section explaining that no continuous and securely verified ruler sequence currently connects early traditional narratives with the chronicle account of Vijaya.",
     },
     evidenceType: "uncertain",
     href: "/history/chronological-gap",
@@ -189,8 +203,8 @@ export const historyTimeline: TimelineItem[] = [
         en: "No securely established reign dates",
       },
       {
-        si: "පුරාවිද්‍යා සාක්ෂි සෘජුව සම්බන්ධ කළ නොහැක",
-        en: "Archaeology cannot be linked directly to specific legendary rulers",
+        si: "සෘජු පුරාවිද්‍යා සම්බන්ධතා සීමිතය",
+        en: "Direct archaeological links are limited",
       },
       {
         si: "නොදන්නා පාලකයන් ගොතා නොදැක්විය යුතුය",
@@ -202,14 +216,14 @@ export const historyTimeline: TimelineItem[] = [
     id: "early-historical-period",
     order: 4,
     type: "period",
-    icon: "🏛️",
+    iconName: "landmark",
     name: {
       si: "මුල් ඓතිහාසික යුගය",
       en: "Early Historical Period",
     },
     period: {
-      si: "වංශකථා සම්ප්‍රදායෙන් මුල් රාජ්‍ය හා නගර සංවිධානය දක්වා",
-      en: "From chronicle traditions to early states and urban centres",
+      si: "මුල් රාජ්‍ය හා නගර සංවිධානය දක්වා",
+      en: "Formation of early states and urban centres",
     },
     description: {
       si: "විජය සම්ප්‍රදාය, තම්බපණ්ණිය, මුල් පාලකයන්, ස්ථිර ගම්මාන, ගම්වැව්, කෘෂිකර්මය, යකඩ භාවිතය, බ්‍රාහ්මී ශිලා ලේඛන සහ අනුරාධපුරයේ උදාව ඇතුළත් යුගයකි.",
@@ -232,28 +246,15 @@ export const historyTimeline: TimelineItem[] = [
       },
       {
         si: "අනුරාධපුර නගරයේ උදාව",
-        en: "Rise of the city of Anuradhapura",
+        en: "Rise of Anuradhapura",
       },
-    ],
-    relatedPeopleIds: [
-      "sinhabahu",
-      "sinhasivali",
-      "vijaya",
-      "kuveni",
-      "upatissa",
-      "panduvasudeva",
-      "bhaddakaccana",
-      "abhaya",
-      "pandukabhaya",
-      "mutasiva",
-      "devanampiya-tissa",
     ],
   },
   {
     id: "tambapanni-kingdom",
     order: 5,
     type: "kingdom",
-    icon: "⛵",
+    iconName: "ship",
     name: {
       si: "තම්බපණ්ණි රාජධානිය",
       en: "Tambapanni Kingdom",
@@ -264,7 +265,7 @@ export const historyTimeline: TimelineItem[] = [
     },
     description: {
       si: "මහාවංශ සම්ප්‍රදායට අනුව විජය කුමරු සහ ඔහුගේ පිරිස ලංකාවට පැමිණීමෙන් පසු පිහිටුවන ලද මුල් දේශපාලන මධ්‍යස්ථානය ලෙස තම්බපණ්ණිය සඳහන් වේ.",
-      en: "In the Mahavamsa tradition, Tambapanni is presented as the early political centre established following the arrival of Prince Vijaya and his followers.",
+      en: "In the Mahavamsa tradition, Tambapanni is presented as an early political centre established after the arrival of Prince Vijaya and his followers.",
     },
     evidenceType: "chronicle",
     href: "/kingdoms/tambapanni",
@@ -291,7 +292,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "anuradhapura-kingdom",
     order: 6,
     type: "kingdom",
-    icon: "🏯",
+    iconName: "columns",
     name: {
       si: "අනුරාධපුර රාජධානිය",
       en: "Anuradhapura Kingdom",
@@ -301,8 +302,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "Approximately 4th century BCE – 11th century CE",
     },
     description: {
-      si: "ශ්‍රී ලංකාවේ දීර්ඝතම සහ බලවත්ම පුරාණ රාජධානියකි. බුදු දහම ස්ථාපිත වීම, මහා විහාර සම්ප්‍රදාය, ස්තූප, වැව්, ශිලා ලේඛන සහ පුළුල් පාලන පද්ධතිය මෙම යුගයේ වර්ධනය විය.",
-      en: "One of Sri Lanka's longest and most influential ancient kingdoms, associated with the establishment of Buddhism, great monasteries, stupas, reservoirs, inscriptions and extensive systems of government.",
+      si: "ශ්‍රී ලංකාවේ දීර්ඝතම සහ බලවත්ම පුරාණ රාජධානියකි. බුදු දහම, විහාර, ස්තූප, වැව්, ශිලා ලේඛන සහ පාලන පද්ධති මෙම යුගයේ වර්ධනය විය.",
+      en: "One of Sri Lanka's longest and most influential ancient kingdoms, associated with Buddhism, monasteries, stupas, reservoirs, inscriptions and systems of government.",
     },
     evidenceType: "chronicle-and-archaeological",
     href: "/kingdoms/anuradhapura",
@@ -330,7 +331,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "polonnaruwa-kingdom",
     order: 7,
     type: "kingdom",
-    icon: "🛕",
+    iconName: "landmark",
     name: {
       si: "පොළොන්නරුව රාජධානිය",
       en: "Polonnaruwa Kingdom",
@@ -340,8 +341,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "11th century CE – 13th century CE",
     },
     description: {
-      si: "විජයබාහු පළමුවන රජුගෙන් නැවත ස්වාධීනත්වය ස්ථාපිත වී, පරාක්‍රමබාහු පළමුවන සහ නිශ්ශංකමල්ල වැනි පාලකයන් යටතේ වාරි තාක්ෂණය, ගෘහ නිර්මාණය සහ රාජ්‍ය බලය වර්ධනය වූ යුගයකි.",
-      en: "A period in which independence was restored under Vijayabahu I and political power, irrigation and architecture developed further under rulers such as Parakramabahu I and Nissanka Malla.",
+      si: "විජයබාහු පළමුවන යටතේ ස්වාධීනත්වය නැවත ස්ථාපිත වූ අතර පරාක්‍රමබාහු පළමුවන සහ නිශ්ශංකමල්ල යටතේ වාරි තාක්ෂණය, ගෘහ නිර්මාණය සහ රාජ්‍ය බලය වර්ධනය විය.",
+      en: "Independence was restored under Vijayabahu I, while irrigation, architecture and royal power developed further under Parakramabahu I and Nissanka Malla.",
     },
     evidenceType: "documented",
     href: "/kingdoms/polonnaruwa",
@@ -359,8 +360,8 @@ export const historyTimeline: TimelineItem[] = [
         en: "Parakramabahu I",
       },
       {
-        si: "ගල් විහාරය සහ නගර සැලසුම",
-        en: "Gal Vihara and urban planning",
+        si: "ගල් විහාරය",
+        en: "Gal Vihara",
       },
     ],
   },
@@ -368,7 +369,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "dambadeniya-kingdom",
     order: 8,
     type: "kingdom",
-    icon: "📚",
+    iconName: "book-open",
     name: {
       si: "දඹදෙණිය රාජධානිය",
       en: "Dambadeniya Kingdom",
@@ -378,8 +379,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "13th century CE",
     },
     description: {
-      si: "කාලිංග මාඝගේ ආක්‍රමණයෙන් පසු සිංහල රාජ්‍ය බලය නැවත ගොඩනැගීම, බෞද්ධ සාහිත්‍යය සහ දළදා වහන්සේගේ ආරක්ෂාව සම්බන්ධයෙන් වැදගත් වූ රාජධානියකි.",
-      en: "An important kingdom associated with the restoration of Sinhala royal authority after the invasion of Kalinga Magha, the protection of the Tooth Relic and the development of Buddhist literature.",
+      si: "කාලිංග මාඝගේ ආක්‍රමණයෙන් පසු සිංහල රාජ්‍ය බලය නැවත ගොඩනැගීම, දළදා වහන්සේගේ ආරක්ෂාව සහ බෞද්ධ සාහිත්‍යය සම්බන්ධයෙන් වැදගත් වූ රාජධානියකි.",
+      en: "An important kingdom associated with the restoration of Sinhala royal authority, protection of the Tooth Relic and the development of Buddhist literature.",
     },
     evidenceType: "documented",
     href: "/kingdoms/dambadeniya",
@@ -406,7 +407,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "yapahuwa-kingdom",
     order: 9,
     type: "kingdom",
-    icon: "🏰",
+    iconName: "castle",
     name: {
       si: "යාපහුව රාජධානිය",
       en: "Yapahuwa Kingdom",
@@ -416,8 +417,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "Late 13th century CE",
     },
     description: {
-      si: "ස්වාභාවික ගල් පර්වතයක් වටා ගොඩනැගුණු බලකොටු රාජධානියකි. දළදා වහන්සේගේ ආරක්ෂාව සහ අලංකාර යාපහුව පියගැටපෙළ සඳහා ප්‍රසිද්ධය.",
-      en: "A fortified kingdom built around a natural rock citadel, known for the protection of the Tooth Relic and the monumental Yapahuwa stairway.",
+      si: "ස්වාභාවික ගල් පර්වතයක් වටා ගොඩනැගුණු බලකොටු රාජධානියකි. දළදා වහන්සේගේ ආරක්ෂාව සහ යාපහුව පියගැටපෙළ සඳහා ප්‍රසිද්ධය.",
+      en: "A fortified kingdom built around a natural rock citadel, known for the protection of the Tooth Relic and the Yapahuwa stairway.",
     },
     evidenceType: "documented",
     href: "/kingdoms/yapahuwa",
@@ -444,7 +445,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "kurunegala-kingdom",
     order: 10,
     type: "kingdom",
-    icon: "🐘",
+    iconName: "building",
     name: {
       si: "කුරුණෑගල රාජධානිය",
       en: "Kurunegala Kingdom",
@@ -455,7 +456,7 @@ export const historyTimeline: TimelineItem[] = [
     },
     description: {
       si: "දළදා වහන්සේ, වංශකථා රචනය සහ මධ්‍යම ප්‍රදේශයේ පාලන බලය සම්බන්ධයෙන් වැදගත් වූ රාජධානියකි.",
-      en: "A kingdom important for the protection of the Tooth Relic, chronicle writing and the consolidation of political authority in the central regions.",
+      en: "A kingdom important for the protection of the Tooth Relic, chronicle writing and political authority in the central regions.",
     },
     evidenceType: "documented",
     href: "/kingdoms/kurunegala",
@@ -473,8 +474,8 @@ export const historyTimeline: TimelineItem[] = [
         en: "Dalada Sirita",
       },
       {
-        si: "වංශකථා සහ සාහිත්‍යය",
-        en: "Chronicles and literature",
+        si: "සාහිත්‍ය සහ වංශකථා",
+        en: "Literature and chronicles",
       },
     ],
   },
@@ -482,7 +483,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "gampola-kingdom",
     order: 11,
     type: "kingdom",
-    icon: "⛰️",
+    iconName: "mountain",
     name: {
       si: "ගම්පොළ රාජධානිය",
       en: "Gampola Kingdom",
@@ -492,8 +493,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "14th century CE",
     },
     description: {
-      si: "මධ්‍යම කඳුකර ප්‍රදේශයේ දේශපාලන බලය වර්ධනය වූ අතර, ලංකාතිලකය, ගඩලාදෙණිය සහ ඇම්බැක්කේ වැනි විශිෂ්ට ආගමික හා කලා නිර්මාණ බිහි වූ යුගයකි.",
-      en: "A period of increasing political power in the central highlands and the construction of major religious and artistic monuments such as Lankatilaka, Gadaladeniya and Embekke.",
+      si: "මධ්‍යම කඳුකරයේ දේශපාලන බලය වර්ධනය වූ අතර ලංකාතිලකය, ගඩලාදෙණිය සහ ඇම්බැක්කේ වැනි විශිෂ්ට ආගමික හා කලා නිර්මාණ බිහි වූ යුගයකි.",
+      en: "A period of increasing political power in the central highlands and the construction of monuments such as Lankatilaka, Gadaladeniya and Embekke.",
     },
     evidenceType: "documented",
     href: "/kingdoms/gampola",
@@ -520,7 +521,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "kotte-kingdom",
     order: 12,
     type: "kingdom",
-    icon: "📜",
+    iconName: "scroll",
     name: {
       si: "කෝට්ටේ රාජධානිය",
       en: "Kotte Kingdom",
@@ -530,8 +531,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "15th century CE – 16th century CE",
     },
     description: {
-      si: "හයවන පරාක්‍රමබාහු යටතේ දේශපාලන එක්සත්භාවය, සාහිත්‍යය, වෙළඳාම සහ අධ්‍යාපනය වර්ධනය වූ අතර පෘතුගීසීන්ගේ පැමිණීමත් සමඟ විශාල වෙනස්කම් ඇති වූ රාජධානියකි.",
-      en: "A kingdom marked by political consolidation, literature, commerce and education under Parakramabahu VI, followed by major transformations after the arrival of the Portuguese.",
+      si: "හයවන පරාක්‍රමබාහු යටතේ දේශපාලන එක්සත්භාවය, සාහිත්‍යය, වෙළඳාම සහ අධ්‍යාපනය වර්ධනය වූ රාජධානියකි.",
+      en: "A kingdom marked by political consolidation, literature, commerce and education under Parakramabahu VI.",
     },
     evidenceType: "documented",
     href: "/kingdoms/kotte",
@@ -558,7 +559,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "jaffna-kingdom",
     order: 13,
     type: "kingdom",
-    icon: "🛕",
+    iconName: "landmark",
     name: {
       si: "යාපනය රාජධානිය",
       en: "Kingdom of Jaffna",
@@ -568,8 +569,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "Medieval Sri Lanka",
     },
     description: {
-      si: "ශ්‍රී ලංකාවේ උතුරු ප්‍රදේශයේ ආර්යචක්‍රවර්ති පාලකයන් යටතේ වර්ධනය වූ, දකුණු ඉන්දියානු වෙළඳ හා දේශපාලන සම්බන්ධතා සහිත රාජධානියකි.",
-      en: "A northern Sri Lankan kingdom ruled by the Aryacakravarti dynasty, with important political, religious and commercial connections to South India.",
+      si: "ශ්‍රී ලංකාවේ උතුරු ප්‍රදේශයේ ආර්යචක්‍රවර්ති පාලකයන් යටතේ වර්ධනය වූ දකුණු ඉන්දියානු වෙළඳ හා දේශපාලන සම්බන්ධතා සහිත රාජධානියකි.",
+      en: "A northern Sri Lankan kingdom ruled by the Aryacakravarti dynasty, with political and commercial connections to South India.",
     },
     evidenceType: "documented",
     href: "/kingdoms/jaffna",
@@ -596,7 +597,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "raigama-kingdom",
     order: 14,
     type: "kingdom",
-    icon: "🛡️",
+    iconName: "shield",
     name: {
       si: "රයිගම රාජධානිය",
       en: "Kingdom of Raigama",
@@ -606,8 +607,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "Period of political division within Kotte",
     },
     description: {
-      si: "කෝට්ටේ රාජධානියේ දේශපාලන බෙදීම් සමයේ බිහි වූ ප්‍රාදේශීය පාලන මධ්‍යස්ථානයකි. රයිගම් බණ්ඩාර සහ පසුකාලීන බල අරගල සමඟ සම්බන්ධ වේ.",
-      en: "A regional political centre that emerged during the division of the Kotte Kingdom and is associated with Raigam Bandara and later struggles for power.",
+      si: "කෝට්ටේ රාජධානියේ දේශපාලන බෙදීම් සමයේ බිහි වූ ප්‍රාදේශීය පාලන මධ්‍යස්ථානයකි. රයිගම් බණ්ඩාර සහ බල අරගල සමඟ සම්බන්ධ වේ.",
+      en: "A regional political centre that emerged during the division of the Kotte Kingdom and is associated with Raigam Bandara.",
     },
     evidenceType: "documented",
     href: "/kingdoms/raigama",
@@ -618,7 +619,7 @@ export const historyTimeline: TimelineItem[] = [
       },
       {
         si: "විජයබා කොල්ලය",
-        en: "The Vijayaba Kollaya",
+        en: "Vijayaba Kollaya",
       },
       {
         si: "කෝට්ටේ දේශපාලන බෙදීම",
@@ -634,7 +635,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "sitawaka-kingdom",
     order: 15,
     type: "kingdom",
-    icon: "⚔️",
+    iconName: "swords",
     name: {
       si: "සීතාවක රාජධානිය",
       en: "Kingdom of Sitawaka",
@@ -672,7 +673,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "kandy-kingdom",
     order: 16,
     type: "kingdom",
-    icon: "🏔️",
+    iconName: "crown",
     name: {
       si: "මහනුවර රාජධානිය",
       en: "Kingdom of Kandy",
@@ -683,7 +684,7 @@ export const historyTimeline: TimelineItem[] = [
     },
     description: {
       si: "පෘතුගීසි, ලන්දේසි සහ බ්‍රිතාන්‍ය බලයන්ට එරෙහිව දිගු කාලයක් ස්වාධීනත්වය ආරක්ෂා කළ අවසන් සිංහල රාජධානියයි.",
-      en: "The final independent Sinhala kingdom, which resisted Portuguese, Dutch and British expansion for several centuries.",
+      en: "The final independent Sinhala kingdom, which resisted Portuguese, Dutch and British expansion.",
     },
     evidenceType: "documented",
     href: "/kingdoms/kandy",
@@ -710,7 +711,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "portuguese-period",
     order: 17,
     type: "colonial-period",
-    icon: "🇵🇹",
+    iconName: "anchor",
     name: {
       si: "පෘතුගීසි යුගය",
       en: "Portuguese Period",
@@ -748,7 +749,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "dutch-period",
     order: 18,
     type: "colonial-period",
-    icon: "🇳🇱",
+    iconName: "building",
     name: {
       si: "ලන්දේසි යුගය",
       en: "Dutch Period",
@@ -758,8 +759,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "1658 – 1796",
     },
     description: {
-      si: "ලන්දේසි නැගෙනහිර ඉන්දියා වෙළඳ සමාගම ශ්‍රී ලංකාවේ මුහුදුබඩ ප්‍රදේශ පාලනය කළ අතර වෙළඳාම, නීතිය, ඉඩම් පාලනය සහ පරිපාලනය වෙනස් කළ කාලයයි.",
-      en: "The period during which the Dutch East India Company governed Sri Lanka's coastal regions and transformed commerce, law, land administration and government.",
+      si: "ලන්දේසි නැගෙනහිර ඉන්දියා වෙළඳ සමාගම මුහුදුබඩ ප්‍රදේශ පාලනය කළ අතර වෙළඳාම, නීතිය, ඉඩම් සහ පරිපාලනය වෙනස් කළ කාලයයි.",
+      en: "The period during which the Dutch East India Company governed coastal regions and transformed commerce, law, land administration and government.",
     },
     evidenceType: "colonial-records",
     href: "/history/dutch-period",
@@ -786,7 +787,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "british-period",
     order: 19,
     type: "colonial-period",
-    icon: "🇬🇧",
+    iconName: "columns",
     name: {
       si: "බ්‍රිතාන්‍ය යුගය",
       en: "British Period",
@@ -796,8 +797,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "1796 – 1948",
     },
     description: {
-      si: "මුහුදුබඩ ප්‍රදේශ අත්පත් කරගැනීමෙන් පසු 1815දී මුළු දිවයිනම බ්‍රිතාන්‍ය පාලනයට යටත් වූ අතර, පරිපාලනය, ආර්ථිකය, අධ්‍යාපනය සහ ප්‍රවාහනය විශාල ලෙස වෙනස් විය.",
-      en: "After taking control of the coastal regions, the British brought the entire island under their rule in 1815 and transformed administration, the economy, education and transport.",
+      si: "1815දී මුළු දිවයිනම බ්‍රිතාන්‍ය පාලනයට යටත් වූ අතර පරිපාලනය, ආර්ථිකය, අධ්‍යාපනය සහ ප්‍රවාහනය විශාල ලෙස වෙනස් විය.",
+      en: "The British brought the entire island under their rule in 1815 and transformed administration, the economy, education and transport.",
     },
     evidenceType: "colonial-records",
     href: "/history/british-period",
@@ -808,11 +809,11 @@ export const historyTimeline: TimelineItem[] = [
       },
       {
         si: "1817–1818 ඌව-වෙල්ලස්ස අරගලය",
-        en: "Uva-Wellassa uprising of 1817–1818",
+        en: "Uva-Wellassa uprising",
       },
       {
-        si: "කෝපි, තේ සහ වතු ආර්ථිකය",
-        en: "Coffee, tea and plantation economy",
+        si: "තේ සහ වතු ආර්ථිකය",
+        en: "Tea and plantation economy",
       },
       {
         si: "නිදහස් ව්‍යාපාරය",
@@ -824,7 +825,7 @@ export const historyTimeline: TimelineItem[] = [
     id: "modern-sri-lanka",
     order: 20,
     type: "modern-period",
-    icon: "🇱🇰",
+    iconName: "globe",
     name: {
       si: "නූතන ශ්‍රී ලංකාව",
       en: "Modern Sri Lanka",
@@ -834,8 +835,8 @@ export const historyTimeline: TimelineItem[] = [
       en: "1948 to the present",
     },
     description: {
-      si: "1948 නිදහස, 1972 ජනරජය පිහිටුවීම, දේශපාලන හා සමාජ වෙනස්කම්, අභ්‍යන්තර ගැටුම්, සංවර්ධනය සහ නූතන ජාතික අනන්‍යතාව ගොඩනැගීම ඇතුළත් අවධියයි.",
-      en: "The period covering independence in 1948, the establishment of the republic in 1972, political and social change, internal conflict, development and the formation of modern national identity.",
+      si: "1948 නිදහස, 1972 ජනරජය, දේශපාලන හා සමාජ වෙනස්කම්, සංවර්ධනය සහ නූතන ජාතික අනන්‍යතාව ගොඩනැගීම ඇතුළත් අවධියයි.",
+      en: "The period covering independence in 1948, the establishment of the republic in 1972, political and social change, development and modern national identity.",
     },
     evidenceType: "modern-records",
     href: "/history/modern-sri-lanka",
@@ -853,27 +854,17 @@ export const historyTimeline: TimelineItem[] = [
         en: "Political and social transformations",
       },
       {
-        si: "නූතන සංස්කෘතිය සහ උරුම සංරක්ෂණය",
-        en: "Modern culture and heritage conservation",
+        si: "උරුම සංරක්ෂණය",
+        en: "Heritage conservation",
       },
     ],
   },
 ];
 
-export interface ParallelRegion {
-  id: string;
-  icon: string;
-  name: LocalizedText;
-  period: LocalizedText;
-  description: LocalizedText;
-  href: string;
-  relatedPeopleIds: string[];
-}
-
 export const parallelHistoricalRegions: ParallelRegion[] = [
   {
     id: "ruhuna",
-    icon: "🌾",
+    iconName: "globe",
     name: {
       si: "රුහුණ / රෝහණ",
       en: "Ruhuna / Rohana",
@@ -884,7 +875,7 @@ export const parallelHistoricalRegions: ParallelRegion[] = [
     },
     description: {
       si: "රුහුණ වෙනම අනුක්‍රමික අගනුවර රාජධානියක් ලෙස නොව, දකුණු සහ ගිනිකොණදිග ශ්‍රී ලංකාවේ වැදගත් ඓතිහාසික හා දේශපාලන ප්‍රදේශයක් ලෙස පෙන්විය යුතුය. මාගම, කතරගම සහ තිස්සමහාරාමය එහි වැදගත් මධ්‍යස්ථාන විය.",
-      en: "Ruhuna should be presented not as a simple successor capital in the main sequence, but as an important historical and political region of southern and southeastern Sri Lanka, associated with centres such as Magama, Kataragama and Tissamaharama.",
+      en: "Ruhuna should be presented not as a simple successor kingdom, but as an important historical and political region of southern and southeastern Sri Lanka, associated with Magama, Kataragama and Tissamaharama.",
     },
     href: "/regions/ruhuna",
     relatedPeopleIds: [
@@ -906,4 +897,3 @@ export function getTimeline(): TimelineItem[] {
 export function getTimelineItemById(id: string): TimelineItem | undefined {
   return historyTimeline.find((item) => item.id === id);
 }
-

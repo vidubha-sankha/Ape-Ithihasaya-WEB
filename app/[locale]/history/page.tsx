@@ -1,11 +1,36 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+
+import {
+  Anchor,
+  Bone,
+  BookOpen,
+  Building2,
+  Castle,
+  CircleHelp,
+  Clock3,
+  Columns3,
+  Crown,
+  Globe2,
+  Landmark,
+  MapPinned,
+  Mountain,
+  ScrollText,
+  Search,
+  Shield,
+  Ship,
+  Swords,
+  TriangleAlert,
+  type LucideIcon,
+} from "lucide-react";
+
 import {
   evidenceLabels,
   historyTimeline,
   parallelHistoricalRegions,
   type EvidenceType,
   type Locale,
+  type TimelineIconName,
   type TimelineItem,
 } from "@/data/history-timeline";
 
@@ -20,19 +45,9 @@ const pageText = {
     eyebrow: "අපේ ඉතිහාසය",
     title: "ශ්‍රී ලංකාවේ සම්පූර්ණ ඉතිහාස කාලරේඛාව",
     description:
-      "ප්‍රාග් ඉතිහාසයේ සිට නූතන ශ්‍රී ලංකාව දක්වා පුරාවිද්‍යාත්මක සාක්ෂි, සාහිත්‍ය සම්ප්‍රදායන්, වංශකථා, රාජධානි සහ යටත්විජිත වාර්තා වෙන වෙනම හඳුනාගෙන ගවේෂණය කරන්න.",
-    timelineTitle: "ප්‍රධාන කාලානුක්‍රමික ගමන්මඟ",
-    timelineDescription:
-      "පහත අනුපිළිවෙළ ප්‍රධාන ඓතිහාසික අවධි සහ දේශපාලන මධ්‍යස්ථාන පෙන්වයි.",
-    evidenceTitle: "සාක්ෂි වර්ග හඳුනාගන්න",
-    evidenceDescription:
-      "එක් එක් යුගය සඳහා භාවිත වන සාක්ෂි එකම මට්ටමේ නොවේ. Badge එකෙන් එම තොරතුරේ මූලාශ්‍ර ස්වභාවය පෙන්වයි.",
-    highlightsTitle: "ප්‍රධාන කරුණු",
-    exploreButton: "විස්තර බලන්න",
-    parallelTitle: "සමාන්තර ඓතිහාසික ප්‍රදේශ",
-    parallelDescription:
-      "සියලුම ප්‍රදේශ ප්‍රධාන රාජධානි අනුපිළිවෙළේ successor kingdom එකක් නොවේ. ඒවා සමහරවිට ප්‍රධාන රාජධානියක් සමඟ සමාන්තරව පැවති ප්‍රාදේශීය බල මධ්‍යස්ථාන වේ.",
-    peopleTitle: "සම්බන්ධ පුද්ගලයන්",
+      "ප්‍රාග් ඉතිහාසයේ සිට නූතන ශ්‍රී ලංකාව දක්වා සාහිත්‍ය සම්ප්‍රදායන්, පුරාවිද්‍යාත්මක සාක්ෂි, වංශකථා, රාජධානි සහ යටත්විජිත වාර්තා වෙන වෙනම හඳුනාගෙන ක්‍රමානුකූලව ගවේෂණය කරන්න.",
+    backButton: "මුල් පිටුවට",
+    beginButton: "ප්‍රාග් ඉතිහාසයෙන් ආරම්භ කරන්න",
     overviewTitle: "කාලරේඛාවේ සාරාංශය",
     overviewItems: [
       {
@@ -40,42 +55,47 @@ const pageText = {
         label: "ප්‍රධාන යුග සහ රාජධානි",
       },
       {
-        value: "4",
-        label: "ප්‍රධාන සාක්ෂි කාණ්ඩ",
+        value: "8",
+        label: "සාක්ෂි වර්ග",
       },
       {
         value: "250+",
-        label: "අනාගතයේ සම්බන්ධ කළ හැකි පාලකයන්",
+        label: "සම්බන්ධ කළ හැකි පාලකයන්",
       },
       {
         value: "2",
         label: "සිංහල සහ ඉංග්‍රීසි භාෂා",
       },
     ],
+    evidenceEyebrow: "සාක්ෂි පිළිබඳ අවබෝධය",
+    evidenceTitle: "සාක්ෂි වර්ග හඳුනාගන්න",
+    evidenceDescription:
+      "Timeline එකේ සියලු තොරතුරු එකම සාක්ෂි මට්ටමකින් නොපවතී. Badge එක මඟින් එක් එක් යුගය සඳහා භාවිත වන ප්‍රධාන මූලාශ්‍ර වර්ගය පෙන්වයි.",
+    timelineEyebrow: "ශ්‍රී ලංකාවේ අතීත ගමන්මඟ",
+    timelineTitle: "ප්‍රධාන කාලානුක්‍රමික පෙළ",
+    timelineDescription:
+      "පහත අනුපිළිවෙළ මඟින් ශ්‍රී ලංකාවේ ප්‍රධාන ඓතිහාසික අවධි, රාජධානි, යටත්විජිත පාලන සහ නූතන යුගය පෙන්වයි.",
+    keyFacts: "ප්‍රධාන කරුණු",
+    readMore: "විස්තර බලන්න",
+    parallelEyebrow: "ප්‍රධාන පෙළට සමාන්තරව",
+    parallelTitle: "සමාන්තර ඓතිහාසික ප්‍රදේශ",
+    parallelDescription:
+      "සියලු ඓතිහාසික ප්‍රදේශ ප්‍රධාන රාජධානි අනුපිළිවෙළේ ඊළඟ රාජධානියක් නොවේ. සමහර ප්‍රදේශ ප්‍රධාන රාජධානියක් සමඟ සමාන්තරව වර්ධනය වූ ප්‍රාදේශීය බල මධ්‍යස්ථාන වේ.",
+    relatedPeople: "සම්බන්ධ පුද්ගලයන්",
     noticeTitle: "වැදගත් කාලරේඛා සටහන",
     noticeDescription:
-      "පූර්ව සම්ප්‍රදායික යුගය සහ කාලානුක්‍රමික පරතරය නිල වශයෙන් දින නියම කළ පුරාවිද්‍යාත්මක යුග නොවේ. ඒවා Ape Ithihasaya තුළ සාහිත්‍ය සම්ප්‍රදාය, අවිනිශ්චිතතාව සහ තහවුරු කළ ඉතිහාසය පැහැදිලිව වෙන් කර පෙන්වීම සඳහා භාවිත කරන සංස්කාරක වර්ගීකරණ වේ.",
-    historyButton: "ඉතිහාස හැඳින්වීම",
-    prehistoryButton: "ප්‍රාග් ඉතිහාසයෙන් ආරම්භ කරන්න",
+      "පූර්ව සම්ප්‍රදායික යුගය සහ කාලානුක්‍රමික පරතරය නිල වශයෙන් දින නියම කළ පුරාවිද්‍යාත්මක යුග නොවේ. ඒවා සම්ප්‍රදායික සාහිත්‍ය, අවිනිශ්චිතතාව සහ තහවුරු කළ ඉතිහාසය වෙන්කර පෙන්වීම සඳහා Ape Ithihasaya භාවිත කරන සංස්කාරක වර්ගීකරණ වේ.",
+    previousButton: "මුල් පිටුවට",
+    nextButton: "ප්‍රාග් ඉතිහාසය",
   },
 
   en: {
     eyebrow: "APE ITHIHASAYA",
     title: "Complete Timeline of Sri Lankan History",
     description:
-      "Explore Sri Lanka from prehistory to the modern period while distinguishing archaeological evidence, literary traditions, chronicles, kingdoms and colonial records.",
-    timelineTitle: "Main Chronological Journey",
-    timelineDescription:
-      "The sequence below presents the principal historical phases and political centres.",
-    evidenceTitle: "Understanding the Evidence",
-    evidenceDescription:
-      "The evidence used for each period is not identical. Each badge identifies the primary nature of its sources.",
-    highlightsTitle: "Key Highlights",
-    exploreButton: "Explore Details",
-    parallelTitle: "Parallel Historical Regions",
-    parallelDescription:
-      "Not every region was a successor kingdom in the main capital sequence. Some existed as regional political centres alongside larger kingdoms.",
-    peopleTitle: "Related People",
+      "Explore Sri Lanka from prehistory to the modern age while distinguishing literary traditions, archaeology, chronicles, kingdoms and colonial records.",
+    backButton: "Back to Home",
+    beginButton: "Begin with Prehistory",
     overviewTitle: "Timeline Overview",
     overviewItems: [
       {
@@ -83,8 +103,8 @@ const pageText = {
         label: "Major periods and kingdoms",
       },
       {
-        value: "4",
-        label: "Major evidence categories",
+        value: "8",
+        label: "Evidence classifications",
       },
       {
         value: "250+",
@@ -95,15 +115,49 @@ const pageText = {
         label: "Sinhala and English languages",
       },
     ],
+    evidenceEyebrow: "UNDERSTANDING THE SOURCES",
+    evidenceTitle: "Identify the Evidence Types",
+    evidenceDescription:
+      "Not every timeline entry has the same level of evidence. Each badge identifies the main source classification used for that period.",
+    timelineEyebrow: "THE HISTORICAL JOURNEY",
+    timelineTitle: "Main Chronological Sequence",
+    timelineDescription:
+      "The sequence below presents Sri Lanka's principal historical periods, kingdoms, colonial administrations and modern period.",
+    keyFacts: "Key Highlights",
+    readMore: "Explore Details",
+    parallelEyebrow: "ALONGSIDE THE MAIN SEQUENCE",
+    parallelTitle: "Parallel Historical Regions",
+    parallelDescription:
+      "Not every historical region was the next successor kingdom. Some developed as regional centres of power alongside major kingdoms.",
+    relatedPeople: "Related People",
     noticeTitle: "Important Timeline Notice",
     noticeDescription:
-      "The Early Traditional Age and Chronological Gap are not formally dated archaeological periods. They are editorial categories used by Ape Ithihasaya to distinguish literary tradition, uncertainty and verified history.",
-    historyButton: "History Introduction",
-    prehistoryButton: "Begin with Prehistory",
+      "The Early Traditional Age and Chronological Gap are not formally dated archaeological periods. They are editorial classifications used by Ape Ithihasaya to distinguish tradition, uncertainty and verified history.",
+    previousButton: "Back to Home",
+    nextButton: "Prehistory",
   },
 } satisfies Record<Locale, unknown>;
 
-const evidenceTypesToShow: EvidenceType[] = [
+const iconMap: Record<TimelineIconName, LucideIcon> = {
+  bone: Bone,
+  crown: Crown,
+  "circle-help": CircleHelp,
+  landmark: Landmark,
+  ship: Ship,
+  building: Building2,
+  "book-open": BookOpen,
+  castle: Castle,
+  mountain: Mountain,
+  scroll: ScrollText,
+  shield: Shield,
+  swords: Swords,
+  flag: Globe2,
+  globe: Globe2,
+  columns: Columns3,
+  anchor: Anchor,
+};
+
+const evidenceTypes: EvidenceType[] = [
   "archaeological",
   "traditional",
   "uncertain",
@@ -114,7 +168,7 @@ const evidenceTypesToShow: EvidenceType[] = [
   "modern-records",
 ];
 
-export default async function CompleteTimelinePage({
+export default async function HistoryPage({
   params,
 }: TimelinePageProps) {
   const { locale } = await params;
@@ -131,20 +185,24 @@ export default async function CompleteTimelinePage({
   );
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen overflow-hidden bg-black text-white">
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-[#3d2900] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,157,0,0.16),transparent_62%)]" />
+      <section className="relative overflow-hidden border-b border-[#3f2a00] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,157,0,0.15),transparent_62%)]" />
 
-        <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ff9d00]/5 blur-3xl" />
+        <div className="absolute left-1/2 top-1/2 h-[560px] w-[560px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ff9d00]/5 blur-3xl" />
 
         <div className="relative mx-auto max-w-6xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.42em] text-[#ffad0a]">
+          <p className="text-xs font-bold uppercase tracking-[0.5em] text-[#ffad0a] sm:text-sm">
             {text.eyebrow}
           </p>
 
-          <h1 className="mt-7 font-serif text-4xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
-            🕰️ {text.title}
+          <div className="mx-auto mt-7 flex h-16 w-16 items-center justify-center rounded-2xl border border-[#8c5c00] bg-[#140e00] text-[#ffad0a]">
+            <Clock3 className="h-8 w-8" strokeWidth={1.7} />
+          </div>
+
+          <h1 className="mx-auto mt-7 max-w-5xl font-serif text-4xl font-bold leading-tight sm:text-6xl lg:text-7xl">
+            {text.title}
           </h1>
 
           <p className="mx-auto mt-7 max-w-4xl text-base leading-8 text-zinc-300 sm:text-lg">
@@ -153,40 +211,40 @@ export default async function CompleteTimelinePage({
 
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
-              href={`/${currentLocale}/history`}
-              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#a66d00] px-8 py-3 font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+              href={`/${currentLocale}`}
+              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#9c6600] px-8 py-3 font-bold text-[#ffad0a] transition hover:-translate-y-1 hover:bg-[#ff9d00] hover:text-black"
             >
-              ← {text.historyButton}
+              ← {text.backButton}
             </Link>
 
             <Link
               href={`/${currentLocale}/history/prehistory`}
-              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-8 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb42a]"
+              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-8 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb531]"
             >
-              {text.prehistoryButton} →
+              {text.beginButton} →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Overview */}
-      <section className="border-b border-zinc-900 bg-[#070707] px-5 py-16 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="text-center font-serif text-3xl font-bold sm:text-4xl">
+      {/* Overview Statistics */}
+      <section className="border-b border-zinc-900 bg-[#050505] px-5 py-16 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center font-serif text-2xl font-bold sm:text-3xl">
             {text.overviewTitle}
           </h2>
 
-          <div className="mt-10 grid grid-cols-2 gap-5 lg:grid-cols-4">
+          <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
             {text.overviewItems.map((item) => (
               <article
                 key={item.label}
-                className="rounded-2xl border border-zinc-900 bg-black p-6 text-center"
+                className="rounded-2xl border border-zinc-900 bg-black px-5 py-7 text-center"
               >
-                <p className="text-3xl font-bold text-[#ffad0a] sm:text-4xl">
+                <p className="text-3xl font-black text-[#ffad0a]">
                   {item.value}
                 </p>
 
-                <p className="mt-3 text-sm leading-6 text-zinc-400">
+                <p className="mt-3 text-xs leading-6 text-zinc-500 sm:text-sm">
                   {item.label}
                 </p>
               </article>
@@ -195,23 +253,27 @@ export default async function CompleteTimelinePage({
         </div>
       </section>
 
-      {/* Evidence legend */}
+      {/* Evidence Classification Legend */}
       <section className="border-b border-zinc-900 bg-black px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-4xl text-center">
-            <p className="text-3xl">🔎</p>
+        <div className="mx-auto max-w-6xl text-center">
+          <p className="text-xs font-bold uppercase tracking-[0.4em] text-[#ffad0a]">
+            {text.evidenceEyebrow}
+          </p>
 
-            <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
-              {text.evidenceTitle}
-            </h2>
-
-            <p className="mt-6 leading-8 text-zinc-400">
-              {text.evidenceDescription}
-            </p>
+          <div className="mx-auto mt-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-[#795000] bg-[#120d00] text-[#ffad0a]">
+            <Search className="h-7 w-7" strokeWidth={1.7} />
           </div>
 
-          <div className="mt-12 flex flex-wrap justify-center gap-3">
-            {evidenceTypesToShow.map((type) => (
+          <h2 className="mt-6 font-serif text-3xl font-bold sm:text-5xl">
+            {text.evidenceTitle}
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-3xl leading-8 text-zinc-400">
+            {text.evidenceDescription}
+          </p>
+
+          <div className="mt-10 flex flex-wrap justify-center gap-3">
+            {evidenceTypes.map((type) => (
               <EvidenceBadge
                 key={type}
                 type={type}
@@ -222,12 +284,18 @@ export default async function CompleteTimelinePage({
         </div>
       </section>
 
-      {/* Timeline heading */}
-      <section className="bg-[#070707] px-5 pb-8 pt-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="text-3xl">🌍</p>
+      {/* Timeline Section Header */}
+      <section className="bg-[#050505] px-5 pb-10 pt-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-xs font-bold uppercase tracking-[0.4em] text-[#ffad0a]">
+            {text.timelineEyebrow}
+          </p>
 
-          <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
+          <div className="mx-auto mt-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-[#795000] bg-black text-[#ffad0a]">
+            <MapPinned className="h-7 w-7" strokeWidth={1.7} />
+          </div>
+
+          <h2 className="mt-6 font-serif text-3xl font-bold sm:text-5xl">
             {text.timelineTitle}
           </h2>
 
@@ -237,60 +305,67 @@ export default async function CompleteTimelinePage({
         </div>
       </section>
 
-      {/* Complete timeline */}
-      <section className="border-b border-zinc-900 bg-[#070707] px-5 pb-24 pt-10 sm:px-8 lg:px-12">
-        <div className="relative mx-auto max-w-6xl">
-          <div className="absolute bottom-0 left-6 top-0 hidden w-px bg-gradient-to-b from-[#ff9d00] via-[#6e4900] to-transparent md:block" />
+      {/* Timeline Items List */}
+      <section className="border-b border-zinc-900 bg-[#050505] px-4 pb-24 pt-10 sm:px-8 lg:px-12">
+        <div className="relative mx-auto max-w-5xl">
+          <div className="absolute bottom-0 left-[23px] top-0 hidden w-px bg-gradient-to-b from-[#ff9d00] via-[#6d4800] to-transparent md:block" />
 
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             {orderedTimeline.map((item, index) => (
               <TimelineCard
                 key={item.id}
                 item={item}
                 index={index}
                 locale={currentLocale}
-                highlightsTitle={text.highlightsTitle}
-                exploreButton={text.exploreButton}
+                keyFactsLabel={text.keyFacts}
+                readMoreLabel={text.readMore}
               />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Parallel regions */}
+      {/* Parallel Regions */}
       <section className="border-b border-zinc-900 bg-black px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-7xl">
-          <div className="max-w-4xl">
-            <p className="text-3xl">🗺️</p>
+        <div className="mx-auto max-w-6xl">
+          <p className="text-xs font-bold uppercase tracking-[0.4em] text-[#ffad0a]">
+            {text.parallelEyebrow}
+          </p>
 
-            <h2 className="mt-5 font-serif text-3xl font-bold sm:text-5xl">
-              {text.parallelTitle}
-            </h2>
-
-            <p className="mt-6 leading-8 text-zinc-400">
-              {text.parallelDescription}
-            </p>
+          <div className="mt-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-[#795000] bg-[#120d00] text-[#ffad0a]">
+            <MapPinned className="h-7 w-7" strokeWidth={1.7} />
           </div>
 
-          <div className="mt-12 grid gap-7">
+          <h2 className="mt-6 font-serif text-3xl font-bold sm:text-5xl">
+            {text.parallelTitle}
+          </h2>
+
+          <p className="mt-6 max-w-4xl leading-8 text-zinc-400">
+            {text.parallelDescription}
+          </p>
+
+          <div className="mt-12 space-y-7">
             {parallelHistoricalRegions.map((region) => (
               <article
                 key={region.id}
-                className="rounded-3xl border border-[#5b3c00] bg-[#080808] p-7 sm:p-9"
+                className="rounded-3xl border border-[#7c5200] bg-[#080808] p-6 transition hover:border-[#ff9d00] sm:p-9"
               >
                 <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
                   <div>
-                    <div className="flex items-center gap-4">
-                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ff9d00] text-2xl">
-                        {region.icon}
+                    <div className="flex items-start gap-4">
+                      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#8f5e00] bg-[#130d00] text-[#ffad0a]">
+                        <MapPinned
+                          className="h-7 w-7"
+                          strokeWidth={1.7}
+                        />
                       </div>
 
                       <div>
-                        <h3 className="text-2xl font-bold text-white">
+                        <h3 className="text-2xl font-bold text-white sm:text-3xl">
                           {region.name[currentLocale]}
                         </h3>
 
-                        <p className="mt-2 text-sm text-[#ffad0a]">
+                        <p className="mt-2 text-sm font-semibold text-[#ffad0a]">
                           {region.period[currentLocale]}
                         </p>
                       </div>
@@ -301,15 +376,15 @@ export default async function CompleteTimelinePage({
                     </p>
 
                     <div className="mt-7">
-                      <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-zinc-500">
-                        {text.peopleTitle}
+                      <p className="text-xs font-bold uppercase tracking-[0.25em] text-zinc-500">
+                        {text.relatedPeople}
                       </p>
 
-                      <div className="flex flex-wrap gap-2">
+                      <div className="mt-4 flex flex-wrap gap-2">
                         {region.relatedPeopleIds.map((personId) => (
                           <span
                             key={personId}
-                            className="rounded-full border border-zinc-800 bg-black px-4 py-2 text-sm text-zinc-300"
+                            className="rounded-full border border-zinc-800 bg-black px-4 py-2 text-xs text-zinc-300"
                           >
                             {formatPersonId(personId)}
                           </span>
@@ -320,9 +395,9 @@ export default async function CompleteTimelinePage({
 
                   <Link
                     href={`/${currentLocale}${region.href}`}
-                    className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#a66d00] px-7 py-3 font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+                    className="inline-flex min-h-12 items-center justify-center rounded-full border border-[#a36b00] px-6 py-3 text-sm font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
                   >
-                    {text.exploreButton} →
+                    {text.readMore} →
                   </Link>
                 </div>
               </article>
@@ -331,12 +406,17 @@ export default async function CompleteTimelinePage({
         </div>
       </section>
 
-      {/* Notice */}
-      <section className="bg-[#070707] px-5 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-6xl">
-          <aside className="rounded-3xl border border-amber-900/70 bg-amber-950/10 p-7 sm:p-10">
-            <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
-              <span className="text-4xl">⚠️</span>
+      {/* Notice & Footer Navigation */}
+      <section className="bg-[#050505] px-5 py-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-5xl">
+          <aside className="rounded-3xl border border-amber-800/70 bg-amber-950/10 p-7 sm:p-10">
+            <div className="flex flex-col gap-5 sm:flex-row">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-amber-700/60 bg-black text-amber-400">
+                <TriangleAlert
+                  className="h-7 w-7"
+                  strokeWidth={1.7}
+                />
+              </div>
 
               <div>
                 <h2 className="text-2xl font-bold text-amber-300">
@@ -352,17 +432,17 @@ export default async function CompleteTimelinePage({
 
           <div className="mt-12 flex flex-col justify-between gap-4 border-t border-zinc-900 pt-10 sm:flex-row">
             <Link
-              href={`/${currentLocale}/history`}
-              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#7e5400] px-7 py-3 font-semibold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+              href={`/${currentLocale}`}
+              className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#805500] px-7 py-3 font-semibold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
             >
-              ← {text.historyButton}
+              ← {text.previousButton}
             </Link>
 
             <Link
               href={`/${currentLocale}/history/prehistory`}
-              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-7 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb42a]"
+              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#ff9d00] px-7 py-3 font-bold text-black transition hover:-translate-y-1 hover:bg-[#ffb42b]"
             >
-              {text.prehistoryButton} →
+              {text.nextButton} →
             </Link>
           </div>
         </div>
@@ -375,34 +455,36 @@ interface TimelineCardProps {
   item: TimelineItem;
   index: number;
   locale: Locale;
-  highlightsTitle: string;
-  exploreButton: string;
+  keyFactsLabel: string;
+  readMoreLabel: string;
 }
 
 function TimelineCard({
   item,
   index,
   locale,
-  highlightsTitle,
-  exploreButton,
+  keyFactsLabel,
+  readMoreLabel,
 }: TimelineCardProps) {
+  const Icon = iconMap[item.iconName] ?? Landmark;
+
   return (
     <article className="group relative md:pl-20">
-      <div className="absolute left-0 top-8 z-10 hidden h-12 w-12 items-center justify-center rounded-full border border-[#b87800] bg-black text-sm font-bold text-[#ffad0a] transition group-hover:bg-[#ff9d00] group-hover:text-black md:flex">
+      <div className="absolute left-0 top-7 z-10 hidden h-12 w-12 items-center justify-center rounded-full border border-[#b87800] bg-black text-xs font-black text-[#ffad0a] transition group-hover:bg-[#ff9d00] group-hover:text-black md:flex">
         {String(index + 1).padStart(2, "0")}
       </div>
 
-      <div className="rounded-3xl border border-zinc-900 bg-black p-6 transition duration-300 hover:-translate-y-1 hover:border-[#835700] sm:p-8">
-        <div className="grid gap-8 lg:grid-cols-[1fr_260px]">
-          <div>
-            <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
-              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#6e4900] bg-[#120c00] text-3xl transition group-hover:bg-[#ff9d00]">
-                {item.icon}
+      <div className="overflow-hidden rounded-3xl border border-zinc-900 bg-black transition hover:-translate-y-1 hover:border-[#7f5500]">
+        <div className="grid lg:grid-cols-[1fr_280px]">
+          <div className="p-6 sm:p-8">
+            <div className="flex items-start gap-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#7c5200] bg-[#140e00] text-[#ffad0a] transition group-hover:bg-[#ff9d00] group-hover:text-black">
+                <Icon className="h-7 w-7" strokeWidth={1.7} />
               </div>
 
-              <div>
-                <div className="flex flex-wrap items-center gap-3">
-                  <span className="rounded-full border border-zinc-800 bg-[#080808] px-3 py-1 text-xs font-bold text-zinc-500 md:hidden">
+              <div className="min-w-0">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="rounded-full border border-[#755000] bg-[#100b00] px-3 py-1 text-[11px] font-black text-[#ffad0a] md:hidden">
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
@@ -412,35 +494,33 @@ function TimelineCard({
                   />
                 </div>
 
-                <h3 className="mt-4 font-serif text-2xl font-bold text-white sm:text-4xl">
+                <h3 className="mt-4 font-serif text-2xl font-bold leading-tight text-white sm:text-3xl">
                   {item.name[locale]}
                 </h3>
 
-                <p className="mt-3 font-semibold text-[#ffad0a]">
+                <p className="mt-2 text-sm font-bold text-[#ffad0a]">
                   {item.period[locale]}
                 </p>
               </div>
             </div>
 
-            <p className="mt-7 max-w-4xl text-base leading-8 text-zinc-300">
+            <p className="mt-6 max-w-3xl text-sm leading-7 text-zinc-300 sm:text-base sm:leading-8">
               {item.description[locale]}
             </p>
 
             <Link
               href={`/${locale}${item.href}`}
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full border border-[#906000] px-6 py-2 font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
+              className="mt-7 inline-flex min-h-11 items-center justify-center rounded-full border border-[#a46c00] px-5 py-2 text-sm font-bold text-[#ffad0a] transition hover:bg-[#ff9d00] hover:text-black"
             >
-              {exploreButton}
-              <span className="ml-3 transition group-hover:translate-x-1">
-                →
-              </span>
+              {readMoreLabel}
+              <span className="ml-2">→</span>
             </Link>
           </div>
 
-          <aside className="rounded-2xl border border-zinc-900 bg-[#080808] p-5">
-            <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-zinc-500">
-              {highlightsTitle}
-            </h4>
+          <aside className="border-t border-zinc-900 bg-[#080808] p-6 lg:border-l lg:border-t-0">
+            <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-zinc-500">
+              {keyFactsLabel}
+            </p>
 
             <ul className="mt-5 space-y-4">
               {item.highlights.map((highlight) => (
@@ -448,7 +528,7 @@ function TimelineCard({
                   key={highlight[locale]}
                   className="flex items-start gap-3 text-sm leading-6 text-zinc-300"
                 >
-                  <span className="mt-1 text-[#ff9d00]">◆</span>
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#ff9d00]" />
                   <span>{highlight[locale]}</span>
                 </li>
               ))}
@@ -468,26 +548,26 @@ interface EvidenceBadgeProps {
 function EvidenceBadge({ type, locale }: EvidenceBadgeProps) {
   const styles: Record<EvidenceType, string> = {
     archaeological:
-      "border-emerald-800/70 bg-emerald-950/30 text-emerald-300",
+      "border-emerald-700/70 bg-emerald-950/30 text-emerald-300",
     traditional:
-      "border-purple-800/70 bg-purple-950/30 text-purple-300",
+      "border-purple-700/70 bg-purple-950/30 text-purple-300",
     uncertain:
-      "border-amber-800/70 bg-amber-950/30 text-amber-300",
+      "border-amber-700/70 bg-amber-950/30 text-amber-300",
     chronicle:
-      "border-blue-800/70 bg-blue-950/30 text-blue-300",
+      "border-blue-700/70 bg-blue-950/30 text-blue-300",
     "chronicle-and-archaeological":
-      "border-cyan-800/70 bg-cyan-950/30 text-cyan-300",
+      "border-cyan-700/70 bg-cyan-950/30 text-cyan-300",
     documented:
-      "border-[#805400] bg-[#171000] text-[#ffbd42]",
+      "border-[#8b5b00] bg-[#181000] text-[#ffbd42]",
     "colonial-records":
-      "border-red-900/70 bg-red-950/20 text-red-300",
+      "border-red-800/70 bg-red-950/20 text-red-300",
     "modern-records":
       "border-zinc-700 bg-zinc-900 text-zinc-300",
   };
 
   return (
     <span
-      className={`inline-flex rounded-full border px-4 py-2 text-xs font-bold ${styles[type]}`}
+      className={`inline-flex rounded-full border px-3 py-1 text-[10px] font-bold sm:text-xs ${styles[type]}`}
     >
       {evidenceLabels[type][locale]}
     </span>

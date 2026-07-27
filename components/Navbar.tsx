@@ -27,7 +27,7 @@ const historyMainLinks: MenuLink[] = [
       si: "සම්පූර්ණ කාලරේඛාව",
       en: "Complete Timeline",
     },
-    href: "/history/timeline",
+    href: "/history",
   },
   {
     id: "prehistory",
@@ -271,6 +271,10 @@ export default function Navbar({ locale }: NavbarProps) {
   const isActive = (href: string) => {
     const completeHref = localizedHref(href);
 
+    if (href === "/history") {
+      return pathname === completeHref;
+    }
+
     return (
       pathname === completeHref ||
       pathname.startsWith(`${completeHref}/`)
@@ -386,20 +390,6 @@ export default function Navbar({ locale }: NavbarProps) {
 
             {historyOpen && (
               <div className="absolute left-1/2 top-full mt-3 w-[360px] -translate-x-1/2 overflow-hidden rounded-2xl border border-[#6b4600] bg-[#090909] p-3 shadow-2xl shadow-black/70">
-                <Link
-                  href={localizedHref("/history")}
-                  onClick={closeAllMenus}
-                  className={`block rounded-xl px-4 py-3 text-sm transition ${isActive("/history") &&
-                      pathname === localizedHref("/history")
-                      ? "bg-[#ff9d00] font-semibold text-black"
-                      : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
-                    }`}
-                >
-                  {text.historyOverview}
-                </Link>
-
-                <div className="my-2 border-t border-zinc-800" />
-
                 {historyMainLinks.map((item) => (
                   <Link
                     key={item.id}

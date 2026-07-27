@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DynamicIcon } from "@/components/DynamicIcon";
 
 type Locale = "si" | "en";
 
@@ -7,7 +8,7 @@ type WhyExploreProps = {
 };
 
 type ExploreCard = {
-  icon: string;
+  iconName: string;
   title: string;
   description: string;
   href: string;
@@ -18,7 +19,7 @@ export default function WhyExplore({ locale }: WhyExploreProps) {
 
   const cards: ExploreCard[] = [
     {
-      icon: "👑",
+      iconName: "crown",
       title: isSinhala ? "ශ්‍රේෂ්ඨ රජවරු" : "Great Kings",
       description: isSinhala
         ? "විජය, පණ්ඩුකාභය, දුටුගැමුණු, වසභ සහ මහා පරාක්‍රමබාහු ඇතුළු ශ්‍රී ලංකාව හැඩගැස්වූ පාලකයන් පිළිබඳ ගවේෂණය කරන්න."
@@ -26,7 +27,7 @@ export default function WhyExplore({ locale }: WhyExploreProps) {
       href: `/${locale}/kings`,
     },
     {
-      icon: "🏰",
+      iconName: "castle",
       title: isSinhala ? "පැරණි රාජධානි" : "Ancient Kingdoms",
       description: isSinhala
         ? "අනුරාධපුර, පොළොන්නරුව, දඹදෙණිය, යාපහුව, කෝට්ටේ, සීතාවක සහ මහනුවර රාජධානි ගවේෂණය කරන්න."
@@ -34,7 +35,7 @@ export default function WhyExplore({ locale }: WhyExploreProps) {
       href: `/${locale}/kingdoms`,
     },
     {
-      icon: "🛕",
+      iconName: "landmark",
       title: isSinhala ? "පූජනීය උරුමය" : "Sacred Heritage",
       description: isSinhala
         ? "පන්සල්, දාගැබ්, ආරාම, ගුහා විහාර සහ ලෝක උරුම ස්ථාන තුළින් බෞද්ධ ශිෂ්ටාචාරය ගවේෂණය කරන්න."
@@ -42,7 +43,7 @@ export default function WhyExplore({ locale }: WhyExploreProps) {
       href: `/${locale}/heritage`,
     },
     {
-      icon: "💧",
+      iconName: "building",
       title: isSinhala ? "පැරණි ඉංජිනේරු තාක්ෂණය" : "Ancient Engineering",
       description: isSinhala
         ? "වැව්, ඇළ මාර්ග, වාරි ජාල, ගල් පාලම් සහ කාලයට වඩා ඉදිරියෙන් තිබූ පැරණි තාක්ෂණික නිර්මාණ බලන්න."
@@ -50,7 +51,7 @@ export default function WhyExplore({ locale }: WhyExploreProps) {
       href: `/${locale}/heritage/reservoirs`,
     },
     {
-      icon: "⚔️",
+      iconName: "swords",
       title: isSinhala ? "ඓතිහාසික සටන්" : "Historic Battles",
       description: isSinhala
         ? "දිවයින ආරක්ෂා කළ සටන්, ශ්‍රේෂ්ඨ රජවරුන්ගේ යුද උපක්‍රම සහ ශ්‍රී ලංකාවේ ගමන්මග වෙනස් කළ සිදුවීම් හඳුනාගන්න."
@@ -58,52 +59,44 @@ export default function WhyExplore({ locale }: WhyExploreProps) {
       href: `/${locale}/battles`,
     },
     {
-      icon: "📜",
-      title: isSinhala ? "විශ්වාසදායක දැනුම" : "Authentic Knowledge",
+      iconName: "scroll-text",
+      title: isSinhala ? "වංශකථා සහ ලේඛන" : "Chronicles & Records",
       description: isSinhala
-        ? "වංශකතා, පුරාවිද්‍යා සොයාගැනීම්, ශිලා ලේඛන සහ විශ්වාසදායක ශාස්ත්‍රීය මූලාශ්‍ර මත පදනම් වූ ලිපි කියවන්න."
-        : "Read carefully researched articles supported by chronicles, archaeological discoveries, inscriptions and trusted academic references.",
-      href: `/${locale}/articles`,
+        ? "මහාවංශය, දීපවංශය, චූලවංශය, ශිලා ලේඛන සහ යටත්විජිත වාර්තා මඟින් ඉතිහාසය අධ්‍යයනය කරන්න."
+        : "Study primary historical documents including the Mahavamsa, Dipavamsa, Culavamsa, Brahmi inscriptions and colonial records.",
+      href: `/${locale}/documents`,
     },
   ];
 
   return (
-    <section
-      id="why-explore"
-      className="bg-[#f5f3ef] px-6 py-24 text-stone-950"
-    >
-      <div className="mx-auto max-w-7xl">
-        <div className="max-w-4xl">
-          <p className="text-sm font-bold uppercase tracking-[0.24em] text-amber-700">
-            {isSinhala ? "අපේ උරුමය ගවේෂණය කරන්න" : "Explore Our Heritage"}
+    <section className="bg-stone-50 py-24 text-stone-900">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+        <div className="max-w-3xl">
+          <p className="text-sm font-bold uppercase tracking-[0.3em] text-amber-700">
+            {isSinhala ? "ගවේෂණය කරන්න" : "Explore"}
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold leading-tight md:text-5xl">
-            {isSinhala
-              ? "ශ්‍රී ලංකා ඉතිහාසය ගවේෂණය කළ යුත්තේ ඇයි?"
-              : "Why Explore Lankan History?"}
+          <h2 className="mt-4 font-serif text-4xl font-bold text-stone-900 sm:text-5xl">
+            {isSinhala ? "අපේ ඉතිහාසයේ ප්‍රධාන අංශ" : "Core Historical Categories"}
           </h2>
 
-          <p className="mt-7 max-w-4xl text-lg leading-9 text-stone-600">
+          <p className="mt-6 leading-8 text-stone-600">
             {isSinhala
-              ? "ලෝකයේ පැරණිතම ශිෂ්ටාචාර අතරින් එකක අපූරු ගමන්මග සොයාගන්න. වසර 2,500කට වැඩි ශ්‍රී ලංකා ඉතිහාසය ශ්‍රේෂ්ඨ රජවරුන්, විශිෂ්ට රාජධානි, දියුණු වාරි පද්ධති, පැරණි විහාර සහ පරම්පරා ගණනාවක් ප්‍රබෝධමත් කළ සංස්කෘතික උරුමයකින් සමන්විතය."
-              : "Discover the remarkable journey of one of the world’s oldest civilizations. Sri Lanka’s history spans over 2,500 years, filled with legendary kings, magnificent kingdoms, advanced irrigation systems, ancient temples and a rich cultural heritage that continues to inspire generations."}
+              ? "ශ්‍රී ලංකාවේ දීර්ඝ ඉතිහාසය, පාලකයන්, රාජධානි, ආගමික උරුමයන් සහ තාක්ෂණික දියුණුව වෙන වෙනම අධ්‍යයනය කරන්න."
+              : "Discover Sri Lanka's rich history through dedicated categories covering rulers, kingdoms, sacred heritage and ancient technology."}
           </p>
         </div>
 
-        <div className="mt-14 grid gap-7 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((card) => (
             <Link
               key={card.title}
               href={card.href}
               className="group rounded-3xl border border-stone-200 bg-white p-8 shadow-sm transition duration-300 hover:scale-[1.03] hover:border-amber-500 hover:shadow-[0_20px_55px_rgba(217,119,6,0.18)]"
             >
-              <span
-                aria-hidden="true"
-                className="text-4xl transition duration-300 group-hover:scale-110"
-              >
-                {card.icon}
-              </span>
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-200 bg-amber-50 text-amber-800 transition duration-300 group-hover:bg-amber-500 group-hover:text-white">
+                <DynamicIcon name={card.iconName} className="h-7 w-7" />
+              </div>
 
               <h3 className="mt-6 text-2xl font-bold">{card.title}</h3>
 

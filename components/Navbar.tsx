@@ -22,12 +22,20 @@ interface MenuLink {
 
 const historyMainLinks: MenuLink[] = [
   {
+    id: "overview",
+    label: {
+      si: "ඉතිහාස හැඳින්වීම",
+      en: "History Overview",
+    },
+    href: "/history",
+  },
+  {
     id: "timeline",
     label: {
       si: "සම්පූර්ණ කාලරේඛාව",
       en: "Complete Timeline",
     },
-    href: "/history",
+    href: "/history/timeline",
   },
   {
     id: "prehistory",
@@ -722,17 +730,6 @@ export default function Navbar({ locale }: NavbarProps) {
                 </Link>
               </div>
             )}
-
-            <Link
-              href={`/${locale}/history`}
-              onClick={closeAllMenus}
-              className={`block rounded-xl px-4 py-3 text-sm transition ${pathname === `/${locale}/history`
-                  ? "bg-[#ff9d00] font-semibold text-black"
-                  : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
-                }`}
-            >
-              {locale === "si" ? "ඉතිහාස හැඳින්වීම" : "History Introduction"}
-            </Link>
 
             <Link
               href={localizedHref("/people")}

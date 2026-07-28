@@ -49,24 +49,7 @@ const pageText = {
     backButton: "මුල් පිටුවට",
     beginButton: "ප්‍රාග් ඉතිහාසයෙන් ආරම්භ කරන්න",
     overviewTitle: "කාලරේඛාවේ සාරාංශය",
-    overviewItems: [
-      {
-        value: "20",
-        label: "ප්‍රධාන යුග සහ රාජධානි",
-      },
-      {
-        value: "8",
-        label: "සාක්ෂි වර්ග",
-      },
-      {
-        value: "250+",
-        label: "සම්බන්ධ කළ හැකි පාලකයන්",
-      },
-      {
-        value: "2",
-        label: "සිංහල සහ ඉංග්‍රීසි භාෂා",
-      },
-    ],
+    overviewItems: [] as Array<{ value: string; label: string }>,
     evidenceEyebrow: "සාක්ෂි පිළිබඳ අවබෝධය",
     evidenceTitle: "සාක්ෂි වර්ග හඳුනාගන්න",
     evidenceDescription:
@@ -97,24 +80,7 @@ const pageText = {
     backButton: "Back to Home",
     beginButton: "Begin with Prehistory",
     overviewTitle: "Timeline Overview",
-    overviewItems: [
-      {
-        value: "20",
-        label: "Major periods and kingdoms",
-      },
-      {
-        value: "8",
-        label: "Evidence classifications",
-      },
-      {
-        value: "250+",
-        label: "Future connected rulers",
-      },
-      {
-        value: "2",
-        label: "Sinhala and English languages",
-      },
-    ],
+    overviewItems: [] as Array<{ value: string; label: string }>,
     evidenceEyebrow: "UNDERSTANDING THE SOURCES",
     evidenceTitle: "Identify the Evidence Types",
     evidenceDescription:
@@ -234,22 +200,24 @@ export default async function HistoryPage({
             {text.overviewTitle}
           </h2>
 
-          <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
-            {text.overviewItems.map((item) => (
-              <article
-                key={item.label}
-                className="rounded-2xl border border-zinc-900 bg-black px-5 py-7 text-center"
-              >
-                <p className="text-3xl font-black text-[#ffad0a]">
-                  {item.value}
-                </p>
+          {text.overviewItems.length > 0 && (
+            <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
+              {text.overviewItems.map((item) => (
+                <article
+                  key={item.label}
+                  className="rounded-2xl border border-zinc-900 bg-black px-5 py-7 text-center"
+                >
+                  <p className="text-3xl font-black text-[#ffad0a]">
+                    {item.value}
+                  </p>
 
-                <p className="mt-3 text-xs leading-6 text-zinc-500 sm:text-sm">
-                  {item.label}
-                </p>
-              </article>
-            ))}
-          </div>
+                  <p className="mt-3 text-xs leading-6 text-zinc-500 sm:text-sm">
+                    {item.label}
+                  </p>
+                </article>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

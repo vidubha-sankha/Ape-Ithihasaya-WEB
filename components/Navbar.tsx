@@ -363,8 +363,8 @@ export default function Navbar({ locale }: NavbarProps) {
           <Link
             href={`/${locale}`}
             className={`rounded-lg px-4 py-3 text-sm font-semibold transition ${pathname === `/${locale}`
-                ? "bg-[#ff9d00] text-black"
-                : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+              ? "bg-[#ff9d00] text-black"
+              : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
               }`}
           >
             {text.home}
@@ -382,8 +382,8 @@ export default function Navbar({ locale }: NavbarProps) {
               aria-expanded={historyOpen}
               aria-haspopup="true"
               className={`flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold transition ${isHistoryActive
-                  ? "bg-[#ff9d00] text-black"
-                  : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                ? "bg-[#ff9d00] text-black"
+                : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
                 }`}
             >
               {text.history}
@@ -404,8 +404,8 @@ export default function Navbar({ locale }: NavbarProps) {
                     href={localizedHref(item.href)}
                     onClick={closeAllMenus}
                     className={`block rounded-xl px-4 py-3 text-sm transition ${isActive(item.href)
-                        ? "bg-[#ff9d00] font-semibold text-black"
-                        : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                      ? "bg-[#ff9d00] font-semibold text-black"
+                      : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
                       }`}
                   >
                     {item.label[locale]}
@@ -423,8 +423,8 @@ export default function Navbar({ locale }: NavbarProps) {
                       setColonialOpen(false);
                     }}
                     className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-left text-sm transition ${pathname.startsWith(`/${locale}/kingdoms`)
-                        ? "bg-[#ff9d00] font-semibold text-black"
-                        : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                      ? "bg-[#ff9d00] font-semibold text-black"
+                      : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
                       }`}
                   >
                     <span>{text.kingdoms}</span>
@@ -449,8 +449,8 @@ export default function Navbar({ locale }: NavbarProps) {
                           href={localizedHref(item.href)}
                           onClick={closeAllMenus}
                           className={`block rounded-lg px-3 py-2 text-sm transition ${isActive(item.href)
-                              ? "bg-[#ff9d00] font-semibold text-black"
-                              : "text-zinc-300 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                            ? "bg-[#ff9d00] font-semibold text-black"
+                            : "text-zinc-300 hover:bg-zinc-900 hover:text-[#ffad0a]"
                             }`}
                         >
                           {item.label[locale]}
@@ -469,8 +469,8 @@ export default function Navbar({ locale }: NavbarProps) {
                       setColonialOpen(false);
                     }}
                     className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-left text-sm transition ${pathname.startsWith(`/${locale}/regions`)
-                        ? "bg-[#ff9d00] font-semibold text-black"
-                        : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                      ? "bg-[#ff9d00] font-semibold text-black"
+                      : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
                       }`}
                   >
                     <span>{text.regions}</span>
@@ -495,8 +495,8 @@ export default function Navbar({ locale }: NavbarProps) {
                           href={localizedHref(item.href)}
                           onClick={closeAllMenus}
                           className={`block rounded-lg px-3 py-2 text-sm transition ${isActive(item.href)
-                              ? "bg-[#ff9d00] font-semibold text-black"
-                              : "text-zinc-300 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                            ? "bg-[#ff9d00] font-semibold text-black"
+                            : "text-zinc-300 hover:bg-zinc-900 hover:text-[#ffad0a]"
                             }`}
                         >
                           {item.label[locale]}
@@ -515,8 +515,8 @@ export default function Navbar({ locale }: NavbarProps) {
                       setRegionsOpen(false);
                     }}
                     className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-left text-sm transition ${colonialLinks.some((item) => isActive(item.href))
-                        ? "bg-[#ff9d00] font-semibold text-black"
-                        : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                      ? "bg-[#ff9d00] font-semibold text-black"
+                      : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
                       }`}
                   >
                     <span>{text.colonial}</span>
@@ -531,8 +531,8 @@ export default function Navbar({ locale }: NavbarProps) {
                           href={localizedHref(item.href)}
                           onClick={closeAllMenus}
                           className={`block rounded-lg px-3 py-2 text-sm transition ${isActive(item.href)
-                              ? "bg-[#ff9d00] font-semibold text-black"
-                              : "text-zinc-300 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                            ? "bg-[#ff9d00] font-semibold text-black"
+                            : "text-zinc-300 hover:bg-zinc-900 hover:text-[#ffad0a]"
                             }`}
                         >
                           {item.label[locale]}
@@ -546,8 +546,8 @@ export default function Navbar({ locale }: NavbarProps) {
                   href={localizedHref("/history/modern-sri-lanka")}
                   onClick={closeAllMenus}
                   className={`mt-1 block rounded-xl px-4 py-3 text-sm transition ${isActive("/history/modern-sri-lanka")
-                      ? "bg-[#ff9d00] font-semibold text-black"
-                      : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                    ? "bg-[#ff9d00] font-semibold text-black"
+                    : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
                     }`}
                 >
                   {text.modern}
@@ -559,8 +559,8 @@ export default function Navbar({ locale }: NavbarProps) {
           <Link
             href={localizedHref("/people")}
             className={`rounded-lg px-4 py-3 text-sm font-semibold transition ${pathname.startsWith(`/${locale}/people`)
-                ? "bg-[#ff9d00] text-black"
-                : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+              ? "bg-[#ff9d00] text-black"
+              : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
               }`}
           >
             {text.people}
@@ -569,8 +569,8 @@ export default function Navbar({ locale }: NavbarProps) {
           <Link
             href={localizedHref("/articles")}
             className={`rounded-lg px-4 py-3 text-sm font-semibold transition ${pathname.startsWith(`/${locale}/articles`)
-                ? "bg-[#ff9d00] text-black"
-                : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+              ? "bg-[#ff9d00] text-black"
+              : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
               }`}
           >
             {text.articles}
@@ -602,8 +602,8 @@ export default function Navbar({ locale }: NavbarProps) {
               href={`/${locale}`}
               onClick={closeAllMenus}
               className={`block rounded-xl px-4 py-3 text-sm font-semibold ${pathname === `/${locale}`
-                  ? "bg-[#ff9d00] text-black"
-                  : "text-zinc-200 hover:bg-zinc-900"
+                ? "bg-[#ff9d00] text-black"
+                : "text-zinc-200 hover:bg-zinc-900"
                 }`}
             >
               {text.home}
@@ -613,8 +613,8 @@ export default function Navbar({ locale }: NavbarProps) {
               type="button"
               onClick={() => setHistoryOpen((previous) => !previous)}
               className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-left text-sm font-semibold ${isHistoryActive
-                  ? "bg-[#ff9d00] text-black"
-                  : "text-zinc-200 hover:bg-zinc-900"
+                ? "bg-[#ff9d00] text-black"
+                : "text-zinc-200 hover:bg-zinc-900"
                 }`}
             >
               <span>{text.history}</span>
@@ -629,8 +629,8 @@ export default function Navbar({ locale }: NavbarProps) {
                     href={localizedHref(item.href)}
                     onClick={closeAllMenus}
                     className={`block rounded-lg px-4 py-3 text-sm ${isActive(item.href)
-                        ? "bg-[#ff9d00] font-semibold text-black"
-                        : "text-zinc-300 hover:bg-zinc-900"
+                      ? "bg-[#ff9d00] font-semibold text-black"
+                      : "text-zinc-300 hover:bg-zinc-900"
                       }`}
                   >
                     {item.label[locale]}
@@ -654,8 +654,8 @@ export default function Navbar({ locale }: NavbarProps) {
                         href={localizedHref(item.href)}
                         onClick={closeAllMenus}
                         className={`block rounded-lg px-3 py-2 text-sm ${isActive(item.href)
-                            ? "bg-[#ff9d00] font-semibold text-black"
-                            : "text-zinc-400 hover:bg-zinc-900 hover:text-white"
+                          ? "bg-[#ff9d00] font-semibold text-black"
+                          : "text-zinc-400 hover:bg-zinc-900 hover:text-white"
                           }`}
                       >
                         {item.label[locale]}
@@ -681,8 +681,8 @@ export default function Navbar({ locale }: NavbarProps) {
                         href={localizedHref(item.href)}
                         onClick={closeAllMenus}
                         className={`block rounded-lg px-3 py-2 text-sm ${isActive(item.href)
-                            ? "bg-[#ff9d00] font-semibold text-black"
-                            : "text-zinc-400 hover:bg-zinc-900 hover:text-white"
+                          ? "bg-[#ff9d00] font-semibold text-black"
+                          : "text-zinc-400 hover:bg-zinc-900 hover:text-white"
                           }`}
                       >
                         {item.label[locale]}
@@ -708,8 +708,8 @@ export default function Navbar({ locale }: NavbarProps) {
                         href={localizedHref(item.href)}
                         onClick={closeAllMenus}
                         className={`block rounded-lg px-3 py-2 text-sm ${isActive(item.href)
-                            ? "bg-[#ff9d00] font-semibold text-black"
-                            : "text-zinc-400 hover:bg-zinc-900 hover:text-white"
+                          ? "bg-[#ff9d00] font-semibold text-black"
+                          : "text-zinc-400 hover:bg-zinc-900 hover:text-white"
                           }`}
                       >
                         {item.label[locale]}
@@ -722,15 +722,26 @@ export default function Navbar({ locale }: NavbarProps) {
                   href={localizedHref("/history/modern-sri-lanka")}
                   onClick={closeAllMenus}
                   className={`block rounded-lg px-4 py-3 text-sm ${isActive("/history/modern-sri-lanka")
-                      ? "bg-[#ff9d00] font-semibold text-black"
-                      : "text-zinc-300 hover:bg-zinc-900"
+                    ? "bg-[#ff9d00] font-semibold text-black"
+                    : "text-zinc-300 hover:bg-zinc-900"
                     }`}
                 >
                   {text.modern}
                 </Link>
               </div>
             )}
-
+            <Link
+              href={`/${locale}/history`}
+              onClick={closeAllMenus}
+              className={`block rounded-xl px-4 py-3 text-sm transition ${pathname === `/${locale}/history`
+                  ? "bg-[#ff9d00] font-semibold text-black"
+                  : "text-zinc-200 hover:bg-zinc-900 hover:text-[#ffad0a]"
+                }`}
+            >
+              {locale === "si"
+                ? "ඉතිහාස හැඳින්වීම"
+                : "History Introduction"}
+            </Link>
             <Link
               href={localizedHref("/people")}
               onClick={closeAllMenus}

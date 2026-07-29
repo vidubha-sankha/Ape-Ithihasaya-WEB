@@ -1,0 +1,770 @@
+{
+  "id": "vasabha",
+  "personId": "vasabha",
+  "slug": "vasabha",
+  "type": "person",
+  "roles": [
+    "king"
+  ],
+  "status": "published",
+
+  "name": {
+    "si": "වසභ රජු",
+    "en": "King Vasabha"
+  },
+
+  "shortName": {
+    "si": "වසභ",
+    "en": "Vasabha"
+  },
+
+  "alternativeNames": {
+    "si": [
+      "වසභ රජ"
+    ],
+    "en": [
+      "Vasabha"
+    ]
+  },
+
+  "gender": "male",
+  "kingdomId": "anuradhapura-kingdom",
+  "dynastyId": "first-lambakanna-dynasty",
+  "periodId": "anuradhapura-kingdom",
+
+
+  "familyDisplay": {
+    "si": {
+      "father": null,
+      "mother": null,
+      "spouse": "පොත්තා බිසව",
+      "fatherInLaw": null,
+      "children": [
+        "වංකනාසික තිස්ස රජු"
+      ]
+    },
+    "en": {
+      "father": null,
+      "mother": null,
+      "spouse": "Queen Pottha",
+      "fatherInLaw": null,
+      "children": [
+        "King Vankanasika Tissa"
+      ]
+    }
+  },
+  "image": {
+    "main": "/images/kings/vasabha.webp",
+    "thumbnail": "/images/kings/thumbnails/vasabha.webp",
+    "alt": {
+      "si": "වසභ රජුගේ කලාත්මක ප්රතිනිර්මාණය",
+      "en": "Artistic reconstruction of King Vasabha"
+    },
+    "isReconstruction": true
+  },
+  "summary": {
+    "si": "වසභ රජු අනුරාධපුර රාජධානියේ බලවත් පාලකයෙකු සහ පළමුවන ලම්බකර්ණ රාජවංශයේ ආරම්භකයා ලෙස සැලකේ. මහාවංශයට අනුව ඔහු සුභරාජ පරාජය කර රාජ්ය බලය ලබාගෙන වසර 44ක් පාලනය කළේය.",
+    "en": "King Vasabha is regarded as a powerful ruler of Anuradhapura and the founder of the First Lambakanna Dynasty. According to the Mahavamsa, he defeated Subharaja and ruled for forty-four years."
+  },
+  "biography": {
+    "si": [
+      {
+        "heading": "හැඳින්වීම",
+        "paragraphs": [
+          "වසභ රජු අනුරාධපුර රාජධානියේ දේශපාලන, කෘෂිකාර්මික, නාගරික සහ ආගමික සංවර්ධනයට විශාල දායකත්වයක් ලබාදුන් පාලකයෙකි.",
+          "ඔහුගේ රාජ්යාරෝහණය සමඟ පළමුවන ලම්බකර්ණ රාජවංශය ආරම්භ වූ බව සැලකේ.",
+          "වසර 44ක දිගු පාලන කාලය තුළ ඔහු වාරි පද්ධති, නගර ප්රාකාර, ජල සැපයුම් සහ බෞද්ධ ආගමික ගොඩනැගිලි සංවර්ධනය කළේය."
+        ]
+      }
+    ],
+    "en": [
+      {
+        "heading": "Introduction",
+        "paragraphs": [
+          "King Vasabha made major contributions to the political, agricultural, urban and religious development of the Anuradhapura Kingdom.",
+          "His accession is regarded as the beginning of the First Lambakanna Dynasty.",
+          "During his long reign of forty-four years, he developed irrigation systems, city fortifications, water supplies and Buddhist religious institutions."
+        ]
+      }
+    ]
+  },
+  "predecessorId": "subharaja",
+  "successorId": "vankanasika-tissa",
+  "reign": {
+    "start": "67 CE",
+    "end": "111 CE",
+    "durationYears": 44,
+    "display": {
+      "si": "ක්රි.ව. 67 – 111 පමණ",
+      "en": "c. 67–111 CE"
+    },
+    "note": {
+      "si": "මහාවංශයට අනුව වසභ රජු වසර හතළිස් හතරක් පාලනය කළේය. නිශ්චිත ක්රිස්තු වර්ෂ දින නිර්ණය පිළිබඳ නූතන ලැයිස්තු අතර සුළු වෙනස්කම් තිබිය හැක.",
+      "en": "According to the Mahavamsa, King Vasabha ruled for forty-four years. Modern chronological reconstructions may differ slightly regarding the exact calendar dates."
+    }
+  },
+  "capital": {
+    "id": "anuradhapura",
+    "name": {
+      "si": "අනුරාධපුරය",
+      "en": "Anuradhapura"
+    }
+  },
+  "shortSummary": {
+    "si": "වසභ රජු අනුරාධපුර රාජධානියේ බලවත් පාලකයෙකු සහ පළමුවන ලම්බකර්ණ රාජවංශයේ ආරම්භකයා ලෙස සැලකේ. මහාවංශයට අනුව ඔහු සුභරාජ පරාජය කර රාජ්ය බලය ලබාගෙන වසර 44ක් පාලනය කළේය. ඔහුගේ පාලන සමය වැව්, ඇළ මාර්ග, නගර ආරක්ෂාව, භූගත ජල මාර්ග සහ බෞද්ධ ආගමික සේවාවන් නිසා විශේෂ වැදගත්කමක් ලබා ගනී.",
+    "en": "King Vasabha is regarded as a powerful ruler of Anuradhapura and the founder of the First Lambakanna Dynasty. According to the Mahavamsa, he defeated Subharaja and ruled for forty-four years. His reign is particularly associated with reservoirs, canals, urban defence, subterranean water channels and Buddhist patronage."
+  },
+  "introduction": {
+    "title": {
+      "si": "වසභ රජු පිළිබඳ හැඳින්වීම",
+      "en": "Introduction to King Vasabha"
+    },
+    "paragraphs": {
+      "si": [
+        "වසභ රජු අනුරාධපුර රාජධානියේ දේශපාලන, කෘෂිකාර්මික, නාගරික සහ ආගමික සංවර්ධනයට විශාල දායකත්වයක් ලබාදුන් පාලකයෙකි.",
+        "ඔහුගේ රාජ්යාරෝහණය සමඟ පළමුවන ලම්බකර්ණ රාජවංශය ආරම්භ වූ බව සැලකේ.",
+        "වසර 44ක දිගු පාලන කාලය තුළ ඔහු වාරි පද්ධති, නගර ප්රාකාර, ජල සැපයුම් සහ බෞද්ධ ආගමික ගොඩනැගිලි සංවර්ධනය කළේය."
+      ],
+      "en": [
+        "King Vasabha made major contributions to the political, agricultural, urban and religious development of the Anuradhapura Kingdom.",
+        "His accession is regarded as the beginning of the First Lambakanna Dynasty.",
+        "During his long reign of forty-four years, he developed irrigation systems, city fortifications, water supplies and Buddhist religious institutions."
+      ]
+    }
+  },
+  "earlyLife": {
+    "title": {
+      "si": "උපත සහ මුල් ජීවිතය",
+      "en": "Birth and Early Life"
+    },
+    "paragraphs": {
+      "si": [
+        "මහාවංශයට අනුව වසභ ලම්බකර්ණ වංශයට අයත් වූ තරුණයෙකි.",
+        "ඔහු දිවයිනේ උතුරු ප්රදේශයක වාසය කළ අතර තම මාමා වූ සේනාධිපතියෙකු යටතේ සේවය කළේය.",
+        "ඔහුගේ පියාගේ නම, මවගේ නම සහ නිශ්චිත උපන් ස්ථානය වංශකථාවේ සඳහන් නොවේ."
+      ],
+      "en": [
+        "According to the Mahavamsa, Vasabha was a young man belonging to the Lambakanna clan.",
+        "He lived in the northern region of the island and served under his uncle, who was a military commander.",
+        "The names of his father and mother and his exact birthplace are not recorded in the chronicle."
+      ]
+    },
+    "evidenceStatus": "mahavamsa-chronicle"
+  },
+  "prophecy": {
+    "title": {
+      "si": "වසභ රජවන බවට අනාවැකිය",
+      "en": "The Prophecy of Vasabha's Kingship"
+    },
+    "paragraphs": {
+      "si": [
+        "සුභරාජගේ පාලන සමයේ වසභ නම් පුද්ගලයෙකු අනාගතයේ රජ වන බවට අනාවැකියක් පැතිර ගියේය.",
+        "එම අනාවැකියෙන් බිය වූ සුභරාජ දිවයිනේ වසභ නම දරන පුද්ගලයන් මරා දැමීමට නියෝග කළ බව මහාවංශයේ සඳහන් වේ.",
+        "වසභගේ මාමාද ඔහුව රජුට භාරදීමට තීරණය කළේය."
+      ],
+      "en": [
+        "During the reign of Subharaja, a prophecy spread that a person named Vasabha would become king.",
+        "Fearing this prophecy, Subharaja ordered that persons bearing the name Vasabha should be killed.",
+        "Vasabha's uncle also decided to surrender him to the king."
+      ]
+    },
+    "evidenceStatus": "mahavamsa-chronicle"
+  },
+  "escapeWithPottha": {
+    "title": {
+      "si": "පොත්ථාගේ උපකාරයෙන් පලා යාම",
+      "en": "Escape with the Help of Pottha"
+    },
+    "paragraphs": {
+      "si": [
+        "වසභගේ මාමාගේ බිරිඳ වූ පොත්ථා ඔහුට සිදුවීමට යන අනතුර දැනගත්තාය.",
+        "මාමා වසභව රජු වෙත රැගෙන යන විට පොත්ථා ඔහුට හුණු නොදැමූ බුලත් ලබාදුන්නාය.",
+        "මාලිගාවේ දොරටුවට පැමිණි පසු හුණු නොමැති බව දැනගත් මාමා වසභව නැවත නිවසට යැවීය.",
+        "එවිට පොත්ථා ඔහුට අනතුර පැහැදිලි කර මුදල් ලබාදී පලා යාමට උදව් කළාය.",
+        "පසුව වසභ රාජ්යයට පත් වූ විට පොත්ථා තම බිසව බවට පත් කළේය."
+      ],
+      "en": [
+        "Pottha, the wife of Vasabha's uncle, learned of the danger facing him.",
+        "When Vasabha was being taken to the king, Pottha gave him betel without chalk.",
+        "After reaching the palace gate, his uncle noticed the missing chalk and sent Vasabha back home.",
+        "Pottha then explained the danger, gave him money and helped him escape.",
+        "After becoming king, Vasabha raised Pottha to the position of queen."
+      ]
+    },
+    "relatedPeopleIds": [
+      "pottha",
+      "vasabha-uncle-commander"
+    ],
+    "evidenceStatus": "mahavamsa-chronicle"
+  },
+  "riseToPower": {
+    "title": {
+      "si": "රාජ්ය බලයට පැමිණීම",
+      "en": "Rise to Power"
+    },
+    "events": [
+      {
+        "order": 1,
+        "title": {
+          "si": "මහා විහාරයට පැමිණීම",
+          "en": "Arrival at the Mahavihara"
+        },
+        "description": {
+          "si": "පලා ගිය වසභ මහා විහාරයට පැමිණි අතර එහි භික්ෂූන් විසින් ඔහුට ආහාර, කිරි සහ වස්ත්ර ලබාදුන් බව මහාවංශයේ සඳහන් වේ.",
+          "en": "Vasabha fled to the Mahavihara, where the monks provided him with food, milk and clothing."
+        }
+      },
+      {
+        "order": 2,
+        "title": {
+          "si": "රෝහණයට ගමන් කිරීම",
+          "en": "Journey to Rohana"
+        },
+        "description": {
+          "si": "වසභ ගම්මානයෙන් ගම්මානයට අනුගාමිකයන් එකතු කරමින් රෝහණයට ගියේය.",
+          "en": "Vasabha travelled village by village, gathering followers before reaching Rohana."
+        }
+      },
+      {
+        "order": 3,
+        "title": {
+          "si": "හමුදාව සංවිධානය කිරීම",
+          "en": "Organisation of an Army"
+        },
+        "description": {
+          "si": "වසර දෙකක් පමණ තුළ ඔහු රෝහණයේ හමුදාවක් සහ දේශපාලන සහයෝගයක් ගොඩනඟා ගත්තේය.",
+          "en": "Over approximately two years, he organised an army and built political support in Rohana."
+        }
+      },
+      {
+        "order": 4,
+        "title": {
+          "si": "සුභරාජ පරාජය කිරීම",
+          "en": "Defeat of Subharaja"
+        },
+        "description": {
+          "si": "හමුදාව සමඟ අනුරාධපුරයට පැමිණි වසභ සටනකදී සුභරාජ පරාජය කර රාජ්ය බලය ලබාගත්තේය.",
+          "en": "Vasabha marched to Anuradhapura with his army, defeated Subharaja in battle and gained the throne."
+        }
+      }
+    ]
+  },
+  "irrigationDevelopment": {
+    "title": {
+      "si": "වාරි කර්මාන්ත සංවර්ධනය",
+      "en": "Irrigation Development"
+    },
+    "summary": {
+      "si": "වසභ රජුගේ පාලන සමය ශ්රී ලංකාවේ විශාල පරිමාණ වාරි සංවර්ධනයේ වැදගත් මුල් අදියරක් ලෙස සැලකේ. මහාවංශයට අනුව ඔහු වැව් දොළහක් සහ ඇළ මාර්ග දොළහක් ඉදිකර රට සරුසාර කළේය.",
+      "en": "Vasabha's reign is regarded as an important early stage in the development of large-scale irrigation in Sri Lanka. According to the Mahavamsa, he constructed twelve reservoirs and twelve canals."
+    },
+    "reservoirCount": 12,
+    "canalCount": 12,
+    "reservoirs": [
+      {
+        "id": "cayanti-tank",
+        "name": {
+          "si": "චයන්තී වැව",
+          "en": "Cayanti Tank"
+        }
+      },
+      {
+        "id": "rajuppala-tank",
+        "name": {
+          "si": "රාජුප්පල වැව",
+          "en": "Rajuppala Tank"
+        }
+      },
+      {
+        "id": "vaha-tank",
+        "name": {
+          "si": "වාහ වැව",
+          "en": "Vaha Tank"
+        }
+      },
+      {
+        "id": "kolambagamaka-tank",
+        "name": {
+          "si": "කොළඹගාමක වැව",
+          "en": "Kolambagamaka Tank"
+        }
+      },
+      {
+        "id": "mahanikkhavatti-tank",
+        "name": {
+          "si": "මහානික්ඛවත්ති වැව",
+          "en": "Mahanikkhavatti Tank"
+        }
+      },
+      {
+        "id": "maharametti-tank",
+        "name": {
+          "si": "මහාරාමෙත්ති වැව",
+          "en": "Maharametti Tank"
+        }
+      },
+      {
+        "id": "kohala-tank",
+        "name": {
+          "si": "කෝහාල වැව",
+          "en": "Kohala Tank"
+        }
+      },
+      {
+        "id": "kali-tank",
+        "name": {
+          "si": "කාලි වැව",
+          "en": "Kali Tank"
+        }
+      },
+      {
+        "id": "cambuti-tank",
+        "name": {
+          "si": "චම්බුති වැව",
+          "en": "Cambuti Tank"
+        }
+      },
+      {
+        "id": "cathamangana-tank",
+        "name": {
+          "si": "චාතමංගන වැව",
+          "en": "Cathamangana Tank"
+        }
+      },
+      {
+        "id": "aggivaddhamanaka-tank",
+        "name": {
+          "si": "අග්ගිවද්ධමානක වැව",
+          "en": "Aggivaddhamanaka Tank"
+        }
+      },
+      {
+        "id": "unidentified-vasabha-tank",
+        "name": {
+          "si": "පාඨ ප්රභේද හේතුවෙන් නිශ්චිතව හඳුනා නොගත් වැව",
+          "en": "Reservoir not securely identified because of textual variation"
+        }
+      }
+    ],
+    "canals": [
+      {
+        "id": "alisara-canal",
+        "name": {
+          "si": "ආලිසාර ඇළ",
+          "en": "Alisara Canal"
+        },
+        "description": {
+          "si": "මුචේල විහාරයට ආලිසාර ඇළේ ජල කොටසක් ලබාදුන් බව වංශකථාවේ සඳහන් වේ.",
+          "en": "The chronicle records that a share of water from the Alisara Canal was granted to the Mucela Vihara."
+        }
+      }
+    ],
+    "note": {
+      "si": "වැව්වල පැරණි නම් මහාවංශ අත්පිටපත් සහ පරිවර්තන අතර වෙනස් විය හැක.",
+      "en": "The ancient reservoir names may vary among Mahavamsa manuscripts and translations."
+    }
+  },
+  "urbanDevelopment": {
+    "title": {
+      "si": "අනුරාධපුර නගර සංවර්ධනය",
+      "en": "Development of Anuradhapura"
+    },
+    "projects": [
+      {
+        "id": "city-wall",
+        "title": {
+          "si": "නගර ප්රාකාරය",
+          "en": "City Wall"
+        },
+        "description": {
+          "si": "අනුරාධපුර නගරයේ ප්රාකාරය උස් කර ශක්තිමත් කළේය.",
+          "en": "He raised and strengthened the city wall of Anuradhapura."
+        }
+      },
+      {
+        "id": "four-gate-towers",
+        "title": {
+          "si": "දොරටු හතරේ ආරක්ෂක කුලුනු",
+          "en": "Defensive Towers at the Four Gates"
+        },
+        "description": {
+          "si": "නගර දොරටු හතරේ ආරක්ෂක කුලුනු ඉදිකළේය.",
+          "en": "Defensive towers were constructed at the four gates."
+        }
+      },
+      {
+        "id": "royal-palace",
+        "title": {
+          "si": "රාජ මාලිගාව",
+          "en": "Royal Palace"
+        },
+        "description": {
+          "si": "අනුරාධපුරයේ රාජ මාලිගාවක් ඉදිකළ බව වංශකථාවේ සඳහන් වේ.",
+          "en": "The chronicle records the construction of a royal palace."
+        }
+      },
+      {
+        "id": "royal-garden-tank",
+        "title": {
+          "si": "රාජ උද්යානයේ වැව",
+          "en": "Tank in the Royal Garden"
+        },
+        "description": {
+          "si": "රාජ උද්යානයේ වැවක් ඉදිකරන ලදී.",
+          "en": "A tank was constructed in the royal garden."
+        }
+      },
+      {
+        "id": "bathing-ponds",
+        "title": {
+          "si": "ස්නාන පොකුණු",
+          "en": "Bathing Ponds"
+        },
+        "description": {
+          "si": "නගරයේ ස්නානය සඳහා පොකුණු කිහිපයක් ඉදිකළේය.",
+          "en": "Several bathing ponds were constructed in the city."
+        }
+      },
+      {
+        "id": "subterranean-canals",
+        "title": {
+          "si": "භූගත ජල මාර්ග",
+          "en": "Subterranean Water Channels"
+        },
+        "description": {
+          "si": "ස්නාන පොකුණුවලට ජලය ගෙන ඒම සඳහා භූගත ඇළ මාර්ග භාවිත කළ බව සඳහන් වේ.",
+          "en": "Subterranean canals were used to carry water to the bathing ponds."
+        }
+      }
+    ]
+  },
+  "religiousPatronage": {
+    "title": {
+      "si": "බෞද්ධ ආගමික සේවාවන්",
+      "en": "Buddhist Religious Patronage"
+    },
+    "summary": {
+      "si": "වසභ රජු විහාර, ස්තූප, උපෝසථාගාර, භික්ෂු වාසස්ථාන සහ ප්රතිමා ගෘහ ඉදිකිරීම හා ප්රතිසංස්කරණය කිරීම සඳහා විශාල අනුග්රහයක් ලබාදුන්නේය.",
+      "en": "Vasabha provided extensive patronage for the construction and restoration of monasteries, stupas, chapter houses, monastic residences and image houses."
+    },
+    "projects": [
+      {
+        "id": "cetiyapabbata-stupas",
+        "name": {
+          "si": "චේතිය පබ්බතයේ ස්තූප දහය",
+          "en": "Ten Stupas at Cetiyapabbata"
+        }
+      },
+      {
+        "id": "mahavalligotta-vihara",
+        "name": {
+          "si": "මහාවල්ලිගොට්ට විහාරය",
+          "en": "Mahavalligotta Vihara"
+        }
+      },
+      {
+        "id": "anurarama-vihara",
+        "name": {
+          "si": "අනුරාරාම විහාරය",
+          "en": "Anurarama Vihara"
+        }
+      },
+      {
+        "id": "mucela-vihara",
+        "name": {
+          "si": "මුචේල විහාරය",
+          "en": "Mucela Vihara"
+        }
+      },
+      {
+        "id": "galambatittha-stupa",
+        "name": {
+          "si": "ගලම්බතිත්ථ ස්තූපය",
+          "en": "Galambatittha Stupa"
+        }
+      },
+      {
+        "id": "thuparama-stupa-house",
+        "name": {
+          "si": "ථූපාරාම ස්තූප ගෘහය",
+          "en": "Stupa House at Thuparama"
+        }
+      },
+      {
+        "id": "mahavihara-residences",
+        "name": {
+          "si": "මහා විහාර භික්ෂු වාසස්ථාන",
+          "en": "Monastic Residences at the Mahavihara"
+        }
+      },
+      {
+        "id": "sacred-bodhi-image-house",
+        "name": {
+          "si": "ශ්රී මහා බෝධි ප්රතිමා ගෘහය",
+          "en": "Image House at the Sacred Bodhi Tree"
+        }
+      }
+    ],
+    "vesakFestivalCount": 44,
+    "lightingOfferings": {
+      "lampsPerSite": 1000,
+      "sites": [
+        "cetiyapabbata",
+        "thuparama",
+        "mahathupa",
+        "sacred-bodhi-tree"
+      ]
+    }
+  },
+  "publicWelfare": {
+    "title": {
+      "si": "ජනතා සහ භික්ෂු සුබසාධනය",
+      "en": "Public and Monastic Welfare"
+    },
+    "activities": {
+      "si": [
+        "නගර දොරටු හතරේ දුප්පත් ජනතාවට ආහාර ලබාදීම.",
+        "රෝගී භික්ෂූන්ට සුදුසු ආහාර ලබාදීම.",
+        "භික්ෂූන්ට සිවුරු සහ අවශ්ය ද්රව්ය පූජා කිරීම.",
+        "ජල පෙරහන් පූජා කිරීම.",
+        "නටබුන් වූ ආගමික ගොඩනැගිලි ප්රතිසංස්කරණය කිරීම."
+      ],
+      "en": [
+        "Providing food to poor people at the four city gates.",
+        "Providing suitable food for sick monks.",
+        "Offering robes and other requisites to monks.",
+        "Donating water strainers.",
+        "Restoring ruined religious buildings."
+      ]
+    }
+  },
+  "family": {
+    "fatherId": null,
+    "motherId": null,
+    "fatherInLawIds": [],
+    "spouseIds": [
+      "pottha"
+    ],
+    "childIds": [
+      "vankanasika-tissa"
+    ],
+
+    "children": [
+      {
+        "personId": "vankanasika-tissa",
+
+        "relationship": {
+          "si": "පුත්රයා — මහාවංශයේ සඳහන් අනුප්රාප්තිකයා",
+          "en": "Son — chronicle-recorded successor"
+        },
+
+        "rule": {
+          "si": "අනුරාධපුර රාජධානිය",
+          "en": "Kingdom of Anuradhapura"
+        },
+
+        "evidenceStatus": "mahavamsa-chronicle",
+
+        "spouseIds": [
+          "mahamatta"
+        ],
+
+        "childIds": [
+          "gajabahu-i"
+        ]
+      },
+
+      {
+        "personId": "dutaga-maharaja",
+
+        "relationship": {
+          "si": "පුත්රයා විය හැක — ශිලා ලේඛනමය හඳුනාගැනීම",
+          "en": "Possible son — epigraphic identification"
+        },
+
+        "rule": {
+          "si": "කුරුණෑගල ආශ්රිත ප්රාදේශීය පාලනයක් විය හැක",
+          "en": "Possible regional authority in the Kurunegala area"
+        },
+
+        "evidenceStatus": "inscription-and-scholarly-interpretation",
+
+        "spouseIds": [],
+        "childIds": []
+      },
+
+      {
+        "personId": "uttara-maharaja",
+
+        "relationship": {
+          "si": "පුත්රයා විය හැක — ශිලා ලේඛනමය හඳුනාගැනීම",
+          "en": "Possible son — epigraphic identification"
+        },
+
+        "rule": {
+          "si": "රුහුණේ ප්රාදේශීය පාලනයක් විය හැක",
+          "en": "Possible regional authority in Ruhuna"
+        },
+
+        "evidenceStatus": "inscription-and-scholarly-interpretation",
+
+        "spouseIds": [],
+
+        "childIds": [
+          "upa-raja-naga"
+        ]
+      }
+    ],
+
+    "grandchildren": [
+      {
+        "personId": "gajabahu-i",
+
+        "throughParentId": "vankanasika-tissa",
+
+        "relationship": {
+          "si": "මුණුපුරා — මහාවංශයේ සඳහන්",
+          "en": "Grandson — recorded in the Mahavamsa"
+        },
+
+        "evidenceStatus": "mahavamsa-chronicle"
+      },
+
+      {
+        "personId": "upa-raja-naga",
+
+        "throughParentId": "uttara-maharaja",
+
+        "relationship": {
+          "si": "මුණුපුරා — හබැස්ස ශිලා ලේඛනය අනුව",
+          "en": "Grandson — according to the Habessa inscription"
+        },
+
+        "evidenceStatus": "inscription"
+      }
+    ],
+
+    "relationshipNotes": {
+      "si": [
+        "මහාවංශය වසභගේ පුත්රයා සහ අනුප්රාප්තිකයා ලෙස වංකනාසික තිස්ස සඳහන් කරයි.",
+        "වංකනාසික තිස්සගේ පුත්රයා පළමුවන ගජබාහුය.",
+        "තම්මැන්නාව ශිලා ලේඛනයේ දුටග මහරජ වසභගේ පුත්රයෙකු ලෙස හඳුනාගත හැකි බව විද්වත් මතයක් පවතී.",
+        "හබැස්ස ශිලා ලේඛනය අනුව උත්තර මහරජගේ පුත් උපරාජ නාග, වසභගේ මුණුපුරෙකු ලෙස හඳුනාගෙන ඇත.",
+        "උපරාජ නාග සහ මහල්ලක නාග එකම පුද්ගලයා ලෙස දැනට නොපෙන්විය යුතුය."
+      ],
+
+      "en": [
+        "The Mahavamsa records Vankanasika Tissa as Vasabha's son and successor.",
+        "Gajabahu I was the son of Vankanasika Tissa.",
+        "Scholarly readings of the Tammannava inscription suggest that Dutaga Maharaja may have been another son of Vasabha.",
+        "According to the Habessa inscription, Upa-Raja Naga, son of Maharaja Uttara, was a grandson of Vasabha.",
+        "Upa-Raja Naga should not currently be presented as the same person as Mahallaka Naga."
+      ]
+    },
+
+    "evidenceNote": {
+      "si": "වසභගේ පුළුල් පවුල් වෘක්ෂය මහාවංශය පමණක් මත නොව ශිලා ලේඛන සහ විද්වත් ප්රතිනිර්මාණ මතද පදනම් වේ. එබැවින් එක් එක් සම්බන්ධතාවයේ සාක්ෂි තත්ත්වය වෙන වෙනම පෙන්විය යුතුය.",
+      "en": "The extended family tree of Vasabha is based not only on the Mahavamsa but also on inscriptions and scholarly reconstruction. Each relationship should therefore display its own evidence classification."
+    }
+  },
+  "historicalImportance": {
+    "title": {
+      "si": "වසභ රජුගේ ඉතිහාසමය වැදගත්කම",
+      "en": "Historical Importance of King Vasabha"
+    },
+    "items": {
+      "si": [
+        "පළමුවන ලම්බකර්ණ රාජවංශයේ ආරම්භකයා ලෙස සැලකේ.",
+        "විශාල පරිමාණ වාරි සංවර්ධනයේ වැදගත් මුල් පාලකයෙකි.",
+        "අනුරාධපුර නගර ආරක්ෂාව ශක්තිමත් කළේය.",
+        "නාගරික ජල සැපයුම සහ භූගත ජල මාර්ග සංවර්ධනය කළේය.",
+        "බෞද්ධ ආගමික ආයතන සඳහා විශාල අනුග්රහයක් ලබාදුන්නේය.",
+        "වසර 44ක පාලනය තුළ දේශපාලන ස්ථාවරත්වය ඇති කළේය."
+      ],
+      "en": [
+        "He is regarded as the founder of the First Lambakanna Dynasty.",
+        "He was an important early ruler in large-scale irrigation development.",
+        "He strengthened the defences of Anuradhapura.",
+        "He developed urban water supplies and subterranean channels.",
+        "He provided extensive patronage to Buddhist institutions.",
+        "His forty-four-year reign contributed to political stability."
+      ]
+    }
+  },
+  "chronology": [
+    {
+      "order": 1,
+      "event": {
+        "si": "ලම්බකර්ණ වංශයේ උපත ලැබීම",
+        "en": "Born into the Lambakanna clan"
+      },
+      "date": null
+    },
+    {
+      "order": 2,
+      "event": {
+        "si": "තම මාමා යටතේ සේවය කිරීම",
+        "en": "Served under his uncle"
+      },
+      "date": null
+    },
+    {
+      "order": 3,
+      "event": {
+        "si": "පොත්ථාගේ උපකාරයෙන් පලා යාම",
+        "en": "Escaped with Pottha's help"
+      },
+      "date": null
+    },
+    {
+      "order": 4,
+      "event": {
+        "si": "රෝහණයේ හමුදාවක් සංවිධානය කිරීම",
+        "en": "Organised an army in Rohana"
+      },
+      "date": null
+    },
+    {
+      "order": 5,
+      "event": {
+        "si": "සුභරාජ පරාජය කර රජවීම",
+        "en": "Defeated Subharaja and became king"
+      },
+      "date": "c. 62 CE"
+    },
+    {
+      "order": 6,
+      "event": {
+        "si": "වැව්, ඇළ, නගර සහ ආගමික සංවර්ධන සිදු කිරීම",
+        "en": "Developed reservoirs, canals, the city and religious institutions"
+      },
+      "date": "during-reign"
+    },
+    {
+      "order": 7,
+      "event": {
+        "si": "වසර 44ක පාලනයෙන් පසු මිය යාම",
+        "en": "Died after a forty-four-year reign"
+      },
+      "date": "c. 106 CE"
+    }
+  ],
+  "evidenceLevel": "chronicle-and-archaeological",
+  "evidenceBadges": [
+    "mahavamsa-chronicle",
+    "historical-ruler",
+    "lambakanna-dynasty",
+    "irrigation-history",
+    "archaeological-context"
+  ],
+  "sourceIds": [
+    "mahavamsa-chapter-35",
+    "dipavamsa",
+    "mahavamsa-tika",
+    "anuradhapura-archaeological-record"
+  ],
+  "sourceNote": {
+    "si": "වසභ රජුගේ ජීවන කතාවේ සවිස්තර කොටස් ප්රධාන වශයෙන් මහාවංශය වැනි වංශකථා මත පදනම් වේ. වැව්වල පැරණි නම්, ස්ථාන හඳුනාගැනීම් සහ නිශ්චිත දින නිර්ණය පිළිබඳ විද්වත් මත වෙනස් විය හැක.",
+    "en": "Detailed accounts of Vasabha's life are primarily based on chronicles such as the Mahavamsa. Scholarly interpretations may differ regarding ancient reservoir names, site identifications and exact dates."
+  }
+}

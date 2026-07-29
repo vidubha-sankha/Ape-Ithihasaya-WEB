@@ -81,6 +81,14 @@ const kingdomLinks: MenuLink[] = [
     href: "/kingdoms/tambapanni",
   },
   {
+    id: "upatissa",
+    label: {
+      si: "උපතිස්ස නුවර රාජධානිය",
+      en: "Upatissa Nuwara Kingdom",
+    },
+    href: "/kingdoms/upatissa",
+  },
+  {
     id: "anuradhapura",
     label: {
       si: "අනුරාධපුර රාජධානිය",

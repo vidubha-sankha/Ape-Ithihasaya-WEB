@@ -93,9 +93,9 @@ export type PersonRecord = Omit<
 };
 
 export function getPeople(locale: Locale): PersonRecord[] {
-  const dynasties = dynastiesData as any[];
-  const kingdoms = kingdomsData as any[];
-  const sources = sourcesData as any[];
+  const dynasties = dynastiesData as { id: string; name: { si: string; en: string } }[];
+  const kingdoms = kingdomsData as { id: string; nameSi: string; nameEn: string }[];
+  const sources = sourcesData as { id: string; title: { si: string; en: string }; type: string; description: { si: string; en: string } }[];
 
   return (peopleData as PersonBaseRecord[]).map((person) => {
     // Resolve dynasty names

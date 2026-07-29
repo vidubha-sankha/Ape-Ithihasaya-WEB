@@ -27,11 +27,7 @@ interface HistoryOverviewPageProps {
   }>;
 }
 
-interface LocalizedCard {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-}
+
 
 const pageContent = {
   si: {

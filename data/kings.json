@@ -4,91 +4,73 @@
     "slug": "vasabha",
     "kingdomId": "kingdom-anuradhapura",
     "dynastyId": "dynasty-lambakanna-i",
-
     "reign": {
       "startYear": 67,
       "endYear": 111,
       "calendar": "CE"
     },
-
     "predecessorId": null,
     "successorId": "king-vankanasika-tissa",
-
     "fatherId": null,
     "motherId": null,
-    "spouseIds": [],
+    "spouseIds": [
+      "pottha"
+    ],
     "childIds": [
       "king-vankanasika-tissa"
     ],
-
     "image": "/images/kings/vasabha.webp",
-
     "sourceIds": [
       "source-mahavamsa"
     ],
-
-    "evidenceLevel": "chronicle-based",
+    "evidenceLevel": "chronicle-and-archaeological",
     "status": "published"
   },
-
   {
     "id": "king-vankanasika-tissa",
     "slug": "vankanasika-tissa",
     "kingdomId": "kingdom-anuradhapura",
     "dynastyId": "dynasty-lambakanna-i",
-
     "reign": {
       "startYear": 111,
       "endYear": 114,
       "calendar": "CE"
     },
-
     "predecessorId": "king-vasabha",
     "successorId": "king-gajabahu-i",
-
     "fatherId": "king-vasabha",
     "motherId": null,
     "spouseIds": [],
     "childIds": [
       "king-gajabahu-i"
     ],
-
     "image": "/images/kings/vankanasika-thissa.webp",
-
     "sourceIds": [
       "source-mahavamsa"
     ],
-
     "evidenceLevel": "chronicle-based",
     "status": "published"
   },
-
   {
     "id": "king-gajabahu-i",
     "slug": "gajabahu-i",
     "kingdomId": "kingdom-anuradhapura",
     "dynastyId": "dynasty-lambakanna-i",
-
     "reign": {
       "startYear": 114,
       "endYear": 136,
       "calendar": "CE"
     },
-
     "predecessorId": "king-vankanasika-tissa",
     "successorId": null,
-
     "fatherId": "king-vankanasika-tissa",
     "motherId": null,
     "spouseIds": [],
     "childIds": [],
-
     "image": "/images/kings/gajabahu-i.webp",
-
     "sourceIds": [
       "source-mahavamsa"
     ],
-
     "evidenceLevel": "chronicle-based",
     "status": "published"
   }

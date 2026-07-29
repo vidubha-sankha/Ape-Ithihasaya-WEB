@@ -1,102 +1,140 @@
-import kingsData from "@/data/kings.json";
-import enTranslations from "@/data/translations/kings.en.json";
-import siTranslations from "@/data/translations/kings.si.json";
-import sourcesData from "@/data/sources.json";
+import fs from "fs";
+import path from "path";
 
 export type Locale = "si" | "en";
 
-export type KingBaseRecord = {
+export interface LocalizedText {
+  si: string;
+  en: string;
+}
+
+export interface BiographySection {
+  heading: string;
+  paragraphs: string[];
+}
+
+export interface KingData {
   id: string;
   slug: string;
-  kingdomId?: string;
+  status?: string;
+
+  name: LocalizedText;
+  shortName?: LocalizedText;
+  alternativeNames?: {
+    si: string[];
+    en: string[];
+  };
+
+  kingdomId: string;
   dynastyId?: string;
+
+  kingdomDisplay?: LocalizedText;
+  dynastyDisplay?: LocalizedText;
+
   reign?: {
-    startYear: number;
-    endYear: number;
-    calendar: string;
+    display: LocalizedText;
+    lengthYears?: number | null;
   };
-  predecessorId: string | null;
-  successorId: string | null;
-  fatherId: string | null;
-  motherId: string | null;
-  spouseIds: string[];
-  childIds: string[];
-  sourceIds: string[];
-  image: string;
-  evidenceLevel: string;
-  status: string;
-};
 
-export type KingTranslationRecord = {
-  name: string;
-  kingdomName: string;
-  dynastyName: string; // Added dynastyName field
-  summary: string;
-  reignDisplay: string;
-};
+  predecessorId?: string | null;
+  successorId?: string | null;
 
-export type KingSourceRecord = {
-  id: string;
-  title: {
-    si: string;
-    en: string;
+  family?: {
+    fatherId?: string | null;
+    motherId?: string | null;
+    spouseIds?: string[];
+    childIds?: string[];
+    fatherInLawIds?: string[];
   };
-  type: string;
-  description: {
-    si: string;
-    en: string;
+
+  familyDisplay?: {
+    si: {
+      father?: string;
+      mother?: string;
+      spouse?: string;
+      fatherInLaw?: string;
+      children?: string[];
+    };
+    en: {
+      father?: string;
+      mother?: string;
+      spouse?: string;
+      fatherInLaw?: string;
+      children?: string[];
+    };
   };
-  evidenceCategory: string;
-};
 
-export type KingRecord = KingBaseRecord & {
-  name: string;
-  kingdomName: string;
-  dynastyName: string;
-  summary: string;
-  reignDisplay: string;
-  biography: string;
-  importantEvents: string[];
-  constructions: string[];
-  relatedPlaces: string[];
-  sources: KingSourceRecord[];
-};
+  image?: {
+    main: string;
+    alt: LocalizedText;
+    isReconstruction?: boolean;
+  };
 
-type TranslationMap = Record<string, KingTranslationRecord>;
+  summary?: LocalizedText;
 
-// Updated translations to be maps of id => record
-const translations: Record<Locale, TranslationMap> = {
-  en: enTranslations as TranslationMap,
-  si: siTranslations as TranslationMap,
-};
+  biography?: {
+    si: BiographySection[];
+    en: BiographySection[];
+  };
 
-const sources = sourcesData as KingSourceRecord[];
+  constructions?: Array<{
+    id: string;
+    name: LocalizedText;
+    location?: LocalizedText;
+    description?: LocalizedText;
+  }>;
 
-export function getAvailableLocales(): Locale[] {
-  return ["si", "en"];
+  majorEvents?: Array<{
+    id: string;
+    name: LocalizedText;
+    description?: LocalizedText;
+  }>;
+
+  sourceIds?: string[];
+
+  seo?: {
+    title?: LocalizedText;
+    description?: LocalizedText;
+  };
+
+  sourceStatus?: {
+    overall: string;
+    notes?: LocalizedText;
+  };
 }
 
-export function getKings(locale: Locale): KingRecord[] {
-  return (kingsData as KingBaseRecord[])
-    .filter((king) => king.status === "published")
-    .map((king) => {
-      const translation = translations[locale][king.id];
-      return {
-        ...king,
-        name: translation?.name ?? king.slug,
-        kingdomName: translation?.kingdomName ?? "",
-        dynastyName: translation?.dynastyName ?? "",
-        summary: translation?.summary ?? "",
-        reignDisplay: translation?.reignDisplay ?? "",
-        biography: (translation as any)?.biography ?? "",
-        importantEvents: (translation as any)?.importantEvents ?? [],
-        constructions: (translation as any)?.constructions ?? [],
-        relatedPlaces: (translation as any)?.relatedPlaces ?? [],
-        sources: sources.filter((source) => king.sourceIds.includes(source.id)),
-      };
-    });
+const kingsDirectory = path.join(process.cwd(), "data", "kings");
+
+export function getKingBySlug(slug: string): KingData | null {
+  try {
+    const filePath = path.join(kingsDirectory, `${slug}.json`);
+
+    if (!fs.existsSync(filePath)) {
+      return null;
+    }
+
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+
+    return JSON.parse(fileContent) as KingData;
+  } catch (error) {
+    console.error(`Failed to load king: ${slug}`, error);
+    return null;
+  }
 }
 
-export function getKingBySlug(slug: string, locale: Locale): KingRecord | null {
-  return getKings(locale).find((king) => king.slug === slug) ?? null;
+export function getAllKingSlugs(): string[] {
+  if (!fs.existsSync(kingsDirectory)) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(kingsDirectory)
+    .filter((fileName) => fileName.endsWith(".json"))
+    .map((fileName) => fileName.replace(".json", ""));
+}
+
+export function getAllKings(): KingData[] {
+  return getAllKingSlugs()
+    .map((slug) => getKingBySlug(slug))
+    .filter((king): king is KingData => king !== null);
 }

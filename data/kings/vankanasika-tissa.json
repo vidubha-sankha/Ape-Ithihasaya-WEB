@@ -1,0 +1,287 @@
+{
+  "id": "vankanasika-tissa",
+  "slug": "vankanasika-tissa",
+  "type": "person",
+  "roles": [
+    "king"
+  ],
+  "status": "published",
+
+  "name": {
+    "si": "වංකනාසික තිස්ස රජු",
+    "en": "King Vankanasika Tissa"
+  },
+
+  "shortName": {
+    "si": "වංකනාසික තිස්ස",
+    "en": "Vankanasika Tissa"
+  },
+
+  "alternativeNames": {
+    "si": [
+      "වංකනාසිකතිස්ස",
+      "වංකනාසික තිස්සක"
+    ],
+    "en": [
+      "Vankanasika Tissa",
+      "Vankanāsika Tissaka"
+    ]
+  },
+
+  "gender": "male",
+
+  "kingdomId": "anuradhapura-kingdom",
+  "dynastyId": "first-lambakanna-dynasty",
+  "periodId": "anuradhapura-kingdom",
+
+  "reign": {
+    "startYear": null,
+    "endYear": null,
+    "calendar": "CE",
+    "display": {
+      "si": "ක්රි.ව. දෙවන සියවසේ මුල් භාගය",
+      "en": "Early second century CE"
+    },
+    "lengthYears": 3,
+    "dateStatus": "disputed"
+  },
+
+  "predecessorId": "vasabha",
+  "successorId": "gajabahu-i",
+
+  "family": {
+    "fatherId": "vasabha",
+    "motherId": "pottha",
+    "spouseIds": [
+      "mahamatta"
+    ],
+    "childIds": [
+      "gajabahu-i"
+    ],
+    "fatherInLawIds": [
+      "subha"
+    ]
+  },
+
+  "familyDisplay": {
+    "si": {
+      "father": "වසභ රජු",
+      "mother": "පොත්තා බිසව",
+      "spouse": "මහමත්තා කුමරිය",
+      "fatherInLaw": "සුභ රජු",
+      "children": [
+        "පළමුවන ගජබාහු රජු"
+      ]
+    },
+    "en": {
+      "father": "King Vasabha",
+      "mother": "Queen Pottha",
+      "spouse": "Princess Mahamatta",
+      "fatherInLaw": "King Subha",
+      "children": [
+        "King Gajabahu I"
+      ]
+    }
+  },
+
+  "capital": {
+    "si": "අනුරාධපුරය",
+    "en": "Anuradhapura"
+  },
+
+  "image": {
+    "main": "/images/kings/vankanasika-thissa.webp",
+    "thumbnail": "/images/kings/vankanasika-thissa.webp",
+    "alt": {
+      "si": "වංකනාසික තිස්ස රජුගේ කලාත්මක ප්රතිනිර්මාණය",
+      "en": "Artistic reconstruction of King Vankanasika Tissa"
+    },
+    "isReconstruction": true
+  },
+
+  "summary": {
+    "si": "වංකනාසික තිස්ස රජු පළමු ලම්බකර්ණ රාජවංශයට අයත් අනුරාධපුර පාලකයෙකි. ඔහු වසභ රජුගේ පුත්රයා වූ අතර වසර තුනක් පමණ රාජ්යය පාලනය කළ බව මහාවංශයේ සඳහන් වේ. ඔහුගේ පුත්රයා පළමුවන ගජබාහු රජුය.",
+    "en": "King Vankanasika Tissa was a ruler of the Anuradhapura Kingdom belonging to the First Lambakanna Dynasty. He was the son of King Vasabha and is recorded in the Mahavamsa as having ruled for approximately three years. His son was King Gajabahu I."
+  },
+
+  "biography": {
+    "si": [
+      {
+        "heading": "හැඳින්වීම",
+        "paragraphs": [
+          "වංකනාසික තිස්ස රජු අනුරාධපුර රාජධානියේ පළමු ලම්බකර්ණ රාජවංශයට අයත් පාලකයෙකි.",
+          "ඔහු දිගුකාලීන පාලනයක් ගෙන ගිය වසභ රජුගේ පුත්රයා වූ අතර, වසභ රජුගේ මරණයෙන් පසුව අනුරාධපුර සිහසුනට පත් විය."
+        ]
+      },
+      {
+        "heading": "රාජ්ය පාලනය",
+        "paragraphs": [
+          "මහාවංශයට අනුව වංකනාසික තිස්ස රජු වසර තුනක් පමණ පාලනය කළේය.",
+          "ඔහුගේ පාලන කාලය පිළිබඳ දේශපාලන සහ යුධ තොරතුරු සීමිත වුවද, වසභ රජුගෙන් පළමුවන ගජබාහු රජු වෙත ලම්බකර්ණ රාජවංශයේ අඛණ්ඩතාව ගෙන ගිය වැදගත් සම්බන්ධක පාලකයෙකු ලෙස ඔහු සැලකේ."
+        ]
+      },
+      {
+        "heading": "රාජකීය පවුල",
+        "paragraphs": [
+          "වංකනාසික තිස්ස රජුගේ පියා වසභ රජුය. රාජවංශ සටහන් අනුව ඔහුගේ මව පොත්තා බිසව ලෙස දැක්වේ.",
+          "සුභ රජුගේ දියණිය වූ මහමත්තා කුමරිය ඔහුගේ බිරිඳ වූ අතර ඔවුන්ගේ පුත්රයා පළමුවන ගජබාහු රජුය."
+        ]
+      },
+      {
+        "heading": "ආගමික සේවය",
+        "paragraphs": [
+          "මහාවංශයට අනුව වංකනාසික තිස්ස රජු ගෝණ නදිය අසල මහාමංගල විහාරය ඉදිකළේය.",
+          "මෙය ඔහුගේ කෙටි පාලන කාලයට සෘජුව සම්බන්ධ ප්රධාන ආගමික ඉදිකිරීම ලෙස සඳහන් වේ."
+        ]
+      },
+      {
+        "heading": "ඓතිහාසික වැදගත්කම",
+        "paragraphs": [
+          "වංකනාසික තිස්ස රජුගේ වැදගත්කම ඔහුගේ පාලන කාලයේ දිගට වඩා රාජවංශීය අඛණ්ඩතාව තුළ දැකිය හැක.",
+          "වසභ රජුගේ පාලනය සහ පළමුවන ගජබාහු රජුගේ පාලනය අතර සම්බන්ධය පවත්වාගෙන ගියේ ඔහුය."
+        ]
+      }
+    ],
+
+    "en": [
+      {
+        "heading": "Introduction",
+        "paragraphs": [
+          "King Vankanasika Tissa was a ruler of the Anuradhapura Kingdom and a member of the First Lambakanna Dynasty.",
+          "He was the son of King Vasabha and succeeded his father to the throne of Anuradhapura."
+        ]
+      },
+      {
+        "heading": "Reign",
+        "paragraphs": [
+          "According to the Mahavamsa, Vankanasika Tissa ruled for approximately three years.",
+          "Although detailed political and military accounts of his reign are limited, he served as an important dynastic link between King Vasabha and King Gajabahu I."
+        ]
+      },
+      {
+        "heading": "Royal Family",
+        "paragraphs": [
+          "His father was King Vasabha. Genealogical records identify Queen Pottha as his mother.",
+          "His wife was Princess Mahamatta, the daughter of King Subha, and their son was King Gajabahu I."
+        ]
+      },
+      {
+        "heading": "Religious Patronage",
+        "paragraphs": [
+          "The Mahavamsa records that King Vankanasika Tissa constructed the Mahamangala Vihara near the Gona River.",
+          "This is the principal religious construction directly associated with his reign."
+        ]
+      },
+      {
+        "heading": "Historical Importance",
+        "paragraphs": [
+          "His historical importance lies mainly in the continuation of the First Lambakanna royal succession.",
+          "He connected the reign of King Vasabha with that of King Gajabahu I."
+        ]
+      }
+    ]
+  },
+
+  "constructions": [
+    {
+      "id": "mahamangala-vihara",
+      "type": "vihara",
+      "name": {
+        "si": "මහාමංගල විහාරය",
+        "en": "Mahamangala Vihara"
+      },
+      "location": {
+        "si": "ගෝණ නදිය අසල",
+        "en": "Near the Gona River"
+      },
+      "description": {
+        "si": "වංකනාසික තිස්ස රජුගේ පාලන සමයට සම්බන්ධ ප්රධාන බෞද්ධ ආගමික ඉදිකිරීමකි.",
+        "en": "A Buddhist religious construction associated with the reign of King Vankanasika Tissa."
+      },
+      "sourceStatus": "chronicle"
+    }
+  ],
+
+  "majorEvents": [
+    {
+      "id": "succession-after-vasabha",
+      "name": {
+        "si": "වසභ රජුගෙන් පසු සිහසුනට පත්වීම",
+        "en": "Succession after King Vasabha"
+      },
+      "type": "royal-succession",
+      "sourceStatus": "chronicle"
+    },
+    {
+      "id": "continuation-of-lambakanna-dynasty",
+      "name": {
+        "si": "ලම්බකර්ණ රාජවංශය ඉදිරියට පවත්වාගෙන යාම",
+        "en": "Continuation of the Lambakanna Dynasty"
+      },
+      "type": "dynastic-event",
+      "sourceStatus": "historical-inference"
+    }
+  ],
+
+  "relationships": [
+    {
+      "personId": "vasabha",
+      "relationship": "father"
+    },
+    {
+      "personId": "pottha",
+      "relationship": "mother"
+    },
+    {
+      "personId": "mahamatta",
+      "relationship": "spouse"
+    },
+    {
+      "personId": "subha",
+      "relationship": "father-in-law"
+    },
+    {
+      "personId": "gajabahu-i",
+      "relationship": "son"
+    }
+  ],
+
+  "sourceIds": [
+    "mahavamsa-chapter-35"
+  ],
+
+  "sourceStatus": {
+    "overall": "chronicle-based",
+    "notes": {
+      "si": "පාලන කාලය, වසභ රජුගේ පුත්රයා වීම, මහමත්තා සමඟ විවාහය, ගජබාහුගේ පියා වීම සහ මහාමංගල විහාරය ඉදිකිරීම මහාවංශ සඳහන් මත පදනම් වේ. පොත්තා බිසව මව ලෙස හඳුනාගැනීම රාජවංශ සටහන් මත පදනම් වන අතර එය වෙන්ව සටහන් කළ යුතුය.",
+      "en": "The reign length, relationship to King Vasabha, marriage to Mahamatta, fatherhood of Gajabahu I and construction of the Mahamangala Vihara are based on chronicle accounts. The identification of Queen Pottha as his mother is based on genealogical records and should be presented with a qualification."
+    }
+  },
+
+  "seo": {
+    "title": {
+      "si": "වංකනාසික තිස්ස රජු | අනුරාධපුර රාජධානිය",
+      "en": "King Vankanasika Tissa | Anuradhapura Kingdom"
+    },
+    "description": {
+      "si": "වසභ රජුගේ පුත්රයා සහ පළමුවන ගජබාහු රජුගේ පියා වූ වංකනාසික තිස්ස රජුගේ පාලනය, පවුල් සම්බන්ධතා සහ ආගමික සේවය.",
+      "en": "Explore the reign, royal family relationships and religious patronage of King Vankanasika Tissa, son of King Vasabha and father of King Gajabahu I."
+    },
+    "keywords": {
+      "si": [
+        "වංකනාසික තිස්ස",
+        "වසභ රජු",
+        "ගජබාහු රජු",
+        "අනුරාධපුර රාජධානිය",
+        "ලම්බකර්ණ රාජවංශය"
+      ],
+      "en": [
+        "Vankanasika Tissa",
+        "King Vasabha",
+        "Gajabahu I",
+        "Anuradhapura Kingdom",
+        "Lambakanna Dynasty"
+      ]
+    }
+  }
+}

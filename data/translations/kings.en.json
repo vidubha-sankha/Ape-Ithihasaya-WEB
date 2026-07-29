@@ -4,73 +4,88 @@
     "shortName": "Vasabha",
     "kingdomName": "Anuradhapura Kingdom",
     "dynastyName": "First Lambakanna Dynasty",
-    "reignDisplay": "67–111 CE",
-
-    "summary": "King Vasabha was an important ruler of the Anuradhapura Kingdom.",
-
-    "biography": "King Vasabha is described in the chronicles as an important ruler of the Anuradhapura Kingdom. He was succeeded by King Vankanasika Tissa.",
-
+    "reignDisplay": "c. 67–111 CE",
+    "summary": "King Vasabha is regarded as a powerful ruler of Anuradhapura and the founder of the First Lambakanna Dynasty. According to the Mahavamsa, he defeated Subharaja and ruled for forty-four years. His reign is particularly associated with reservoirs, canals, urban defence, subterranean water channels and Buddhist patronage.",
+    "biography": "King Vasabha made major contributions to the political, agricultural, urban and religious development of the Anuradhapura Kingdom.\n\nAccording to the Mahavamsa, Vasabha belonged to the Lambakanna clan and served under his uncle, a military commander in the northern region. During the reign of Subharaja, a prophecy spread that a man named Vasabha would become king. Fearing this, Subharaja ordered that all persons bearing the name be killed. Vasabha's uncle decided to surrender him, but his uncle's wife Pottha secretly helped Vasabha escape by giving him money and warning him of the danger.\n\nVasabha fled to the Mahavihara, where the monks gave him food, milk and clothing. He then travelled village by village to Rohana, where over approximately two years he organised an army and built political support. He marched to Anuradhapura, defeated Subharaja in battle and gained the throne. He raised Pottha to the position of queen.\n\nDuring his forty-four-year reign, Vasabha constructed twelve reservoirs and twelve canals, strengthened the city wall of Anuradhapura, built defensive towers at the four city gates, constructed a royal palace and royal garden tank, and developed bathing ponds supplied by subterranean water channels. He also provided extensive Buddhist patronage, building monasteries, stupas, chapter houses and image houses, and conducted the Vesak festival each year of his reign.",
     "importantEvents": [
-      "Ruled the Anuradhapura Kingdom",
-      "Associated with the First Lambakanna Dynasty",
-      "Traditionally identified as the father of Vankanasika Tissa"
+      "Defeated Subharaja and ascended the throne (c. 67 CE)",
+      "Founded the First Lambakanna Dynasty",
+      "Constructed twelve reservoirs and twelve canals",
+      "Strengthened the city wall and built defensive towers at the four gates of Anuradhapura",
+      "Built a royal palace and subterranean water channels",
+      "Provided extensive Buddhist patronage across monasteries, stupas and image houses",
+      "Raised Pottha as queen after she helped him escape"
     ],
-
     "constructions": [
-      "Information will be added later"
+      "Cayanti Tank",
+      "Rajuppala Tank",
+      "Vaha Tank",
+      "Kolambagamaka Tank",
+      "Mahanikkhavatti Tank",
+      "Maharametti Tank",
+      "Kohala Tank",
+      "Kali Tank",
+      "Cambuti Tank",
+      "Cathamangana Tank",
+      "Aggivaddhamanaka Tank",
+      "Alisara Canal (with water share granted to Mucela Vihara)",
+      "City wall of Anuradhapura (raised and strengthened)",
+      "Defensive towers at the four city gates",
+      "Royal palace",
+      "Royal garden tank",
+      "Bathing ponds with subterranean supply channels",
+      "Ten stupas at Cetiyapabbata",
+      "Mahavalligotta Vihara",
+      "Anurarama Vihara",
+      "Mucela Vihara",
+      "Galambatittha Stupa",
+      "Stupa house at Thuparama",
+      "Monastic residences at the Mahavihara",
+      "Image house at the Sacred Bodhi Tree"
     ],
-
     "relatedPlaces": [
-      "Anuradhapura"
+      "Anuradhapura",
+      "Rohana",
+      "Mahavihara",
+      "Cetiyapabbata",
+      "Thuparama"
     ]
   },
-
   "king-vankanasika-tissa": {
     "name": "King Vankanasika Tissa",
     "shortName": "Vankanasika Tissa",
     "kingdomName": "Anuradhapura Kingdom",
     "dynastyName": "First Lambakanna Dynasty",
     "reignDisplay": "111–114 CE",
-
     "summary": "King Vankanasika Tissa succeeded King Vasabha as ruler of the Anuradhapura Kingdom.",
-
     "biography": "King Vankanasika Tissa was a ruler of the Anuradhapura Kingdom. Traditional sources identify him as the son of King Vasabha. He was succeeded by King Gajabahu I.",
-
     "importantEvents": [
       "Succeeded King Vasabha",
       "Belonged to the First Lambakanna Dynasty",
       "Traditionally identified as the father of King Gajabahu I"
     ],
-
     "constructions": [
       "Information will be added later"
     ],
-
     "relatedPlaces": [
       "Anuradhapura"
     ]
   },
-
   "king-gajabahu-i": {
     "name": "King Gajabahu I",
     "shortName": "Gajabahu I",
     "kingdomName": "Anuradhapura Kingdom",
     "dynastyName": "First Lambakanna Dynasty",
     "reignDisplay": "114–136 CE",
-
     "summary": "King Gajabahu I succeeded King Vankanasika Tissa.",
-
     "biography": "King Gajabahu I was a ruler of the Anuradhapura Kingdom. He is traditionally identified as the son of King Vankanasika Tissa and is remembered as an important ruler in Sri Lankan chronicles and later traditions.",
-
     "importantEvents": [
       "Succeeded King Vankanasika Tissa",
       "Ruled the Anuradhapura Kingdom"
     ],
-
     "constructions": [
       "Information will be added later"
     ],
-
     "relatedPlaces": [
       "Anuradhapura"
     ]

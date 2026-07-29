@@ -1,0 +1,209 @@
+{
+  "id": "gajabahu-i",
+  "slug": "gajabahu-i",
+  "type": "person",
+  "roles": [
+    "king"
+  ],
+  "status": "published",
+
+  "name": {
+    "si": "පළමුවන ගජබාහු රජු (ගජබාහුගාමිණී)",
+    "en": "King Gajabahu I (Gajabahugamini)"
+  },
+
+  "shortName": {
+    "si": "පළමුවන ගජබාහු",
+    "en": "Gajabahu I"
+  },
+
+  "alternativeNames": {
+    "si": [
+      "ගජබාහුගාමිණී",
+      "ගජබා රජ"
+    ],
+    "en": [
+      "Gajabahugamini",
+      "Gajabahu I"
+    ]
+  },
+
+  "gender": "male",
+
+  "kingdomId": "anuradhapura-kingdom",
+  "dynastyId": "first-lambakanna-dynasty",
+  "periodId": "anuradhapura-kingdom",
+
+  "reign": {
+    "startYear": 114,
+    "endYear": 136,
+    "calendar": "CE",
+    "display": {
+      "si": "ක්රි.ව. 114 – 136 පමණ",
+      "en": "c. 114–136 CE"
+    },
+    "lengthYears": 22,
+    "dateStatus": "historical"
+  },
+
+  "predecessorId": "vankanasika-tissa",
+  "successorId": "mahallaka-naga",
+
+  "family": {
+    "fatherId": "vankanasika-tissa",
+    "motherId": "mahamatta",
+    "spouseIds": [],
+    "childIds": [],
+    "fatherInLawIds": []
+  },
+
+  "familyDisplay": {
+    "si": {
+      "father": "වංකනාසික තිස්ස රජු",
+      "mother": "මහමත්තා කුමරිය",
+      "spouse": null,
+      "fatherInLaw": null,
+      "children": []
+    },
+    "en": {
+      "father": "King Vankanasika Tissa",
+      "mother": "Princess Mahamatta",
+      "spouse": null,
+      "fatherInLaw": null,
+      "children": []
+    }
+  },
+
+  "capital": {
+    "si": "අනුරාධපුරය",
+    "en": "Anuradhapura"
+  },
+
+  "image": {
+    "main": "/images/kings/gajabahu-i.webp",
+    "thumbnail": "/images/kings/gajabahu-i.webp",
+    "alt": {
+      "si": "පළමුවන ගජබාහු රජුගේ කලාත්මක ප්රතිනිර්මාණය",
+      "en": "Artistic reconstruction of King Gajabahu I"
+    },
+    "isReconstruction": true
+  },
+
+  "summary": {
+    "si": "පළමුවන ගජබාහු රජු (ගජබාහුගාමිණී) අනුරාධපුර රාජධානියේ ප්රබල පාලකයෙකි. ඔහු සොළී රටට ගොස් සිංහල සිරකරුවන් 12,000ක් සහ පත්තිනි දේවියගේ සලඹ ඇතුළු පූජනීය වස්තු නැවත ලංකාවට රැගෙන ආ බව ජනප්රවාද සහ රාජාවලියේ සඳහන් වේ.",
+    "en": "King Gajabahu I (Gajabahugamini) was a celebrated ruler of Anuradhapura. Historical tradition and chronicles recall his expedition to South India (Chola kingdom) to rescue 12,000 captives and retrieve sacred items including Goddess Pattini's anklet."
+  },
+
+  "biography": {
+    "si": [
+      {
+        "heading": "හැඳින්වීම",
+        "paragraphs": [
+          "පළමුවන ගජබාහු රජු වංකනාසික තිස්ස රජුගේ සහ මහමත්තා කුමරියගේ පුත්රයාය.",
+          "ඔහු අනුරාධපුර සිහසුනට පත්ව වසර 22ක් පමණ සාර්ථක පාලනයක් ගෙන ගියේය."
+        ]
+      },
+      {
+        "heading": "සොළී රට ආක්රමණය සහ සිරකරුවන් මුදාගැනීම",
+        "paragraphs": [
+          "තම පියාගේ පාලන සමයේ සොළී රජු විසින් අල්ලාගෙන ගිය 12,000ක් වූ සිංහල වැසියන් නිදහස් කරගැනීම සඳහා ගජබාහු රජු නීල මහා යෝධයා සමඟ සොළී රටට ගිය බව පැවසේ.",
+          "ඔහු එහිදී රාජ්‍ය බලය පෙන්වා සිංහලයන්ට අමතරව තවත් සොළී වැසියන් 12,000ක්ද, පත්තිනි සලඹද ලංකාවට රැගෙන ආවේය."
+        ]
+      }
+    ],
+
+    "en": [
+      {
+        "heading": "Introduction",
+        "paragraphs": [
+          "King Gajabahu I was the son of King Vankanasika Tissa and Princess Mahamatta.",
+          "He succeeded his father to the throne of Anuradhapura and ruled for approximately 22 years."
+        ]
+      },
+      {
+        "heading": "Expedition to South India",
+        "paragraphs": [
+          "According to popular tradition and Rajavaliya, Gajabahu invaded the Chola kingdom accompanied by his warrior Neela to free 12,000 Sinhala captives taken during his father's reign.",
+          "He returned successfully with the captives, extra Chola prisoners, and sacred objects including Goddess Pattini's anklet."
+        ]
+      }
+    ]
+  },
+
+  "constructions": [
+    {
+      "id": "ramavihara",
+      "type": "vihara",
+      "name": {
+        "si": "රාම විහාරය සහ මහා විහාර සංවර්ධනය",
+        "en": "Rama Vihara and Maha Vihara expansions"
+      },
+      "description": {
+        "si": "මහාවංශයට අනුව ඔහු ආගමික ගොඩනැගිලි සංවර්ධනය කර පූජා පැවැත්වීය.",
+        "en": "Constructed religious works and offered patronage according to Mahavamsa."
+      },
+      "sourceStatus": "chronicle"
+    }
+  ],
+
+  "majorEvents": [
+    {
+      "id": "chola-expedition",
+      "name": {
+        "si": "සොළී රට ආක්රමණය සහ සිරකරුවන් මුදාගැනීම",
+        "en": "Expedition to Chola Kingdom and Release of Captives"
+      },
+      "type": "military-expedition",
+      "sourceStatus": "chronicle-and-tradition"
+    }
+  ],
+
+  "relationships": [
+    {
+      "personId": "vankanasika-tissa",
+      "relationship": "father"
+    },
+    {
+      "personId": "mahamatta",
+      "relationship": "mother"
+    }
+  ],
+
+  "sourceIds": [
+    "mahavamsa-chapter-35",
+    "rajavaliya"
+  ],
+
+  "sourceStatus": {
+    "overall": "chronicle-and-tradition",
+    "notes": {
+      "si": "පාලන සමය මහාවංශයේ සටහන් වන අතර සොළී ආක්රමණය සහ පත්තිනි ඇදහීම රාජාවලිය සහ ජනශ්රැතිවල විශේෂයෙන් සඳහන් වේ.",
+      "en": "Reign details are recorded in Mahavamsa, while the Chola campaign and Pattini cult origins are highlighted in Rajavaliya and oral tradition."
+    }
+  },
+
+  "seo": {
+    "title": {
+      "si": "පළමුවන ගජබාහු රජු | අනුරාධපුර රාජධානිය",
+      "en": "King Gajabahu I | Anuradhapura Kingdom"
+    },
+    "description": {
+      "si": "පළමුවන ගජබාහු රජුගේ (ගජබාහුගාමිණී) පාලන සමය, සොළී දේශයට කළ ගමන සහ ඓතිහාසික සේවාවන්.",
+      "en": "Explore the reign, South Indian expedition, and legacy of King Gajabahu I of Anuradhapura."
+    },
+    "keywords": {
+      "si": [
+        "ගජබාහු රජු",
+        "පළමුවන ගජබාහු",
+        "අනුරාධපුර රාජධානිය",
+        "පත්තිනි සලඹ"
+      ],
+      "en": [
+        "King Gajabahu I",
+        "Gajabahu",
+        "Anuradhapura Kingdom",
+        "Gajabahugamini"
+      ]
+    }
+  }
+}

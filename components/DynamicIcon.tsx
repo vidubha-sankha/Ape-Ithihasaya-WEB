@@ -16,7 +16,6 @@ import {
   Layers,
   MapPin,
   Mountain,
-  Scroll,
   ScrollText,
   Search,
   Shield,

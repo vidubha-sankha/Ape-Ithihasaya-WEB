@@ -288,8 +288,38 @@ export const historyTimeline: TimelineItem[] = [
     ],
   },
   {
-    id: "anuradhapura-kingdom",
+    id: "upatissa-kingdom",
     order: 6,
+    type: "kingdom",
+    iconName: "building",
+    name: {
+      si: "උපතිස්ස නුවර රාජධානිය",
+      en: "Upatissa Nuwara Kingdom",
+    },
+    period: {
+      si: "විජයගෙන් පසු හා අනුරාධපුරයට පෙර",
+      en: "Between Vijaya and Anuradhapura",
+    },
+    description: {
+      si: "උපතිස්ස කුමරු විසින් පිහිටුවන ලදැයි සැලකෙන අතර, පණ්ඩුකාභය විසින් අනුරාධපුරය අගනුවර කරගන්නා තෙක් පාලන මධ්‍යස්ථානය විය.",
+      en: "Considered to be established by Prince Upatissa, it served as the political centre until Pandukabhaya made Anuradhapura the capital.",
+    },
+    evidenceType: "chronicle",
+    href: "/kingdoms/upatissa",
+    highlights: [
+      {
+        si: "උපතිස්ස කුමරු",
+        en: "Prince Upatissa",
+      },
+      {
+        si: "මුල් කෘෂිකාර්මික ජනාවාස",
+        en: "Early agricultural settlements",
+      },
+    ],
+  },
+  {
+    id: "anuradhapura-kingdom",
+    order: 7,
     type: "kingdom",
     iconName: "columns",
     name: {
@@ -328,7 +358,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "polonnaruwa-kingdom",
-    order: 7,
+    order: 8,
     type: "kingdom",
     iconName: "landmark",
     name: {
@@ -366,7 +396,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "dambadeniya-kingdom",
-    order: 8,
+    order: 9,
     type: "kingdom",
     iconName: "book-open",
     name: {
@@ -404,7 +434,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "yapahuwa-kingdom",
-    order: 9,
+    order: 10,
     type: "kingdom",
     iconName: "castle",
     name: {
@@ -442,7 +472,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "kurunegala-kingdom",
-    order: 10,
+    order: 11,
     type: "kingdom",
     iconName: "building",
     name: {
@@ -480,7 +510,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "gampola-kingdom",
-    order: 11,
+    order: 12,
     type: "kingdom",
     iconName: "mountain",
     name: {
@@ -518,7 +548,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "kotte-kingdom",
-    order: 12,
+    order: 13,
     type: "kingdom",
     iconName: "scroll",
     name: {
@@ -556,7 +586,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "jaffna-kingdom",
-    order: 13,
+    order: 14,
     type: "kingdom",
     iconName: "landmark",
     name: {
@@ -594,7 +624,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "raigama-kingdom",
-    order: 14,
+    order: 15,
     type: "kingdom",
     iconName: "shield",
     name: {
@@ -632,7 +662,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "sitawaka-kingdom",
-    order: 15,
+    order: 16,
     type: "kingdom",
     iconName: "swords",
     name: {
@@ -670,7 +700,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "kandy-kingdom",
-    order: 16,
+    order: 17,
     type: "kingdom",
     iconName: "crown",
     name: {
@@ -708,7 +738,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "portuguese-period",
-    order: 17,
+    order: 18,
     type: "colonial-period",
     iconName: "anchor",
     name: {
@@ -746,7 +776,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "dutch-period",
-    order: 18,
+    order: 19,
     type: "colonial-period",
     iconName: "building",
     name: {
@@ -784,7 +814,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "british-period",
-    order: 19,
+    order: 20,
     type: "colonial-period",
     iconName: "columns",
     name: {
@@ -822,7 +852,7 @@ export const historyTimeline: TimelineItem[] = [
   },
   {
     id: "modern-sri-lanka",
-    order: 20,
+    order: 21,
     type: "modern-period",
     iconName: "globe",
     name: {
@@ -857,7 +887,7 @@ export const historyTimeline: TimelineItem[] = [
         en: "Heritage conservation",
       },
     ],
-  },
+  }
 ];
 
 export const parallelHistoricalRegions: ParallelRegion[] = [

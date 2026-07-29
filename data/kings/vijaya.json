@@ -1,0 +1,271 @@
+{
+  "id": "vijaya",
+  "slug": "vijaya",
+  "type": "person",
+  "roles": [
+    "king",
+    "founder-ruler"
+  ],
+  "status": "published",
+  "rulerNumber": {
+    "royalChronologyOrder": 1,
+    "monarchOrder": 1,
+    "kingdomOrder": 1
+  },
+  "rulerClassification": {
+    "type": "monarch",
+    "isMonarch": true,
+    "isInterregnumRuler": false,
+    "isForeignRuler": false,
+    "isJointRuler": false
+  },
+  "name": {
+    "si": "විජය රජු",
+    "en": "King Vijaya"
+  },
+  "shortName": {
+    "si": "විජය",
+    "en": "Vijaya"
+  },
+  "alternativeNames": {
+    "si": [
+      "විජය කුමරු"
+    ],
+    "en": [
+      "Prince Vijaya"
+    ]
+  },
+  "gender": "male",
+  "kingdomId": "tambapanni-kingdom",
+  "dynastyId": "vijaya-dynasty",
+  "periodId": "early-historical-period",
+  "kingdomDisplay": {
+    "si": "තම්බපණ්ණි රාජධානිය",
+    "en": "Kingdom of Tambapanni"
+  },
+  "dynastyDisplay": {
+    "si": "විජය රාජවංශය",
+    "en": "Vijaya Dynasty"
+  },
+  "rulerNumberDisplay": {
+    "si": {
+      "royalChronology": "ලක්දිව සම්ප්රදායික රාජාවලියේ පළමු පාලකයා",
+      "monarch": "ලක්දිව රාජාවලියේ පළමු රජු",
+      "kingdom": "තම්බපණ්ණි රාජධානියේ පළමු රජු"
+    },
+    "en": {
+      "royalChronology": "First ruler in the traditional royal chronology of Lanka",
+      "monarch": "First monarch in the royal chronology of Lanka",
+      "kingdom": "First king of the Kingdom of Tambapanni"
+    }
+  },
+  "reign": {
+    "startYear": -543,
+    "endYear": -505,
+    "calendar": "BCE",
+    "lengthYears": 38,
+    "display": {
+      "si": "සම්ප්‍රදායික කාල නිර්ණය අනුව ක්‍රි.පූ.543 – ක්‍රි.පූ. 505",
+      "en": "Traditionally dated to 543 BCE – 505 BCE"
+    },
+    "dateStatus": "traditional-chronology",
+    "dateNote": {
+      "si": "මෙම දින වංශකථා මත පදනම් වූ සම්ප්රදායික කාල නිර්ණයන්ය. ආදිතම පාලකයන්ගේ නිශ්චිත දින පිළිබඳ විද්වත් මතභේද පවතී.",
+      "en": "These dates follow the traditional chronicle chronology. The precise dates of the earliest rulers remain debated."
+    }
+  },
+  "predecessorId": null,
+  "successorId": "upatissa",
+  "succession": {
+    "previousChronologyEntryId": null,
+    "nextChronologyEntryId": "upatissa",
+    "nextMonarchId": "panduvasudeva",
+    "afterVijaya": {
+      "si": "විජයගේ මරණයෙන් පසු උපතිස්ස අනුරාජයා යටතේ වසරක පමණ අන්තර්කාලීන පාලනයක් පැවති අතර, ඉන්පසු පණ්ඩුවාසදේව රජු සිහසුනට පත් විය.",
+      "en": "After Vijaya's death, an interim administration under Upatissa lasted for approximately one year, followed by the accession of King Panduvasudeva."
+    }
+  },
+  "family": {
+    "fatherId": "sinhabahu",
+    "motherId": "sinhasivali",
+    "siblingIds": [
+      "sumitta"
+    ],
+    "spouseIds": [
+      "kuveni",
+      "pandyan-princess-vijaya"
+    ],
+    "childIds": [
+      "jivahatta",
+      "disala"
+    ]
+  },
+  "familyDisplay": {
+    "si": {
+      "father": "සිංහබාහු රජු",
+      "mother": "සිංහසීවලී",
+      "siblings": [
+        "සුමිත්ත කුමරු"
+      ],
+      "spouses": [
+        "කුවේණි",
+        "පාණ්ඩ්ය රාජ කුමරිය"
+      ],
+      "children": [
+        "ජීවහත්ත",
+        "දිසාලා"
+      ]
+    },
+    "en": {
+      "father": "King Sinhabahu",
+      "mother": "Sinhasivali",
+      "siblings": [
+        "Prince Sumitta"
+      ],
+      "spouses": [
+        "Kuveni",
+        "Pandyan Princess"
+      ],
+      "children": [
+        "Jivahatta",
+        "Disala"
+      ]
+    }
+  },
+  "birth": {
+    "year": null,
+    "placeId": "sinhapura",
+    "display": {
+      "si": "සිංහපුරය",
+      "en": "Sinhapura"
+    },
+    "dateStatus": "not-recorded"
+  },
+  "death": {
+    "year": -505,
+    "calendar": "BCE",
+    "display": {
+      "si": "සම්ප්රදායික කාල නිර්ණය අනුව ක්රි.පූ. 505",
+      "en": "Traditionally dated to 505 BCE"
+    },
+    "dateStatus": "traditional-chronology"
+  },
+  "capital": {
+    "id": "tambapanni",
+    "name": {
+      "si": "තම්බපණ්ණිය",
+      "en": "Tambapanni"
+    }
+  },
+  "arrival": {
+    "placeId": "tambapanni",
+    "companionsCount": 700,
+    "placeDisplay": {
+      "si": "තම්බපණ්ණිය",
+      "en": "Tambapanni"
+    },
+    "description": {
+      "si": "වංශකථා සම්ප්රදායට අනුව විජය කුමරු සිය පිරිවරේ පුරුෂයන් හත්සිය දෙනෙකු සමඟ ලංකාවට පැමිණ තම්බපණ්ණියට ගොඩ බැස්සේය.",
+      "en": "According to the chronicle tradition, Prince Vijaya arrived in Lanka with seven hundred followers and landed at Tambapanni."
+    },
+    "sourceStatus": "chronicle-tradition"
+  },
+  "image": {
+    "main": "/images/kings/vijaya.jpg",
+    "thumbnail": "/images/kings/thumbnails/vijaya.jpg",
+    "alt": {
+      "si": "විජය රජුගේ කලාත්මක ප්රතිනිර්මාණය",
+      "en": "Artistic reconstruction of King Vijaya"
+    },
+    "caption": {
+      "si": "මෙය විජය රජුගේ කලාත්මක ප්රතිනිර්මාණයකි. සමකාලීන සැබෑ රූපයක් නොවේ.",
+      "en": "An artistic reconstruction of King Vijaya, not a surviving contemporary portrait."
+    },
+    "isReconstruction": true
+  },
+  "summary": {
+    "si": "විජය රජු ලක්දිව සම්ප්රදායික රාජාවලියේ සහ තම්බපණ්ණි රාජධානියේ පළමු පාලකයා ලෙස සැලකේ. වංශකථා අනුව ඔහු සිංහබාහු සහ සිංහසීවලීගේ පුත්රයා වූ අතර සිය පිරිවර සමඟ ලංකාවට පැමිණ තම්බපණ්ණියේ පාලන මධ්යස්ථානයක් පිහිටුවීය. කුවේණි සමඟ ඔහුට ජීවහත්ත සහ දිසාලා යන දරුවන් සිටි බවද, පසුව පාණ්ඩ්ය රාජ කුමරියක විවාහ කරගත් බවද සඳහන් වේ.",
+    "en": "King Vijaya is regarded as the first ruler in the traditional royal chronology of Lanka and the first ruler of the Kingdom of Tambapanni. Chronicle traditions identify him as the son of Sinhabahu and Sinhasivali and state that he arrived in Lanka with his followers and established a centre of rule at Tambapanni. He is associated with Kuveni and their children Jivahatta and Disala, and later with a Pandyan princess."
+  },
+  "majorEvents": [
+    {
+      "id": "arrival-at-tambapanni",
+      "order": 1,
+      "type": "arrival",
+      "name": {
+        "si": "තම්බපණ්ණියට පැමිණීම",
+        "en": "Arrival at Tambapanni"
+      },
+      "sourceStatus": "chronicle-tradition"
+    },
+    {
+      "id": "establishment-of-tambapanni-rule",
+      "order": 2,
+      "type": "kingdom-foundation",
+      "name": {
+        "si": "තම්බපණ්ණි රාජධානිය පිහිටුවීම",
+        "en": "Establishment of the Kingdom of Tambapanni"
+      },
+      "sourceStatus": "chronicle-tradition"
+    },
+    {
+      "id": "relationship-with-kuveni",
+      "order": 3,
+      "type": "personal-and-political-alliance",
+      "name": {
+        "si": "කුවේණි සමඟ ඇති වූ සම්බන්ධතාව",
+        "en": "Relationship with Kuveni"
+      },
+      "sourceStatus": "chronicle-tradition"
+    },
+    {
+      "id": "marriage-to-pandyan-princess",
+      "order": 4,
+      "type": "royal-marriage",
+      "name": {
+        "si": "පාණ්ඩ්ය රාජ කුමරිය සමඟ විවාහය",
+        "en": "Marriage to a Pandyan Princess"
+      },
+      "sourceStatus": "chronicle-tradition"
+    }
+  ],
+  "sourceIds": [
+    "mahavamsa",
+    "dipavamsa",
+    "traditional-royal-chronology",
+    "sinhala-wikipedia-royal-chronology"
+  ],
+  "sourceStatus": {
+    "overall": "chronicle-based-traditional",
+    "notes": {
+      "si": "විජය පිළිබඳ තොරතුරු ප්රධාන වශයෙන් වංශකථා සම්ප්රදායන් මත පදනම් වේ. ක්රි.පූ. 543 ආරම්භක දිනය සහ ආදිතම රාජාවලියේ දින නූතන පර්යේෂණ මගින් නිශ්චිතව තහවුරු කර නැත.",
+      "en": "Information about Vijaya is based mainly on chronicle traditions. The starting date of 543 BCE and the dates assigned to the earliest rulers are not conclusively established by modern research."
+    }
+  },
+  "seo": {
+    "title": {
+      "si": "විජය රජු | ලක්දිව රාජාවලියේ පළමු රජු",
+      "en": "King Vijaya | First King in the Royal Chronology of Lanka"
+    },
+    "description": {
+      "si": "ලක්දිව රාජාවලියේ සහ තම්බපණ්ණි රාජධානියේ පළමු රජු ලෙස සැලකෙන විජය රජුගේ පාලනය, පවුල, කුවේණි සමඟ සම්බන්ධතාව සහ වංශකථාමය ඉතිහාසය ගවේෂණය කරන්න.",
+      "en": "Explore the traditional history, reign, family and relationship with Kuveni of King Vijaya, regarded as the first ruler in the royal chronology of Lanka."
+    },
+    "keywords": {
+      "si": [
+        "විජය රජු",
+        "විජය කුමරු",
+        "කුවේණි",
+        "තම්බපණ්ණි රාජධානිය",
+        "ලක්දිව රාජාවලිය"
+      ],
+      "en": [
+        "King Vijaya",
+        "Prince Vijaya",
+        "Kuveni",
+        "Kingdom of Tambapanni",
+        "Sri Lankan royal chronology"
+      ]
+    }
+  }
+}

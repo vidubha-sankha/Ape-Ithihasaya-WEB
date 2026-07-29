@@ -36,7 +36,9 @@ export default function KingFamily({
         : "Information not recorded",
   };
 
-  const spouseName = display.spouse ?? labels.unknown;
+  const spouseName = display.spouses
+    ? display.spouses.join(" / ")
+    : (display.spouse ?? labels.unknown);
 
   return (
     <section className="px-5 py-8 sm:px-8">

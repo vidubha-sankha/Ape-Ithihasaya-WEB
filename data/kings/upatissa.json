@@ -1,0 +1,102 @@
+{
+  "id": "upatissa",
+  "slug": "upatissa",
+  "type": "person",
+  "roles": [
+    "regent",
+    "interregnum-ruler"
+  ],
+  "status": "published",
+  "rulerNumber": {
+    "royalChronologyOrder": 2,
+    "monarchOrder": null,
+    "kingdomOrder": 1
+  },
+  "rulerClassification": {
+    "type": "regent",
+    "isMonarch": false,
+    "isInterregnumRuler": true,
+    "isForeignRuler": false,
+    "isJointRuler": false
+  },
+  "name": {
+    "si": "උපතිස්ස අනුරාජයා",
+    "en": "Regent Upatissa"
+  },
+  "shortName": {
+    "si": "උපතිස්ස",
+    "en": "Upatissa"
+  },
+  "alternativeNames": {
+    "si": [
+      "උපතිස්ස කුමරු",
+      "උපතිස්ස අමාත්‍යවරයා"
+    ],
+    "en": [
+      "Prince Upatissa",
+      "Minister Upatissa"
+    ]
+  },
+  "gender": "male",
+  "kingdomId": "upatissa-kingdom",
+  "dynastyId": "vijaya-dynasty",
+  "periodId": "early-historical-period",
+  "kingdomDisplay": {
+    "si": "උපතිස්ස නුවර රාජධානිය",
+    "en": "Upatissa Nuwara Kingdom"
+  },
+  "dynastyDisplay": {
+    "si": "විජය රාජවංශය",
+    "en": "Vijaya Dynasty"
+  },
+  "reign": {
+    "startYear": -505,
+    "endYear": -504,
+    "calendar": "BCE",
+    "lengthYears": 1,
+    "display": {
+      "si": "ක්‍රි.පූ. 505 – ක්‍රි.පූ. 504",
+      "en": "505 BCE – 504 BCE"
+    },
+    "dateStatus": "traditional-chronology"
+  },
+  "predecessorId": "vijaya",
+  "successorId": "panduvasudeva",
+  "succession": {
+    "previousChronologyEntryId": "vijaya",
+    "nextChronologyEntryId": "panduvasudeva",
+    "nextMonarchId": "panduvasudeva"
+  },
+  "family": {
+    "fatherId": null,
+    "motherId": null,
+    "spouseIds": [],
+    "childIds": []
+  },
+  "familyDisplay": {
+    "si": {},
+    "en": {}
+  },
+  "image": {
+    "main": "/images/kings/upatissa.webp",
+    "alt": {
+      "si": "උපතිස්ස අනුරාජයා",
+      "en": "Regent Upatissa"
+    },
+    "isReconstruction": true
+  },
+  "summary": {
+    "si": "විජය රජුගේ මරණයෙන් පසු පණ්ඩුවාසදේව රජු පැමිණෙන තෙක් උපතිස්ස අනුරාජයා වසරක පමණ කාලයක් උපතිස්ස නුවර සිට ලක්දිව පාලනය කළේය.",
+    "en": "After the death of King Vijaya, Regent Upatissa ruled Lanka from Upatissa Nuwara for about a year until the arrival of King Panduvasudeva."
+  },
+  "seo": {
+    "title": {
+      "si": "උපතිස්ස අනුරාජයා | ලක්දිව අනුරාජයා",
+      "en": "Regent Upatissa | Regent of Lanka"
+    },
+    "description": {
+      "si": "විජය රජුගෙන් පසු ලක්දිව පාලනය කළ උපතිස්ස අනුරාජයා පිළිබඳ තොරතුරු.",
+      "en": "Information about Regent Upatissa who ruled Lanka after King Vijaya."
+    }
+  }
+}

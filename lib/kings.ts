@@ -17,6 +17,22 @@ export interface KingData {
   id: string;
   slug: string;
   status?: string;
+  type?: string;
+  roles?: string[];
+
+  rulerNumber?: {
+    royalChronologyOrder?: number | null;
+    monarchOrder?: number | null;
+    kingdomOrder?: number | null;
+  };
+
+  rulerClassification?: {
+    type?: string;
+    isMonarch?: boolean;
+    isInterregnumRuler?: boolean;
+    isForeignRuler?: boolean;
+    isJointRuler?: boolean;
+  };
 
   name: LocalizedText;
   shortName?: LocalizedText;
@@ -52,6 +68,7 @@ export interface KingData {
       father?: string;
       mother?: string;
       spouse?: string;
+      spouses?: string[];
       fatherInLaw?: string;
       children?: string[];
     };
@@ -59,6 +76,7 @@ export interface KingData {
       father?: string;
       mother?: string;
       spouse?: string;
+      spouses?: string[];
       fatherInLaw?: string;
       children?: string[];
     };

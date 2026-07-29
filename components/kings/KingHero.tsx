@@ -33,7 +33,30 @@ export default function KingHero({ king, locale }: KingHeroProps) {
       </div>
 
       <div className="flex flex-col justify-center">
-        <EvidenceBadge evidenceLevel={evidenceLevel} locale={locale} />
+        <div className="flex flex-col items-start gap-3">
+          <EvidenceBadge evidenceLevel={evidenceLevel} locale={locale} />
+          {king.rulerNumber && (
+            <div className="flex flex-wrap gap-3">
+              {king.rulerNumber.monarchOrder !== null && (
+                <span className="rounded-full border border-[#c98200] bg-[#fff7e6] px-4 py-2 text-sm font-semibold text-[#8a5700]">
+                  {locale === "si"
+                    ? `ලක්දිව රාජාවලියේ ${king.rulerNumber.monarchOrder} වන රජු`
+                    : `Monarch No. ${king.rulerNumber.monarchOrder} in the Royal Chronology`}
+                </span>
+              )}
+
+              {king.rulerNumber.kingdomOrder !== null && (
+                <span className="rounded-full border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-700">
+                  {locale === "si"
+                    ? `${king.kingdomDisplay?.si ?? "රාජධානියේ"} ${king.rulerNumber.kingdomOrder} වන පාලකයා`
+                    : `Ruler No. ${king.rulerNumber.kingdomOrder} of ${
+                        king.kingdomDisplay?.en ?? "the kingdom"
+                      }`}
+                </span>
+              )}
+            </div>
+          )}
+        </div>
         <p className="mt-6 text-sm font-bold uppercase tracking-[0.22em] text-amber-700">
           {kingdomName}
         </p>

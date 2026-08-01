@@ -231,6 +231,17 @@ export default function KingFamily({
                 names={display.cousins}
               />
             ) : null}
+
+            {display.brothersInLaw?.length ? (
+              <FamilyListItem
+                label={
+                  locale === "si"
+                    ? "විවාහයෙන් ලැබුණු සහෝදරයන් / මස්සිනාලා"
+                    : "Brothers-in-law"
+                }
+                names={display.brothersInLaw}
+              />
+            ) : null}
           </div>
         </div>
 

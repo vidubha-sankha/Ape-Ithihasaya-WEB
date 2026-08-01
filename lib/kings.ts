@@ -106,8 +106,14 @@ export interface KingData {
     paternalGrandmotherId?: string | null;
     maternalGrandmotherId?: string | null;
 
+    paternalGreatGrandfatherId?: string | null;
+    paternalGreatGrandmotherId?: string | null;
+
     paternalUncleIds?: string[];
     maternalUncleIds?: string[];
+
+    paternalGreatUncleIds?: string[];
+    paternalGreatAuntIds?: string[];
 
     paternalAuntIds?: string[];
     maternalAuntIds?: string[];
@@ -115,6 +121,9 @@ export interface KingData {
     siblingIds?: string[];
     halfSiblingIds?: string[];
     cousinIds?: string[];
+
+    brotherInLawIds?: string[];
+    sisterInLawIds?: string[];
 
     spouseIds?: string[];
     childIds?: string[];
@@ -141,8 +150,14 @@ export interface KingData {
       paternalGrandmother?: string;
       maternalGrandmother?: string;
 
+      paternalGreatGrandfather?: string;
+      paternalGreatGrandmother?: string;
+
       paternalUncles?: string[];
       maternalUncles?: string[];
+
+      paternalGreatUncles?: string[];
+      paternalGreatAunts?: string[];
 
       paternalAunts?: string[];
       maternalAunts?: string[];
@@ -150,6 +165,9 @@ export interface KingData {
       siblings?: string[];
       halfSiblings?: string[];
       cousins?: string[];
+
+      brothersInLaw?: string[];
+      sistersInLaw?: string[];
 
       spouse?: string;
       spouses?: string[];
@@ -177,8 +195,14 @@ export interface KingData {
       paternalGrandmother?: string;
       maternalGrandmother?: string;
 
+      paternalGreatGrandfather?: string;
+      paternalGreatGrandmother?: string;
+
       paternalUncles?: string[];
       maternalUncles?: string[];
+
+      paternalGreatUncles?: string[];
+      paternalGreatAunts?: string[];
 
       paternalAunts?: string[];
       maternalAunts?: string[];
@@ -186,6 +210,9 @@ export interface KingData {
       siblings?: string[];
       halfSiblings?: string[];
       cousins?: string[];
+
+      brothersInLaw?: string[];
+      sistersInLaw?: string[];
 
       spouse?: string;
       spouses?: string[];
@@ -261,10 +288,23 @@ export interface KingData {
     dateStatus?: string;
   };
 
+  capital?: {
+    id: string;
+    name: LocalizedText;
+    role?: LocalizedText;
+  };
+
   capitals?: Array<{
     id: string;
     name: LocalizedText;
     role?: LocalizedText;
+  }>;
+
+  relatedInscriptions?: Array<{
+    id: string;
+    name: LocalizedText;
+    importance: LocalizedText;
+    sourceStatus?: string;
   }>;
 
   image?: {

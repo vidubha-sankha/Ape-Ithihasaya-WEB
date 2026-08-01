@@ -1,0 +1,753 @@
+{
+    "id": "gajabahu-ii",
+    "slug": "gajabahu-ii",
+    "type": "person",
+    "roles": [
+        "king",
+        "ruler-of-rajarata",
+        "polonnaruwa-ruler"
+    ],
+    "status": "published",
+    "rulerNumber": {
+        "royalChronologyOrder": null,
+        "monarchOrder": null,
+        "kingdomOrder": 4
+    },
+    "rulerClassification": {
+        "type": "monarch",
+        "isMonarch": true,
+        "isInterregnumRuler": false,
+        "isForeignRuler": false,
+        "isJointRuler": false,
+        "isRegionalRuler": true,
+        "isIslandwideRuler": false,
+        "wasFormallyConsecrated": true
+    },
+    "name": {
+        "si": "දෙවන ගජබාහු රජු",
+        "en": "King Gajabahu II"
+    },
+    "shortName": {
+        "si": "දෙවන ගජබාහු",
+        "en": "Gajabahu II"
+    },
+    "alternativeNames": {
+        "si": [
+            "ගජබාහු දෙවන",
+            "ගජබාහු රජු",
+            "ගජබාහු ගාමිණී"
+        ],
+        "en": [
+            "Gajabahu II",
+            "Gaja Bahu II",
+            "Gajabahu Gamani"
+        ]
+    },
+    "gender": "male",
+    "kingdomId": "polonnaruwa-kingdom",
+    "dynastyId": "house-of-vijayabahu",
+    "periodId": "polonnaruwa-kingdom",
+    "regionIds": [
+        "rajarata",
+        "polonnaruwa"
+    ],
+    "kingdomDisplay": {
+        "si": "පොළොන්නරු රාජධානිය",
+        "en": "Kingdom of Polonnaruwa"
+    },
+    "dynastyDisplay": {
+        "si": "විජයබාහු රාජවංශය",
+        "en": "House of Vijayabahu"
+    },
+    "rulerNumberDisplay": {
+        "si": {
+            "royalChronology": "සම්පූර්ණ ලක්දිව රාජාවලි අංකය පසුව තහවුරු කිරීමට නියමිතය",
+            "monarch": "සම්පූර්ණ රජ අංකය පසුව තහවුරු කිරීමට නියමිතය",
+            "kingdom": "පොළොන්නරු රාජධානියේ සිව්වන පාලකයා"
+        },
+        "en": {
+            "royalChronology": "The overall royal chronology number remains to be finalised",
+            "monarch": "The overall monarch number remains to be finalised",
+            "kingdom": "Fourth ruler of the Kingdom of Polonnaruwa"
+        }
+    },
+    "reign": {
+        "startYear": 1132,
+        "endYear": 1153,
+        "calendar": "CE",
+        "lengthYears": 21,
+        "display": {
+            "si": "ක්‍රි.ව. 1132 – 1153",
+            "en": "1132–1153 CE"
+        },
+        "dateStatus": "chronicle-and-inscription-supported",
+        "rajarataReign": {
+            "startYear": 1132,
+            "endYear": 1153,
+            "display": {
+                "si": "පොළොන්නරුව සහ රජරට පාලනය: ක්‍රි.ව. 1132 – 1153",
+                "en": "Rule over Polonnaruwa and Rajarata: 1132–1153 CE"
+            }
+        },
+        "dateNote": {
+            "si": "දෙවන ගජබාහුගේ පාලනය සාමාන්‍යයෙන් ක්‍රි.ව. 1132 සිට 1153 දක්වා ලෙස ගනී. ඇතැම් පසුකාලීන ලැයිස්තු ආරම්භක වර්ෂය හෝ අවසාන වර්ෂය සම්බන්ධයෙන් සුළු වෙනස්කම් දක්වයි.",
+            "en": "The reign of Gajabahu II is generally dated from 1132 to 1153 CE, although minor variations occur in some later chronological lists."
+        }
+    },
+    "predecessorId": "vikramabahu-i",
+    "successorId": "parakramabahu-i",
+    "succession": {
+        "previousChronologyEntryId": "vikramabahu-i",
+        "nextChronologyEntryId": "parakramabahu-i",
+        "nextMonarchId": "parakramabahu-i",
+        "previousRulerDisplay": {
+            "si": "පළමුවන වික්‍රමබාහු රජු",
+            "en": "King Vikramabahu I"
+        },
+        "nextRulerDisplay": {
+            "si": "පළමුවන පරාක්‍රමබාහු රජු",
+            "en": "King Parakramabahu I"
+        },
+        "accessionNote": {
+            "si": "පළමුවන වික්‍රමබාහු රජුගේ මරණයෙන් පසු ඔහුගේ පුත් දෙවන ගජබාහු පොළොන්නරුවේ සහ රජරටේ පාලනය ලබාගත්තේය.",
+            "en": "Following the death of Vikramabahu I, his son Gajabahu II succeeded to the rule of Polonnaruwa and Rajarata."
+        },
+        "successionNote": {
+            "si": "ගජබාහුට තහවුරු කළ පුත්‍ර උරුමකරුවෙකු නොසිටි බව වංශකතා සම්ප්‍රදායේ සඳහන් වේ. පරාක්‍රමබාහු සමඟ ඇති වූ ගිවිසුම් සහ දේශපාලන එකඟතා ඔහුගෙන් පසු පරාක්‍රමබාහුගේ පාලනය සඳහා මාර්ගය සකස් කළේය.",
+            "en": "Chronicle tradition records no confirmed male heir of Gajabahu. His agreements and political settlement with Parakramabahu prepared the way for Parakramabahu's succession."
+        }
+    },
+    "titles": [
+        {
+            "id": "king-of-rajarata",
+            "name": {
+                "si": "රජරට පාලකයා",
+                "en": "Ruler of Rajarata"
+            },
+            "description": {
+                "si": "පොළොන්නරුව කේන්ද්‍ර කරගෙන රජරට පාලනය කළ ප්‍රධාන පාලකයාය.",
+                "en": "The principal ruler of Rajarata, governing from Polonnaruwa."
+            },
+            "sourceStatus": "chronicle-and-historical"
+        },
+        {
+            "id": "king-of-polonnaruwa",
+            "name": {
+                "si": "පොළොන්නරු රජු",
+                "en": "King of Polonnaruwa"
+            },
+            "description": {
+                "si": "පළමුවන වික්‍රමබාහුගෙන් පසු පොළොන්නරුවේ රාජකීය බලය ලබාගත්තේය.",
+                "en": "He inherited royal authority at Polonnaruwa from Vikramabahu I."
+            },
+            "sourceStatus": "chronicle-based"
+        }
+    ],
+    "family": {
+        "fatherId": "vikramabahu-i",
+        "motherId": "sundara-mahadevi",
+        "paternalGrandfatherId": "vijayabahu-i",
+        "paternalGrandmotherId": "tilokasundari",
+        "paternalGreatGrandfatherId": "moggallana-prince",
+        "paternalGreatGrandmotherId": "lokita-princess",
+        "paternalGreatUncleIds": [
+            "virabahu-prince",
+            "jayabahu-i"
+        ],
+        "paternalGreatAuntIds": [
+            "mitta-princess"
+        ],
+        "spouseIds": [
+            "bhaddavati-princess"
+        ],
+        "childIds": [],
+        "cousinIds": [
+            "parakramabahu-i"
+        ],
+        "brotherInLawIds": [
+            "parakramabahu-i"
+        ]
+    },
+    "familyDisplay": {
+        "si": {
+            "father": "පළමුවන වික්‍රමබාහු රජු",
+            "mother": "සුන්දරා මහාදේවී බිසව",
+            "paternalGrandfather": "මහ විජයබාහු රජතුමා",
+            "paternalGrandmother": "තිලෝකසුන්දරී බිසව",
+            "paternalGreatGrandfather": "මොග්ගල්ලාන කුමරු",
+            "paternalGreatGrandmother": "ලෝකිතා කුමරිය",
+            "paternalGreatUncles": [
+                "වීරබාහු කුමරු",
+                "පළමුවන ජයබාහු රජු"
+            ],
+            "paternalGreatAunts": [
+                "මිත්තා කුමරිය"
+            ],
+            "spouses": [
+                "භද්දවතී කුමරිය"
+            ],
+            "children": [],
+            "cousins": [
+                "පළමුවන පරාක්‍රමබාහු රජු"
+            ],
+            "brothersInLaw": [
+                "පළමුවන පරාක්‍රමබාහු රජු — භද්දවතී කුමරියගේ සහෝදරයා"
+            ]
+        },
+        "en": {
+            "father": "King Vikramabahu I",
+            "mother": "Queen Sundara Mahadevi",
+            "paternalGrandfather": "King Vijayabahu I",
+            "paternalGrandmother": "Queen Tilokasundari",
+            "paternalGreatGrandfather": "Prince Moggallana",
+            "paternalGreatGrandmother": "Princess Lokita",
+            "paternalGreatUncles": [
+                "Prince Virabahu",
+                "King Jayabahu I"
+            ],
+            "paternalGreatAunts": [
+                "Princess Mitta"
+            ],
+            "spouses": [
+                "Princess Bhaddavati"
+            ],
+            "children": [],
+            "cousins": [
+                "King Parakramabahu I"
+            ],
+            "brothersInLaw": [
+                "King Parakramabahu I — brother of Princess Bhaddavati"
+            ]
+        }
+    },
+    "childrenBySpouse": [
+        {
+            "spouseId": "bhaddavati-princess",
+            "spouseName": {
+                "si": "භද්දවතී කුමරිය",
+                "en": "Princess Bhaddavati"
+            },
+            "childIds": [],
+            "childrenDisplay": {
+                "si": [],
+                "en": []
+            },
+            "sourceStatus": "no-confirmed-children"
+        }
+    ],
+    "inLawRelationships": [
+        {
+            "personId": "parakramabahu-i",
+            "relationshipType": "brother-in-law",
+            "throughPersonId": "bhaddavati-princess",
+            "display": {
+                "si": {
+                    "person": "පළමුවන පරාක්‍රමබාහු රජු",
+                    "relationship": "මස්සිනා",
+                    "connection": "පරාක්‍රමබාහුගේ සහෝදරිය වූ භද්දවතී කුමරිය ගජබාහුගේ බිසව වීමෙන් ඇති වූ විවාහ සම්බන්ධතාවකි."
+                },
+                "en": {
+                    "person": "King Parakramabahu I",
+                    "relationship": "Brother-in-law",
+                    "connection": "The relationship arose through Gajabahu's marriage to Parakramabahu's sister, Princess Bhaddavati."
+                }
+            },
+            "isBloodRelation": false,
+            "sourceStatus": "chronicle-genealogy"
+        }
+    ],
+    "familyNotes": {
+        "si": [
+            "දෙවන ගජබාහු පළමුවන වික්‍රමබාහු රජුගේ පුත්‍රයාය.",
+            "දිඹුලාගල මාරාවීදිය ශිලා ලේඛනය අනුව ඔහුගේ මව සුන්දරා මහාදේවී බිසවයි.",
+            "ඔහු මහ විජයබාහු I රජුගේ සහ තිලෝකසුන්දරී බිසවගේ මුණුපුරෙකි.",
+            "භද්දවතී කුමරිය ගජබාහුගේ බිසව ලෙස වංශකතා සටහන්වල සඳහන් වේ.",
+            "භද්දවතී පරාක්‍රමබාහු කුමරුගේ සහෝදරියක් වූ බැවින් පරාක්‍රමබාහු ගජබාහුගේ විවාහ නෑයෙකු හෙවත් මස්සිනා විය.",
+            "ගජබාහුට විශ්වාසදායක මූලාශ්‍රයකින් තහවුරු කළ දරුවන් නොමැති බැවින් දරුවන්ගේ නම් ගොතා ඇතුළත් කර නැත.",
+            "ගජබාහු සහ පරාක්‍රමබාහු අතර ලේ නෑකම හා විවාහ නෑකම යන දෙකම පැවති බව රාජවංශ සම්බන්ධතා අනුව පෙනේ."
+        ],
+        "en": [
+            "Gajabahu II was the son of King Vikramabahu I.",
+            "The Dimbulagala Maravidiya inscription identifies Queen Sundara Mahadevi as his mother.",
+            "He was a grandson of King Vijayabahu I and Queen Tilokasundari.",
+            "Princess Bhaddavati is identified in chronicle genealogy as a queen of Gajabahu.",
+            "Because Bhaddavati was a sister of Prince Parakramabahu, Parakramabahu was also Gajabahu's brother-in-law.",
+            "No children have been added because no reliable source clearly confirms named offspring of Gajabahu.",
+            "The dynastic genealogy indicates that Gajabahu and Parakramabahu were connected through both royal descent and marriage."
+        ]
+    },
+    "birth": {
+        "year": null,
+        "calendar": "CE",
+        "placeId": null,
+        "display": {
+            "si": "නිශ්චිත උපන් වර්ෂය සහ ස්ථානය පැහැදිලිව සඳහන් නොවේ",
+            "en": "The precise year and place of birth are not clearly recorded"
+        },
+        "dateStatus": "not-recorded"
+    },
+    "death": {
+        "year": 1153,
+        "calendar": "CE",
+        "placeId": "kotthasara",
+        "display": {
+            "si": "ක්‍රි.ව. 1153 පමණ; කොට්ඨසාර ප්‍රදේශය සමඟ සම්බන්ධ කර සඳහන් වේ",
+            "en": "Around 1153 CE; associated with the region of Kotthasara"
+        },
+        "dateStatus": "chronicle-based"
+    },
+    "capital": {
+        "id": "polonnaruwa",
+        "name": {
+            "si": "පොළොන්නරුව",
+            "en": "Polonnaruwa"
+        },
+        "role": {
+            "si": "රජරටේ රාජකීය හා පරිපාලන මධ්‍යස්ථානය",
+            "en": "Royal and administrative centre of Rajarata"
+        }
+    },
+    "image": {
+        "main": "/images/kings/gajabahu-ii.webp",
+        "thumbnail": "/images/kings/thumbnails/gajabahu-ii.webp",
+        "alt": {
+            "si": "දෙවන ගජබාහු රජුගේ කලාත්මක ප්‍රතිනිර්මාණය",
+            "en": "Artistic reconstruction of King Gajabahu II"
+        },
+        "caption": {
+            "si": "මෙය දෙවන ගජබාහු රජුගේ කලාත්මක ප්‍රතිනිර්මාණයකි. සමකාලීන සැබෑ රූපයක් නොවේ.",
+            "en": "An artistic reconstruction of King Gajabahu II; this is not a surviving contemporary portrait."
+        },
+        "isReconstruction": true
+    },
+    "summary": {
+        "si": "දෙවන ගජබාහු රජු පළමුවන වික්‍රමබාහු රජුගේ සහ සුන්දරා මහාදේවී බිසවගේ පුත්‍රයා වූ අතර ක්‍රි.ව. 1132 සිට 1153 දක්වා පොළොන්නරුව සහ රජරට පාලනය කළේය. ඔහු මහ විජයබාහු රජුගේ මුණුපුරෙකි. ඔහුගේ පාලන සමයේ දිවයින රජරට, දක්ෂිණ දේශය සහ රුහුණ යන ප්‍රධාන දේශපාලන ප්‍රදේශවලට බෙදී තිබුණි. පරාක්‍රමබාහු කුමරුගේ බලය වර්ධනය වීමත් සමඟ දෙපාර්ශ්වය අතර යුද්ධ ඇති වූ නමුත් පසුව භික්ෂූන්ගේ මැදිහත්වීමෙන් සාම ගිවිසුමක් ඇති කරගන්නා ලදී. සංගමුව ශිලා ලේඛනය මෙම සාම එකඟතාව තහවුරු කරන වැදගත් සාක්ෂියකි. ගජබාහුගේ මරණයෙන් පසු පළමුවන පරාක්‍රමබාහු පොළොන්නරුවේ පාලනය ලබාගත්තේය.",
+        "en": "King Gajabahu II was the son of King Vikramabahu I and Queen Sundara Mahadevi and ruled Polonnaruwa and Rajarata from 1132 to 1153 CE. He was a grandson of King Vijayabahu I. During his reign, the island was politically divided among Rajarata, Dakkhinadesa and Ruhuna. The growing power of Prince Parakramabahu led to warfare between their factions, but a peace agreement was eventually established through monastic mediation. The Sangamuwa inscription provides important evidence for this settlement. After Gajabahu's death, Parakramabahu I obtained control of Polonnaruwa."
+    },
+    "biography": {
+        "si": [
+            {
+                "id": "introduction",
+                "heading": "හැඳින්වීම",
+                "paragraphs": [
+                    "දෙවන ගජබාහු රජු පොළොන්නරු රාජධානියේ සිව්වන පාලකයා සහ රජරටේ ප්‍රධාන පාලකයෙකි.",
+                    "ඔහුගේ පාලන සමය විජයබාහු Iගෙන් පසු ඇති වූ දේශපාලන බෙදීම සහ පළමුවන පරාක්‍රමබාහුගේ බලය වර්ධනය වූ සංක්‍රාන්තික අවධියක් ලෙස සැලකේ."
+                ]
+            },
+            {
+                "id": "royal-family",
+                "heading": "රාජකීය පවුල් පසුබිම",
+                "paragraphs": [
+                    "ගජබාහුගේ පියා පළමුවන වික්‍රමබාහු රජුය. දිඹුලාගල මාරාවීදිය ශිලා ලේඛනය ඔහුගේ මව සුන්දරා මහාදේවී ලෙස හඳුන්වයි.",
+                    "පියාගේ පාර්ශ්වයෙන් ඔහු මහ විජයබාහු I සහ කාලිංග පරපුරට අයත් තිලෝකසුන්දරී බිසවගේ මුණුපුරෙකි."
+                ]
+            },
+            {
+                "id": "accession",
+                "heading": "සිහසුනට පත්වීම",
+                "paragraphs": [
+                    "පළමුවන වික්‍රමබාහුගේ මරණයෙන් පසු ගජබාහු පොළොන්නරුවේ සහ රජරටේ පාලනය ලබාගත්තේය.",
+                    "ඔහුගේ පාලන ආරම්භය සාමාන්‍යයෙන් ක්‍රි.ව. 1132 ලෙස දක්වන අතර වසර විසි එකක් පමණ රජරට පාලනය කළ බව සලකයි."
+                ]
+            },
+            {
+                "id": "political-division",
+                "heading": "දිවයිනේ දේශපාලන බෙදීම",
+                "paragraphs": [
+                    "ගජබාහු රජරට පාලනය කළද, මුළු දිවයිනම ඔහුගේ පාලනය යටතේ නොපැවතුණි.",
+                    "දක්ෂිණ දේශය සහ රුහුණ වෙනත් රාජකීය පාර්ශ්ව යටතේ පැවති අතර, මෙම ප්‍රදේශ අතර බලය සහ උරුමය පිළිබඳ නිරන්තර තරඟයක් පැවතුණි."
+                ]
+            },
+            {
+                "id": "bhaddavati-marriage",
+                "heading": "භද්දවතී කුමරිය සමඟ විවාහය",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු කුමරු ගජබාහු සමඟ තම සම්බන්ධතාව ශක්තිමත් කිරීම සඳහා තම සහෝදරිය වූ භද්දවතී කුමරිය ඔහුට විවාහ කරදුන් බව වංශකතා සටහන්වල සඳහන් වේ.",
+                    "මෙම විවාහය දෙපාර්ශ්වය අතර තාවකාලික දේශපාලන සහ රාජවංශීය බැඳීමක් ඇති කළේය."
+                ]
+            },
+            {
+                "id": "parakramabahu-at-court",
+                "heading": "පරාක්‍රමබාහු කුමරුගේ පැමිණීම",
+                "paragraphs": [
+                    "තරුණ පරාක්‍රමබාහු කුමරු ගජබාහුගේ පොළොන්නරු රාජ සභාවට පැමිණි බව චූලවංශ සම්ප්‍රදායේ සඳහන් වේ.",
+                    "ගජබාහු මුලදී ඔහුට ගෞරවයෙන් හා අනුග්‍රහයෙන් සැලකුවද, පරාක්‍රමබාහුගේ දේශපාලන බලය සහ ජනප්‍රියත්වය වැඩි වීමත් සමඟ දෙපාර්ශ්වය අතර සැකය සහ තරඟය වර්ධනය විය."
+                ]
+            },
+            {
+                "id": "war-with-parakramabahu",
+                "heading": "පරාක්‍රමබාහු සමඟ යුද්ධය",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු දක්ෂිණ දේශයේ බලය තහවුරු කිරීමෙන් පසු ගජබාහුගේ රජරට පාලනයට අභියෝග කළේය.",
+                    "දෙපාර්ශ්වයේ හමුදා අතර සටන් කිහිපයක් පැවති අතර පොළොන්නරුව සහ රජරටේ ප්‍රධාන ස්ථාන පාලනය කිරීම සඳහා දැඩි තරඟයක් ඇති විය.",
+                    "චූලවංශය මෙම ගැටුම් පරාක්‍රමබාහුගේ ජයග්‍රහණ අවධාරණය කරමින් විස්තර කරන බැවින්, එම විස්තර source qualification එකක් සමඟ පෙන්විය යුතුය."
+                ]
+            },
+            {
+                "id": "manabharana-intervention",
+                "heading": "මානාභරණගේ මැදිහත්වීම",
+                "paragraphs": [
+                    "ගජබාහු සහ පරාක්‍රමබාහු අතර සටන් පවතින අතරතුර මානාභරණගේ පාර්ශ්වයද රජරටේ බලය ලබාගැනීමට උත්සාහ කළේය.",
+                    "එක් අවස්ථාවක ගජබාහු මානාභරණගේ පාලනය යටතට පත්ව සිරගත කරනු ලැබූ බවත්, පසුව පරාක්‍රමබාහුගේ හමුදා විසින් නිදහස් කළ බවත් චූලවංශ සම්ප්‍රදාය සඳහන් කරයි."
+                ]
+            },
+            {
+                "id": "peace-treaty",
+                "heading": "පරාක්‍රමබාහු සමඟ සාම ගිවිසුම",
+                "paragraphs": [
+                    "දිගු ගැටුම්වලින් පසු පොළොන්නරුවේ භික්ෂූන් වහන්සේලා දෙපාර්ශ්වය අතර සාමය ඇති කිරීමට මැදිහත් වූහ.",
+                    "ගජබාහු සහ පරාක්‍රමබාහු ජීවිත කාලය තුළ එකිනෙකාට එරෙහිව නැවත යුද්ධ නොකිරීමට එකඟ වූ බව සංගමුව ශිලා ලේඛනයේ සඳහන් වේ.",
+                    "මෙම ගිවිසුම ශ්‍රී ලංකාවේ දැනට හඳුනාගෙන ඇති පැරණිතම ලිඛිත සාම ගිවිසුම් අතර වැදගත් ස්ථානයක් ගනී."
+                ]
+            },
+            {
+                "id": "final-years",
+                "heading": "අවසාන කාලය",
+                "paragraphs": [
+                    "සාම ගිවිසුමෙන් පසු ගජබාහුට තම ඉතිරි පාලන බලය සහ දේපළ භුක්ති විඳීමට අවස්ථාව ලබාදුන් බව වංශකතාව සඳහන් කරයි.",
+                    "ඔහු ගංගාතටාක සහ කොට්ඨසාර වැනි ස්ථාන සමඟ සම්බන්ධ වූ අවසාන ජීවිතයක් ගත කළ බව පසුකාලීන විස්තරවල සඳහන් වේ.",
+                    "ක්‍රි.ව. 1153 පමණ ඔහුගේ මරණයෙන් පසු පළමුවන පරාක්‍රමබාහු පොළොන්නරුවේ ප්‍රධාන පාලකයා බවට පත් විය."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "ඓතිහාසික වැදගත්කම",
+                "paragraphs": [
+                    "දෙවන ගජබාහුගේ පාලනය පොළොන්නරු යුගයේ දේශපාලන බෙදීම සහ නැවත එක්සත් කිරීම අතර පැවති වැදගත් සංක්‍රාන්තික අවධියකි.",
+                    "ඔහු පරාක්‍රමබාහුගේ බලය වැඩිවීම හමුවේ වසර ගණනාවක් රජරටේ රාජකීය බලය පවත්වාගෙන ගියේය.",
+                    "සංගමුව සාම ගිවිසුම සහ දිඹුලාගල ශිලා ලේඛනය ඔහුගේ පාලනය සහ පවුල් සම්බන්ධතා තහවුරු කරන වැදගත් ශිලා ලේඛන සාක්ෂි වේ."
+                ]
+            }
+        ],
+        "en": [
+            {
+                "id": "introduction",
+                "heading": "Introduction",
+                "paragraphs": [
+                    "King Gajabahu II was the fourth ruler of the Polonnaruwa Kingdom and the principal ruler of Rajarata.",
+                    "His reign formed an important transitional period between the fragmentation following Vijayabahu I and the reunification achieved by Parakramabahu I."
+                ]
+            },
+            {
+                "id": "royal-family",
+                "heading": "Royal Family",
+                "paragraphs": [
+                    "Gajabahu was the son of King Vikramabahu I.",
+                    "The Dimbulagala Maravidiya inscription identifies Queen Sundara Mahadevi, the chief queen of Vikramabahu, as the mother of Gajabahu II."
+                ]
+            },
+            {
+                "id": "accession",
+                "heading": "Accession",
+                "paragraphs": [
+                    "Gajabahu succeeded his father to the rule of Polonnaruwa and Rajarata around 1132 CE.",
+                    "He maintained royal authority in Rajarata for approximately twenty-one years."
+                ]
+            },
+            {
+                "id": "political-division",
+                "heading": "Political Division of the Island",
+                "paragraphs": [
+                    "Gajabahu did not rule the entire island.",
+                    "Rajarata, Dakkhinadesa and Ruhuna were controlled by competing royal factions, creating continuing struggles over territory and succession."
+                ]
+            },
+            {
+                "id": "marriage",
+                "heading": "Marriage to Princess Bhaddavati",
+                "paragraphs": [
+                    "Chronicle genealogy records that Parakramabahu gave his sister Bhaddavati in marriage to Gajabahu.",
+                    "The marriage created a temporary dynastic and political relationship between the two rulers."
+                ]
+            },
+            {
+                "id": "conflict-with-parakramabahu",
+                "heading": "Conflict with Parakramabahu",
+                "paragraphs": [
+                    "As Parakramabahu consolidated Dakkhinadesa, he challenged Gajabahu's authority in Rajarata.",
+                    "Their forces fought for control of Polonnaruwa and other strategic regions.",
+                    "The Culavamsa describes these events from a perspective strongly favourable to Parakramabahu and should be cited with an appropriate qualification."
+                ]
+            },
+            {
+                "id": "peace-agreement",
+                "heading": "Peace Agreement",
+                "paragraphs": [
+                    "Buddhist monks eventually mediated between Gajabahu and Parakramabahu.",
+                    "The Sangamuwa inscription records their agreement not to wage war against each other for the remainder of their lives.",
+                    "The inscription is an important independent source for their political settlement."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "Historical Importance",
+                "paragraphs": [
+                    "Gajabahu's reign represents the final stage of divided political authority before Parakramabahu's reunification of the island.",
+                    "The Dimbulagala and Sangamuwa inscriptions provide important evidence concerning his genealogy and political relations."
+                ]
+            }
+        ]
+    },
+    "majorEvents": [
+        {
+            "id": "accession-to-rajarata",
+            "order": 1,
+            "year": 1132,
+            "type": "royal-succession",
+            "name": {
+                "si": "රජරටේ පාලනය ලබාගැනීම",
+                "en": "Accession to the Rule of Rajarata"
+            },
+            "description": {
+                "si": "පළමුවන වික්‍රමබාහුගේ මරණයෙන් පසු ගජබාහු පොළොන්නරුව සහ රජරට පාලනය ලබාගත්තේය.",
+                "en": "Gajabahu succeeded his father Vikramabahu I to the rule of Polonnaruwa and Rajarata."
+            },
+            "sourceStatus": "chronicle-and-inscription-supported"
+        },
+        {
+            "id": "marriage-to-bhaddavati",
+            "order": 2,
+            "year": null,
+            "type": "royal-marriage",
+            "name": {
+                "si": "භද්දවතී කුමරිය සමඟ විවාහය",
+                "en": "Marriage to Princess Bhaddavati"
+            },
+            "description": {
+                "si": "පරාක්‍රමබාහුගේ සහෝදරිය වූ භද්දවතී කුමරිය සමඟ විවාහ වීමෙන් දෙපාර්ශ්වය අතර රාජවංශීය සම්බන්ධතාවක් ඇති විය.",
+                "en": "Marriage to Parakramabahu's sister Bhaddavati created a dynastic relationship between the two royal houses."
+            },
+            "sourceStatus": "chronicle-genealogy"
+        },
+        {
+            "id": "arrival-of-parakramabahu",
+            "order": 3,
+            "year": null,
+            "type": "court-event",
+            "name": {
+                "si": "පරාක්‍රමබාහු කුමරු පොළොන්නරු රාජ සභාවට පැමිණීම",
+                "en": "Arrival of Prince Parakramabahu at the Polonnaruwa Court"
+            },
+            "description": {
+                "si": "පරාක්‍රමබාහු කුමරු ගජබාහුගේ රාජ සභාවට පැමිණ මුලදී රාජකීය ගෞරවය ලැබූ බව වංශකතාව සඳහන් කරයි.",
+                "en": "The chronicle records that Prince Parakramabahu was initially welcomed with royal favour at Gajabahu's court."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "war-with-parakramabahu",
+            "order": 4,
+            "year": null,
+            "type": "civil-war",
+            "name": {
+                "si": "පරාක්‍රමබාහු සමඟ යුද්ධය",
+                "en": "War with Parakramabahu"
+            },
+            "description": {
+                "si": "රජරට සහ පොළොන්නරුවේ පාලනය සඳහා ගජබාහු සහ පරාක්‍රමබාහුගේ පාර්ශ්ව අතර යුද්ධ ඇති විය.",
+                "en": "War broke out between the factions of Gajabahu and Parakramabahu for control of Rajarata and Polonnaruwa."
+            },
+            "sourceStatus": "culavamsa-and-inscription-context"
+        },
+        {
+            "id": "capture-by-manabharana",
+            "order": 5,
+            "year": null,
+            "type": "political-capture",
+            "name": {
+                "si": "මානාභරණගේ පාර්ශ්වය විසින් අල්ලාගැනීම",
+                "en": "Capture by Manabharana's Faction"
+            },
+            "description": {
+                "si": "දේශපාලන ගැටුම් අතරතුර ගජබාහු මානාභරණගේ පාර්ශ්වය විසින් අල්ලා සිරගත කළ බව චූලවංශය සඳහන් කරයි.",
+                "en": "The Culavamsa records that Gajabahu was captured and imprisoned by Manabharana's faction during the conflict."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "rescue-by-parakramabahu",
+            "order": 6,
+            "year": null,
+            "type": "military-rescue",
+            "name": {
+                "si": "පරාක්‍රමබාහුගේ පාර්ශ්වය විසින් නිදහස් කිරීම",
+                "en": "Rescue by Parakramabahu's Faction"
+            },
+            "description": {
+                "si": "පරාක්‍රමබාහුගේ හමුදා මැදිහත් වී ගජබාහු මානාභරණගේ සිරයෙන් නිදහස් කළ බව වංශකතාවේ සඳහන් වේ.",
+                "en": "The chronicle records that Parakramabahu's forces intervened and released Gajabahu from Manabharana's custody."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "sangamuwa-peace-treaty",
+            "order": 7,
+            "year": null,
+            "type": "peace-treaty",
+            "name": {
+                "si": "සංගමුව සාම ගිවිසුම",
+                "en": "Sangamuwa Peace Treaty"
+            },
+            "description": {
+                "si": "ගජබාහු සහ පරාක්‍රමබාහු තම ජීවිත කාලය තුළ නැවත එකිනෙකාට එරෙහිව යුද්ධ නොකිරීමට එකඟ වූහ.",
+                "en": "Gajabahu and Parakramabahu agreed not to wage war against each other during their lifetimes."
+            },
+            "sourceStatus": "inscription-supported"
+        },
+        {
+            "id": "succession-of-parakramabahu",
+            "order": 8,
+            "year": 1153,
+            "type": "royal-succession",
+            "name": {
+                "si": "පරාක්‍රමබාහු පොළොන්නරුවේ පාලනය ලබාගැනීම",
+                "en": "Succession of Parakramabahu at Polonnaruwa"
+            },
+            "description": {
+                "si": "ගජබාහුගේ මරණයෙන් පසු පළමුවන පරාක්‍රමබාහු පොළොන්නරුවේ සහ රජරටේ ප්‍රධාන පාලකයා බවට පත් විය.",
+                "en": "After Gajabahu's death, Parakramabahu I became the principal ruler of Polonnaruwa and Rajarata."
+            },
+            "sourceStatus": "chronicle-and-historical"
+        }
+    ],
+    "achievements": [
+        {
+            "id": "maintained-rajarata-rule",
+            "title": {
+                "si": "වසර විසි එකක් පමණ රජරටේ රාජකීය බලය පවත්වාගෙන යාම",
+                "en": "Maintaining Royal Authority in Rajarata for Approximately Twenty-One Years"
+            }
+        },
+        {
+            "id": "preserved-polonnaruwa-court",
+            "title": {
+                "si": "පොළොන්නරුවේ රාජකීය හා පරිපාලන මධ්‍යස්ථානය පවත්වාගෙන යාම",
+                "en": "Maintaining the Royal and Administrative Centre at Polonnaruwa"
+            }
+        },
+        {
+            "id": "peace-treaty",
+            "title": {
+                "si": "පරාක්‍රමබාහු සමඟ ලිඛිත සාම ගිවිසුමකට පැමිණීම",
+                "en": "Concluding a Recorded Peace Agreement with Parakramabahu"
+            }
+        }
+    ],
+    "constructions": [],
+    "constructionNotes": {
+        "si": "දෙවන ගජබාහුට සෘජුව හා නිශ්චිතව අයත් ප්‍රධාන ඉදිකිරීම් පිළිබඳ පැහැදිලි සාක්ෂි සීමිතය. දිඹුලාගල මාර්ගය, ගුහා විහාර, ප්‍රතිමා, දාගැබ් සහ බෝධි වෘක්ෂ ආශ්‍රිත කාර්යයන් ඔහුගේ මව වූ සුන්දරා මහාදේවී විසින් සිදුකළ බව ශිලා ලේඛනය සඳහන් කරයි. ඒවා ගජබාහුගේ පෞද්ගලික ඉදිකිරීම් ලෙස නොදැක්විය යුතුය.",
+        "en": "Clear evidence for major constructions directly attributable to Gajabahu II is limited. The Dimbulagala inscription attributes the paved road, cave temples, images, stupas and Bodhi-tree establishments to his mother Sundara Mahadevi, not directly to Gajabahu."
+    },
+    "relatedInscriptions": [
+        {
+            "id": "dimbulagala-maravidiya-inscription",
+            "name": {
+                "si": "දිඹුලාගල මාරාවීදිය ශිලා ලේඛනය",
+                "en": "Dimbulagala Maravidiya Rock Inscription"
+            },
+            "importance": {
+                "si": "සුන්දරා මහාදේවී වික්‍රමබාහුගේ අගබිසව සහ දෙවන ගජබාහුගේ මව ලෙස හඳුනාගැනීමට වැදගත් සාක්ෂියකි.",
+                "en": "Important evidence identifying Sundara Mahadevi as the chief queen of Vikramabahu and mother of Gajabahu II."
+            },
+            "sourceStatus": "primary-inscription"
+        },
+        {
+            "id": "sangamuwa-peace-inscription",
+            "name": {
+                "si": "සංගමුව සාම ගිවිසුම් ශිලා ලේඛනය",
+                "en": "Sangamuwa Peace Treaty Inscription"
+            },
+            "importance": {
+                "si": "ගජබාහු සහ පරාක්‍රමබාහු නැවත එකිනෙකාට එරෙහිව යුද්ධ නොකිරීමට එකඟ වූ බව තහවුරු කරන ශිලා ලේඛන සාක්ෂියකි.",
+                "en": "Inscriptional evidence confirming that Gajabahu and Parakramabahu agreed not to wage war against one another."
+            },
+            "sourceStatus": "primary-inscription"
+        }
+    ],
+    "examNotes": {
+        "si": [
+            "පළමුවන වික්‍රමබාහු රජුගේ පුත්‍රයාය.",
+            "මව සුන්දරා මහාදේවී බිසවයි.",
+            "මහ විජයබාහු I රජුගේ මුණුපුරෙකි.",
+            "ක්‍රි.ව. 1132–1153 අතර පොළොන්නරුව සහ රජරට පාලනය කළේය.",
+            "පොළොන්නරු රාජධානියේ සිව්වන පාලකයා ලෙස සලකයි.",
+            "භද්දවතී කුමරිය ඔහුගේ බිසව ලෙස සඳහන් වේ.",
+            "පරාක්‍රමබාහු කුමරු සමඟ බල අරගලයක් ඇති විය.",
+            "මානාභරණගේ පාර්ශ්වය විසින් අල්ලා සිරගත කළ බව චූලවංශය සඳහන් කරයි.",
+            "පසුව පරාක්‍රමබාහුගේ පාර්ශ්වය විසින් නිදහස් කරන ලදී.",
+            "සංගමුව ශිලා ලේඛනයෙන් පරාක්‍රමබාහු සමඟ ඇති සාම ගිවිසුම තහවුරු වේ.",
+            "තහවුරු කළ පුත්‍ර උරුමකරුවෙකු සඳහන් නොවේ.",
+            "ඔහුගෙන් පසු පළමුවන පරාක්‍රමබාහු පාලනය ලබාගත්තේය."
+        ],
+        "en": [
+            "Son of King Vikramabahu I.",
+            "His mother was Queen Sundara Mahadevi.",
+            "Grandson of King Vijayabahu I.",
+            "Ruled Polonnaruwa and Rajarata from 1132 to 1153 CE.",
+            "Regarded as the fourth ruler of the Polonnaruwa Kingdom.",
+            "Princess Bhaddavati is identified as his queen.",
+            "Fought a major political conflict with Prince Parakramabahu.",
+            "The Culavamsa records his capture and imprisonment by Manabharana's faction.",
+            "He was subsequently rescued by Parakramabahu's forces.",
+            "The Sangamuwa inscription confirms a peace treaty with Parakramabahu.",
+            "No confirmed male heir is recorded.",
+            "He was succeeded by King Parakramabahu I."
+        ]
+    },
+    "essaySummary": {
+        "si": "දෙවන ගජබාහු රජු පළමුවන වික්‍රමබාහු රජුගේ සහ සුන්දරා මහාදේවී බිසවගේ පුත්‍රයාය. මහ විජයබාහු I රජුගේ මුණුපුරෙකු වූ ඔහු ක්‍රි.ව. 1132 සිට 1153 දක්වා පොළොන්නරුව සහ රජරට පාලනය කළේය. ඔහුගේ පාලන සමයේ දිවයින රජරට, දක්ෂිණ දේශය සහ රුහුණ යන දේශපාලන කොටස්වලට බෙදී තිබුණි. පරාක්‍රමබාහු කුමරුගේ බලය වර්ධනය වීමත් සමඟ ගජබාහු සහ පරාක්‍රමබාහු අතර සටන් ඇති විය. මානාභරණගේ පාර්ශ්වය විසින් ගජබාහු අල්ලා සිරගත කළ නමුත් පසුව පරාක්‍රමබාහුගේ හමුදා විසින් ඔහු නිදහස් කරන ලදී. භික්ෂූන්ගේ මැදිහත්වීමෙන් දෙපාර්ශ්වය අතර සාම ගිවිසුමක් ඇති වූ අතර සංගමුව ශිලා ලේඛනයෙන් එම එකඟතාව තහවුරු වේ. ගජබාහුට තහවුරු කළ උරුමකරුවෙකු නොසිටි බැවින් ඔහුගේ මරණයෙන් පසු පළමුවන පරාක්‍රමබාහු පොළොන්නරුවේ පාලනය ලබාගත්තේය.",
+        "en": "King Gajabahu II was the son of King Vikramabahu I and Queen Sundara Mahadevi and a grandson of King Vijayabahu I. He ruled Polonnaruwa and Rajarata from 1132 to 1153 CE, during a period when the island was divided among Rajarata, Dakkhinadesa and Ruhuna. The growing power of Prince Parakramabahu produced a prolonged military conflict. Gajabahu was captured by Manabharana's faction but was later released through the intervention of Parakramabahu's forces. Buddhist monks mediated a peace settlement, and the Sangamuwa inscription records an agreement between Gajabahu and Parakramabahu not to wage war against one another. As no confirmed heir is recorded, Parakramabahu I obtained control of Polonnaruwa after Gajabahu's death."
+    },
+    "sourceIds": [
+        "culavamsa-chapter-60",
+        "culavamsa-chapter-63",
+        "culavamsa-chapter-66",
+        "culavamsa-chapter-67",
+        "culavamsa-chapter-70",
+        "culavamsa-chapter-71",
+        "dimbulagala-maravidiya-inscription",
+        "sangamuwa-peace-inscription",
+        "epigraphia-zeylanica-volume-2"
+    ],
+    "sourceStatus": {
+        "overall": "chronicle-and-primary-inscription-supported",
+        "notes": {
+            "si": "ගජබාහුගේ පියා, පාලන අනුපිළිවෙළ සහ පරාක්‍රමබාහු සමඟ ගැටුම් පිළිබඳ ප්‍රධාන විස්තර චූලවංශයෙන් ලැබේ. සුන්දරා මහාදේවී ඔහුගේ මව බව දිඹුලාගල මාරාවීදිය ශිලා ලේඛනයෙන් තහවුරු වේ. ගජබාහු සහ පරාක්‍රමබාහු අතර සාම ගිවිසුම සංගමුව ශිලා ලේඛනයෙන් සහාය ලබයි. චූලවංශය පරාක්‍රමබාහුගේ පාර්ශ්වයට හිතකර ලෙස රචනා වී ඇති හැකියාව නිසා යුධ විස්තර source qualification එකක් සමඟ පෙන්විය යුතුය.",
+            "en": "The Culavamsa is the principal source for Gajabahu's succession and conflicts with Parakramabahu. The Dimbulagala Maravidiya inscription independently identifies Sundara Mahadevi as his mother. The Sangamuwa inscription supports the existence of a peace agreement between Gajabahu and Parakramabahu. Since the Culavamsa presents events from a perspective favourable to Parakramabahu, its military narrative should be displayed with an explicit source qualification."
+        }
+    },
+    "seo": {
+        "title": {
+            "si": "දෙවන ගජබාහු රජු | පොළොන්නරු රාජධානිය",
+            "en": "King Gajabahu II | Kingdom of Polonnaruwa"
+        },
+        "description": {
+            "si": "පළමුවන වික්‍රමබාහුගේ පුත් දෙවන ගජබාහු රජුගේ පාලනය, මව සුන්දරා මහාදේවී, බිසව භද්දවතී, පරාක්‍රමබාහු සමඟ යුද්ධය සහ සංගමුව සාම ගිවිසුම පිළිබඳ සම්පූර්ණ විස්තරය.",
+            "en": "Explore the reign, family, Queen Sundara Mahadevi, Princess Bhaddavati, conflict with Parakramabahu and Sangamuwa peace treaty of King Gajabahu II."
+        },
+        "keywords": {
+            "si": [
+                "දෙවන ගජබාහු",
+                "ගජබාහු II",
+                "පළමුවන වික්‍රමබාහු",
+                "සුන්දරා මහාදේවී",
+                "භද්දවතී කුමරිය",
+                "පළමුවන පරාක්‍රමබාහු",
+                "සංගමුව ශිලා ලේඛනය",
+                "දිඹුලාගල ශිලා ලේඛනය",
+                "පොළොන්නරු රාජධානිය"
+            ],
+            "en": [
+                "King Gajabahu II",
+                "Gajabahu of Polonnaruwa",
+                "Vikramabahu I",
+                "Queen Sundara Mahadevi",
+                "Princess Bhaddavati",
+                "Parakramabahu I",
+                "Sangamuwa inscription",
+                "Dimbulagala inscription",
+                "Polonnaruwa Kingdom"
+            ]
+        }
+    }
+}

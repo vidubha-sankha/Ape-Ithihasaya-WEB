@@ -1,0 +1,567 @@
+{
+    "id": "jayabahu-i",
+    "slug": "jayabahu-i",
+    "type": "person",
+    "roles": [
+        "king",
+        "adipada",
+        "regional-ruler"
+    ],
+    "status": "published",
+    "rulerNumber": {
+        "royalChronologyOrder": null,
+        "monarchOrder": null,
+        "kingdomOrder": 2
+    },
+    "rulerClassification": {
+        "type": "monarch",
+        "isMonarch": true,
+        "isInterregnumRuler": false,
+        "isForeignRuler": false,
+        "isJointRuler": false,
+        "isRegionalRuler": true,
+        "isIslandwideRuler": false,
+        "effectiveAuthorityStatus": "brief-and-disputed"
+    },
+    "name": {
+        "si": "පළමුවන ජයබාහු රජු",
+        "en": "King Jayabahu I"
+    },
+    "shortName": {
+        "si": "පළමුවන ජයබාහු",
+        "en": "Jayabahu I"
+    },
+    "alternativeNames": {
+        "si": [
+            "ජයබාහු",
+            "ජයබාහු කුමරු",
+            "ආදිපාද ජයබාහු"
+        ],
+        "en": [
+            "Jayabahu",
+            "Prince Jayabahu",
+            "Adipada Jayabahu"
+        ]
+    },
+    "gender": "male",
+    "kingdomId": "polonnaruwa-kingdom",
+    "dynastyId": "house-of-vijayabahu",
+    "periodId": "polonnaruwa-kingdom",
+    "regionIds": [
+        "rajarata",
+        "ruhuna"
+    ],
+    "kingdomDisplay": {
+        "si": "පොළොන්නරු රාජධානිය",
+        "en": "Kingdom of Polonnaruwa"
+    },
+    "dynastyDisplay": {
+        "si": "විජයබාහු රාජවංශය",
+        "en": "House of Vijayabahu"
+    },
+    "rulerNumberDisplay": {
+        "si": {
+            "royalChronology": "ලක්දිව රාජාවලියේ අනුපිළිවෙළ සම්පූර්ණ කිරීමෙන් පසු අංකය යොදනු ලැබේ",
+            "monarch": "සම්පූර්ණ රාජාවලි අංකය තහවුරු කිරීමට නියමිතය",
+            "kingdom": "පොළොන්නරු රාජධානියේ දෙවන පාලකයා"
+        },
+        "en": {
+            "royalChronology": "The overall chronology number will be assigned after the master list is finalised",
+            "monarch": "The overall monarch number remains to be verified",
+            "kingdom": "Second ruler of the Kingdom of Polonnaruwa"
+        }
+    },
+    "reign": {
+        "startYear": 1110,
+        "endYear": 1111,
+        "calendar": "CE",
+        "lengthYears": 1,
+        "display": {
+            "si": "ක්‍රි.ව. 1110 – 1111 පමණ",
+            "en": "Approximately 1110–1111 CE"
+        },
+        "dateStatus": "approximate-and-disputed",
+        "effectiveReign": {
+            "startYear": 1110,
+            "endYear": 1111,
+            "display": {
+                "si": "පොළොන්නරුවේ සක්‍රීය පාලනය වසරක් පමණ",
+                "en": "Effective authority at Polonnaruwa lasted approximately one year"
+            }
+        },
+        "laterStatus": {
+            "display": {
+                "si": "වික්‍රමබාහු විසින් පොළොන්නරුව අත්පත් කරගැනීමෙන් පසු ජයබාහු රුහුණට පසුබැස ජීවත් වූ බව වංශකතාවල සඳහන් වේ.",
+                "en": "After Vikramabahu captured Polonnaruwa, Jayabahu is recorded as having withdrawn to Ruhuna."
+            }
+        },
+        "dateNote": {
+            "si": "ජයබාහුගේ නාමික රාජ්‍ය කාලය සහ සැබෑ දේශපාලන බලය අතර වෙනසක් පැවති බව පර්යේෂණවල පෙන්වා දෙයි. පොළොන්නරුවේ සක්‍රීය බලය වසරක් පමණ පැවති බව සාමාන්‍යයෙන් පිළිගනී.",
+            "en": "A distinction is made between Jayabahu's nominal kingship and his effective political authority. His active control of Polonnaruwa is generally considered to have lasted approximately one year."
+        }
+    },
+    "predecessorId": "vijayabahu-i",
+    "successorId": "vikramabahu-i",
+    "succession": {
+        "previousChronologyEntryId": "vijayabahu-i",
+        "nextChronologyEntryId": "vikramabahu-i",
+        "nextMonarchId": "vikramabahu-i",
+        "previousRulerDisplay": {
+            "si": "මහ විජයබාහු රජතුමා",
+            "en": "King Vijayabahu I"
+        },
+        "nextRulerDisplay": {
+            "si": "පළමුවන වික්‍රමබාහු රජු",
+            "en": "King Vikramabahu I"
+        },
+        "accessionNote": {
+            "si": "මහ විජයබාහු රජුගේ මරණයෙන් පසු රාජකීය නිලධාරීන්, ප්‍රධාන භික්ෂූන් සහ මිත්තා කුමරියගේ පාර්ශ්වයේ සහය ඇතිව ජයබාහු රාජාභිෂේක කරනු ලැබීය.",
+            "en": "After the death of Vijayabahu I, Jayabahu was consecrated with the support of court officials, senior monks and the political faction associated with Princess Mitta."
+        },
+        "successionConflict": {
+            "si": "ජයබාහු සිහසුනට පත් කළත්, විජයබාහුගේ පුත් වික්‍රමබාහු රාජ්‍ය උරුමයට ප්‍රබල හිමිකමක් ඉදිරිපත් කළේය. මෙම තත්ත්වය පොළොන්නරු රාජධානියේ සිවිල් බල අරගලයකට හේතු විය.",
+            "en": "Although Jayabahu was enthroned, Vijayabahu's son Vikramabahu asserted a strong claim to royal power, producing a major civil conflict."
+        }
+    },
+    "titles": [
+        {
+            "id": "adipada",
+            "name": {
+                "si": "ආදිපාද",
+                "en": "Adipada"
+            },
+            "description": {
+                "si": "මහ විජයබාහු රජු විසින් ජයබාහුට ලබා දුන් ඉහළ රාජකීය පදවියකි. මෙම පදවිය රාජ්‍ය උරුමය සමඟ සම්බන්ධ වූ බව චූලවංශ විවරණවල පෙන්වා දෙයි.",
+                "en": "A high royal title granted to Jayabahu by Vijayabahu I and associated with recognised succession rights."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "king-of-lanka",
+            "name": {
+                "si": "ලංකාධිපති",
+                "en": "King of Lanka"
+            },
+            "description": {
+                "si": "විජයබාහුගේ මරණයෙන් පසු සිදු කළ රාජාභිෂේකය මඟින් ලැබූ රාජකීය තත්ත්වයයි.",
+                "en": "The royal status acquired through consecration after the death of Vijayabahu I."
+            },
+            "sourceStatus": "chronicle-based"
+        }
+    ],
+    "family": {
+        "fatherId": "moggallana-prince",
+        "motherId": "lokita-princess",
+        "paternalGrandfatherId": "kassapa-prince",
+        "maternalGrandfatherId": "bodhi-prince",
+        "siblingIds": [
+            "vijayabahu-i",
+            "virabahu-prince",
+            "mitta-princess"
+        ],
+        "spouseIds": [],
+        "childIds": [],
+        "nephewIds": [
+            "vikramabahu-i",
+            "manabharana-mitta-son",
+            "kittisirimegha",
+            "sirivallabha"
+        ]
+    },
+    "familyDisplay": {
+        "si": {
+            "father": "මොග්ගල්ලාන කුමරු",
+            "mother": "ලෝකිතා කුමරිය",
+            "paternalGrandfather": "කස්සප කුමරු",
+            "maternalGrandfather": "බෝධි කුමරු",
+            "siblings": [
+                "මහ විජයබාහු රජතුමා",
+                "වීරබාහු කුමරු",
+                "මිත්තා කුමරිය"
+            ],
+            "spouses": [],
+            "children": [],
+            "nephews": [
+                "පළමුවන වික්‍රමබාහු රජු — විජයබාහුගේ පුත්‍රයා",
+                "මානාභරණ කුමරු — මිත්තාගේ පුත්‍රයා",
+                "කිත්තිසිරිමේඝ කුමරු — මිත්තාගේ පුත්‍රයා",
+                "සිරිවල්ලභ කුමරු — මිත්තාගේ පුත්‍රයා"
+            ]
+        },
+        "en": {
+            "father": "Prince Moggallana",
+            "mother": "Princess Lokita",
+            "paternalGrandfather": "Prince Kassapa",
+            "maternalGrandfather": "Prince Bodhi",
+            "siblings": [
+                "King Vijayabahu I",
+                "Prince Virabahu",
+                "Princess Mitta"
+            ],
+            "spouses": [],
+            "children": [],
+            "nephews": [
+                "King Vikramabahu I — son of Vijayabahu I",
+                "Prince Manabharana — son of Princess Mitta",
+                "Prince Kittisirimegha — son of Princess Mitta",
+                "Prince Sirivallabha — son of Princess Mitta"
+            ]
+        }
+    },
+    "familyNotes": {
+        "si": [
+            "ජයබාහු මහ විජයබාහු රජුගේ බාල සහෝදරයෙකි.",
+            "විජයබාහුගේ සහෝදර වීරබාහු මියගිය පසු ජයබාහු උපරාජ හෝ රාජ්‍ය උරුමයට සම්බන්ධ ඉහළ පදවියක් ලබාගත් බව වංශකතා විවරණවල සඳහන් වේ.",
+            "විජයබාහුගේ පුත් වික්‍රමබාහු ජයබාහුගේ බෑණාය.",
+            "මිත්තා කුමරියගේ පුත්‍රයන් වූ මානාභරණ, කිත්තිසිරිමේඝ සහ සිරිවල්ලභද ජයබාහුගේ බෑණාවරුය.",
+            "ජයබාහුගේ බිරිඳක් හෝ දරුවන් පිළිබඳ විශ්වාසදායක නාම චූලවංශයෙන් පැහැදිලිව තහවුරු නොවන බැවින් ඒවා ගොතා දත්ත ගොනුවට ඇතුළත් කර නැත."
+        ],
+        "en": [
+            "Jayabahu was a younger brother of King Vijayabahu I.",
+            "After the death of their brother Virabahu, Jayabahu received a senior royal position connected with succession.",
+            "Vikramabahu, the son of Vijayabahu I, was Jayabahu's nephew.",
+            "Manabharana, Kittisirimegha and Sirivallabha, the sons of Princess Mitta, were also his nephews.",
+            "Reliable names for a wife or children of Jayabahu are not clearly established in the Culavamsa, so no speculative names have been added."
+        ]
+    },
+    "birth": {
+        "year": null,
+        "calendar": "CE",
+        "placeId": "ruhuna",
+        "display": {
+            "si": "රුහුණු රාජකීය පවුල තුළ උපත ලැබූ බව සැලකේ; නිශ්චිත වර්ෂය සඳහන් නොවේ",
+            "en": "Born into the royal family of Ruhuna; the exact year is not recorded"
+        },
+        "dateStatus": "not-recorded"
+    },
+    "death": {
+        "year": null,
+        "calendar": "CE",
+        "placeId": "ruhuna",
+        "display": {
+            "si": "රුහුණේදී මියගිය බව වංශකතා සඳහන් කරයි; නිශ්චිත වර්ෂය පැහැදිලි නොවේ",
+            "en": "The chronicles associate his death with Ruhuna; the precise year is uncertain"
+        },
+        "dateStatus": "uncertain"
+    },
+    "capitals": [
+        {
+            "id": "polonnaruwa",
+            "name": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "role": {
+                "si": "කෙටි රාජකීය පාලන මධ්‍යස්ථානය",
+                "en": "Brief royal centre of authority"
+            }
+        },
+        {
+            "id": "mahanagahula",
+            "name": {
+                "si": "මහානාගහුල / මානාවුළු",
+                "en": "Mahanagahula / Manavulu"
+            },
+            "role": {
+                "si": "පොළොන්නරුවෙන් ඉවත් වූ පසු රුහුණේ සම්බන්ධ පාලන මධ්‍යස්ථානය",
+                "en": "A southern centre associated with Jayabahu after his withdrawal from Polonnaruwa"
+            }
+        }
+    ],
+    "image": {
+        "main": "/images/kings/jayabahu-i.webp",
+        "thumbnail": "/images/kings/thumbnails/jayabahu-i.webp",
+        "alt": {
+            "si": "පළමුවන ජයබාහු රජුගේ කලාත්මක ප්‍රතිනිර්මාණය",
+            "en": "Artistic reconstruction of King Jayabahu I"
+        },
+        "caption": {
+            "si": "මෙය පළමුවන ජයබාහු රජුගේ කලාත්මක ප්‍රතිනිර්මාණයකි. සමකාලීන සැබෑ රූපයක් නොවේ.",
+            "en": "An artistic reconstruction of King Jayabahu I; this is not a surviving contemporary portrait."
+        },
+        "isReconstruction": true
+    },
+    "summary": {
+        "si": "පළමුවන ජයබාහු රජු මහ විජයබාහු රජුගේ බාල සහෝදරයෙකු සහ පොළොන්නරු රාජධානියේ කෙටි කාලීන පාලකයෙකි. විජයබාහුගේ මරණයෙන් පසු රාජකීය නිලධාරීන්, ප්‍රධාන භික්ෂූන් සහ මිත්තා කුමරියගේ පාර්ශ්වයේ සහය ඇතිව ඔහු සිහසුනට පත් කරනු ලැබීය. එහෙත් විජයබාහුගේ පුත් වික්‍රමබාහු මෙම පාලනයට එරෙහිව සටන් කර ජයබාහුගේ හමුදා පරාජය කළේය. ඉන්පසු වික්‍රමබාහු පොළොන්නරුවේ බලය ලබාගත් අතර ජයබාහු රුහුණට පසුබැස ගියේය. ඔහුගේ කෙටි පාලනය විජයබාහුගේ මරණයෙන් පසු ඇති වූ රාජවංශීය අර්බුදය සහ පොළොන්නරු රාජ්‍යයේ දේශපාලන බෙදීම නිරූපණය කරයි.",
+        "en": "King Jayabahu I was a younger brother of Vijayabahu I and a short-lived ruler of the Polonnaruwa Kingdom. Following Vijayabahu's death, he was enthroned with the support of court officials, senior monks and the political faction associated with Princess Mitta. Vijayabahu's son Vikramabahu challenged this arrangement, defeated Jayabahu's forces and captured Polonnaruwa. Jayabahu subsequently withdrew to Ruhuna. His reign represents the dynastic crisis and political fragmentation that followed the death of Vijayabahu I."
+    },
+    "biography": {
+        "si": [
+            {
+                "id": "introduction",
+                "heading": "හැඳින්වීම",
+                "paragraphs": [
+                    "පළමුවන ජයබාහු රජු පොළොන්නරු රාජධානියේ දෙවන පාලකයා ලෙස සැලකෙන කෙටි කාලීන රජෙකි.",
+                    "ඔහු මහ විජයබාහු රජුගේ බාල සහෝදරයෙකු වූ අතර විජයබාහුගේ මරණයෙන් පසු ක්‍රි.ව. 1110 පමණ සිහසුනට පත් විය."
+                ]
+            },
+            {
+                "id": "royal-background",
+                "heading": "රාජකීය පවුල් පසුබිම",
+                "paragraphs": [
+                    "වංශකතා පවුල් සටහන් අනුව ජයබාහුගේ පියා මොග්ගල්ලාන කුමරු වන අතර මව ලෝකිතා කුමරියයි.",
+                    "මහ විජයබාහු, වීරබාහු සහ මිත්තා ජයබාහුගේ සහෝදර සහෝදරියන් ලෙස සඳහන් වේ."
+                ]
+            },
+            {
+                "id": "royal-titles",
+                "heading": "රාජකීය පදවි",
+                "paragraphs": [
+                    "මහ විජයබාහු රජු තම සහෝදර වීරබාහුට උපරාජ පදවිය සහ ජයබාහුට ආදිපාද පදවිය ලබා දුන් බව චූලවංශ විවරණයේ සඳහන් වේ.",
+                    "වීරබාහුගේ මරණයෙන් පසු ජයබාහු රාජ්‍ය උරුමයට සම්බන්ධ වඩාත් ප්‍රබල තත්ත්වයකට පත් විය."
+                ]
+            },
+            {
+                "id": "accession",
+                "heading": "සිහසුනට පත්වීම",
+                "paragraphs": [
+                    "විජයබාහු රජුගේ මරණයෙන් පසු මිත්තා කුමරිය, ඇගේ පුත්‍රයන්, රාජකීය නිලධාරීන් සහ ප්‍රධාන භික්ෂූන්ගේ සහාය ඇතිව ජයබාහු රජු ලෙස අභිෂේක කරන ලදී.",
+                    "එම පාර්ශ්වය මිත්තාගේ වැඩිමහල් පුත් මානාභරණ උපරාජ ලෙස පත් කළේය. මෙය විජයබාහුගේ පුත් වික්‍රමබාහුගේ උරුම හිමිකමට අභියෝගයක් විය."
+                ]
+            },
+            {
+                "id": "civil-war",
+                "heading": "වික්‍රමබාහු සමඟ බල අරගලය",
+                "paragraphs": [
+                    "සිහසුනට පත්වීමෙන් පසු ජයබාහුගේ පාර්ශ්වය රුහුණේ සිටි වික්‍රමබාහුට එරෙහිව හමුදා මෙහෙයුමක් ආරම්භ කළේය.",
+                    "වික්‍රමබාහු තම සීමිත හමුදා බලය සමඟ සටන් කර ජයබාහුගේ සහ මානාභරණගේ හමුදා කිහිපවරක් පරාජය කළේය.",
+                    "අවසානයේ වික්‍රමබාහු පොළොන්නරුව අත්පත් කරගෙන රජරටේ පාලනය ලබාගත්තේය."
+                ]
+            },
+            {
+                "id": "withdrawal-to-ruhuna",
+                "heading": "රුහුණට පසුබැසීම",
+                "paragraphs": [
+                    "පොළොන්නරුවේ බලය අහිමි වූ ජයබාහු දකුණු ප්‍රදේශයට පසුබැස ගියේය.",
+                    "ඔහු පසුව කිත්තිසිරිමේඝගේ ආරක්ෂාව යටතේ රුහුණේ ජීවත් වූ බව පසුකාලීන ඉතිහාස විස්තරවල සඳහන් වේ."
+                ]
+            },
+            {
+                "id": "administration",
+                "heading": "පාලනය සහ සේවාවන්",
+                "paragraphs": [
+                    "ජයබාහුගේ පාලනය ඉතා කෙටි වූ අතර එය සිවිල් යුද්ධය සහ රාජවංශීය අර්බුදය මත පදනම් වූ කාලයක් විය.",
+                    "ඒ නිසා ඔහුට සෘජුව සම්බන්ධ ප්‍රධාන වාරිමාර්ග, ආගමික ගොඩනැගිලි හෝ පරිපාලන ප්‍රතිසංස්කරණ පිළිබඳ පැහැදිලි වාර්තා නොමැත."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "ඓතිහාසික වැදගත්කම",
+                "paragraphs": [
+                    "ජයබාහුගේ කෙටි පාලනය විජයබාහු I විසින් එක්සත් කළ රාජ්‍යය ඔහුගේ මරණයෙන් පසු ඉක්මනින් දේශපාලන කොටස්වලට බෙදී ගිය ආකාරය පෙන්නුම් කරයි.",
+                    "ඔහුගේ රාජාභිෂේකය සහ වික්‍රමබාහුගේ විරෝධය පොළොන්නරු යුගයේ දීර්ඝ රාජවංශීය ගැටුම් මාලාවක ආරම්භක අවස්ථාවක් විය."
+                ]
+            }
+        ],
+        "en": [
+            {
+                "id": "introduction",
+                "heading": "Introduction",
+                "paragraphs": [
+                    "King Jayabahu I is regarded as the second and a short-lived ruler of the Polonnaruwa Kingdom.",
+                    "He was a younger brother of King Vijayabahu I and was enthroned after Vijayabahu's death around 1110 CE."
+                ]
+            },
+            {
+                "id": "royal-background",
+                "heading": "Royal Background",
+                "paragraphs": [
+                    "Chronicle genealogies associate Jayabahu with Prince Moggallana and Princess Lokita.",
+                    "His siblings included Vijayabahu I, Prince Virabahu and Princess Mitta."
+                ]
+            },
+            {
+                "id": "accession",
+                "heading": "Accession to the Throne",
+                "paragraphs": [
+                    "After the death of Vijayabahu I, Jayabahu was consecrated with the support of Princess Mitta, her sons, court officials and senior monks.",
+                    "Mitta's eldest son Manabharana was appointed heir, directly challenging the position of Vijayabahu's son Vikramabahu."
+                ]
+            },
+            {
+                "id": "conflict-with-vikramabahu",
+                "heading": "Conflict with Vikramabahu",
+                "paragraphs": [
+                    "Jayabahu's faction launched a military campaign against Vikramabahu in Ruhuna.",
+                    "Vikramabahu defeated the opposing forces, captured Polonnaruwa and established his authority over Rajarata."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "Historical Importance",
+                "paragraphs": [
+                    "Jayabahu's short reign illustrates the rapid fragmentation of the unified state created by Vijayabahu I.",
+                    "His accession and overthrow marked the beginning of an extended period of dynastic rivalry during the Polonnaruwa era."
+                ]
+            }
+        ]
+    },
+    "majorEvents": [
+        {
+            "id": "appointment-as-adipada",
+            "order": 1,
+            "year": null,
+            "type": "royal-appointment",
+            "name": {
+                "si": "ආදිපාද පදවිය ලබාගැනීම",
+                "en": "Appointment as Adipada"
+            },
+            "description": {
+                "si": "මහ විජයබාහු රජු විසින් ජයබාහුට ආදිපාද පදවිය ලබා දුන්නේය.",
+                "en": "Vijayabahu I granted Jayabahu the senior royal title of Adipada."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "consecration-as-king",
+            "order": 2,
+            "year": 1110,
+            "type": "royal-consecration",
+            "name": {
+                "si": "පොළොන්නරුවේ රජු ලෙස රාජාභිෂේකය",
+                "en": "Consecration as King at Polonnaruwa"
+            },
+            "description": {
+                "si": "විජයබාහුගේ මරණයෙන් පසු ජයබාහු රජු ලෙස අභිෂේක කරන ලදී.",
+                "en": "Jayabahu was consecrated king after the death of Vijayabahu I."
+            },
+            "sourceStatus": "chronicle-based"
+        },
+        {
+            "id": "appointment-of-manabharana",
+            "order": 3,
+            "year": 1110,
+            "type": "succession-appointment",
+            "name": {
+                "si": "මානාභරණ උපරාජ ලෙස පත් කිරීම",
+                "en": "Appointment of Manabharana as Heir"
+            },
+            "description": {
+                "si": "මිත්තා කුමරියගේ වැඩිමහල් පුත් මානාභරණ උපරාජ ලෙස පත් කිරීම වික්‍රමබාහුගේ උරුම හිමිකමට අභියෝගයක් විය.",
+                "en": "The appointment of Princess Mitta's eldest son Manabharana challenged Vikramabahu's succession rights."
+            },
+            "sourceStatus": "chronicle-based"
+        },
+        {
+            "id": "war-against-vikramabahu",
+            "order": 4,
+            "year": 1110,
+            "type": "civil-war",
+            "name": {
+                "si": "වික්‍රමබාහුට එරෙහි සිවිල් යුද්ධය",
+                "en": "Civil War against Vikramabahu"
+            },
+            "description": {
+                "si": "ජයබාහුගේ පාර්ශ්වය රුහුණේ සිටි වික්‍රමබාහු පරාජය කිරීමට හමුදා යැවූ නමුත් එම හමුදා පරාජයට පත් විය.",
+                "en": "Jayabahu's faction sent forces against Vikramabahu in Ruhuna, but those forces were defeated."
+            },
+            "sourceStatus": "chronicle-based"
+        },
+        {
+            "id": "loss-of-polonnaruwa",
+            "order": 5,
+            "year": 1111,
+            "type": "loss-of-capital",
+            "name": {
+                "si": "පොළොන්නරුවේ බලය අහිමි වීම",
+                "en": "Loss of Polonnaruwa"
+            },
+            "description": {
+                "si": "වික්‍රමබාහු පොළොන්නරුව අත්පත් කරගැනීමෙන් ජයබාහුගේ සක්‍රීය රාජ්‍ය පාලනය අවසන් විය.",
+                "en": "Vikramabahu's capture of Polonnaruwa ended Jayabahu's effective royal authority."
+            },
+            "sourceStatus": "chronicle-and-historical"
+        }
+    ],
+    "achievements": [
+        {
+            "id": "held-adipada-title",
+            "title": {
+                "si": "විජයබාහුගේ පාලන සමයේ ආදිපාද පදවිය දැරීම",
+                "en": "Holding the rank of Adipada under Vijayabahu I"
+            }
+        },
+        {
+            "id": "royal-consecration",
+            "title": {
+                "si": "විජයබාහුගෙන් පසු රාජාභිෂේක ලැබීම",
+                "en": "Receiving royal consecration after Vijayabahu I"
+            }
+        }
+    ],
+    "constructions": [],
+    "constructionNotes": {
+        "si": "ජයබාහුගේ කෙටි සහ යුධගත පාලනයට සෘජුව සම්බන්ධ විශ්වාසදායක ප්‍රධාන ඉදිකිරීම් වාර්තා වී නොමැත.",
+        "en": "No major construction works can be reliably attributed directly to Jayabahu's brief and conflict-dominated reign."
+    },
+    "examNotes": {
+        "si": [
+            "මහ විජයබාහු රජුගේ බාල සහෝදරයෙකි.",
+            "විජයබාහු විසින් ආදිපාද පදවිය ලබා දී තිබුණි.",
+            "විජයබාහුගේ මරණයෙන් පසු ක්‍රි.ව. 1110 පමණ සිහසුනට පත් විය.",
+            "පාලන කාලය වසරක් පමණ ලෙස සැලකේ.",
+            "මිත්තා කුමරියගේ පුත් මානාභරණ උපරාජ ලෙස පත් කරන ලදී.",
+            "විජයබාහුගේ පුත් වික්‍රමබාහු මෙම පාලනයට විරුද්ධ විය.",
+            "වික්‍රමබාහු ජයබාහුගේ හමුදා පරාජය කර පොළොන්නරුව අත්පත් කරගත්තේය.",
+            "ජයබාහු පසුව රුහුණට පසුබැස ගියේය.",
+            "ඔහුගේ පාලනය විජයබාහුගෙන් පසු ඇති වූ රාජවංශීය අර්බුදය නිරූපණය කරයි."
+        ],
+        "en": [
+            "Younger brother of King Vijayabahu I.",
+            "Held the title of Adipada under Vijayabahu I.",
+            "Ascended the throne around 1110 CE.",
+            "His effective reign lasted approximately one year.",
+            "Princess Mitta's son Manabharana was appointed heir.",
+            "Vijayabahu's son Vikramabahu opposed the new political arrangement.",
+            "Vikramabahu defeated Jayabahu's forces and captured Polonnaruwa.",
+            "Jayabahu later withdrew to Ruhuna.",
+            "His reign reflects the dynastic crisis following Vijayabahu I."
+        ]
+    },
+    "essaySummary": {
+        "si": "පළමුවන ජයබාහු රජු මහ විජයබාහු රජුගේ බාල සහෝදරයෙකු සහ පොළොන්නරු රාජධානියේ දෙවන පාලකයාය. විජයබාහුගේ පාලන සමයේ ආදිපාද පදවිය දැරූ ඔහු, විජයබාහුගේ මරණයෙන් පසු රාජකීය නිලධාරීන්, ප්‍රධාන භික්ෂූන් සහ මිත්තා කුමරියගේ පාර්ශ්වයේ සහය ඇතිව රජු ලෙස අභිෂේක කරන ලදී. එහෙත් විජයබාහුගේ පුත් වික්‍රමබාහු මෙම පාලනයට විරුද්ධ වී ජයබාහුගේ හමුදා පරාජය කළේය. වික්‍රමබාහු පොළොන්නරුව අත්පත් කරගැනීමෙන් ජයබාහුගේ සක්‍රීය පාලනය වසරක් පමණ තුළ අවසන් විය. ඔහුගේ කෙටි පාලනය විජයබාහු I රජුගේ මරණයෙන් පසු පොළොන්නරු රාජධානියේ ඇති වූ රාජවංශීය සහ දේශපාලන අර්බුදය පෙන්නුම් කරයි.",
+        "en": "King Jayabahu I was a younger brother of Vijayabahu I and the second ruler of the Polonnaruwa Kingdom. Having held the title of Adipada, he was consecrated after Vijayabahu's death with the support of court officials, senior monks and Princess Mitta's faction. Vijayabahu's son Vikramabahu opposed this political arrangement, defeated Jayabahu's forces and captured Polonnaruwa. Jayabahu's effective authority therefore ended after approximately one year. His short reign represents the dynastic and political crisis that followed the death of Vijayabahu I."
+    },
+    "sourceIds": [
+        "culavamsa-chapter-61",
+        "culavamsa-succession-commentary",
+        "modern-medieval-sri-lanka-research"
+    ],
+    "sourceStatus": {
+        "overall": "chronicle-based-with-limited-personal-records",
+        "notes": {
+            "si": "ජයබාහුගේ සිහසුනට පත්වීම, වික්‍රමබාහු සමඟ ගැටුම සහ රුහුණට පසුබැසීම පිළිබඳ ප්‍රධාන තොරතුරු චූලවංශ සම්ප්‍රදාය මත පදනම් වේ. ඔහුගේ බිරිඳ, දරුවන් සහ ස්වාධීන ඉදිකිරීම් පිළිබඳ පැහැදිලි විශ්වාසදායක තොරතුරු නොමැති බැවින් එවැනි කරුණු ගොතා ඇතුළත් කර නැත.",
+            "en": "The accession of Jayabahu, conflict with Vikramabahu and withdrawal to Ruhuna are based primarily on the Culavamsa tradition. Reliable information about a wife, children or independent construction projects is not clearly preserved, so speculative details have not been added."
+        }
+    },
+    "seo": {
+        "title": {
+            "si": "පළමුවන ජයබාහු රජු | පොළොන්නරු රාජධානිය",
+            "en": "King Jayabahu I | Kingdom of Polonnaruwa"
+        },
+        "description": {
+            "si": "මහ විජයබාහු රජුගෙන් පසු සිහසුනට පත් වූ පළමුවන ජයබාහු රජුගේ කෙටි පාලනය, පවුල් සම්බන්ධතා, වික්‍රමබාහු සමඟ බල අරගලය සහ පොළොන්නරු රාජධානියේ දේශපාලන අර්බුදය ගවේෂණය කරන්න.",
+            "en": "Explore the short reign, royal family, conflict with Vikramabahu and succession crisis of King Jayabahu I of Polonnaruwa."
+        },
+        "keywords": {
+            "si": [
+                "පළමුවන ජයබාහු",
+                "ජයබාහු රජු",
+                "මහ විජයබාහු",
+                "පළමුවන වික්‍රමබාහු",
+                "පොළොන්නරු රාජධානිය",
+                "මිත්තා කුමරිය",
+                "මානාභරණ"
+            ],
+            "en": [
+                "King Jayabahu I",
+                "Jayabahu of Polonnaruwa",
+                "Vijayabahu I",
+                "Vikramabahu I",
+                "Polonnaruwa Kingdom",
+                "Princess Mitta",
+                "Manabharana"
+            ]
+        }
+    }
+}

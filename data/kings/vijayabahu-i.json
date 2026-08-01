@@ -1,0 +1,1086 @@
+{
+  "id": "vijayabahu-i",
+  "slug": "vijayabahu-i",
+  "type": "person",
+
+  "roles": [
+    "king",
+    "unifier",
+    "military-leader",
+    "founder-of-polonnaruwa-kingdom"
+  ],
+
+  "status": "published",
+
+  "rulerNumber": {
+    "royalChronologyOrder": null,
+    "monarchOrder": null,
+    "kingdomOrder": 1
+  },
+
+  "rulerClassification": {
+    "type": "monarch",
+    "isMonarch": true,
+    "isInterregnumRuler": false,
+    "isForeignRuler": false,
+    "isJointRuler": false,
+    "isRegionalRuler": true,
+    "isIslandwideRuler": true
+  },
+
+  "name": {
+    "si": "මහ විජයබාහු රජතුමා",
+    "en": "King Vijayabahu I"
+  },
+
+  "shortName": {
+    "si": "පළමුවන විජයබාහු",
+    "en": "Vijayabahu I"
+  },
+
+  "alternativeNames": {
+    "si": [
+      "මහ විජයබාහු",
+      "පළමුවන විජයබාහු",
+      "ශ්රී විජයබාහු",
+      "කිත්ති කුමරු"
+    ],
+    "en": [
+      "Vijayabahu the Great",
+      "Vijayabahu I",
+      "Sri Vijayabahu",
+      "Prince Kitti"
+    ]
+  },
+
+  "birthName": {
+    "si": "කිත්ති",
+    "en": "Kitti"
+  },
+
+  "gender": "male",
+
+  "kingdomId": "polonnaruwa-kingdom",
+  "dynastyId": "vijayabahu-dynasty",
+  "periodId": "polonnaruwa-kingdom",
+
+  "regionIds": [
+    "ruhuna",
+    "rajarata"
+  ],
+
+  "kingdomDisplay": {
+    "si": "පොළොන්නරු රාජධානිය",
+    "en": "Kingdom of Polonnaruwa"
+  },
+
+  "dynastyDisplay": {
+    "si": "විජයබාහු රාජවංශය",
+    "en": "Vijayabahu Dynasty"
+  },
+
+  "rulerNumberDisplay": {
+    "si": {
+      "royalChronology": "ලක්දිව රාජාවලියේ අනුපිළිවෙළ සම්පූර්ණ කිරීමෙන් පසු අංකය යොදනු ලැබේ",
+      "monarch": "ලක්දිව රාජාවලි අංකය තහවුරු කිරීමට නියමිතය",
+      "kingdom": "පොළොන්නරු රාජධානියේ පළමු ප්රධාන සිංහල රජු"
+    },
+    "en": {
+      "royalChronology": "The royal chronology number will be assigned after the master chronology is finalised",
+      "monarch": "The overall monarch number is pending verification",
+      "kingdom": "The first major Sinhalese king of the Kingdom of Polonnaruwa"
+    }
+  },
+
+  "reign": {
+    "startYear": 1055,
+    "endYear": 1110,
+    "calendar": "CE",
+    "lengthYears": 55,
+
+    "display": {
+      "si": "ක්රි.ව. 1055 – 1110",
+      "en": "1055–1110 CE"
+    },
+
+    "dateStatus": "chronicle-and-historical",
+
+    "regionalReign": {
+      "startYear": 1055,
+      "endYear": 1070,
+
+      "display": {
+        "si": "රුහුණේ බලය ගොඩනැගූ අවධිය: ක්රි.ව. 1055 – 1070",
+        "en": "Period of consolidation in Ruhuna: 1055–1070 CE"
+      }
+    },
+
+    "islandwideReign": {
+      "startYear": 1070,
+      "endYear": 1110,
+
+      "display": {
+        "si": "ලංකාව එක්සත් කිරීමෙන් පසු පාලනය: ක්රි.ව. 1070 – 1110",
+        "en": "Island-wide reign after reunification: 1070–1110 CE"
+      }
+    },
+
+    "dateNote": {
+      "si": "ක්රි.ව. 1055 දී කිත්ති කුමරු රුහුණේ බලය තහවුරු කළ අතර, ක්රි.ව. 1070 පමණ වන විට චෝළ බලය පරාජය කර සමස්ත ලංකාවේ පාලනය පිහිටුවීය.",
+      "en": "Prince Kitti established his authority in Ruhuna around 1055 and secured island-wide rule after defeating Chola power around 1070."
+    }
+  },
+
+  "predecessorId": "mahinda-v",
+  "successorId": "jayabahu-i",
+
+  "succession": {
+    "previousChronologyEntryId": "mahinda-v",
+    "nextChronologyEntryId": "jayabahu-i",
+    "nextMonarchId": "jayabahu-i",
+
+    "previousRulerDisplay": {
+      "si": "පස්වන මහින්ද රජු",
+      "en": "King Mahinda V"
+    },
+
+    "nextRulerDisplay": {
+      "si": "පළමුවන ජයබාහු රජු",
+      "en": "King Jayabahu I"
+    },
+
+    "historicalGapNote": {
+      "si": "පස්වන මහින්ද රජුගෙන් පසුව දිවයිනේ විශාල කොටසක් චෝළ පාලනය යටතේ පැවති අතර, විජයබාහු රජු රුහුණේ සිට බලය ගොඩනඟා චෝළ පාලනය අවසන් කළේය.",
+      "en": "Following the reign of Mahinda V, much of the island remained under Chola control until Vijayabahu consolidated power in Ruhuna and expelled the Cholas."
+    }
+  },
+
+  "family": {
+    "fatherId": "moggallana-prince",
+    "motherId": "lokita-princess",
+
+    "paternalGrandfatherId": "kassapa-prince",
+    "maternalGrandfatherId": "bodhi-prince",
+
+    "paternalUncleIds": [
+      "loka-prince"
+    ],
+
+    "siblingIds": [
+      "virabahu-prince",
+      "jayabahu-i",
+      "mitta-princess"
+    ],
+
+    "spouseIds": [
+      "lilavati-consort-vijayabahu",
+      "tilokasundari"
+    ],
+
+    "childIds": [
+      "yasodhara-princess",
+      "vikramabahu-i",
+      "subaddha-princess",
+      "sumitta-princess-vijayabahu",
+      "lokanatha-princess",
+      "ratnavali-princess",
+      "rupavati-princess"
+    ],
+
+    "grandchildIds": [
+      "lilavati-queen",
+      "sugala-queen",
+      "parakramabahu-i"
+    ],
+
+    "grandfatherInLawIds": [
+      "jagatipala"
+    ]
+  },
+
+  "familyDisplay": {
+    "si": {
+      "father": "මොග්ගල්ලාන කුමරු",
+      "mother": "ලෝකිතා කුමරිය",
+
+      "paternalGrandfather": "කස්සප කුමරු",
+      "maternalGrandfather": "බෝධි කුමරු",
+
+      "paternalUncles": [
+        "ලෝක කුමරු"
+      ],
+
+      "siblings": [
+        "වීරබාහු කුමරු",
+        "පළමුවන ජයබාහු රජු",
+        "මිත්තා කුමරිය"
+      ],
+
+      "spouses": [
+        "ලීලාවතී බිසව",
+        "තිලෝකසුන්දරී බිසව"
+      ],
+
+      "children": [
+        "යශෝධරා කුමරිය",
+        "පළමුවන වික්රමබාහු කුමරු",
+        "සුභද්දා කුමරිය",
+        "සුමිත්තා කුමරිය",
+        "ලෝකනාථා කුමරිය",
+        "රත්නාවලී කුමරිය",
+        "රූපවතී කුමරිය"
+      ],
+
+      "grandchildren": [
+        "ලීලාවතී කුමරිය",
+        "සුගලා කුමරිය",
+        "පළමුවන පරාක්රමබාහු රජු"
+      ],
+
+      "grandfathersInLaw": [
+        "ජගතිපාල රජු"
+      ]
+    },
+
+    "en": {
+      "father": "Prince Moggallana",
+      "mother": "Princess Lokita",
+
+      "paternalGrandfather": "Prince Kassapa",
+      "maternalGrandfather": "Prince Bodhi",
+
+      "paternalUncles": [
+        "Prince Loka"
+      ],
+
+      "siblings": [
+        "Prince Virabahu",
+        "King Jayabahu I",
+        "Princess Mitta"
+      ],
+
+      "spouses": [
+        "Queen Lilavati",
+        "Queen Tilokasundari"
+      ],
+
+      "children": [
+        "Princess Yasodhara",
+        "Prince Vikramabahu I",
+        "Princess Subaddha",
+        "Princess Sumitta",
+        "Princess Lokanatha",
+        "Princess Ratnavali",
+        "Princess Rupavati"
+      ],
+
+      "grandchildren": [
+        "Princess Lilavati",
+        "Princess Sugala",
+        "King Parakramabahu I"
+      ],
+
+      "grandfathersInLaw": [
+        "King Jagatipala"
+      ]
+    }
+  },
+
+  "childrenBySpouse": [
+    {
+      "spouseId": "lilavati-consort-vijayabahu",
+
+      "spouseName": {
+        "si": "ලීලාවතී බිසව",
+        "en": "Queen Lilavati"
+      },
+
+      "childIds": [
+        "yasodhara-princess"
+      ],
+
+      "childrenDisplay": {
+        "si": [
+          "යශෝධරා කුමරිය"
+        ],
+        "en": [
+          "Princess Yasodhara"
+        ]
+      }
+    },
+
+    {
+      "spouseId": "tilokasundari",
+
+      "spouseName": {
+        "si": "තිලෝකසුන්දරී බිසව",
+        "en": "Queen Tilokasundari"
+      },
+
+      "childIds": [
+        "vikramabahu-i",
+        "subaddha-princess",
+        "sumitta-princess-vijayabahu",
+        "lokanatha-princess",
+        "ratnavali-princess",
+        "rupavati-princess"
+      ],
+
+      "childrenDisplay": {
+        "si": [
+          "පළමුවන වික්රමබාහු කුමරු",
+          "සුභද්දා කුමරිය",
+          "සුමිත්තා කුමරිය",
+          "ලෝකනාථා කුමරිය",
+          "රත්නාවලී කුමරිය",
+          "රූපවතී කුමරිය"
+        ],
+
+        "en": [
+          "Prince Vikramabahu I",
+          "Princess Subaddha",
+          "Princess Sumitta",
+          "Princess Lokanatha",
+          "Princess Ratnavali",
+          "Princess Rupavati"
+        ]
+      }
+    }
+  ],
+
+  "inLawRelationships": [
+    {
+      "personId": "jagatipala",
+      "relationshipType": "grandfather-in-law",
+      "throughPersonId": "lilavati-consort-vijayabahu",
+
+      "display": {
+        "si": {
+          "person": "ජගතිපාල රජු",
+          "relationship": "විවාහයෙන් ලැබුණු සීයා",
+          "connection": "ලීලාවතී බිසවගේ මව් පාර්ශ්වයේ සීයා ලෙස සම්බන්ධ වේ"
+        },
+
+        "en": {
+          "person": "King Jagatipala",
+          "relationship": "Grandfather-in-law",
+          "connection": "Connected through Queen Lilavati as her maternal grandfather"
+        }
+      },
+
+      "isBloodRelation": false,
+      "sourceStatus": "chronicle-genealogy"
+    }
+  ],
+
+  "familyNotes": {
+    "si": [
+      "විජයබාහු රජුගේ උපන් නම කිත්ති ය.",
+      "ඔහුගේ පියා මොග්ගල්ලාන කුමරු වන අතර මව ලෝකිතා කුමරිය ලෙස වංශ සටහන්වල සඳහන් වේ.",
+      "වීරබාහු, ජයබාහු සහ මිත්තා ඔහුගේ සහෝදර සහෝදරියන් ලෙස සඳහන් වේ.",
+      "ලීලාවතී සහ තිලෝකසුන්දරී ඔහුගේ ප්රධාන බිසෝවරු ලෙස සඳහන් වේ.",
+      "ලීලාවතී බිසවගෙන් යශෝධරා කුමරිය උපන් බව සඳහන් වේ.",
+      "තිලෝකසුන්දරී බිසවගෙන් වික්රමබාහු කුමරු සහ දියණියන් පස් දෙනෙකු උපන් බව සඳහන් වේ.",
+      "රත්නාවලී කුමරියගේ පුත්රයා වූ පළමුවන පරාක්රමබාහු රජු විජයබාහුගේ මුණුපුරෙකි.",
+      "ජගතිපාල රජු විජයබාහුගේ ලේ නෑකමක් නොවේ. ඔහු ලීලාවතී බිසවගේ පවුල් සම්බන්ධතාව හරහා විජයබාහුට සම්බන්ධ වන විවාහ නෑයෙකු ලෙස පෙන්විය යුතුය."
+    ],
+
+    "en": [
+      "Vijayabahu's birth name was Kitti.",
+      "Chronicle genealogies identify Prince Moggallana as his father and Princess Lokita as his mother.",
+      "Virabahu, Jayabahu and Mitta are identified as his siblings.",
+      "Lilavati and Tilokasundari are identified as his principal queens.",
+      "Princess Yasodhara is associated with Queen Lilavati.",
+      "Queen Tilokasundari is associated with Prince Vikramabahu and five daughters.",
+      "King Parakramabahu I, the son of Princess Ratnavali, was a grandson of Vijayabahu.",
+      "King Jagatipala was not a blood uncle of Vijayabahu. He should be displayed as a relative by marriage through Queen Lilavati's family."
+    ]
+  },
+
+  "birth": {
+    "year": 1039,
+    "calendar": "CE",
+    "placeId": "ruhuna",
+
+    "display": {
+      "si": "ක්රි.ව. 1039 පමණ, රුහුණු ප්රදේශය",
+      "en": "Around 1039 CE, in the Ruhuna region"
+    },
+
+    "dateStatus": "approximate"
+  },
+
+  "death": {
+    "year": 1110,
+    "calendar": "CE",
+    "placeId": "polonnaruwa",
+
+    "display": {
+      "si": "ක්රි.ව. 1110",
+      "en": "1110 CE"
+    },
+
+    "dateStatus": "historical"
+  },
+
+  "capitals": [
+    {
+      "id": "mahanagakula",
+
+      "name": {
+        "si": "මහානාගකුල",
+        "en": "Mahanagakula"
+      },
+
+      "role": {
+        "si": "රුහුණේ මුල් බල මධ්යස්ථානය",
+        "en": "Early centre of power in Ruhuna"
+      }
+    },
+
+    {
+      "id": "polonnaruwa",
+
+      "name": {
+        "si": "පොළොන්නරුව",
+        "en": "Polonnaruwa"
+      },
+
+      "role": {
+        "si": "එක්සත් රාජධානියේ අගනුවර",
+        "en": "Capital of the reunified kingdom"
+      }
+    }
+  ],
+
+  "image": {
+    "main": "/images/kings/vijayabahu-i.webp",
+    "thumbnail": "/images/kings/thumbnails/vijayabahu-i.webp",
+
+    "alt": {
+      "si": "මහ විජයබාහු රජතුමාගේ කලාත්මක ප්රතිනිර්මාණය",
+      "en": "Artistic reconstruction of King Vijayabahu I"
+    },
+
+    "caption": {
+      "si": "මහ විජයබාහු රජතුමාගේ කලාත්මක ප්රතිනිර්මාණයකි. මෙය සමකාලීන සැබෑ රූපයක් නොවේ.",
+      "en": "An artistic reconstruction of King Vijayabahu I; this is not a surviving contemporary portrait."
+    },
+
+    "isReconstruction": true
+  },
+
+  "summary": {
+    "si": "මහ විජයබාහු රජතුමා පොළොන්නරු යුගයේ ආරම්භක ශ්රේෂ්ඨ පාලකයාය. කිත්ති නමින් උපන් ඔහු රුහුණේ සිට බලය ගොඩනඟා, දීර්ඝ සටන් මාලාවකින් පසු චෝළ බලය පරාජය කර ක්රි.ව. 1070 පමණ වන විට ශ්රී ලංකාව නැවත එක්සත් කළේය. පොළොන්නරුව අගනුවර ලෙස සංවර්ධනය කළ ඔහු බුරුමයෙන් භික්ෂූන් වහන්සේලා ගෙන්වා උපසම්පදාව නැවත පිහිටුවීමට කටයුතු කළේය. විහාර, චෛත්ය, මාර්ග, වැව් සහ වාරිමාර්ග ප්රතිසංස්කරණය කිරීමෙන් රටේ ආගමික, දේශපාලන සහ ආර්ථික ප්රතිසංවිධානයට විශාල සේවයක් ඉටු කළේය.",
+
+    "en": "King Vijayabahu I was the founding great ruler of the Polonnaruwa period. Born as Kitti, he consolidated power in Ruhuna and, after a prolonged military struggle, defeated Chola authority and reunified Sri Lanka around 1070. He developed Polonnaruwa as the capital, invited Buddhist monks from Burma to restore higher ordination, and supported the reconstruction of monasteries, stupas, roads, reservoirs and irrigation systems."
+  },
+
+  "biography": {
+    "si": [
+      {
+        "id": "introduction",
+        "heading": "හැඳින්වීම",
+
+        "paragraphs": [
+          "මහ විජයබාහු රජතුමා ශ්රී ලංකාවේ පොළොන්නරු යුගයේ ආරම්භක ශ්රේෂ්ඨ පාලකයෙකි. ඔහුගේ විශිෂ්ටතම ජයග්රහණය වූයේ වසර ගණනාවක් පැවති චෝළ බලය පරාජය කර දිවයින නැවත එක්සත් කිරීමයි.",
+          "ඔහුගේ පාලනය ශ්රී ලංකාවේ දේශපාලන ස්වාධීනත්වය නැවත පිහිටුවීම, බෞද්ධ ශාසනය ප්රතිසංවිධානය කිරීම සහ පොළොන්නරුව නව රාජකීය අගනුවරක් ලෙස සංවර්ධනය කිරීම නිසා විශේෂ වැදගත්කමක් දරයි."
+        ]
+      },
+
+      {
+        "id": "birth-and-early-life",
+        "heading": "උපත සහ මුල් ජීවිතය",
+
+        "paragraphs": [
+          "විජයබාහු රජුගේ උපන් නම කිත්ති ය. ඔහු ක්රි.ව. 1039 පමණ රුහුණු ප්රදේශයේ රාජකීය පවුලක උපත ලැබූ බව සලකයි.",
+          "ඔහුගේ පියා මොග්ගල්ලාන කුමරු වන අතර මව ලෝකිතා කුමරිය ලෙස වංශ සටහන්වල සඳහන් වේ. චෝළ පාලනය පැවති සමයේ තරුණ කිත්ති කුමරු රුහුණේ සිට තම බලය ක්රමයෙන් ගොඩනඟා ගත්තේය."
+        ]
+      },
+
+      {
+        "id": "chola-rule",
+        "heading": "චෝළ පාලනය යටතේ ශ්රී ලංකාව",
+
+        "paragraphs": [
+          "චෝළ ආක්රමණ සහ පාලන සමයේ අනුරාධපුර රාජකීය හා ආගමික ආයතන දැඩි හානි, කොල්ලකෑම් සහ පරිපාලන වෙනස්කම්වලට ලක් විය.",
+          "චෝළ පාලකයන් පොළොන්නරුව තම ප්රධාන පරිපාලන මධ්යස්ථානයක් ලෙස භාවිත කළ අතර, ශ්රී ලංකාවේ උතුරු සහ මධ්යම ප්රදේශ ඔවුන්ගේ පාලනය යටතේ පැවතුණි. රුහුණ ප්රදේශය දේශීය ප්රතිරෝධයේ ප්රධාන මධ්යස්ථානයක් බවට පත් විය."
+        ]
+      },
+
+      {
+        "id": "rise-to-power",
+        "heading": "රුහුණෙන් බලයට පැමිණීම",
+
+        "paragraphs": [
+          "කිත්ති කුමරු රුහුණේ ප්රාදේශීය බලවේග සහ හමුදා සංවිධානය කරමින් තම පාලන බලය වර්ධනය කළේය.",
+          "ප්රතිවාදී ප්රාදේශීය නායකයන් පරාජය කිරීමෙන් හෝ තම පක්ෂයට එක් කරගැනීමෙන් පසු, ඔහු චෝළ බලයට සෘජුව අභියෝග කළ හැකි ශක්තිමත් හමුදාවක් ගොඩනැඟීය."
+        ]
+      },
+
+      {
+        "id": "war-against-cholas",
+        "heading": "චෝළයන්ට එරෙහි විමුක්ති සටන",
+
+        "paragraphs": [
+          "විජයබාහු රජු චෝළයන්ට එරෙහිව වසර ගණනාවක් පුරා සටන් කළේය. මුල් සටන්වලදී පසුබැසීම්වලට මුහුණ දුන්නද, ඔහු නැවත හමුදාව සංවිධානය කර ප්රහාර අඛණ්ඩව පවත්වාගෙන ගියේය.",
+          "අවසාන ප්රහාරයේදී හමුදා බලඇණි විවිධ දිශාවලින් පොළොන්නරුව වෙත යොමු කළ බව පසුකාලීන ඉතිහාස විස්තරවල දැක්වේ. දිගු වටලෑමකින් පසු පොළොන්නරුව අත්පත් කරගැනීමෙන් චෝළ පාලනය බිඳ වැටුණි.",
+          "ක්රි.ව. 1070 පමණ වන විට විජයබාහු රජු දිවයිනේ ප්රධාන ප්රදේශ නිදහස් කර ශ්රී ලංකාව නැවත ස්වාධීන හා එක්සත් රාජ්යයක් බවට පත් කළේය."
+        ]
+      },
+
+      {
+        "id": "coronation",
+        "heading": "රාජාභිෂේකය",
+
+        "paragraphs": [
+          "චෝළ බලය පරාජය කිරීමෙන් පසු විජයබාහු රජුගේ රාජාභිෂේකය සිදු විය. ඔහු ශ්රී විජයබාහු යන රාජකීය නාමයෙන් පාලනය කළේය.",
+          "පොළොන්නරුව පාලන හා ආරක්ෂක මධ්යස්ථානය ලෙස තෝරාගෙන සංවර්ධනය කිරීමත් සමඟ ශ්රී ලංකාවේ පොළොන්නරු යුගය ස්ථිර ලෙස ආරම්භ විය."
+        ]
+      },
+
+      {
+        "id": "development-of-polonnaruwa",
+        "heading": "පොළොන්නරුව සංවර්ධනය කිරීම",
+
+        "paragraphs": [
+          "විජයබාහු රජු පොළොන්නරුව රාජකීය අගනුවරක් ලෙස ශක්තිමත් කළේය. මාලිගා, ආරක්ෂක බලකොටු, ආගමික ගොඩනැගිලි, මාර්ග සහ පරිපාලන ආයතන ප්රතිසංවිධානය කළේය.",
+          "පොළොන්නරුවේ භූගෝලීය පිහිටීම දකුණු ඉන්දියාවෙන් ඇතිවිය හැකි අනාගත ආක්රමණවලට එරෙහිව වඩාත් ආරක්ෂිත සහ පාලනය සඳහා පහසු ස්ථානයක් විය."
+        ]
+      },
+
+      {
+        "id": "restoration-of-buddhism",
+        "heading": "බෞද්ධ ශාසනය නැවත නඟා සිටුවීම",
+
+        "paragraphs": [
+          "දිගුකාලීන යුධ හා චෝළ පාලන සමය නිසා භික්ෂු සංඝයාගේ සංවිධානය සහ උපසම්පදා පරම්පරාව දුර්වල වී තිබුණි.",
+          "විජයබාහු රජු බුරුමය හෙවත් වර්තමාන මියන්මාරය සමඟ සබඳතා පවත්වා එරටින් භික්ෂූන් වහන්සේලා ගෙන්වා උපසම්පදාව නැවත පිහිටුවීමට කටයුතු කළේය.",
+          "ඔහු විහාර, චෛත්ය සහ සංඝ ආයතන ප්රතිසංස්කරණය කර භික්ෂු සංඝයාට ඉඩම්, ආදායම් සහ රාජ්ය අනුග්රහය ලබා දුන්නේය."
+        ]
+      },
+
+      {
+        "id": "administration",
+        "heading": "පරිපාලනය සහ ආරක්ෂාව",
+
+        "paragraphs": [
+          "රට නැවත එක්සත් කිරීමෙන් පසු විජයබාහු රජු පළාත් පාලනය, බදු රැස් කිරීම, හමුදා සංවිධානය සහ නීතිය හා සාමය නැවත පිහිටුවීම සඳහා කටයුතු කළේය.",
+          "තම සහෝදරයන් සහ විශ්වාසවන්ත රාජකීය නිලධාරීන්ට ප්රධාන පදවි ලබා දීමෙන් පාලන ව්යුහය ශක්තිමත් කළේය.",
+          "විදේශීය සෙබළුන් සහ වේලක්කාර හමුදා සමඟ ඇති වූ අභ්යන්තර ගැටලුද ඔහුගේ පාලන සමයේ මුහුණ දීමට සිදු වූ අභියෝග අතර විය."
+        ]
+      },
+
+      {
+        "id": "irrigation-and-agriculture",
+        "heading": "වාරිමාර්ග සහ කෘෂිකර්මාන්තය",
+
+        "paragraphs": [
+          "යුධ සමයේ විනාශ වූ හෝ අත්හැර දමා තිබූ වැව්, ඇළ මාර්ග සහ කෘෂිකාර්මික ඉඩම් ප්රතිසංස්කරණය කිරීමට විජයබාහු රජු කටයුතු කළේය.",
+          "වාරිමාර්ග පද්ධති නැවත ක්රියාත්මක කිරීමෙන් කෘෂිකර්මාන්තය සහ ආහාර නිෂ්පාදනය වැඩි කිරීමටත්, ජනතාවගේ ජීවන තත්ත්වය ඉහළ නැංවීමටත් හැකි විය."
+        ]
+      },
+
+      {
+        "id": "foreign-relations",
+        "heading": "විදේශ සබඳතා",
+
+        "paragraphs": [
+          "විජයබාහු රජු බුරුමය සමඟ ආගමික සහ රාජ්යතාන්ත්රික සබඳතා ශක්තිමත් කළේය.",
+          "දකුණු ඉන්දියානු පාණ්ඩ්ය සහ කාලිංග රාජවංශ සමඟ විවාහ හා දේශපාලන සන්ධාන ඇති කරගත් අතර, මෙම සබඳතා රාජවංශීය ආරක්ෂාව සහ කලාපීය වෙළඳාම ශක්තිමත් කිරීමට උපකාරී විය."
+        ]
+      },
+
+      {
+        "id": "historical-importance",
+        "heading": "ඓතිහාසික වැදගත්කම",
+
+        "paragraphs": [
+          "විජයබාහු රජු ශ්රී ලංකාව චෝළ පාලනයෙන් මුදාගෙන දේශපාලන ස්වාධීනත්වය නැවත පිහිටුවූ පාලකයා ලෙස ඉතිහාසයේ විශේෂ ස්ථානයක් දරයි.",
+          "ඔහුගේ ජයග්රහණය හමුදා ජයක් පමණක් නොවීය. බෞද්ධ ශාසනය, රාජ්ය පරිපාලනය, කෘෂිකර්මාන්තය, වාරිමාර්ග සහ විදේශ සබඳතා නැවත ගොඩනැඟීමෙන් පශ්චාත් යුධ ශ්රී ලංකාව ප්රතිසංවිධානය කළේය.",
+          "එබැවින් ඔහු ශ්රී ලංකාවේ නිදහස සහ බෞද්ධ ශාසනය නැවත ගොඩනැඟූ ශ්රේෂ්ඨ රජෙකු ලෙස සැලකේ."
+        ]
+      }
+    ],
+
+    "en": [
+      {
+        "id": "introduction",
+        "heading": "Introduction",
+
+        "paragraphs": [
+          "King Vijayabahu I was the founding great ruler of the Polonnaruwa period. His greatest achievement was the defeat of Chola authority and the reunification of Sri Lanka.",
+          "His reign is significant for restoring political independence, reorganising the Buddhist Sangha and developing Polonnaruwa as the new royal capital."
+        ]
+      },
+
+      {
+        "id": "birth-and-early-life",
+        "heading": "Birth and Early Life",
+
+        "paragraphs": [
+          "Vijayabahu was born with the name Kitti, probably around 1039 in the region of Ruhuna.",
+          "Chronicle genealogies identify Prince Moggallana as his father and Princess Lokita as his mother. During the Chola occupation, the young prince gradually consolidated authority in Ruhuna."
+        ]
+      },
+
+      {
+        "id": "war-against-cholas",
+        "heading": "War Against the Cholas",
+
+        "paragraphs": [
+          "Vijayabahu fought a prolonged military struggle against Chola authority. Despite early setbacks, he repeatedly reorganised his forces and continued the campaign.",
+          "His armies eventually captured Polonnaruwa and broke the remaining Chola power on the island. Around 1070, Sri Lanka was reunified under his rule."
+        ]
+      },
+
+      {
+        "id": "restoration-of-buddhism",
+        "heading": "Restoration of Buddhism",
+
+        "paragraphs": [
+          "The organisation of the Buddhist Sangha and the higher ordination lineage had weakened during the long period of warfare and foreign occupation.",
+          "Vijayabahu invited monks from Burma to restore higher ordination and supported the reconstruction of monasteries, stupas and other Buddhist institutions."
+        ]
+      },
+
+      {
+        "id": "administration-and-reconstruction",
+        "heading": "Administration and Reconstruction",
+
+        "paragraphs": [
+          "After reunifying the island, Vijayabahu reorganised provincial government, taxation, military administration and public order.",
+          "He supported the restoration of roads, reservoirs, canals, agricultural lands and religious institutions damaged or neglected during the wars."
+        ]
+      },
+
+      {
+        "id": "historical-importance",
+        "heading": "Historical Importance",
+
+        "paragraphs": [
+          "Vijayabahu I occupies a distinguished place in Sri Lankan history as the ruler who ended Chola authority and restored the island's independence.",
+          "His political, religious and economic reconstruction created the foundation for the later achievements of the Polonnaruwa Kingdom."
+        ]
+      }
+    ]
+  },
+
+  "majorEvents": [
+    {
+      "id": "rise-in-ruhuna",
+      "order": 1,
+      "year": 1055,
+      "type": "rise-to-power",
+
+      "name": {
+        "si": "රුහුණේ බලය තහවුරු කිරීම",
+        "en": "Consolidation of Power in Ruhuna"
+      },
+
+      "description": {
+        "si": "කිත්ති කුමරු රුහුණේ ප්රාදේශීය නායකයන් සහ හමුදා බලවේග එකතු කර තම පාලන බලය තහවුරු කළේය.",
+        "en": "Prince Kitti consolidated regional leaders and military forces to establish his authority in Ruhuna."
+      },
+
+      "sourceStatus": "chronicle-based"
+    },
+
+    {
+      "id": "defeat-of-chola-power",
+      "order": 2,
+      "year": 1070,
+      "type": "military-victory",
+
+      "name": {
+        "si": "චෝළ බලය පරාජය කිරීම",
+        "en": "Defeat of Chola Power"
+      },
+
+      "description": {
+        "si": "දීර්ඝ සටන් මාලාවකින් පසු පොළොන්නරුව අත්පත් කර චෝළ පාලනය අවසන් කළේය.",
+        "en": "After a prolonged military campaign, Vijayabahu captured Polonnaruwa and ended Chola political control."
+      },
+
+      "sourceStatus": "chronicle-and-historical"
+    },
+
+    {
+      "id": "reunification-of-sri-lanka",
+      "order": 3,
+      "year": 1070,
+      "type": "political-unification",
+
+      "name": {
+        "si": "ශ්රී ලංකාව නැවත එක්සත් කිරීම",
+        "en": "Reunification of Sri Lanka"
+      },
+
+      "description": {
+        "si": "දිවයිනේ ප්රධාන ප්රදේශ එක් පාලනයක් යටතට ගෙන ශ්රී ලංකාවේ ස්වාධීනත්වය නැවත තහවුරු කළේය.",
+        "en": "The major regions of the island were brought under a unified independent monarchy."
+      },
+
+      "sourceStatus": "historical"
+    },
+
+    {
+      "id": "establishment-of-polonnaruwa-capital",
+      "order": 4,
+      "year": 1070,
+      "type": "capital-development",
+
+      "name": {
+        "si": "පොළොන්නරුව අගනුවර ලෙස සංවර්ධනය කිරීම",
+        "en": "Development of Polonnaruwa as the Capital"
+      },
+
+      "description": {
+        "si": "පොළොන්නරුව නව රාජකීය හා පරිපාලන මධ්යස්ථානයක් ලෙස සංවර්ධනය කළේය.",
+        "en": "Polonnaruwa was developed as the new royal and administrative capital."
+      },
+
+      "sourceStatus": "historical-and-archaeological"
+    },
+
+    {
+      "id": "restoration-of-upasampada",
+      "order": 5,
+      "year": null,
+      "type": "religious-reform",
+
+      "name": {
+        "si": "උපසම්පදාව නැවත පිහිටුවීම",
+        "en": "Restoration of Higher Ordination"
+      },
+
+      "description": {
+        "si": "බුරුමයෙන් භික්ෂූන් වහන්සේලා ගෙන්වා ශ්රී ලංකාවේ උපසම්පදා පරම්පරාව නැවත පිහිටුවීමට කටයුතු කළේය.",
+        "en": "Monks were invited from Burma to restore the higher ordination lineage in Sri Lanka."
+      },
+
+      "sourceStatus": "chronicle-based"
+    },
+
+    {
+      "id": "restoration-of-irrigation",
+      "order": 6,
+      "year": null,
+      "type": "economic-reconstruction",
+
+      "name": {
+        "si": "වාරිමාර්ග සහ කෘෂිකර්මාන්තය ප්රතිසංස්කරණය",
+        "en": "Restoration of Irrigation and Agriculture"
+      },
+
+      "description": {
+        "si": "වැව්, ඇළ මාර්ග සහ කෘෂිකාර්මික ප්රදේශ ප්රතිසංස්කරණය කර රටේ ආර්ථිකය නැවත ගොඩනැඟීය.",
+        "en": "Reservoirs, canals and agricultural lands were restored to rebuild the economy."
+      },
+
+      "sourceStatus": "chronicle-and-historical"
+    }
+  ],
+
+  "achievements": [
+    {
+      "id": "defeated-cholas",
+
+      "title": {
+        "si": "චෝළ පාලනය පරාජය කිරීම",
+        "en": "Defeat of Chola Rule"
+      }
+    },
+
+    {
+      "id": "reunified-country",
+
+      "title": {
+        "si": "ශ්රී ලංකාව නැවත එක්සත් කිරීම",
+        "en": "Reunification of Sri Lanka"
+      }
+    },
+
+    {
+      "id": "established-polonnaruwa",
+
+      "title": {
+        "si": "පොළොන්නරු රාජධානිය ශක්තිමත් කිරීම",
+        "en": "Strengthening the Polonnaruwa Kingdom"
+      }
+    },
+
+    {
+      "id": "restored-buddhism",
+
+      "title": {
+        "si": "බෞද්ධ ශාසනය ප්රතිසංවිධානය කිරීම",
+        "en": "Reorganisation of the Buddhist Sangha"
+      }
+    },
+
+    {
+      "id": "restored-upasampada",
+
+      "title": {
+        "si": "උපසම්පදාව නැවත පිහිටුවීම",
+        "en": "Restoration of Higher Ordination"
+      }
+    },
+
+    {
+      "id": "restored-irrigation",
+
+      "title": {
+        "si": "වාරිමාර්ග සහ කෘෂිකර්මාන්තය දියුණු කිරීම",
+        "en": "Development of Irrigation and Agriculture"
+      }
+    },
+
+    {
+      "id": "strengthened-foreign-relations",
+
+      "title": {
+        "si": "විදේශ සබඳතා ශක්තිමත් කිරීම",
+        "en": "Strengthening Foreign Relations"
+      }
+    }
+  ],
+
+  "constructions": [
+    {
+      "id": "polonnaruwa-royal-buildings",
+      "type": "royal-complex",
+
+      "name": {
+        "si": "පොළොන්නරුවේ රාජකීය සහ පරිපාලන ගොඩනැගිලි",
+        "en": "Royal and Administrative Buildings at Polonnaruwa"
+      },
+
+      "location": {
+        "si": "පොළොන්නරුව",
+        "en": "Polonnaruwa"
+      },
+
+      "description": {
+        "si": "පොළොන්නරුව නව අගනුවර ලෙස සංවර්ධනය කිරීම සඳහා රාජකීය, ආරක්ෂක සහ පරිපාලන ගොඩනැගිලි ඉදිකිරීමට හා ප්රතිසංස්කරණය කිරීමට කටයුතු කළේය.",
+        "en": "Royal, defensive and administrative buildings were constructed or restored during the development of Polonnaruwa as the capital."
+      },
+
+      "sourceStatus": "historical-and-archaeological"
+    },
+
+    {
+      "id": "buddhist-monastery-restoration",
+      "type": "religious-restoration",
+
+      "name": {
+        "si": "විහාර සහ චෛත්ය ප්රතිසංස්කරණය",
+        "en": "Restoration of Monasteries and Stupas"
+      },
+
+      "location": {
+        "si": "ශ්රී ලංකාවේ විවිධ ප්රදේශ",
+        "en": "Various regions of Sri Lanka"
+      },
+
+      "description": {
+        "si": "යුධ හා චෝළ පාලන සමයේ හානි වූ බෞද්ධ විහාර, චෛත්ය සහ සංඝ ආයතන ප්රතිසංස්කරණය කළේය.",
+        "en": "Buddhist monasteries, stupas and monastic institutions damaged or neglected during the wars were restored."
+      },
+
+      "sourceStatus": "chronicle-based"
+    },
+
+    {
+      "id": "sripada-pilgrim-facilities",
+      "type": "pilgrim-infrastructure",
+
+      "name": {
+        "si": "ශ්රී පාද වන්දනාකරුවන් සඳහා පහසුකම්",
+        "en": "Facilities for Sri Pada Pilgrims"
+      },
+
+      "location": {
+        "si": "ශ්රී පාද මාර්ගය",
+        "en": "Routes to Sri Pada"
+      },
+
+      "description": {
+        "si": "ශ්රී පාද වන්දනාකරුවන්ගේ ගමන් පහසුව සඳහා මාර්ග, විවේක ස්ථාන සහ ආධාරක පහසුකම් ලබා දුන් බව වාර්තා වේ.",
+        "en": "Roads, rest facilities and support were provided for pilgrims travelling to Sri Pada."
+      },
+
+      "sourceStatus": "inscription-and-tradition"
+    },
+
+    {
+      "id": "irrigation-restoration",
+      "type": "irrigation-restoration",
+
+      "name": {
+        "si": "වැව් සහ ඇළ මාර්ග ප්රතිසංස්කරණය",
+        "en": "Restoration of Reservoirs and Canals"
+      },
+
+      "location": {
+        "si": "රජරට සහ අනෙකුත් කෘෂිකාර්මික ප්රදේශ",
+        "en": "Rajarata and other agricultural regions"
+      },
+
+      "description": {
+        "si": "යුධ සමයේ අත්හැර දමා තිබූ වාරිමාර්ග පද්ධති නැවත ක්රියාත්මක කිරීමට කටයුතු කළේය.",
+        "en": "Irrigation systems abandoned or damaged during the wars were restored to agricultural use."
+      },
+
+      "sourceStatus": "chronicle-and-historical"
+    }
+  ],
+
+  "foreignRelations": [
+    {
+      "countryId": "myanmar",
+
+      "countryName": {
+        "si": "බුරුමය / මියන්මාරය",
+        "en": "Burma / Myanmar"
+      },
+
+      "relationshipTypes": [
+        "religious",
+        "diplomatic"
+      ],
+
+      "description": {
+        "si": "භික්ෂූන් වහන්සේලා ගෙන්වා උපසම්පදාව නැවත පිහිටුවීම සඳහා බුරුමය සමඟ ආගමික හා රාජ්යතාන්ත්රික සබඳතා පැවැත්වීය.",
+        "en": "Religious and diplomatic relations with Burma supported the restoration of higher ordination."
+      }
+    },
+
+    {
+      "countryId": "pandya",
+
+      "countryName": {
+        "si": "පාණ්ඩ්ය රාජධානිය",
+        "en": "Pandyan Kingdom"
+      },
+
+      "relationshipTypes": [
+        "marriage-alliance",
+        "political"
+      ],
+
+      "description": {
+        "si": "විජයබාහුගේ සහෝදරිය වූ මිත්තා පාණ්ඩ්ය කුමරෙකු සමඟ විවාහ කර දේශපාලන සන්ධානයක් ඇති කළේය.",
+        "en": "A political marriage alliance was created by marrying Vijayabahu's sister Mitta to a Pandyan prince."
+      }
+    },
+
+    {
+      "countryId": "kalinga",
+
+      "countryName": {
+        "si": "කාලිංගය",
+        "en": "Kalinga"
+      },
+
+      "relationshipTypes": [
+        "marriage-alliance",
+        "political"
+      ],
+
+      "description": {
+        "si": "කාලිංග කුමරියක වූ තිලෝකසුන්දරී සමඟ විවාහය මඟින් කාලිංග රාජවංශය සමඟ සම්බන්ධතා ශක්තිමත් විය.",
+        "en": "Marriage to the Kalinga princess Tilokasundari strengthened dynastic ties with Kalinga."
+      }
+    }
+  ],
+
+  "examNotes": {
+    "si": [
+      "උපන් නම – කිත්ති",
+      "රාජ්ය කාලය – ක්රි.ව. 1055–1110",
+      "රුහුණේ සිට චෝළයන්ට එරෙහිව සටන් සංවිධානය කළේය.",
+      "ක්රි.ව. 1070 පමණ චෝළ බලය පරාජය කළේය.",
+      "ශ්රී ලංකාව නැවත එක්සත් කළේය.",
+      "පොළොන්නරුව අගනුවර ලෙස සංවර්ධනය කළේය.",
+      "බුරුමයෙන් භික්ෂූන් ගෙන්වා උපසම්පදාව නැවත පිහිටුවීය.",
+      "බෞද්ධ ශාසනය සහ ආගමික ස්ථාන ප්රතිසංස්කරණය කළේය.",
+      "වාරිමාර්ග සහ කෘෂිකර්මාන්තය නැවත සංවර්ධනය කළේය.",
+      "ශ්රී ලංකාවේ දේශපාලන ස්වාධීනත්වය නැවත තහවුරු කළේය."
+    ],
+
+    "en": [
+      "Birth name – Kitti",
+      "Reign – 1055–1110 CE",
+      "Organised resistance against the Cholas from Ruhuna.",
+      "Defeated Chola power around 1070.",
+      "Reunified Sri Lanka.",
+      "Developed Polonnaruwa as the capital.",
+      "Invited monks from Burma to restore higher ordination.",
+      "Restored the Buddhist Sangha and religious institutions.",
+      "Rehabilitated irrigation and agriculture.",
+      "Re-established the political independence of Sri Lanka."
+    ]
+  },
+
+  "essaySummary": {
+    "si": "මහ විජයබාහු රජතුමා පොළොන්නරු යුගයේ ශ්රේෂ්ඨතම රජවරුන්ගෙන් එක් අයෙකි. කිත්ති නමින් උපන් ඔහු රුහුණේ සිට බලය ගොඩනඟා චෝළ අධිරාජ්යයට එරෙහිව දීර්ඝ සටනක් කළේය. ක්රි.ව. 1070 පමණ චෝළ බලය පරාජය කර ශ්රී ලංකාව නැවත එක්සත් කළ ඔහු පොළොන්නරුව අගනුවර ලෙස සංවර්ධනය කළේය. බුරුමයෙන් භික්ෂූන් වහන්සේලා ගෙන්වා උපසම්පදාව නැවත පිහිටුවා බෞද්ධ ශාසනය ප්රතිසංවිධානය කළේය. විහාර, චෛත්ය, මාර්ග, වැව් සහ වාරිමාර්ග ප්රතිසංස්කරණය කිරීමෙන් රටේ ආගමික, සමාජ සහ ආර්ථික දියුණුවට විශාල දායකත්වයක් ලබා දුන්නේය. එබැවින් ඔහු ශ්රී ලංකාවේ නිදහස සහ බෞද්ධ ශාසනය නැවත ගොඩනැඟූ ශ්රේෂ්ඨ පාලකයෙකු ලෙස සැලකේ.",
+
+    "en": "King Vijayabahu I was one of the greatest rulers of the Polonnaruwa period. Born as Kitti, he consolidated power in Ruhuna and led a prolonged struggle against the Chola Empire. After defeating Chola authority and reunifying Sri Lanka around 1070, he developed Polonnaruwa as the capital. He restored higher ordination by inviting monks from Burma and reorganised the Buddhist Sangha. His restoration of monasteries, stupas, roads, reservoirs and irrigation systems contributed greatly to the religious, social and economic recovery of the country."
+  },
+
+  "sourceIds": [
+    "culavamsa-chapters-57-60",
+    "ambagamuwa-inscription",
+    "velaikkara-inscription",
+    "modern-historical-research"
+  ],
+
+  "sourceStatus": {
+    "overall": "chronicle-inscription-and-historical",
+
+    "notes": {
+      "si": "විජයබාහු I රජුගේ පාලනය පිළිබඳ ප්රධාන වංශකතා තොරතුරු චූලවංශයෙන් ලැබේ. අඹගමුව සහ වේලක්කාර ශිලා ලේඛන ඔහුගේ පාලනයේ ඇතැම් ආගමික, පරිපාලන සහ දේශපාලන කරුණු අධ්යයනය කිරීමට වැදගත් වේ. පවුල් සම්බන්ධතාවල සමහර නම් සහ අර්ථකථන පර්යේෂකයන් අතර වෙනස් විය හැකි බැවින් මූලාශ්ර තත්ත්වය වෙන්ව දක්වා ඇත.",
+      "en": "The Culavamsa is the principal chronicle source for Vijayabahu I. The Ambagamuwa and Velaikkara inscriptions provide important evidence concerning aspects of his religious, administrative and political history. Some genealogical names and interpretations may differ among researchers and are therefore presented with source qualifications."
+    }
+  },
+
+  "seo": {
+    "title": {
+      "si": "මහ විජයබාහු රජතුමා | පොළොන්නරු රාජධානිය",
+      "en": "King Vijayabahu I | Kingdom of Polonnaruwa"
+    },
+
+    "description": {
+      "si": "චෝළ පාලනය පරාජය කර ශ්රී ලංකාව නැවත එක්සත් කළ මහ විජයබාහු රජතුමාගේ පාලනය, සටන්, පවුල, බිසෝවරු, දරුවන්, ආගමික සේවය සහ පොළොන්නරු රාජධානියේ ආරම්භය ගවේෂණය කරන්න.",
+      "en": "Explore the reign, wars, royal family, queens, children, religious restoration and reunification of Sri Lanka under King Vijayabahu I."
+    },
+
+    "keywords": {
+      "si": [
+        "මහ විජයබාහු",
+        "පළමුවන විජයබාහු",
+        "කිත්ති කුමරු",
+        "පොළොන්නරු රාජධානිය",
+        "චෝළ පාලනය",
+        "ලීලාවතී බිසව",
+        "තිලෝකසුන්දරී",
+        "වික්රමබාහු",
+        "බෞද්ධ ශාසනය"
+      ],
+
+      "en": [
+        "King Vijayabahu I",
+        "Vijayabahu the Great",
+        "Prince Kitti",
+        "Polonnaruwa Kingdom",
+        "Chola occupation",
+        "Queen Lilavati",
+        "Queen Tilokasundari",
+        "Vikramabahu I",
+        "Buddhist restoration"
+      ]
+    }
+  }
+}

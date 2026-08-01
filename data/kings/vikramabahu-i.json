@@ -1,0 +1,769 @@
+{
+    "id": "vikramabahu-i",
+    "slug": "vikramabahu-i",
+    "type": "person",
+    "roles": [
+        "king",
+        "adipada",
+        "ruler-of-rajarata",
+        "military-leader"
+    ],
+    "status": "published",
+    "rulerNumber": {
+        "royalChronologyOrder": null,
+        "monarchOrder": null,
+        "kingdomOrder": 3
+    },
+    "rulerClassification": {
+        "type": "monarch",
+        "isMonarch": true,
+        "isInterregnumRuler": false,
+        "isForeignRuler": false,
+        "isJointRuler": false,
+        "isRegionalRuler": true,
+        "isIslandwideRuler": false,
+        "wasFormallyConsecrated": false
+    },
+    "name": {
+        "si": "පළමුවන වික්‍රමබාහු රජු",
+        "en": "King Vikramabahu I"
+    },
+    "shortName": {
+        "si": "පළමුවන වික්‍රමබාහු",
+        "en": "Vikramabahu I"
+    },
+    "alternativeNames": {
+        "si": [
+            "වික්‍රමබාහු",
+            "වික්කමබාහු",
+            "වික්‍රමබාහු කුමරු",
+            "ආදිපාද වික්‍රමබාහු",
+            "දෙවන වික්‍රමබාහු"
+        ],
+        "en": [
+            "Vikramabahu",
+            "Vikkamabahu",
+            "Prince Vikramabahu",
+            "Adipada Vikramabahu",
+            "Vikkamabahu II in the Culavamsa numbering"
+        ]
+    },
+    "gender": "male",
+    "kingdomId": "polonnaruwa-kingdom",
+    "dynastyId": "house-of-vijayabahu",
+    "periodId": "polonnaruwa-kingdom",
+    "regionIds": [
+        "ruhuna",
+        "rajarata"
+    ],
+    "kingdomDisplay": {
+        "si": "පොළොන්නරු රාජධානිය",
+        "en": "Kingdom of Polonnaruwa"
+    },
+    "dynastyDisplay": {
+        "si": "විජයබාහු රාජවංශය",
+        "en": "House of Vijayabahu"
+    },
+    "rulerNumberDisplay": {
+        "si": {
+            "royalChronology": "සම්පූර්ණ ලක්දිව රාජාවලි අංකය පසුව තහවුරු කිරීමට නියමිතය",
+            "monarch": "සම්පූර්ණ රජ අංකය පසුව තහවුරු කිරීමට නියමිතය",
+            "kingdom": "පොළොන්නරු රාජධානියේ තුන්වන පාලකයා"
+        },
+        "en": {
+            "royalChronology": "The overall royal chronology number remains to be finalised",
+            "monarch": "The overall monarch number remains to be finalised",
+            "kingdom": "Third ruler of the Kingdom of Polonnaruwa"
+        }
+    },
+    "reign": {
+        "startYear": 1111,
+        "endYear": 1132,
+        "calendar": "CE",
+        "lengthYears": 21,
+        "display": {
+            "si": "ක්‍රි.ව. 1111 – 1132 පමණ",
+            "en": "Approximately 1111–1132 CE"
+        },
+        "dateStatus": "chronicle-based-approximate",
+        "regionalReign": {
+            "startYear": null,
+            "endYear": 1111,
+            "display": {
+                "si": "මහ විජයබාහුගේ අවසාන කාලයේ රුහුණේ ආදිපාද පාලකයා",
+                "en": "Adipada and regional ruler of Ruhuna during the final years of Vijayabahu I"
+            }
+        },
+        "rajarataReign": {
+            "startYear": 1111,
+            "endYear": 1132,
+            "display": {
+                "si": "පොළොන්නරුව සහ රජරට පාලනය: ක්‍රි.ව. 1111 – 1132 පමණ",
+                "en": "Rule over Polonnaruwa and Rajarata: approximately 1111–1132 CE"
+            }
+        },
+        "dateNote": {
+            "si": "චූලවංශයට අනුව වික්‍රමබාහු වසර විසි එකක් රාජකීය බලය දැරීය. පූජාවලිය සහ රාජාවලිය වැනි පසුකාලීන මූලාශ්‍රවල වසර ගණන වෙනස්ව සඳහන් වන බැවින් දින ආසන්න ලෙස පෙන්විය යුතුය.",
+            "en": "The Culavamsa states that Vikramabahu held royal authority for twenty-one years. Later sources provide differing reign lengths, so the dates should be presented as approximate."
+        }
+    },
+    "predecessorId": "jayabahu-i",
+    "successorId": "gajabahu-ii",
+    "succession": {
+        "previousChronologyEntryId": "jayabahu-i",
+        "nextChronologyEntryId": "gajabahu-ii",
+        "nextMonarchId": "gajabahu-ii",
+        "previousRulerDisplay": {
+            "si": "පළමුවන ජයබාහු රජු",
+            "en": "King Jayabahu I"
+        },
+        "nextRulerDisplay": {
+            "si": "දෙවන ගජබාහු රජු",
+            "en": "King Gajabahu II"
+        },
+        "accessionNote": {
+            "si": "මහ විජයබාහු රජුගේ මරණයෙන් පසු ජයබාහු සිහසුනට පත් කළ නමුත්, විජයබාහුගේ පුත් වික්‍රමබාහු එයට විරුද්ධ විය. සටන් කිහිපයකින් ප්‍රතිවාදී හමුදා පරාජය කළ ඔහු පොළොන්නරුවට පැමිණ රජරට පාලනය ලබාගත්තේය.",
+            "en": "After the death of Vijayabahu I, Jayabahu was enthroned, but Vijayabahu's son Vikramabahu opposed the settlement. After defeating the rival armies in several battles, he entered Polonnaruwa and took control of Rajarata."
+        },
+        "consecrationStatus": {
+            "si": "චූලවංශයට අනුව ඔහු නිල රාජාභිෂේකයක් නොලබා රජරටේ පාලකයා ලෙස බලය දැරීය.",
+            "en": "According to the Culavamsa, he ruled Rajarata without undergoing formal royal consecration."
+        }
+    },
+    "titles": [
+        {
+            "id": "adipada",
+            "name": {
+                "si": "ආදිපාද",
+                "en": "Adipada"
+            },
+            "description": {
+                "si": "මහ විජයබාහු රජු විසින් වික්‍රමබාහුට ලබාදුන් උසස් රාජකීය පදවියයි.",
+                "en": "A senior royal title granted to Vikramabahu by King Vijayabahu I."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "ruler-of-rajarata",
+            "name": {
+                "si": "රජරට පාලකයා",
+                "en": "Ruler of Rajarata"
+            },
+            "description": {
+                "si": "පොළොන්නරුව අත්පත් කරගැනීමෙන් පසු ඔහු රජරට ප්‍රධාන පාලකයා බවට පත් විය.",
+                "en": "After capturing Polonnaruwa, he became the principal ruler of Rajarata."
+            },
+            "sourceStatus": "chronicle-based"
+        }
+    ],
+    "family": {
+        "fatherId": "vijayabahu-i",
+        "motherId": "tilokasundari",
+        "paternalGrandfatherId": "moggallana-prince",
+        "paternalGrandmotherId": "lokita-princess",
+        "maternalGrandfatherId": null,
+        "maternalGrandmotherId": null,
+        "paternalUncleIds": [
+            "virabahu-prince",
+            "jayabahu-i"
+        ],
+        "paternalAuntIds": [
+            "mitta-princess"
+        ],
+        "halfSiblingIds": [
+            "yasodhara-princess"
+        ],
+        "siblingIds": [
+            "subaddha-princess",
+            "sumitta-princess-vijayabahu",
+            "lokanatha-princess",
+            "ratnavali-princess",
+            "rupavati-princess"
+        ],
+        "spouseIds": [
+            "sundari-consort-vikramabahu",
+            "lilavati-consort-vikramabahu"
+        ],
+        "childIds": [
+            "gajabahu-ii"
+        ],
+        "cousinIds": [
+            "manabharana-mitta-son",
+            "kittisirimegha",
+            "sirivallabha"
+        ]
+    },
+    "familyDisplay": {
+        "si": {
+            "father": "මහ විජයබාහු රජතුමා",
+            "mother": "තිලෝකසුන්දරී බිසව",
+            "paternalGrandfather": "මොග්ගල්ලාන කුමරු",
+            "paternalGrandmother": "ලෝකිතා කුමරිය",
+            "maternalGrandfather": "නම පැහැදිලිව සඳහන් නොවේ",
+            "maternalGrandmother": "නම පැහැදිලිව සඳහන් නොවේ",
+            "paternalUncles": [
+                "වීරබාහු කුමරු",
+                "පළමුවන ජයබාහු රජු"
+            ],
+            "paternalAunts": [
+                "මිත්තා කුමරිය"
+            ],
+            "halfSiblings": [
+                "යශෝධරා කුමරිය — ලීලාවතී බිසවගේ දියණිය"
+            ],
+            "siblings": [
+                "සුභද්දා කුමරිය",
+                "සුමිත්තා කුමරිය",
+                "ලෝකනාථා කුමරිය",
+                "රත්නාවලී කුමරිය",
+                "රූපවතී කුමරිය"
+            ],
+            "spouses": [
+                "සුන්දරී බිසව",
+                "ලීලාවතී බිසව"
+            ],
+            "children": [
+                "දෙවන ගජබාහු රජු — සුන්දරී බිසවගේ පුත්‍රයා"
+            ],
+            "cousins": [
+                "මානාභරණ කුමරු",
+                "කිත්තිසිරිමේඝ කුමරු",
+                "සිරිවල්ලභ කුමරු"
+            ]
+        },
+        "en": {
+            "father": "King Vijayabahu I",
+            "mother": "Queen Tilokasundari",
+            "paternalGrandfather": "Prince Moggallana",
+            "paternalGrandmother": "Princess Lokita",
+            "maternalGrandfather": "Name not clearly recorded",
+            "maternalGrandmother": "Name not clearly recorded",
+            "paternalUncles": [
+                "Prince Virabahu",
+                "King Jayabahu I"
+            ],
+            "paternalAunts": [
+                "Princess Mitta"
+            ],
+            "halfSiblings": [
+                "Princess Yasodhara — daughter of Queen Lilavati"
+            ],
+            "siblings": [
+                "Princess Subaddha",
+                "Princess Sumitta",
+                "Princess Lokanatha",
+                "Princess Ratnavali",
+                "Princess Rupavati"
+            ],
+            "spouses": [
+                "Queen Sundari",
+                "Queen Lilavati"
+            ],
+            "children": [
+                "King Gajabahu II — son of Queen Sundari"
+            ],
+            "cousins": [
+                "Prince Manabharana",
+                "Prince Kittisirimegha",
+                "Prince Sirivallabha"
+            ]
+        }
+    },
+    "childrenBySpouse": [
+        {
+            "spouseId": "sundari-consort-vikramabahu",
+            "spouseName": {
+                "si": "සුන්දරී බිසව",
+                "en": "Queen Sundari"
+            },
+            "childIds": [
+                "gajabahu-ii"
+            ],
+            "childrenDisplay": {
+                "si": [
+                    "දෙවන ගජබාහු රජු"
+                ],
+                "en": [
+                    "King Gajabahu II"
+                ]
+            },
+            "sourceStatus": "inscription-and-chronicle"
+        },
+        {
+            "spouseId": "lilavati-consort-vikramabahu",
+            "spouseName": {
+                "si": "ලීලාවතී බිසව",
+                "en": "Queen Lilavati"
+            },
+            "childIds": [],
+            "childrenDisplay": {
+                "si": [],
+                "en": []
+            },
+            "sourceStatus": "culavamsa-genealogy"
+        }
+    ],
+    "familyNotes": {
+        "si": [
+            "වික්‍රමබාහු මහ විජයබාහු I සහ කාලිංග රාජකීය පරපුරට අයත් තිලෝකසුන්දරී බිසවගේ පුත්‍රයාය.",
+            "ලීලාවතී බිසවගෙන් උපන් යශෝධරා කුමරිය ඔහුගේ මව වෙනස් අර්ධ සහෝදරියකි.",
+            "සුභද්දා, සුමිත්තා, ලෝකනාථා, රත්නාවලී සහ රූපවතී යන කුමරියන් තිලෝකසුන්දරීගේ දරුවන් ලෙස සඳහන් වන බැවින් ඔවුන් වික්‍රමබාහුගේ සහෝදරියන්ය.",
+            "චූලවංශ පවුල් සටහනේ සුන්දරී සහ ලීලාවතී යන බිසෝවරු දෙදෙනා වික්‍රමබාහු සමඟ සම්බන්ධ කරයි.",
+            "දිඹුලාගල ශිලා ලේඛනයේ දෙවන ගජබාහු, සුන්දරී සහ වික්‍රමබාහුගේ පුත්‍රයා ලෙස හඳුනාගත් බව චූලවංශ පරිවර්තනයේ සටහන් වේ.",
+            "ලීලාවතී බිසවගෙන් ලැබුණු දරුවන් පිළිබඳ පැහැදිලි විශ්වාසදායක තොරතුරු නොමැති බැවින් දරුවන් ගොතා ඇතුළත් කර නැත.",
+            "චූලවංශ පරිවර්තනයේ ඔහු Vikkamabahu II ලෙස අංකනය කළත් පොළොන්නරු රාජාවලියේ සාමාන්‍යයෙන් Vikramabahu I ලෙස හැඳින්වේ."
+        ],
+        "en": [
+            "Vikramabahu was the son of King Vijayabahu I and Queen Tilokasundari of the Kalinga royal lineage.",
+            "Princess Yasodhara, daughter of Queen Lilavati, was his maternal half-sister.",
+            "Subaddha, Sumitta, Lokanatha, Ratnavali and Rupavati were daughters of Tilokasundari and therefore sisters of Vikramabahu.",
+            "The Culavamsa genealogy associates both Sundari and Lilavati as consorts of Vikramabahu.",
+            "The Culavamsa translator notes that the Dimbulagala inscription identifies Gajabahu II as the son of Sundari and Vikramabahu.",
+            "No speculative children have been assigned to Queen Lilavati.",
+            "The Culavamsa translation numbers him as Vikkamabahu II, while modern Polonnaruwa royal lists commonly call him Vikramabahu I."
+        ]
+    },
+    "birth": {
+        "year": null,
+        "calendar": "CE",
+        "placeId": null,
+        "display": {
+            "si": "නිශ්චිත උපන් වර්ෂය හා ස්ථානය පැහැදිලිව සඳහන් නොවේ",
+            "en": "The precise year and place of birth are not clearly recorded"
+        },
+        "dateStatus": "not-recorded"
+    },
+    "death": {
+        "year": 1132,
+        "calendar": "CE",
+        "placeId": "polonnaruwa",
+        "display": {
+            "si": "ක්‍රි.ව. 1132 පමණ",
+            "en": "Around 1132 CE"
+        },
+        "dateStatus": "chronicle-based-approximate"
+    },
+    "capitals": [
+        {
+            "id": "mahanagahula",
+            "name": {
+                "si": "මහානාගහුල",
+                "en": "Mahanagahula"
+            },
+            "role": {
+                "si": "ආදිපාද ලෙස රුහුණ පාලනය කළ මුල් මධ්‍යස්ථානය",
+                "en": "Early capital while governing Ruhuna as Adipada"
+            }
+        },
+        {
+            "id": "polonnaruwa",
+            "name": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "role": {
+                "si": "රජරට පාලනයේ ප්‍රධාන අගනුවර",
+                "en": "Principal capital of his rule over Rajarata"
+            }
+        }
+    ],
+    "image": {
+        "main": "/images/kings/vikramabahu-i.webp",
+        "thumbnail": "/images/kings/thumbnails/vikramabahu-i.webp",
+        "alt": {
+            "si": "පළමුවන වික්‍රමබාහු රජුගේ කලාත්මක ප්‍රතිනිර්මාණය",
+            "en": "Artistic reconstruction of King Vikramabahu I"
+        },
+        "caption": {
+            "si": "මෙය පළමුවන වික්‍රමබාහු රජුගේ කලාත්මක ප්‍රතිනිර්මාණයකි. සමකාලීන සැබෑ රූපයක් නොවේ.",
+            "en": "An artistic reconstruction of King Vikramabahu I; this is not a surviving contemporary portrait."
+        },
+        "isReconstruction": true
+    },
+    "summary": {
+        "si": "පළමුවන වික්‍රමබාහු රජු මහ විජයබාහු I සහ තිලෝකසුන්දරී බිසවගේ පුත්‍රයා වූ අතර පොළොන්නරු යුගයේ රජරට පාලකයෙකි. තම පියාගේ පාලන සමයේ ආදිපාද පදවිය සහ රුහුණේ පාලනය ලැබූ ඔහු, විජයබාහුගේ මරණයෙන් පසු ජයබාහු සහ මිත්තා කුමරියගේ පුත්‍රයන්ගෙන් ඇති වූ විරෝධයට මුහුණ දුන්නේය. සටන් කිහිපයකින් ඔවුන් පරාජය කර පොළොන්නරුව අත්පත් කරගත් ඔහු නිල රාජාභිෂේකයක් නොලබා වසර විසි එකක් පමණ රජරට පාලනය කළේය. ඔහුගේ පාලන සමය දේශපාලන බෙදීම්, අධික බදු, සංඝයා සමඟ ගැටුම් සහ විදේශ ආක්‍රමණයකට මුහුණ දීමෙන් සලකුණු විය. ඔහුගෙන් පසු ඔහුගේ පුත් දෙවන ගජබාහු සිහසුනට පත් විය.",
+        "en": "King Vikramabahu I, the son of Vijayabahu I and Queen Tilokasundari, ruled Rajarata during the Polonnaruwa period. He held the title of Adipada and governed Ruhuna during his father's reign. After Vijayabahu's death, he defeated the political faction of Jayabahu and the sons of Princess Mitta and captured Polonnaruwa. He ruled Rajarata for approximately twenty-one years without formal royal consecration. His reign was marked by political fragmentation, heavy taxation, conflict with the Buddhist Sangha and a foreign invasion. He was succeeded by his son, King Gajabahu II."
+    },
+    "biography": {
+        "si": [
+            {
+                "id": "introduction",
+                "heading": "හැඳින්වීම",
+                "paragraphs": [
+                    "පළමුවන වික්‍රමබාහු රජු පොළොන්නරු යුගයේ රජරට පාලනය කළ වැදගත් නමුත් මතභේදාත්මක පාලකයෙකි.",
+                    "ඔහු මහ විජයබාහු රජුගේ පුත්‍රයා වූ අතර, පියාගේ මරණයෙන් පසු ඇති වූ රාජවංශීය අර්බුදය ජයගෙන පොළොන්නරුවේ බලය ලබාගත්තේය."
+                ]
+            },
+            {
+                "id": "royal-family",
+                "heading": "රාජකීය පවුල් පසුබිම",
+                "paragraphs": [
+                    "වික්‍රමබාහුගේ පියා මහ විජයබාහු I වන අතර මව කාලිංග රාජකීය පරපුරට අයත් තිලෝකසුන්දරී බිසවයි.",
+                    "ජයබාහු සහ වීරබාහු ඔහුගේ පියාගේ සහෝදරයන් වූ අතර, මිත්තා කුමරිය ඔහුගේ නැන්දාය."
+                ]
+            },
+            {
+                "id": "appointment-as-adipada",
+                "heading": "ආදිපාද පදවිය සහ රුහුණේ පාලනය",
+                "paragraphs": [
+                    "වීරබාහුගේ මරණයෙන් පසු මහ විජයබාහු රජු ජයබාහුට උපරාජ පදවිය සහ තම පුත් වික්‍රමබාහුට ආදිපාද පදවිය ලබා දුන්නේය.",
+                    "වික්‍රමබාහුගේ පුත් ගජබාහු උපන් පසුව, විජයබාහු රජු වික්‍රමබාහුට රුහුණ පාලනය සඳහා ලබා දුන් අතර, ඔහු මහානාගහුල තම පාලන මධ්‍යස්ථානය කරගත්තේය."
+                ]
+            },
+            {
+                "id": "succession-crisis",
+                "heading": "විජයබාහුගේ මරණයෙන් පසු අර්බුදය",
+                "paragraphs": [
+                    "විජයබාහු රජු මියගිය අවස්ථාවේ වික්‍රමබාහු රුහුණේ සිටියේය. රජුගේ මරණය ඔහුට දැනුම් නොදී මිත්තා කුමරිය, ඇගේ පුත්‍රයන් සහ රාජකීය නිලධාරීන් ජයබාහු රජු ලෙස අභිෂේක කළහ.",
+                    "මානාභරණ උපරාජ ලෙස පත් කිරීමෙන් වික්‍රමබාහුගේ අනාගත උරුම හිමිකම අහිමි කිරීමට උත්සාහ කළ බව චූලවංශ විවරණයෙන් පෙනේ."
+                ]
+            },
+            {
+                "id": "battles-for-polonnaruwa",
+                "heading": "පොළොන්නරුව සඳහා සටන්",
+                "paragraphs": [
+                    "වික්‍රමබාහු පුරුෂයන් හත්සියයක් හෝ අටසියයක් පමණ සමඟ රුහුණෙන් පොළොන්නරුව බලා ගමන් කළ බව චූලවංශය සඳහන් කරයි.",
+                    "පනසබුක්ක, ආදිපාදජම්බු, කජගම, කාලවාපි, උද්ධනද්වාර සහ පංකවේලක යන ස්ථාන ආශ්‍රිතව සිදු වූ සටන්වලදී ඔහු විරුද්ධ හමුදා නැවත නැවත පරාජය කළේය.",
+                    "අවසානයේ පොළොන්නරුවට පැමිණ තම පියාගේ අවසන් කටයුතු සිදු කළ ස්ථානයට ගෞරව දක්වා, නගරයේ තම පාලනය පිහිටුවීය."
+                ]
+            },
+            {
+                "id": "fragmentation-of-the-island",
+                "heading": "රාජ්‍යයේ දේශපාලන බෙදීම",
+                "paragraphs": [
+                    "වික්‍රමබාහු පොළොන්නරුව සහ රජරට පාලනය කළද, මිත්තාගේ පුත්‍රයන් රුහුණ සහ දක්ෂිණ දේශය අතර තම බල ප්‍රදේශ බෙදාගෙන පාලනය කළහ.",
+                    "එබැවින් මහ විජයබාහු විසින් එක්සත් කළ දිවයින නැවත ප්‍රධාන දේශපාලන කොටස් කිහිපයකට බෙදී ගියේය."
+                ]
+            },
+            {
+                "id": "viradeva-invasion",
+                "heading": "වීරදේවගේ ආක්‍රමණය",
+                "paragraphs": [
+                    "පාලන්දිපයෙන් පැමිණි වීරදේව නම් පාලකයෙකු මහතිත්ථයෙන් ලංකාවට ගොඩබැස පොළොන්නරුව දක්වා ඉදිරියට පැමිණියේය.",
+                    "මුල් සටනකදී වික්‍රමබාහු පසුබැසීමට සිදු වුවද, පසුව අන්තරවිත්ථික ආසන්නයේ පැවති සටනකදී වීරදේව පරාජය කර මරා දැමූ බව චූලවංශය සඳහන් කරයි."
+                ]
+            },
+            {
+                "id": "relations-with-buddhist-sangha",
+                "heading": "බෞද්ධ සංඝයා සමඟ සම්බන්ධතාව",
+                "paragraphs": [
+                    "චූලවංශය වික්‍රමබාහුගේ පාලනය පිළිබඳ දැඩි විවේචනාත්මක විස්තරයක් ඉදිරිපත් කරයි.",
+                    "ඔහු විහාරවලට අයත් නඩත්තු ගම් තම අනුගාමිකයන්ට ලබා දුන් බවත්, ධාතු සඳහා පූජා කළ වටිනා භාණ්ඩ ලබාගත් බවත්, අධික බදු පැනවූ බවත් වංශකතාව චෝදනා කරයි.",
+                    "මේ නිසා සමහර භික්ෂූන් වහන්සේලා දළදා ධාතුව සහ පාත්‍රා ධාතුව රැගෙන රුහුණට ගිය බවද සඳහන් වේ. මෙම විස්තරය සංඝයාගේ දෘෂ්ටිකෝණයෙන් ලියන ලද වංශකතාවක් බව website එකේ පැහැදිලි කළ යුතුය."
+                ]
+            },
+            {
+                "id": "queens-and-son",
+                "heading": "බිසෝවරු සහ පුත්‍රයා",
+                "paragraphs": [
+                    "චූලවංශ පවුල් සටහන වික්‍රමබාහු සමඟ සුන්දරී සහ ලීලාවතී යන බිසෝවරු දෙදෙනා සම්බන්ධ කරයි.",
+                    "දිඹුලාගල ශිලා ලේඛන සටහන අනුව දෙවන ගජබාහු රජු සුන්දරී බිසවගේ සහ වික්‍රමබාහුගේ පුත්‍රයා ලෙස හඳුනාගනී.",
+                    "වික්‍රමබාහුගේ මරණයෙන් පසු ගජබාහු II පොළොන්නරුවේ පාලනය ලබාගත්තේය."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "ඓතිහාසික වැදගත්කම",
+                "paragraphs": [
+                    "වික්‍රමබාහුගේ පාලනය විජයබාහු Iගෙන් පසු පොළොන්නරු රාජධානියේ ඇති වූ රාජවංශීය අර්බුදයේ ප්‍රධාන අවධියකි.",
+                    "ඔහු සීමිත හමුදා බලයකින් ප්‍රතිවාදී පාර්ශ්ව කිහිපයක් පරාජය කර රජරට පාලනය ලබාගත් දක්ෂ යුධ නායකයෙකු ලෙස පෙනේ.",
+                    "එහෙත් දිවයින එක්සත් කිරීමට නොහැකි වීම, සංඝයා සමඟ ගැටුම් සහ ආර්ථික පීඩනය ඔහුගේ පාලනයේ අහිතකර ලක්ෂණ ලෙස වංශකතාව ඉදිරිපත් කරයි."
+                ]
+            }
+        ],
+        "en": [
+            {
+                "id": "introduction",
+                "heading": "Introduction",
+                "paragraphs": [
+                    "King Vikramabahu I was an important but controversial ruler of Rajarata during the Polonnaruwa period.",
+                    "He was a son of Vijayabahu I and obtained control of Polonnaruwa after overcoming the succession crisis that followed his father's death."
+                ]
+            },
+            {
+                "id": "appointment-as-adipada",
+                "heading": "Appointment as Adipada",
+                "paragraphs": [
+                    "Vijayabahu I granted Vikramabahu the title of Adipada.",
+                    "After the birth of his son Gajabahu, Vikramabahu was assigned the administration of Ruhuna and established his capital at Mahanagahula."
+                ]
+            },
+            {
+                "id": "capture-of-polonnaruwa",
+                "heading": "Capture of Polonnaruwa",
+                "paragraphs": [
+                    "After Vijayabahu's death, Jayabahu was consecrated king while Vikramabahu was excluded from the succession arrangements.",
+                    "Vikramabahu defeated the rival forces in several battles and eventually entered Polonnaruwa, where he established his authority over Rajarata."
+                ]
+            },
+            {
+                "id": "political-fragmentation",
+                "heading": "Political Fragmentation",
+                "paragraphs": [
+                    "Although Vikramabahu controlled Rajarata, the sons of Princess Mitta governed Ruhuna and Dakkhinadesa.",
+                    "The unified kingdom created by Vijayabahu I was therefore divided among several rival rulers."
+                ]
+            },
+            {
+                "id": "viradeva-invasion",
+                "heading": "Invasion of Viradeva",
+                "paragraphs": [
+                    "A ruler named Viradeva invaded through Mahatittha and advanced towards Polonnaruwa.",
+                    "Although Vikramabahu initially retreated, he later defeated and killed Viradeva near Antaravitthika."
+                ]
+            },
+            {
+                "id": "sangha-relations",
+                "heading": "Relations with the Buddhist Sangha",
+                "paragraphs": [
+                    "The Culavamsa presents a strongly critical account of Vikramabahu's policies.",
+                    "It accuses him of excessive taxation, appropriating monastic property and damaging relations with Buddhist institutions.",
+                    "Because the chronicle was composed from a monastic perspective, these claims should be presented with an appropriate source qualification."
+                ]
+            },
+            {
+                "id": "family-and-succession",
+                "heading": "Family and Succession",
+                "paragraphs": [
+                    "The Culavamsa genealogy associates Vikramabahu with the queens Sundari and Lilavati.",
+                    "An inscriptional reference identifies Gajabahu II as the son of Vikramabahu and Queen Sundari.",
+                    "Gajabahu II succeeded his father in Rajarata."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "Historical Importance",
+                "paragraphs": [
+                    "Vikramabahu's reign represents a major stage in the dynastic crisis following Vijayabahu I.",
+                    "He demonstrated considerable military ability by defeating rival royal factions and maintaining control of Rajarata.",
+                    "However, political division and conflict with the Buddhist establishment prevented him from restoring island-wide unity."
+                ]
+            }
+        ]
+    },
+    "majorEvents": [
+        {
+            "id": "appointment-as-adipada",
+            "order": 1,
+            "year": null,
+            "type": "royal-appointment",
+            "name": {
+                "si": "ආදිපාද පදවිය ලබාගැනීම",
+                "en": "Appointment as Adipada"
+            },
+            "description": {
+                "si": "මහ විජයබාහු රජු විසින් වික්‍රමබාහුට ආදිපාද පදවිය ලබා දුන්නේය.",
+                "en": "Vijayabahu I granted Vikramabahu the senior royal title of Adipada."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "appointment-to-ruhuna",
+            "order": 2,
+            "year": null,
+            "type": "regional-appointment",
+            "name": {
+                "si": "රුහුණේ පාලනය ලැබීම",
+                "en": "Appointment to Govern Ruhuna"
+            },
+            "description": {
+                "si": "ගජබාහු කුමරු උපන් පසුව විජයබාහු රජු වික්‍රමබාහුට රුහුණ වාසස්ථානය සහ පාලන ප්‍රදේශය ලෙස ලබා දුන්නේය.",
+                "en": "After the birth of Prince Gajabahu, Vijayabahu assigned Ruhuna to Vikramabahu as his region of residence and administration."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "succession-conflict",
+            "order": 3,
+            "year": 1110,
+            "type": "succession-conflict",
+            "name": {
+                "si": "ජයබාහුගේ පාර්ශ්වයට එරෙහිව සටන් ආරම්භ කිරීම",
+                "en": "Beginning of the Succession Conflict"
+            },
+            "description": {
+                "si": "විජයබාහුගේ මරණයෙන් පසු සිදුකළ උරුම සැලැස්මට එරෙහිව වික්‍රමබාහු සටන් ආරම්භ කළේය.",
+                "en": "Vikramabahu began a military campaign against the succession arrangement made after Vijayabahu's death."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "capture-of-polonnaruwa",
+            "order": 4,
+            "year": 1111,
+            "type": "capture-of-capital",
+            "name": {
+                "si": "පොළොන්නරුව අත්පත් කරගැනීම",
+                "en": "Capture of Polonnaruwa"
+            },
+            "description": {
+                "si": "සටන් කිහිපයකින් ජයබාහු සහ මිත්තාගේ පුත්‍රයන්ගේ හමුදා පරාජය කර පොළොන්නරුවේ පාලනය ලබාගත්තේය.",
+                "en": "After defeating the forces of Jayabahu and the sons of Princess Mitta, Vikramabahu took control of Polonnaruwa."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "defeat-of-viradeva",
+            "order": 5,
+            "year": null,
+            "type": "military-victory",
+            "name": {
+                "si": "වීරදේව පරාජය කිරීම",
+                "en": "Defeat of Viradeva"
+            },
+            "description": {
+                "si": "පාලන්දිපයෙන් පැමිණි වීරදේවගේ ආක්‍රමණය අවසානයේ පරාජය කර ඔහු මරා දැමීය.",
+                "en": "Vikramabahu eventually defeated and killed the invading ruler Viradeva."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "departure-of-sacred-relics",
+            "order": 6,
+            "year": null,
+            "type": "religious-conflict",
+            "name": {
+                "si": "ධාතු රුහුණට ගෙනයාම",
+                "en": "Removal of the Sacred Relics to Ruhuna"
+            },
+            "description": {
+                "si": "පාලකයන්ගේ ක්‍රියා පිළිබඳ අසතුටට පත් භික්ෂූන් වහන්සේලා දළදා සහ පාත්‍රා ධාතු රැගෙන රුහුණට ගිය බව චූලවංශය සඳහන් කරයි.",
+                "en": "The Culavamsa states that monks dissatisfied with the rulers removed the Tooth and Alms-bowl relics to Ruhuna."
+            },
+            "sourceStatus": "monastic-chronicle-account"
+        },
+        {
+            "id": "succession-of-gajabahu",
+            "order": 7,
+            "year": 1132,
+            "type": "royal-succession",
+            "name": {
+                "si": "දෙවන ගජබාහු සිහසුනට පත්වීම",
+                "en": "Succession of Gajabahu II"
+            },
+            "description": {
+                "si": "වික්‍රමබාහුගේ මරණයෙන් පසු ඔහුගේ පුත් දෙවන ගජබාහු පොළොන්නරුවේ පාලනය ලබාගත්තේය.",
+                "en": "Following Vikramabahu's death, his son Gajabahu II succeeded to the rule of Polonnaruwa."
+            },
+            "sourceStatus": "culavamsa-and-inscription"
+        }
+    ],
+    "achievements": [
+        {
+            "id": "defeated-rival-factions",
+            "title": {
+                "si": "ප්‍රතිවාදී රාජකීය පාර්ශ්ව කිහිපයක් පරාජය කිරීම",
+                "en": "Defeating Rival Royal Factions"
+            }
+        },
+        {
+            "id": "captured-polonnaruwa",
+            "title": {
+                "si": "පොළොන්නරුව සහ රජරට පාලනය ලබාගැනීම",
+                "en": "Securing Control of Polonnaruwa and Rajarata"
+            }
+        },
+        {
+            "id": "defeated-viradeva",
+            "title": {
+                "si": "වීරදේවගේ විදේශ ආක්‍රමණය පරාජය කිරීම",
+                "en": "Defeating the Invasion of Viradeva"
+            }
+        },
+        {
+            "id": "maintained-rajarata-rule",
+            "title": {
+                "si": "වසර විසි එකක් පමණ රජරට පාලනය පවත්වාගෙන යාම",
+                "en": "Maintaining Rule over Rajarata for Approximately Twenty-One Years"
+            }
+        }
+    ],
+    "constructions": [],
+    "constructionNotes": {
+        "si": "වික්‍රමබාහුගේ පාලනයට සෘජුව හා විශ්වාසදායකව අයත් ප්‍රධාන ඉදිකිරීම් චූලවංශයේ පැහැදිලිව සඳහන් නොවේ. එබැවින් නිශ්චිත සාක්ෂි නොමැති ඉදිකිරීම් ගොතා ඇතුළත් නොකළ යුතුය.",
+        "en": "The Culavamsa does not clearly attribute major construction works directly and reliably to Vikramabahu. Unverified constructions should therefore not be added."
+    },
+    "examNotes": {
+        "si": [
+            "මහ විජයබාහු I සහ තිලෝකසුන්දරී බිසවගේ පුත්‍රයාය.",
+            "මහ විජයබාහු විසින් ආදිපාද පදවිය ලබා දෙන ලදී.",
+            "මහානාගහුල අගනුවර කරගෙන රුහුණ පාලනය කළේය.",
+            "විජයබාහුගේ මරණයෙන් පසු ජයබාහුගේ පාර්ශ්වයට එරෙහිව සටන් කළේය.",
+            "සටන් කිහිපයකින් ප්‍රතිවාදී හමුදා පරාජය කර පොළොන්නරුව අත්පත් කරගත්තේය.",
+            "ක්‍රි.ව. 1111–1132 පමණ රජරට පාලනය කළේය.",
+            "නිල රාජාභිෂේකයක් නොලබා පාලනය කළ බව චූලවංශය සඳහන් කරයි.",
+            "වීරදේවගේ ආක්‍රමණය පරාජය කළේය.",
+            "චූලවංශයට අනුව ඔහුගේ පාලනයේදී අධික බදු සහ සංඝයා සමඟ ගැටුම් පැවතුණි.",
+            "සුන්දරී බිසවගේ පුත් දෙවන ගජබාහු ඔහුගෙන් පසු පාලකයා විය."
+        ],
+        "en": [
+            "Son of Vijayabahu I and Queen Tilokasundari.",
+            "Received the title of Adipada from Vijayabahu I.",
+            "Governed Ruhuna from Mahanagahula.",
+            "Fought the faction of Jayabahu after Vijayabahu's death.",
+            "Defeated several rival armies and captured Polonnaruwa.",
+            "Ruled Rajarata approximately from 1111 to 1132 CE.",
+            "The Culavamsa states that he ruled without formal consecration.",
+            "Defeated the invasion of Viradeva.",
+            "The chronicle accuses his administration of heavy taxation and conflict with the Sangha.",
+            "He was succeeded by his son Gajabahu II, born to Queen Sundari."
+        ]
+    },
+    "essaySummary": {
+        "si": "පළමුවන වික්‍රමබාහු රජු මහ විජයබාහු I සහ තිලෝකසුන්දරී බිසවගේ පුත්‍රයාය. විජයබාහුගේ පාලන සමයේ ආදිපාද පදවිය ලබා රුහුණ පාලනය කළ ඔහු මහානාගහුල තම පාලන මධ්‍යස්ථානය කරගත්තේය. විජයබාහුගේ මරණයෙන් පසු ජයබාහු රජු සහ මිත්තා කුමරියගේ පුත්‍රයන් විසින් සිදුකළ රාජ්‍ය උරුම සැලැස්මට විරුද්ධව සටන් කළ ඔහු, සටන් කිහිපයකින් ඔවුන් පරාජය කර පොළොන්නරුව අත්පත් කරගත්තේය. චූලවංශයට අනුව නිල රාජාභිෂේකයක් නොලබා වසර විසි එකක් පමණ රජරට පාලනය කළේය. පාලන්දිපයෙන් පැමිණි වීරදේවගේ ආක්‍රමණය පරාජය කිරීම ඔහුගේ ප්‍රධාන යුධ ජයග්‍රහණයකි. එහෙත් අධික බදු, විහාර දේපළ අත්පත් කරගැනීම සහ සංඝයා සමඟ ගැටුම් පිළිබඳ චූලවංශයේ දැඩි විවේචන ඇත. ඔහුගේ මරණයෙන් පසු සුන්දරී බිසවගේ පුත් දෙවන ගජබාහු පොළොන්නරුවේ පාලනය ලබාගත්තේය.",
+        "en": "King Vikramabahu I was the son of Vijayabahu I and Queen Tilokasundari. During his father's reign, he received the title of Adipada and governed Ruhuna from Mahanagahula. Following Vijayabahu's death, Vikramabahu opposed the succession arrangement established by Jayabahu and the sons of Princess Mitta. After defeating them in several battles, he captured Polonnaruwa and established his authority over Rajarata. According to the Culavamsa, he ruled for approximately twenty-one years without formal consecration. His defeat of the invading ruler Viradeva was a major military achievement. However, the chronicle strongly criticises his taxation policies, appropriation of monastic property and conflict with the Buddhist Sangha. He was succeeded by his son Gajabahu II, born to Queen Sundari."
+    },
+    "sourceIds": [
+        "culavamsa-chapter-59",
+        "culavamsa-chapter-60",
+        "culavamsa-chapter-61",
+        "culavamsa-chapter-62",
+        "dimbulagala-inscription",
+        "modern-medieval-sri-lanka-research"
+    ],
+    "sourceStatus": {
+        "overall": "chronicle-and-inscription-based",
+        "notes": {
+            "si": "වික්‍රමබාහුගේ පදවිය, රුහුණේ පාලනය, ජයබාහුගේ පාර්ශ්වය සමඟ සටන්, පොළොන්නරුව අත්පත් කරගැනීම, වීරදේවගේ ආක්‍රමණය සහ නිල රාජාභිෂේකයක් නොලැබීම පිළිබඳ තොරතුරු චූලවංශය මත පදනම් වේ. දෙවන ගජබාහු සුන්දරී සහ වික්‍රමබාහුගේ පුත්‍රයා බව දිඹුලාගල ශිලා ලේඛන සටහනක් මඟින් සහාය ලැබේ. සංඝයාට එරෙහි ක්‍රියා පිළිබඳ විස්තර භික්ෂු වංශකතා දෘෂ්ටිකෝණයෙන් ලියන ලද බැවින් ඒවා source qualification එකක් සමඟ පෙන්විය යුතුය.",
+            "en": "Information about Vikramabahu's title, administration of Ruhuna, battles against Jayabahu's faction, capture of Polonnaruwa, defeat of Viradeva and lack of formal consecration is based on the Culavamsa. The identification of Gajabahu II as the son of Sundari and Vikramabahu is supported by an inscriptional reference from Dimbulagala. The negative account of his treatment of the Sangha reflects a monastic chronicle perspective and should be presented with an explicit source qualification."
+        }
+    },
+    "seo": {
+        "title": {
+            "si": "පළමුවන වික්‍රමබාහු රජු | පොළොන්නරු රාජධානිය",
+            "en": "King Vikramabahu I | Kingdom of Polonnaruwa"
+        },
+        "description": {
+            "si": "මහ විජයබාහුගේ පුත් පළමුවන වික්‍රමබාහු රජුගේ පාලනය, පවුල, සුන්දරී සහ ලීලාවතී බිසෝවරු, දෙවන ගජබාහු, ජයබාහු සමඟ බල අරගලය සහ වීරදේව ආක්‍රමණය පිළිබඳ සම්පූර්ණ විස්තරය.",
+            "en": "Explore the reign, family, queens Sundari and Lilavati, son Gajabahu II, succession conflict and military campaigns of King Vikramabahu I."
+        },
+        "keywords": {
+            "si": [
+                "පළමුවන වික්‍රමබාහු",
+                "වික්‍රමබාහු රජු",
+                "වික්කමබාහු",
+                "මහ විජයබාහු",
+                "තිලෝකසුන්දරී",
+                "සුන්දරී බිසව",
+                "ලීලාවතී බිසව",
+                "දෙවන ගජබාහු",
+                "පළමුවන ජයබාහු",
+                "පොළොන්නරු රාජධානිය",
+                "වීරදේව"
+            ],
+            "en": [
+                "King Vikramabahu I",
+                "Vikkamabahu",
+                "Vikkamabahu II",
+                "Vijayabahu I",
+                "Queen Tilokasundari",
+                "Queen Sundari",
+                "Queen Lilavati",
+                "Gajabahu II",
+                "Jayabahu I",
+                "Polonnaruwa Kingdom",
+                "Viradeva"
+            ]
+        }
+    }
+}

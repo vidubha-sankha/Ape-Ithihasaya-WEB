@@ -9,6 +9,7 @@ export interface LocalizedText {
 }
 
 export interface BiographySection {
+  id?: string;
   heading: string;
   paragraphs: string[];
 }
@@ -16,9 +17,9 @@ export interface BiographySection {
 export interface KingData {
   id: string;
   slug: string;
-  status?: string;
   type?: string;
   roles?: string[];
+  status?: string;
 
   rulerNumber?: {
     royalChronologyOrder?: number | null;
@@ -32,6 +33,9 @@ export interface KingData {
     isInterregnumRuler?: boolean;
     isForeignRuler?: boolean;
     isJointRuler?: boolean;
+    isRegionalRuler?: boolean;
+    isIslandwideRuler?: boolean;
+    wasFormallyConsecrated?: boolean;
   };
 
   name: LocalizedText;
@@ -40,16 +44,53 @@ export interface KingData {
     si: string[];
     en: string[];
   };
+  birthName?: LocalizedText;
 
+  gender?: string;
   kingdomId: string;
   dynastyId?: string;
+  periodId?: string;
+  regionIds?: string[];
 
   kingdomDisplay?: LocalizedText;
   dynastyDisplay?: LocalizedText;
 
   reign?: {
-    display: LocalizedText;
+    startYear?: number | null;
+    endYear?: number | null;
+    calendar?: string;
     lengthYears?: number | null;
+    display: LocalizedText;
+    dateStatus?: string;
+    dateNote?: LocalizedText;
+
+    regionalReign?: {
+      startYear?: number | null;
+      endYear?: number | null;
+      display: LocalizedText;
+    };
+
+    islandwideReign?: {
+      startYear?: number | null;
+      endYear?: number | null;
+      display: LocalizedText;
+    };
+
+    rajarataReign?: {
+      startYear?: number | null;
+      endYear?: number | null;
+      display: LocalizedText;
+    };
+
+    effectiveReign?: {
+      startYear?: number | null;
+      endYear?: number | null;
+      display: LocalizedText;
+    };
+
+    laterStatus?: {
+      display: LocalizedText;
+    };
   };
 
   predecessorId?: string | null;
@@ -58,33 +99,179 @@ export interface KingData {
   family?: {
     fatherId?: string | null;
     motherId?: string | null;
+
+    paternalGrandfatherId?: string | null;
+    maternalGrandfatherId?: string | null;
+
+    paternalGrandmotherId?: string | null;
+    maternalGrandmotherId?: string | null;
+
+    paternalUncleIds?: string[];
+    maternalUncleIds?: string[];
+
+    paternalAuntIds?: string[];
+    maternalAuntIds?: string[];
+
+    siblingIds?: string[];
+    halfSiblingIds?: string[];
+    cousinIds?: string[];
+
     spouseIds?: string[];
     childIds?: string[];
+    grandchildIds?: string[];
+
     fatherInLawIds?: string[];
+    motherInLawIds?: string[];
+
+    grandfatherInLawIds?: string[];
+    grandmotherInLawIds?: string[];
+
+    nephewIds?: string[];
+    nieceIds?: string[];
   };
 
   familyDisplay?: {
     si: {
       father?: string;
       mother?: string;
+
+      paternalGrandfather?: string;
+      maternalGrandfather?: string;
+
+      paternalGrandmother?: string;
+      maternalGrandmother?: string;
+
+      paternalUncles?: string[];
+      maternalUncles?: string[];
+
+      paternalAunts?: string[];
+      maternalAunts?: string[];
+
+      siblings?: string[];
+      halfSiblings?: string[];
+      cousins?: string[];
+
       spouse?: string;
       spouses?: string[];
-      fatherInLaw?: string;
+
       children?: string[];
+      grandchildren?: string[];
+
+      fatherInLaw?: string;
+      motherInLaw?: string;
+
+      grandfathersInLaw?: string[];
+      grandmothersInLaw?: string[];
+
+      nephews?: string[];
+      nieces?: string[];
     };
+
     en: {
       father?: string;
       mother?: string;
+
+      paternalGrandfather?: string;
+      maternalGrandfather?: string;
+
+      paternalGrandmother?: string;
+      maternalGrandmother?: string;
+
+      paternalUncles?: string[];
+      maternalUncles?: string[];
+
+      paternalAunts?: string[];
+      maternalAunts?: string[];
+
+      siblings?: string[];
+      halfSiblings?: string[];
+      cousins?: string[];
+
       spouse?: string;
       spouses?: string[];
-      fatherInLaw?: string;
+
       children?: string[];
+      grandchildren?: string[];
+
+      fatherInLaw?: string;
+      motherInLaw?: string;
+
+      grandfathersInLaw?: string[];
+      grandmothersInLaw?: string[];
+
+      nephews?: string[];
+      nieces?: string[];
     };
   };
 
+  inLawRelationships?: Array<{
+    personId: string;
+    relationshipType: string;
+    throughPersonId?: string;
+
+    display: {
+      si: {
+        person: string;
+        relationship: string;
+        connection?: string;
+      };
+
+      en: {
+        person: string;
+        relationship: string;
+        connection?: string;
+      };
+    };
+
+    isBloodRelation: boolean;
+    sourceStatus?: string;
+  }>;
+
+  childrenBySpouse?: Array<{
+    spouseId: string;
+    spouseName: LocalizedText;
+    childIds: string[];
+
+    childrenDisplay: {
+      si: string[];
+      en: string[];
+    };
+
+    sourceStatus?: string;
+  }>;
+
+  familyNotes?: {
+    si: string[];
+    en: string[];
+  };
+
+  birth?: {
+    year?: number | null;
+    calendar?: string;
+    placeId?: string;
+    display?: LocalizedText;
+    dateStatus?: string;
+  };
+
+  death?: {
+    year?: number | null;
+    calendar?: string;
+    placeId?: string;
+    display?: LocalizedText;
+    dateStatus?: string;
+  };
+
+  capitals?: Array<{
+    id: string;
+    name: LocalizedText;
+    role?: LocalizedText;
+  }>;
+
   image?: {
     main: string;
+    thumbnail?: string;
     alt: LocalizedText;
+    caption?: LocalizedText;
     isReconstruction?: boolean;
   };
 
@@ -95,29 +282,58 @@ export interface KingData {
     en: BiographySection[];
   };
 
+  majorEvents?: Array<{
+    id: string;
+    order?: number;
+    year?: number | null;
+    type?: string;
+    name: LocalizedText;
+    description?: LocalizedText;
+    sourceStatus?: string;
+  }>;
+
+  achievements?: Array<{
+    id: string;
+    title: LocalizedText;
+  }>;
+
   constructions?: Array<{
     id: string;
+    type?: string;
     name: LocalizedText;
     location?: LocalizedText;
     description?: LocalizedText;
+    sourceStatus?: string;
   }>;
 
-  majorEvents?: Array<{
-    id: string;
-    name: LocalizedText;
+  foreignRelations?: Array<{
+    countryId: string;
+    countryName: LocalizedText;
+    relationshipTypes?: string[];
     description?: LocalizedText;
   }>;
 
+  examNotes?: {
+    si: string[];
+    en: string[];
+  };
+
+  essaySummary?: LocalizedText;
+
   sourceIds?: string[];
+
+  sourceStatus?: {
+    overall?: string;
+    notes?: LocalizedText;
+  };
 
   seo?: {
     title?: LocalizedText;
     description?: LocalizedText;
-  };
-
-  sourceStatus?: {
-    overall: string;
-    notes?: LocalizedText;
+    keywords?: {
+      si: string[];
+      en: string[];
+    };
   };
 }
 

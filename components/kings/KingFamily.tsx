@@ -19,128 +19,426 @@ export default function KingFamily({
   const display = king.familyDisplay[locale];
 
   const labels = {
-    eyebrow: locale === "si" ? "ලේ නෑකම්" : "GENEALOGY",
+    eyebrow: locale === "si" ? "ලේ නෑකම් සහ විවාහ නෑකම්" : "GENEALOGY",
+
     title:
       locale === "si"
         ? "රාජකීය පවුල් තොරතුරු"
         : "Royal Family Information",
+
+    bloodRelations:
+      locale === "si" ? "ලේ නෑකම්" : "Blood Relations",
+
+    marriageRelations:
+      locale === "si"
+        ? "විවාහයෙන් ඇති සම්බන්ධතා"
+        : "Relations by Marriage",
+
     father: locale === "si" ? "පියා" : "Father",
     mother: locale === "si" ? "මව" : "Mother",
-    spouse: locale === "si" ? "බිරිඳ / සහකරු" : "Spouse",
-    fatherInLaw:
-      locale === "si" ? "මාමණ්ඩිය" : "Father-in-law",
+
+    paternalGrandfather:
+      locale === "si"
+        ? "පියාගේ පාර්ශ්වයේ සීයා"
+        : "Paternal Grandfather",
+
+    maternalGrandfather:
+      locale === "si"
+        ? "මවගේ පාර්ශ්වයේ සීයා"
+        : "Maternal Grandfather",
+
+    paternalUncles:
+      locale === "si"
+        ? "පියාගේ සහෝදරයන්"
+        : "Paternal Uncles",
+
+    siblings:
+      locale === "si"
+        ? "සහෝදර සහෝදරියන්"
+        : "Siblings",
+
+    spouses:
+      locale === "si"
+        ? "බිසෝවරු / සහකරුවන්"
+        : "Queens / Spouses",
+
     children: locale === "si" ? "දරුවන්" : "Children",
+
+    grandchildren:
+      locale === "si"
+        ? "මුණුපුරු සහ මිනිපිරියන්"
+        : "Grandchildren",
+
+    childrenBySpouse:
+      locale === "si"
+        ? "එක් එක් බිසවගෙන් ලැබුණු දරුවන්"
+        : "Children by Spouse",
+
+    familyNotes:
+      locale === "si"
+        ? "පවුල් තොරතුරු පිළිබඳ සටහන්"
+        : "Genealogical Notes",
+
     unknown:
       locale === "si"
         ? "තොරතුරු සඳහන් නොවේ"
         : "Information not recorded",
   };
 
-  const spouseName = display.spouses
-    ? display.spouses.join(" / ")
-    : (display.spouse ?? labels.unknown);
-
   return (
     <section className="px-5 py-8 sm:px-8">
-      <div className="mx-auto max-w-6xl rounded-3xl bg-[#090909] p-7 text-white shadow-xl sm:p-10">
+      <div className="mx-auto max-w-7xl rounded-3xl bg-[#090909] p-7 text-white shadow-xl sm:p-10">
         <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#ffad0a]">
           {labels.eyebrow}
         </p>
 
-        <h2 className="mt-3 text-3xl font-bold">
+        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
           {labels.title}
         </h2>
 
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          <FamilyItem
-            icon="👑"
-            label={labels.father}
-            name={display.father ?? labels.unknown}
-            href={
-              family.fatherId
-                ? `/${locale}/kings/${family.fatherId}`
-                : undefined
-            }
-          />
+        {/* Blood relations */}
+        <div className="mt-12">
+          <h3 className="border-b border-zinc-800 pb-4 text-2xl font-bold">
+            {labels.bloodRelations}
+          </h3>
 
-          <FamilyItem
-            icon="👸"
-            label={labels.mother}
-            name={display.mother ?? labels.unknown}
-          />
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <FamilyItem
+              label={labels.father}
+              name={display.father ?? labels.unknown}
+              href={
+                family.fatherId
+                  ? `/${locale}/people/${family.fatherId}`
+                  : undefined
+              }
+            />
 
-          <FamilyItem
-            icon="💍"
-            label={labels.spouse}
-            name={spouseName}
-          />
+            <FamilyItem
+              label={labels.mother}
+              name={display.mother ?? labels.unknown}
+              href={
+                family.motherId
+                  ? `/${locale}/people/${family.motherId}`
+                  : undefined
+              }
+            />
 
-          <FamilyItem
-            icon="🏛"
-            label={labels.fatherInLaw}
-            name={display.fatherInLaw ?? labels.unknown}
-            href={
-              family.fatherInLawIds?.[0]
-                ? `/${locale}/kings/${family.fatherInLawIds[0]}`
-                : undefined
-            }
-          />
+            <FamilyItem
+              label={labels.paternalGrandfather}
+              name={display.paternalGrandfather ?? labels.unknown}
+              href={
+                family.paternalGrandfatherId
+                  ? `/${locale}/people/${family.paternalGrandfatherId}`
+                  : undefined
+              }
+            />
+
+            <FamilyItem
+              label={labels.maternalGrandfather}
+              name={display.maternalGrandfather ?? labels.unknown}
+              href={
+                family.maternalGrandfatherId
+                  ? `/${locale}/people/${family.maternalGrandfatherId}`
+                  : undefined
+              }
+            />
+
+            {display.paternalGrandmother ? (
+              <FamilyItem
+                label={
+                  locale === "si"
+                    ? "පියාගේ පාර්ශ්වයේ ආච්චි"
+                    : "Paternal Grandmother"
+                }
+                name={display.paternalGrandmother}
+              />
+            ) : null}
+          </div>
+
+          <div className="mt-5 grid gap-5 lg:grid-cols-2">
+            <FamilyListItem
+              label={labels.paternalUncles}
+              names={
+                display.paternalUncles?.length
+                  ? display.paternalUncles
+                  : [labels.unknown]
+              }
+            />
+
+            <FamilyListItem
+              label={labels.siblings}
+              names={
+                display.siblings?.length
+                  ? display.siblings
+                  : [labels.unknown]
+              }
+            />
+
+            <FamilyListItem
+              label={labels.children}
+              names={
+                display.children?.length
+                  ? display.children
+                  : [labels.unknown]
+              }
+            />
+
+            <FamilyListItem
+              label={labels.grandchildren}
+              names={
+                display.grandchildren?.length
+                  ? display.grandchildren
+                  : [labels.unknown]
+              }
+            />
+
+            {display.nephews?.length ? (
+              <FamilyListItem
+                label={locale === "si" ? "බෑණාවරු" : "Nephews"}
+                names={display.nephews}
+              />
+            ) : null}
+
+            {display.paternalAunts?.length ? (
+              <FamilyListItem
+                label={
+                  locale === "si"
+                    ? "පියාගේ සහෝදරියන්"
+                    : "Paternal Aunts"
+                }
+                names={display.paternalAunts}
+              />
+            ) : null}
+
+            {display.halfSiblings?.length ? (
+              <FamilyListItem
+                label={
+                  locale === "si"
+                    ? "අර්ධ සහෝදර සහෝදරියන්"
+                    : "Half-siblings"
+                }
+                names={display.halfSiblings}
+              />
+            ) : null}
+
+            {display.cousins?.length ? (
+              <FamilyListItem
+                label={
+                  locale === "si"
+                    ? "ඥාති සහෝදරයන්"
+                    : "Cousins"
+                }
+                names={display.cousins}
+              />
+            ) : null}
+          </div>
         </div>
 
-        <div className="mt-5 rounded-2xl border border-[#493100] bg-[#15120f] p-6">
-          <p className="text-sm font-semibold text-[#ffad0a]">
-            {labels.children}
-          </p>
+        {/* Spouses */}
+        <div className="mt-12">
+          <h3 className="border-b border-zinc-800 pb-4 text-2xl font-bold">
+            {labels.spouses}
+          </h3>
 
-          {family.childIds?.length ? (
-            <div className="mt-4 flex flex-wrap gap-3">
-              {family.childIds.map((childId, index) => (
-                <Link
-                  key={childId}
-                  href={`/${locale}/kings/${childId}`}
-                  className="rounded-full border border-[#ff9d00] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#ff9d00] hover:text-black"
-                >
-                  {display.children?.[index] ?? childId}
-                </Link>
-              ))}
+          <div className="mt-6 grid gap-5 md:grid-cols-2">
+            {(display.spouses?.length
+              ? display.spouses
+              : [labels.unknown]
+            ).map((spouseName, index) => {
+              const spouseId = family.spouseIds?.[index];
+
+              return (
+                <FamilyItem
+                  key={`${spouseName}-${index}`}
+                  label={`${labels.spouses} ${index + 1}`}
+                  name={spouseName}
+                  href={
+                    spouseId
+                      ? `/${locale}/people/${spouseId}`
+                      : undefined
+                  }
+                />
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Children grouped by spouse */}
+        {king.childrenBySpouse?.length ? (
+          <div className="mt-12">
+            <h3 className="border-b border-zinc-800 pb-4 text-2xl font-bold">
+              {labels.childrenBySpouse}
+            </h3>
+
+            <div className="mt-6 grid gap-6 lg:grid-cols-2">
+              {king.childrenBySpouse.map((group) => {
+                const childNames =
+                  group.childrenDisplay[locale];
+
+                return (
+                  <article
+                    key={group.spouseId}
+                    className="rounded-2xl border border-[#4c3500] bg-[#15120f] p-6"
+                  >
+                    <p className="text-sm font-semibold text-[#ffad0a]">
+                      {locale === "si"
+                        ? "මව / බිසව"
+                        : "Mother / Queen"}
+                    </p>
+
+                    <h4 className="mt-2 text-xl font-bold">
+                      {group.spouseName[locale]}
+                    </h4>
+
+                    <div className="mt-5 space-y-3">
+                      {group.childIds.map((childId, index) => (
+                        <Link
+                          key={childId}
+                          href={`/${locale}/people/${childId}`}
+                          className="block rounded-xl border border-zinc-800 bg-black px-4 py-3 text-zinc-200 transition hover:border-[#ff9d00] hover:text-[#ffad0a]"
+                        >
+                          {childNames[index] ?? childId}
+                        </Link>
+                      ))}
+                    </div>
+                  </article>
+                );
+              })}
             </div>
-          ) : (
-            <p className="mt-3 text-zinc-400">
-              {labels.unknown}
-            </p>
-          )}
-        </div>
+          </div>
+        ) : null}
+
+        {/* Relations by marriage */}
+        {king.inLawRelationships?.length ? (
+          <div className="mt-12">
+            <h3 className="border-b border-zinc-800 pb-4 text-2xl font-bold">
+              {labels.marriageRelations}
+            </h3>
+
+            <div className="mt-6 grid gap-5 md:grid-cols-2">
+              {king.inLawRelationships.map((relationship) => {
+                const relationshipDisplay =
+                  relationship.display[locale];
+
+                return (
+                  <article
+                    key={`${relationship.personId}-${relationship.relationshipType}`}
+                    className="rounded-2xl border border-[#765000] bg-[#17120a] p-6"
+                  >
+                    <p className="text-sm font-semibold text-[#ffad0a]">
+                      {relationshipDisplay.relationship}
+                    </p>
+
+                    <h4 className="mt-2 text-xl font-bold text-white">
+                      {relationshipDisplay.person}
+                    </h4>
+
+                    {relationshipDisplay.connection && (
+                      <p className="mt-4 leading-7 text-zinc-400">
+                        {relationshipDisplay.connection}
+                      </p>
+                    )}
+
+                    <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-zinc-500">
+                      {relationship.isBloodRelation
+                        ? locale === "si"
+                          ? "ලේ නෑකමකි"
+                          : "Blood relation"
+                        : locale === "si"
+                          ? "විවාහ සම්බන්ධතාවකි"
+                          : "Relation by marriage"}
+                    </p>
+                  </article>
+                );
+              })}
+            </div>
+          </div>
+        ) : null}
+
+        {/* Notes */}
+        {king.familyNotes?.[locale]?.length ? (
+          <div className="mt-12 rounded-2xl border border-zinc-800 bg-black p-6">
+            <h3 className="text-xl font-bold">
+              {labels.familyNotes}
+            </h3>
+
+            <ul className="mt-5 space-y-4">
+              {king.familyNotes[locale].map((note) => (
+                <li
+                  key={note}
+                  className="flex items-start gap-3 leading-7 text-zinc-400"
+                >
+                  <span className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-[#ff9d00]" />
+                  <span>{note}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
       </div>
     </section>
   );
 }
 
 interface FamilyItemProps {
-  icon: string;
   label: string;
   name: string;
   href?: string;
 }
 
 function FamilyItem({
-  icon,
   label,
   name,
   href,
 }: FamilyItemProps) {
   const card = (
     <div className="h-full rounded-2xl border border-zinc-800 bg-[#171412] p-5 transition hover:border-[#ff9d00]">
-      <span className="text-xl">{icon}</span>
-
-      <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-[#ffad0a]">
+      <p className="text-xs font-semibold uppercase tracking-wider text-[#ffad0a]">
         {label}
       </p>
 
-      <p className="mt-2 font-bold text-white">
+      <p className="mt-3 font-bold text-white">
         {name}
       </p>
     </div>
   );
 
-  return href ? <Link href={href}>{card}</Link> : card;
+  if (!href) {
+    return card;
+  }
+
+  return (
+    <Link href={href} className="block h-full">
+      {card}
+    </Link>
+  );
+}
+
+interface FamilyListItemProps {
+  label: string;
+  names: string[];
+}
+
+function FamilyListItem({
+  label,
+  names,
+}: FamilyListItemProps) {
+  return (
+    <article className="rounded-2xl border border-zinc-800 bg-[#171412] p-6">
+      <p className="text-xs font-semibold uppercase tracking-wider text-[#ffad0a]">
+        {label}
+      </p>
+
+      <div className="mt-4 space-y-3">
+        {names.map((name) => (
+          <p
+            key={name}
+            className="rounded-xl border border-zinc-800 bg-black px-4 py-3 font-semibold text-white"
+          >
+            {name}
+          </p>
+        ))}
+      </div>
+    </article>
+  );
 }

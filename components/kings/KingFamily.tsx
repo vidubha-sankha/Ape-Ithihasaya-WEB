@@ -221,6 +221,17 @@ export default function KingFamily({
               />
             ) : null}
 
+            {display.halfBrothers?.length ? (
+              <FamilyListItem
+                label={
+                  locale === "si"
+                    ? "මව එකම අර්ධ සහෝදරයන්"
+                    : "Maternal Half-brothers"
+                }
+                names={display.halfBrothers}
+              />
+            ) : null}
+
             {display.cousins?.length ? (
               <FamilyListItem
                 label={

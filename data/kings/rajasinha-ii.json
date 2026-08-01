@@ -1,0 +1,807 @@
+{
+    "id": "rajasinha-ii",
+    "slug": "rajasinha-ii",
+    "type": "person",
+    "roles": [
+        "king",
+        "military-leader",
+        "ruler-of-kandy",
+        "anti-portuguese-leader",
+        "diplomatic-ruler"
+    ],
+    "status": "published",
+    "rulerNumber": {
+        "royalChronologyOrder": null,
+        "monarchOrder": null,
+        "kingdomOrder": null
+    },
+    "rulerClassification": {
+        "type": "monarch",
+        "isMonarch": true,
+        "isInterregnumRuler": false,
+        "isForeignRuler": false,
+        "isJointRuler": false,
+        "isRegionalRuler": true,
+        "wasFormallyConsecrated": true
+    },
+    "name": {
+        "si": "දෙවන රාජසිංහ රජතුමා",
+        "en": "King Rajasinha II"
+    },
+    "shortName": {
+        "si": "දෙවන රාජසිංහ",
+        "en": "Rajasinha II"
+    },
+    "birthName": {
+        "si": "මහා අස්ථාන",
+        "en": "Maha Asthana"
+    },
+    "alternativeNames": {
+        "si": [
+            "මහා අස්ථාන කුමරු",
+            "රාජසිංහ දෙවන",
+            "රාජසිංහ රජු"
+        ],
+        "en": [
+            "Prince Maha Asthana",
+            "Rajasinghe II",
+            "Rajasiha II",
+            "Rajasinha II"
+        ]
+    },
+    "gender": "male",
+    "kingdomId": "kandy-kingdom",
+    "dynastyId": "house-of-dinajara",
+    "periodId": "kandy-kingdom",
+    "regionIds": [
+        "kandy",
+        "five-highland-provinces",
+        "matale",
+        "uva",
+        "digavapi"
+    ],
+    "kingdomDisplay": {
+        "si": "මහනුවර රාජධානිය",
+        "en": "Kingdom of Kandy"
+    },
+    "dynastyDisplay": {
+        "si": "දිනරාජ රාජ පරපුර",
+        "en": "House of Dinajara"
+    },
+    "reign": {
+        "startYear": 1635,
+        "endYear": 1687,
+        "calendar": "CE",
+        "lengthYears": 52,
+        "display": {
+            "si": "ක්‍රි.ව. 1635 – 1687",
+            "en": "1635–1687 CE"
+        },
+        "dateStatus": "chronicle-and-historical",
+        "earlierRegionalAuthority": {
+            "startYear": 1628,
+            "endYear": 1635,
+            "display": {
+                "si": "සෙනරත් රජුගේ ජීවිත කාලයේ උඩරට පංච මහා රටවල පාලකයා ලෙස ක්‍රි.ව. 1628 පමණ සිට බලය දැරීය.",
+                "en": "Held authority over the five highland provinces from approximately 1628 during the lifetime of King Senarat."
+            }
+        },
+        "dateNote": {
+            "si": "චූලවංශය අනුව සෙනරත් රජුගේ මරණයෙන් පසු ක්‍රි.ව. 1635 දී දෙවන රාජසිංහ ප්‍රධාන පාලකයා බවට පත් වී වසර පනස් දෙකක් පාලනය කළේය.",
+            "en": "According to the Culavamsa, Rajasinha became the principal ruler following the death of Senarat in 1635 and ruled for fifty-two years."
+        }
+    },
+    "predecessorId": "senarat",
+    "successorId": "vimaladharmasuriya-ii",
+    "succession": {
+        "previousChronologyEntryId": "senarat",
+        "nextChronologyEntryId": "vimaladharmasuriya-ii",
+        "nextMonarchId": "vimaladharmasuriya-ii",
+        "previousRulerDisplay": {
+            "si": "සෙනරත් රජු",
+            "en": "King Senarat"
+        },
+        "nextRulerDisplay": {
+            "si": "දෙවන විමලධර්මසූරිය රජු",
+            "en": "King Vimaladharmasuriya II"
+        },
+        "accessionNote": {
+            "si": "සෙනරත් රජුගේ මරණයෙන් පසු මහා අස්ථාන කුමරු රාජසිංහ යන රාජ නාමයෙන් මහනුවර රාජ්‍යයේ ප්‍රධාන පාලකයා බවට පත් විය.",
+            "en": "After the death of Senarat, Prince Maha Asthana became the principal ruler of Kandy under the royal name Rajasinha."
+        }
+    },
+    "titles": [
+        {
+            "id": "ruler-of-five-highland-provinces",
+            "name": {
+                "si": "උඩරට පංච මහා රටවල පාලකයා",
+                "en": "Ruler of the Five Highland Provinces"
+            },
+            "description": {
+                "si": "ක්‍රි.ව. 1628 දී සෙනරත් රජු තම පුත්‍රයන් අතර රාජ්‍ය ප්‍රදේශ බෙදූ අවස්ථාවේ මහා අස්ථාන කුමරුට මහනුවර වටා පිහිටි පංච මහා රට හිමි විය.",
+                "en": "When Senarat divided the kingdom among the princes in 1628, Maha Asthana received the five highland provinces surrounding Kandy."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "king-of-kandy",
+            "name": {
+                "si": "මහනුවර රාජධානියේ රජු",
+                "en": "King of Kandy"
+            },
+            "description": {
+                "si": "සෙනරත් රජුගේ මරණයෙන් පසු මහනුවර රාජධානියේ ප්‍රධාන පාලකයා විය.",
+                "en": "He became the principal ruler of the Kingdom of Kandy following Senarat's death."
+            },
+            "sourceStatus": "chronicle-and-historical"
+        }
+    ],
+    "family": {
+        "fatherId": "senarat",
+        "motherId": "kusumasana-devi",
+        "halfBrotherIds": [
+            "kumarasinha-prince",
+            "vijayapala-prince"
+        ],
+        "spouseIds": [
+            "madhura-princesses-rajasinha-ii"
+        ],
+        "childIds": [
+            "vimaladharmasuriya-ii"
+        ]
+    },
+    "familyDisplay": {
+        "si": {
+            "father": "සෙනරත් රජු",
+            "mother": "දෝන කතරිනා හෙවත් කුසුමාසන දේවිය",
+            "halfBrothers": [
+                "කුමාරසිංහ කුමරු",
+                "විජයපාල කුමරු"
+            ],
+            "spouses": [
+                "මධුරා නගරයෙන් ගෙන්වූ රාජ කුමරියන්"
+            ],
+            "children": [
+                "දෙවන විමලධර්මසූරිය රජු"
+            ]
+        },
+        "en": {
+            "father": "King Senarat",
+            "mother": "Dona Catherina, also known as Kusumasana Devi",
+            "halfBrothers": [
+                "Prince Kumarasinha",
+                "Prince Vijayapala"
+            ],
+            "spouses": [
+                "Royal princesses brought from Madhura"
+            ],
+            "children": [
+                "King Vimaladharmasuriya II"
+            ]
+        }
+    },
+    "familyNotes": {
+        "si": [
+            "දෙවන රාජසිංහගේ උපන් නම මහා අස්ථාන ලෙස චූලවංශ පරිවර්තනයේ සඳහන් වේ.",
+            "ඔහු සෙනරත් රජුගේ සහ දෝන කතරිනා හෙවත් කුසුමාසන දේවියගේ පුත්‍රයාය.",
+            "කුමාරසිංහ සහ විජයපාල කුසුමාසන දේවියගේ පළමු විවාහයෙන් උපන් පුත්‍රයන් වූ බැවින් ඔවුන් රාජසිංහගේ මව එකම අර්ධ සහෝදරයන්ය.",
+            "චූලවංශය රාජසිංහ මධුරා නගරයෙන් රාජ කුමරියන් ගෙන්වාගත් බව සඳහන් කරයි.",
+            "එම කුමරියන්ගේ පෞද්ගලික නම් තහවුරු නොවන බැවින් මෙම දත්ත ගොනුවට නම් ඇතුළත් කර නැත.",
+            "චූලවංශයේ ඊළඟ පරිච්ඡේදය දෙවන විමලධර්මසූරිය රාජසිංහගේ පුත්‍රයා ලෙස සෘජුව සඳහන් කරයි."
+        ],
+        "en": [
+            "The Culavamsa translation identifies Rajasinha's birth name as Maha Asthana.",
+            "He was the son of King Senarat and Dona Catherina, also known as Kusumasana Devi.",
+            "Kumarasinha and Vijayapala were sons of Kusumasana Devi by her earlier marriage and were therefore his maternal half-brothers.",
+            "The Culavamsa records that Rajasinha brought royal princesses from Madhura.",
+            "Their personal names are not included because they are not established in the consulted chronicle passage.",
+            "The following Culavamsa chapter directly identifies Vimaladharmasuriya II as the son of Rajasinha."
+        ]
+    },
+    "birth": {
+        "year": 1612,
+        "calendar": "CE",
+        "placeId": "mahiyangana",
+        "display": {
+            "si": "ක්‍රි.ව. 1612 පමණ, මහියංගණය",
+            "en": "Around 1612 CE, at Mahiyangana"
+        },
+        "dateStatus": "chronicle-with-translator-chronology"
+    },
+    "death": {
+        "year": 1687,
+        "calendar": "CE",
+        "display": {
+            "si": "ක්‍රි.ව. 1687",
+            "en": "1687 CE"
+        },
+        "dateStatus": "chronicle-and-historical"
+    },
+    "capital": {
+        "id": "senkadagala",
+        "name": {
+            "si": "සෙංකඩගල / මහනුවර",
+            "en": "Senkadagala / Kandy"
+        },
+        "role": {
+            "si": "මහනුවර රාජධානියේ රාජකීය හා පරිපාලන මධ්‍යස්ථානය",
+            "en": "Royal and administrative centre of the Kingdom of Kandy"
+        }
+    },
+    "image": {
+        "main": "/images/kings/rajasinha-ii.webp",
+        "thumbnail": "/images/kings/thumbnails/rajasinha-ii.webp",
+        "alt": {
+            "si": "දෙවන රාජසිංහ රජතුමාගේ ඓතිහාසික කලාත්මක නිරූපණය",
+            "en": "Historical artistic representation of King Rajasinha II"
+        },
+        "caption": {
+            "si": "දෙවන රාජසිංහ රජතුමාගේ ඓතිහාසික නිරූපණයක් මත පදනම් වූ රූපයකි.",
+            "en": "An image based on a historical representation of King Rajasinha II."
+        },
+        "isReconstruction": true
+    },
+    "summary": {
+        "si": "දෙවන රාජසිංහ රජතුමා මහනුවර රාජධානියේ දීර්ඝතම සහ බලවත් පාලකයන්ගෙන් එක් අයෙකි. මහා අස්ථාන නමින් මහියංගණයේ උපන් ඔහු සෙනරත් රජුගේ සහ කුසුමාසන දේවියගේ පුත්‍රයාය. ක්‍රි.ව. 1628 දී උඩරට පංච මහා රටවල පාලනය ලබාගත් ඔහු, සෙනරත් රජුගේ මරණයෙන් පසු ක්‍රි.ව. 1635 දී මහනුවර රාජ්‍යයේ ප්‍රධාන පාලකයා බවට පත් විය. රන්දෙණිවෙල සහ ගන්නෝරුව වැනි සටන්වලදී පෘතුගීසි හමුදා පරාජය කිරීමට ඔහු සහ ඔහුගේ සහෝදරයන්ගේ හමුදා සමත් වූහ. පෘතුගීසීන් දිවයිනෙන් ඉවත් කිරීම සඳහා ලන්දේසීන් සමඟ සන්ධානයක් ඇති කරගත් නමුත්, පෘතුගීසි බලය අවසන් වීමෙන් පසු ලන්දේසීන් මුහුදුබඩ ප්‍රදේශ ආපසු ලබා නොදීම නිසා ඔවුන් සමඟද ගැටුම් ඇති විය. ඔහු ක්‍රි.ව. 1687 දක්වා වසර පනස් දෙකක් පාලනය කළ අතර ඔහුගෙන් පසු ඔහුගේ පුත් දෙවන විමලධර්මසූරිය රජු සිහසුනට පත් විය.",
+        "en": "King Rajasinha II was one of the longest-reigning and most powerful rulers of the Kingdom of Kandy. Born at Mahiyangana under the name Maha Asthana, he was the son of King Senarat and Kusumasana Devi. He received authority over the five highland provinces in 1628 and became the principal ruler of Kandy after Senarat's death in 1635. Kandyan forces achieved important victories over the Portuguese, including the campaigns associated with Randeniwela and Gannoruwa. Rajasinha allied with the Dutch to remove Portuguese power from the island, but later came into conflict with them when they retained control of the captured maritime territories. He ruled for fifty-two years until 1687 and was succeeded by his son Vimaladharmasuriya II."
+    },
+    "biography": {
+        "si": [
+            {
+                "id": "introduction",
+                "heading": "හැඳින්වීම",
+                "paragraphs": [
+                    "දෙවන රාජසිංහ රජතුමා මහනුවර රාජධානියේ ක්‍රි.ව. 1635 සිට 1687 දක්වා පාලනය කළ බලවත් රජෙකි.",
+                    "ඔහුගේ පාලන සමය පෘතුගීසි බලය පහත වැටීම, ලන්දේසි බලය මුහුදුබඩ ප්‍රදේශවල වර්ධනය වීම සහ උඩරට රාජධානිය තම ස්වාධීනත්වය ආරක්ෂා කිරීම සඳහා කළ දීර්ඝ සටන සමඟ සම්බන්ධ වේ."
+                ]
+            },
+            {
+                "id": "birth-and-parentage",
+                "heading": "උපත සහ පවුල් පසුබිම",
+                "paragraphs": [
+                    "චූලවංශයට අනුව සෙනරත් රජු පෘතුගීසි තර්ජනය හේතුවෙන් මහනුවරින් මහියංගණයට ගිය අවස්ථාවේ ඔහුගේ අගබිසව පුත්‍රයෙකු බිහි කළාය.",
+                    "එම කුමරු මහා අස්ථාන ලෙස හැඳින්වූ අතර පසුව දෙවන රාජසිංහ ලෙස රාජ්‍යයට පත් විය.",
+                    "ඔහුගේ මව වූ දෝන කතරිනා හෙවත් කුසුමාසන දේවිය මහනුවර සිහසුනට නීත්‍යානුකූල රාජවංශීය සම්බන්ධතාවක් තිබූ කුමරියකි."
+                ]
+            },
+            {
+                "id": "division-of-kingdom",
+                "heading": "රාජ්‍ය ප්‍රදේශ බෙදාදීම",
+                "paragraphs": [
+                    "ක්‍රි.ව. 1628 දී සෙනරත් රජු රාජ්‍ය ප්‍රදේශ තම පුත්‍රයන් අතර බෙදාදීම සඳහා දළදා වහන්සේ ඉදිරියේ පත්‍රිකා තුනක් තබා තේරීමක් සිදු කළේය.",
+                    "කුමාරසිංහට ඌව ප්‍රදේශයත්, විජයපාලට මාතලේ ප්‍රදේශයත්, මහා අස්ථානට මහනුවර වටා පිහිටි උඩරට පංච මහා රටත් හිමි විය.",
+                    "රාජධානියේ අගනුවර සහ ප්‍රධාන බල ප්‍රදේශය මහා අස්ථානට හිමිවීම ඔහුගේ අනාගත රාජ්‍ය උරුමයට වැදගත් විය."
+                ]
+            },
+            {
+                "id": "early-wars",
+                "heading": "මුල් පෘතුගීසි විරෝධී සටන්",
+                "paragraphs": [
+                    "සෙනරත් රජුගේ පුත්‍රයන් තිදෙනා මුල් කාලයේ එක්ව පෘතුගීසීන්ට එරෙහිව සටන් කළ බව චූලවංශය සඳහන් කරයි.",
+                    "ක්‍රි.ව. 1630 දී පහළ ඌවේ රන්දෙණිවෙල ආශ්‍රිත සටනකදී පෘතුගීසි හමුදාව පරාජයට පත් වූ අතර ඔවුන්ගේ නායක කොන්ස්තන්තිනෝ ද සා ද නොරොඤ්ඤාද මිය ගියේය."
+                ]
+            },
+            {
+                "id": "conflict-with-brothers",
+                "heading": "සහෝදරයන් සමඟ ඇති වූ ගැටුම්",
+                "paragraphs": [
+                    "පළමුව එකමුතුව කටයුතු කළ සහෝදරයන් අතර පසුව දේශපාලන ගැටුම් ඇති විය.",
+                    "චූලවංශය අනුව රාජසිංහ තම වැඩිමහල් සහෝදරයන්ගේ බලය අඩු කර ඔවුන් තම යටත් පාලකයන් බවට පත් කළේය.",
+                    "කුමාරසිංහ වස දීමකින් මියගිය බවත්, විජයපාල පසුව මාතලෙන් පිටව විදේශයට ගිය බවත් වංශකතාව සඳහන් කරයි."
+                ]
+            },
+            {
+                "id": "accession",
+                "heading": "ප්‍රධාන පාලකයා බවට පත්වීම",
+                "paragraphs": [
+                    "සෙනරත් රජු ක්‍රි.ව. 1635 දී මියගිය පසු මහා අස්ථාන කුමරු දෙවන රාජසිංහ යන රාජ නාමයෙන් මහනුවර රාජධානියේ ප්‍රධාන පාලකයා විය.",
+                    "ඔහුගේ පාලන අරමුණ වූයේ උඩරට රාජධානියේ ස්වාධීනත්වය ආරක්ෂා කර පෘතුගීසි බලය දිවයිනෙන් ඉවත් කිරීමයි."
+                ]
+            },
+            {
+                "id": "gannoruwa",
+                "heading": "ගන්නෝරුව සටන",
+                "paragraphs": [
+                    "ක්‍රි.ව. 1638 දී දියෝගෝ ද මෙලෝගේ නායකත්වයෙන් පෘතුගීසි හමුදාව මහනුවරට ඇතුළු වී නගරයට හානි කළේය.",
+                    "පසුබැස ගිය පෘතුගීසි හමුදාව ගන්නෝරුව ආශ්‍රිතව උඩරට හමුදාව විසින් වටකර දැඩි පරාජයකට පත් කරන ලදී.",
+                    "මෙම සටන උඩරට රාජධානිය පෘතුගීසීන්ට එරෙහිව ලබාගත් වැදගත්ම ජයග්‍රහණයක් ලෙස සැලකේ."
+                ]
+            },
+            {
+                "id": "dutch-alliance",
+                "heading": "ලන්දේසීන් සමඟ සන්ධානය",
+                "paragraphs": [
+                    "පෘතුගීසි බලය මුහුදුබඩ ප්‍රදේශවලින් ඉවත් කිරීමට නාවික සහ කාලතුවක්කු සහාය අවශ්‍ය වූ නිසා රාජසිංහ ලන්දේසි පෙරදිග ඉන්දියා සමාගම සමඟ සම්බන්ධතා ඇති කරගත්තේය.",
+                    "ලන්දේසි නියෝජිතයන් රාජසිංහගේ රාජ සභාවට පැමිණි අතර, රජුගේ නියෝජිතයන්ද අද්මිරාල් වෙස්ටර්වෝල්ඩ් හමුවීමට යවන ලදී.",
+                    "උඩරට සහ ලන්දේසි හමුදා එක්ව මඩකලපුවේ පෘතුගීසි බලකොටුව ක්‍රි.ව. 1638 දී අත්පත් කරගත්හ."
+                ]
+            },
+            {
+                "id": "war-against-portuguese",
+                "heading": "පෘතුගීසි බලය අවසන් කිරීම",
+                "paragraphs": [
+                    "උඩරට සහ ලන්දේසි හමුදා ගොඩබිමෙන් සහ මුහුදෙන් පෘතුගීසි බලකොටුවලට එරෙහිව සටන් කළහ.",
+                    "ක්‍රමයෙන් පෘතුගීසි පාලනය යටතේ පැවති මුහුදුබඩ බලකොටු ලන්දේසීන් විසින් අත්පත් කරගන්නා ලදී.",
+                    "ක්‍රි.ව. 1656 දී කොළඹ අත්පත් කරගැනීමෙන් පසු පෘතුගීසි බලය දැඩි ලෙස බිඳ වැටුණු අතර ක්‍රි.ව. 1658 වන විට ඔවුන්ගේ ප්‍රධාන බලය දිවයිනෙන් අවසන් විය."
+                ]
+            },
+            {
+                "id": "conflict-with-dutch",
+                "heading": "ලන්දේසීන් සමඟ ඇති වූ ගැටුම",
+                "paragraphs": [
+                    "රාජසිංහගේ අපේක්ෂාව වූයේ පෘතුගීසීන්ගෙන් අල්ලාගත් මුහුදුබඩ ප්‍රදේශ නැවත මහනුවර රාජධානියට ලබාගැනීමයි.",
+                    "එහෙත් ලන්දේසීන් අල්ලාගත් බලකොටු සහ වෙළඳ ප්‍රදේශ තමන් යටතේ තබාගත් නිසා දෙපාර්ශ්වය අතර සබඳතා බිඳ වැටුණි.",
+                    "රාජසිංහ ලන්දේසි වෙළඳාමට බාධා කිරීම, මුහුදුබඩ ප්‍රදේශවලට ප්‍රහාර එල්ල කිරීම සහ ඔවුන්ගේ බලකොටුවලට එරෙහි ක්‍රියාමාර්ග ගැනීම මඟින් ප්‍රතිරෝධය පවත්වාගෙන ගියේය.",
+                    "ක්‍රි.ව. 1677 දී එකඟතාවක් ඇති වුවද, රජුගේ මරණය දක්වා දෙපාර්ශ්වය අතර සම්පූර්ණ ස්ථාවර සාමයක් නොපැවතුණි."
+                ]
+            },
+            {
+                "id": "administration",
+                "heading": "පරිපාලනය",
+                "paragraphs": [
+                    "චූලවංශය අනුව රාජසිංහ සුදුසු පුද්ගලයන් තෝරා සෙනාපති සහ අනෙකුත් රාජ්‍ය තනතුරු ලබා දුන්නේය.",
+                    "ඔහු හමුදා බලකොටු පිහිටුවා ප්‍රධාන මාර්ග, කඳුකර පිවිසුම් සහ රාජධානියේ ආරක්ෂාව ශක්තිමත් කළේය.",
+                    "උඩරට භූගෝලීය තත්ත්වය, වනාන්තර, කඳු සහ ගංගා ආක්‍රමණික හමුදාවන්ට එරෙහි ආරක්ෂක උපක්‍රමයක් ලෙස භාවිත කළේය."
+                ]
+            },
+            {
+                "id": "religious-policy",
+                "heading": "ආගමික ප්‍රතිපත්තිය",
+                "paragraphs": [
+                    "චූලවංශය රාජසිංහ බුදු සසුන සහ ගිහි ජනතාව ආරක්ෂා කළ පාලකයෙකු ලෙස විස්තර කරයි.",
+                    "බුදු සසුනට සහ දේවාලවලට පැරණි සම්ප්‍රදාය අනුව අයත් වූ ගම්, කුඹුරු සහ දේපළ නැවත ලබා දුන් බව වංශකතාව සඳහන් කරයි.",
+                    "ඔහු භික්ෂු සංඝයා සහ ආගමික ආයතන රාජ්‍ය ආරක්ෂාව යටතේ පවත්වාගෙන යාමට කටයුතු කළේය."
+                ]
+            },
+            {
+                "id": "royal-marriages",
+                "heading": "රාජකීය විවාහ සම්බන්ධතා",
+                "paragraphs": [
+                    "චූලවංශය රාජසිංහ මධුරා නගරයෙන් රාජ කුමරියන් ගෙන්වාගත් බව සඳහන් කරයි.",
+                    "එම කුමරියන්ගේ පෞද්ගලික නම් පැහැදිලිව සඳහන් නොවන බැවින් ඔවුන් සඳහා අනුමාන නාම භාවිත නොකළ යුතුය.",
+                    "රාජසිංහගේ පුත්‍රයා වූ දෙවන විමලධර්මසූරිය ඔහුගෙන් පසු මහනුවර සිහසුනට පත් විය."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "ඓතිහාසික වැදගත්කම",
+                "paragraphs": [
+                    "දෙවන රාජසිංහගේ පාලනය පෘතුගීසි බලය ශ්‍රී ලංකාවෙන් අවසන් වූ සහ ලන්දේසි බලය මුහුදුබඩ ප්‍රදේශවල වර්ධනය වූ සංක්‍රාන්තික අවධියකි.",
+                    "ඔහු පෘතුගීසීන්ට එරෙහිව සාර්ථක යුධ නායකයෙකු වූ අතර විදේශීය බලවේග දෙකක් එකිනෙකට එරෙහිව භාවිත කිරීමට උත්සාහ කළ රාජ්‍යතාන්ත්‍රික පාලකයෙකුද විය.",
+                    "ලන්දේසීන් මුහුදුබඩ ප්‍රදේශ අත්හැර නොදීම නිසා ඔහුගේ මුළු දිවයිනම නැවත පාලනය කිරීමේ අරමුණ සම්පූර්ණයෙන් ඉටු නොවුණි.",
+                    "කෙසේ වෙතත් මහනුවර රාජධානියේ ස්වාධීනත්වය සහ අභ්‍යන්තර බලය දශක පහකට වැඩි කාලයක් ආරක්ෂා කිරීමට ඔහු සමත් විය."
+                ]
+            }
+        ],
+        "en": [
+            {
+                "id": "introduction",
+                "heading": "Introduction",
+                "paragraphs": [
+                    "King Rajasinha II ruled the Kingdom of Kandy from 1635 to 1687.",
+                    "His reign witnessed the decline of Portuguese power, the expansion of Dutch authority in the maritime regions and the continued defence of Kandyan independence."
+                ]
+            },
+            {
+                "id": "birth-and-family",
+                "heading": "Birth and Royal Family",
+                "paragraphs": [
+                    "According to the Culavamsa, the future king was born at Mahiyangana while Senarat and the royal family had withdrawn from Kandy because of the Portuguese threat.",
+                    "The prince was known as Maha Asthana and was the son of King Senarat and Dona Catherina, also known as Kusumasana Devi."
+                ]
+            },
+            {
+                "id": "division-of-kingdom",
+                "heading": "Division of the Kingdom",
+                "paragraphs": [
+                    "In 1628 Senarat divided the principal territories among the three princes by drawing lots before the Sacred Tooth Relic.",
+                    "Kumarasinha received Uva, Vijayapala received Matale and Maha Asthana received the five highland provinces surrounding Kandy."
+                ]
+            },
+            {
+                "id": "warfare",
+                "heading": "Military Struggle against the Portuguese",
+                "paragraphs": [
+                    "The Kandyan princes initially fought together against the Portuguese.",
+                    "Important Portuguese defeats included the battle associated with Randeniwela in 1630 and the major Kandyan victory at Gannoruwa in 1638."
+                ]
+            },
+            {
+                "id": "dutch-alliance",
+                "heading": "Alliance with the Dutch",
+                "paragraphs": [
+                    "Rajasinha sought Dutch naval and artillery assistance to remove the Portuguese from the maritime provinces.",
+                    "The combined Kandyan and Dutch forces captured the Portuguese fort at Batticaloa in 1638 and continued operations against other Portuguese strongholds."
+                ]
+            },
+            {
+                "id": "dutch-conflict",
+                "heading": "Conflict with the Dutch",
+                "paragraphs": [
+                    "After the Portuguese were removed, the Dutch retained the captured coastal forts and trading regions.",
+                    "This contradicted Rajasinha's expectation that the territories would return to Kandyan authority and led to prolonged conflict between Kandy and the Dutch."
+                ]
+            },
+            {
+                "id": "administration-and-religion",
+                "heading": "Administration and Religious Policy",
+                "paragraphs": [
+                    "The Culavamsa states that Rajasinha appointed qualified people to military and administrative offices.",
+                    "It also records that villages, fields and other property traditionally belonging to Buddhist and religious institutions were restored."
+                ]
+            },
+            {
+                "id": "legacy",
+                "heading": "Historical Legacy",
+                "paragraphs": [
+                    "Rajasinha II was a successful military ruler who defended the Kandyan kingdom for more than five decades.",
+                    "Although the Portuguese were expelled, the Dutch replacement of Portuguese power prevented him from restoring Kandyan control over the entire coastline."
+                ]
+            }
+        ]
+    },
+    "majorEvents": [
+        {
+            "id": "birth-at-mahiyangana",
+            "order": 1,
+            "year": 1612,
+            "type": "birth",
+            "name": {
+                "si": "මහියංගණයේ මහා අස්ථාන කුමරුගේ උපත",
+                "en": "Birth of Prince Maha Asthana at Mahiyangana"
+            },
+            "description": {
+                "si": "සෙනරත් රජු සහ රාජකීය පවුල මහියංගණයේ රැඳී සිටි අවස්ථාවේ මහා අස්ථාන කුමරු උපත ලැබීය.",
+                "en": "Prince Maha Asthana was born while Senarat and the royal family were staying at Mahiyangana."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "division-of-provinces",
+            "order": 2,
+            "year": 1628,
+            "type": "regional-appointment",
+            "name": {
+                "si": "උඩරට පංච මහා රට හිමිවීම",
+                "en": "Acquisition of the Five Highland Provinces"
+            },
+            "description": {
+                "si": "දළදා වහන්සේ ඉදිරියේ සිදුකළ තේරීමෙන් මහා අස්ථාන කුමරුට මහනුවර වටා පිහිටි ප්‍රධාන පංච මහා රට හිමි විය.",
+                "en": "Through the drawing of lots before the Tooth Relic, Maha Asthana received the five principal highland provinces surrounding Kandy."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "battle-of-randeniwela",
+            "order": 3,
+            "year": 1630,
+            "type": "military-victory",
+            "name": {
+                "si": "රන්දෙණිවෙල සටන",
+                "en": "Battle of Randeniwela"
+            },
+            "description": {
+                "si": "උඩරට හමුදා පෘතුගීසි හමුදාව පරාජය කළ අතර කොන්ස්තන්තිනෝ ද සා ද නොරොඤ්ඤා සටනේදී මිය ගියේය.",
+                "en": "Kandyan forces defeated the Portuguese army, and Constantino de Sa de Noronha was killed."
+            },
+            "sourceStatus": "chronicle-commentary-and-historical"
+        },
+        {
+            "id": "accession",
+            "order": 4,
+            "year": 1635,
+            "type": "royal-succession",
+            "name": {
+                "si": "මහනුවර රාජ්‍යයේ ප්‍රධාන පාලකයා බවට පත්වීම",
+                "en": "Accession as Principal Ruler of Kandy"
+            },
+            "description": {
+                "si": "සෙනරත් රජුගේ මරණයෙන් පසු මහා අස්ථාන කුමරු දෙවන රාජසිංහ ලෙස පාලනය ආරම්භ කළේය.",
+                "en": "Following Senarat's death, Prince Maha Asthana began ruling as Rajasinha II."
+            },
+            "sourceStatus": "culavamsa-and-historical"
+        },
+        {
+            "id": "battle-of-gannoruwa",
+            "order": 5,
+            "year": 1638,
+            "type": "military-victory",
+            "name": {
+                "si": "ගන්නෝරුව සටන",
+                "en": "Battle of Gannoruwa"
+            },
+            "description": {
+                "si": "මහනුවරින් පසුබැස ගිය පෘතුගීසි හමුදාව උඩරට හමුදා විසින් වටකර දැඩි පරාජයකට පත් කරන ලදී.",
+                "en": "The Portuguese army retreating from Kandy was surrounded and decisively defeated by Kandyan forces."
+            },
+            "sourceStatus": "chronicle-commentary-and-historical"
+        },
+        {
+            "id": "dutch-treaty",
+            "order": 6,
+            "year": 1638,
+            "type": "diplomatic-alliance",
+            "name": {
+                "si": "ලන්දේසීන් සමඟ ගිවිසුම",
+                "en": "Treaty with the Dutch"
+            },
+            "description": {
+                "si": "පෘතුගීසි බලය ඉවත් කිරීම සඳහා රාජසිංහ සහ ලන්දේසි පෙරදිග ඉන්දියා සමාගම අතර සන්ධානයක් ඇති විය.",
+                "en": "Rajasinha entered an alliance with the Dutch East India Company to remove Portuguese power."
+            },
+            "sourceStatus": "culavamsa-commentary-and-dutch-records"
+        },
+        {
+            "id": "capture-of-batticaloa",
+            "order": 7,
+            "year": 1638,
+            "type": "capture-of-fort",
+            "name": {
+                "si": "මඩකලපුව බලකොටුව අත්පත් කරගැනීම",
+                "en": "Capture of Batticaloa Fort"
+            },
+            "description": {
+                "si": "උඩරට සහ ලන්දේසි හමුදා එක්ව මඩකලපුවේ පෘතුගීසි බලකොටුව අත්පත් කරගත්හ.",
+                "en": "Combined Kandyan and Dutch forces captured the Portuguese fort at Batticaloa."
+            },
+            "sourceStatus": "culavamsa-commentary-and-historical"
+        },
+        {
+            "id": "fall-of-colombo",
+            "order": 8,
+            "year": 1656,
+            "type": "collapse-of-portuguese-power",
+            "name": {
+                "si": "කොළඹ පෘතුගීසි බලය බිඳවැටීම",
+                "en": "Fall of Portuguese Colombo"
+            },
+            "description": {
+                "si": "ලන්දේසීන් කොළඹ අත්පත් කරගැනීමෙන් පෘතුගීසි පාලනයේ අවසානය තීරණාත්මක විය.",
+                "en": "The Dutch capture of Colombo decisively weakened Portuguese rule."
+            },
+            "sourceStatus": "historical"
+        },
+        {
+            "id": "break-with-dutch",
+            "order": 9,
+            "year": 1656,
+            "type": "diplomatic-conflict",
+            "name": {
+                "si": "ලන්දේසීන් සමඟ සබඳතා බිඳවැටීම",
+                "en": "Breakdown of Relations with the Dutch"
+            },
+            "description": {
+                "si": "ලන්දේසීන් අල්ලාගත් මුහුදුබඩ ප්‍රදේශ මහනුවර රාජධානියට ආපසු නොදීම නිසා දෙපාර්ශ්වය අතර විරෝධය වැඩි විය.",
+                "en": "Relations deteriorated when the Dutch retained the captured maritime territories instead of transferring them to Kandy."
+            },
+            "sourceStatus": "chronicle-commentary-and-historical"
+        },
+        {
+            "id": "agreement-of-1677",
+            "order": 10,
+            "year": 1677,
+            "type": "peace-agreement",
+            "name": {
+                "si": "ක්‍රි.ව. 1677 සාම එකඟතාව",
+                "en": "Peace Agreement of 1677"
+            },
+            "description": {
+                "si": "රාජසිංහ සහ ලන්දේසීන් අතර එකඟතාවක් ඇති වුවද සම්පූර්ණ ස්ථාවර සාමයක් නොපැවතුණි.",
+                "en": "An agreement was reached between Rajasinha and the Dutch, although relations did not become completely stable."
+            },
+            "sourceStatus": "historical"
+        },
+        {
+            "id": "death",
+            "order": 11,
+            "year": 1687,
+            "type": "death",
+            "name": {
+                "si": "දෙවන රාජසිංහ රජතුමාගේ අභාවය",
+                "en": "Death of King Rajasinha II"
+            },
+            "description": {
+                "si": "වසර පනස් දෙකක පාලනයෙන් පසු ක්‍රි.ව. 1687 දී රජතුමා අභාවප්‍රාප්ත විය.",
+                "en": "The king died in 1687 after a reign of fifty-two years."
+            },
+            "sourceStatus": "culavamsa-and-historical"
+        }
+    ],
+    "achievements": [
+        {
+            "id": "defended-kandyan-independence",
+            "title": {
+                "si": "මහනුවර රාජධානියේ ස්වාධීනත්වය ආරක්ෂා කිරීම",
+                "en": "Defence of Kandyan Independence"
+            }
+        },
+        {
+            "id": "victory-at-gannoruwa",
+            "title": {
+                "si": "ගන්නෝරුවේදී පෘතුගීසි හමුදාව පරාජය කිරීම",
+                "en": "Defeat of the Portuguese at Gannoruwa"
+            }
+        },
+        {
+            "id": "removal-of-portuguese-power",
+            "title": {
+                "si": "පෘතුගීසි බලය දිවයිනෙන් ඉවත් කිරීමට දායක වීම",
+                "en": "Contribution to the Removal of Portuguese Power"
+            }
+        },
+        {
+            "id": "military-fortification",
+            "title": {
+                "si": "උඩරට ආරක්ෂක බලකොටු සහ හමුදා පද්ධතිය ශක්තිමත් කිරීම",
+                "en": "Strengthening Kandyan Fortifications and Military Organisation"
+            }
+        },
+        {
+            "id": "long-reign",
+            "title": {
+                "si": "වසර පනස් දෙකක් රාජ්‍ය පාලනය පවත්වාගෙන යාම",
+                "en": "Maintaining Royal Authority for Fifty-Two Years"
+            }
+        },
+        {
+            "id": "restored-religious-properties",
+            "title": {
+                "si": "ආගමික ආයතනවලට අයත් ගම් සහ ඉඩම් නැවත ලබාදීම",
+                "en": "Restoration of Lands Belonging to Religious Institutions"
+            }
+        }
+    ],
+    "constructions": [],
+    "constructionNotes": {
+        "si": "පරීක්ෂා කළ චූලවංශ පරිච්ඡේදයේ දෙවන රාජසිංහ රජුට සෘජුව හා නමෙන් අයත් විශාල ගොඩනැගිලි හෝ වාරිමාර්ග ඉදිකිරීම් ලැයිස්තුවක් සඳහන් නොවේ. එබැවින් තහවුරු නොකළ ඉදිකිරීම් මෙම දත්ත ගොනුවට ඇතුළත් කර නැත.",
+        "en": "The consulted Culavamsa chapter does not provide a named list of major buildings or irrigation works directly attributable to Rajasinha II. Unverified constructions have therefore not been added."
+    },
+    "foreignRelations": [
+        {
+            "countryId": "portuguese-ceylon",
+            "countryName": {
+                "si": "පෘතුගීසි පාලනය",
+                "en": "Portuguese Ceylon"
+            },
+            "relationshipTypes": [
+                "war",
+                "territorial-conflict"
+            ],
+            "description": {
+                "si": "මහනුවර රාජධානියේ ස්වාධීනත්වය සහ මුහුදුබඩ ප්‍රදේශ සඳහා පෘතුගීසීන් සමඟ දීර්ඝ සටන් කළේය.",
+                "en": "Rajasinha fought prolonged wars against the Portuguese over Kandyan independence and control of the maritime regions."
+            }
+        },
+        {
+            "countryId": "dutch-east-india-company",
+            "countryName": {
+                "si": "ලන්දේසි පෙරදිග ඉන්දියා සමාගම",
+                "en": "Dutch East India Company"
+            },
+            "relationshipTypes": [
+                "military-alliance",
+                "diplomacy",
+                "later-conflict"
+            ],
+            "description": {
+                "si": "පෘතුගීසි බලය ඉවත් කිරීම සඳහා මුලින් සන්ධානයක් ඇති කරගත් නමුත්, මුහුදුබඩ ප්‍රදේශ පිළිබඳ ගැටලුව නිසා පසුව ලන්දේසීන් සමඟ ගැටුම් ඇති විය.",
+                "en": "He initially allied with the Dutch to remove the Portuguese but later fought them over control of the maritime territories."
+            }
+        },
+        {
+            "countryId": "madhura",
+            "countryName": {
+                "si": "මධුරා රාජ පරපුර",
+                "en": "Royal House of Madhura"
+            },
+            "relationshipTypes": [
+                "royal-marriage"
+            ],
+            "description": {
+                "si": "චූලවංශය අනුව මධුරා නගරයෙන් රාජ කුමරියන් ගෙන්වා රාජවංශීය විවාහ සම්බන්ධතා ඇති කරගත්තේය.",
+                "en": "According to the Culavamsa, royal princesses were brought from Madhura for dynastic marriage alliances."
+            }
+        }
+    ],
+    "examNotes": {
+        "si": [
+            "උපන් නම – මහා අස්ථාන.",
+            "පියා – සෙනරත් රජු.",
+            "මව – දෝන කතරිනා හෙවත් කුසුමාසන දේවිය.",
+            "උපන් ස්ථානය – මහියංගණය.",
+            "රාජ්‍ය කාලය – ක්‍රි.ව. 1635–1687.",
+            "පාලන කාලයේ දිග – වසර 52.",
+            "වැඩිමහල් අර්ධ සහෝදරයන් – කුමාරසිංහ සහ විජයපාල.",
+            "ක්‍රි.ව. 1628 දී උඩරට පංච මහා රටවල පාලනය ලැබීය.",
+            "පෘතුගීසීන්ට එරෙහිව සටන් කළේය.",
+            "ක්‍රි.ව. 1638 ගන්නෝරුව සටන උඩරට හමුදාවේ විශාල ජයග්‍රහණයකි.",
+            "පෘතුගීසීන් ඉවත් කිරීම සඳහා ලන්දේසීන් සමඟ සන්ධානයක් ඇති කරගත්තේය.",
+            "උඩරට සහ ලන්දේසි හමුදා ක්‍රි.ව. 1638 දී මඩකලපුව බලකොටුව අත්පත් කරගත්හ.",
+            "පෘතුගීසි බලය අවසන් වීමෙන් පසු ලන්දේසීන් සමඟ ගැටුම් ඇති විය.",
+            "ආගමික ආයතනවලට අයත් ගම් සහ ඉඩම් නැවත ලබාදුන් බව චූලවංශය සඳහන් කරයි.",
+            "මධුරා නගරයෙන් රාජ කුමරියන් ගෙන්වාගත් බව සඳහන් වේ.",
+            "ඔහුගෙන් පසු පුත් දෙවන විමලධර්මසූරිය රජු සිහසුනට පත් විය."
+        ],
+        "en": [
+            "Birth name – Maha Asthana.",
+            "Father – King Senarat.",
+            "Mother – Dona Catherina, also known as Kusumasana Devi.",
+            "Born at Mahiyangana.",
+            "Reign – 1635–1687 CE.",
+            "Length of reign – fifty-two years.",
+            "Maternal half-brothers – Kumarasinha and Vijayapala.",
+            "Received the five highland provinces in 1628.",
+            "Fought against Portuguese power.",
+            "The Battle of Gannoruwa in 1638 was a major Kandyan victory.",
+            "Allied with the Dutch to remove the Portuguese.",
+            "Combined Kandyan and Dutch forces captured Batticaloa Fort in 1638.",
+            "Later came into conflict with the Dutch.",
+            "The Culavamsa records the restoration of lands belonging to religious institutions.",
+            "Royal princesses were brought from Madhura.",
+            "He was succeeded by his son Vimaladharmasuriya II."
+        ]
+    },
+    "essaySummary": {
+        "si": "දෙවන රාජසිංහ රජතුමා මහනුවර රාජධානියේ බලවත් සහ දීර්ඝකාලීන පාලකයෙකි. මහා අස්ථාන නමින් මහියංගණයේ උපන් ඔහු සෙනරත් රජුගේ සහ දෝන කතරිනා හෙවත් කුසුමාසන දේවියගේ පුත්‍රයාය. ක්‍රි.ව. 1628 දී උඩරට පංච මහා රටවල පාලනය ලැබූ ඔහු, ක්‍රි.ව. 1635 දී සෙනරත් රජුගේ මරණයෙන් පසු මහනුවර රාජ්‍යයේ ප්‍රධාන පාලකයා බවට පත් විය. රන්දෙණිවෙල සහ ගන්නෝරුව වැනි සටන්වලදී උඩරට හමුදා පෘතුගීසීන්ට දැඩි පරාජයන් ලබාදුන්හ. පෘතුගීසි බලය ඉවත් කිරීම සඳහා රාජසිංහ ලන්දේසීන් සමඟ සන්ධානයක් ඇති කරගත් අතර මඩකලපුව ඇතුළු බලකොටු අත්පත් කරගැනීමට දෙපාර්ශ්වය එක්ව කටයුතු කළහ. එහෙත් ලන්දේසීන් මුහුදුබඩ ප්‍රදේශ මහනුවර රාජධානියට ආපසු ලබා නොදීම නිසා පසුව ඔවුන් සමඟද ගැටුම් ඇති විය. චූලවංශය අනුව ඔහු සුදුසු පුද්ගලයන් රාජ්‍ය තනතුරුවලට පත් කළ අතර ආගමික ආයතනවලට අයත් ගම් සහ ඉඩම් නැවත ලබාදුන්නේය. වසර පනස් දෙකක් පාලනය කළ ඔහු ක්‍රි.ව. 1687 දී අභාවප්‍රාප්ත වූ අතර ඔහුගෙන් පසු පුත් දෙවන විමලධර්මසූරිය රජු සිහසුනට පත් විය.",
+        "en": "King Rajasinha II was a powerful and long-reigning monarch of the Kingdom of Kandy. Born at Mahiyangana under the name Maha Asthana, he was the son of King Senarat and Dona Catherina, also known as Kusumasana Devi. He received the five highland provinces in 1628 and became the principal ruler of Kandy after Senarat's death in 1635. Kandyan forces inflicted major defeats on the Portuguese in campaigns associated with Randeniwela and Gannoruwa. Rajasinha formed an alliance with the Dutch to remove Portuguese power, and the two forces cooperated in capturing forts including Batticaloa. However, the Dutch retained the maritime territories, leading to a prolonged conflict with Kandy. The Culavamsa records that Rajasinha appointed qualified officials and restored lands traditionally belonging to Buddhist and religious institutions. He ruled for fifty-two years, died in 1687 and was succeeded by his son Vimaladharmasuriya II."
+    },
+    "sourceIds": [
+        "culavamsa-chapter-95",
+        "culavamsa-chapter-96",
+        "culavamsa-chapter-97",
+        "geiger-culavamsa-translation",
+        "codrington-short-history-of-ceylon",
+        "portuguese-and-dutch-colonial-records"
+    ],
+    "sourceStatus": {
+        "overall": "chronicle-and-historical-record-supported",
+        "notes": {
+            "si": "දෙවන රාජසිංහගේ උපත, පවුල් සම්බන්ධතා, රාජ්‍ය ප්‍රදේශ බෙදාදීම සහ සෙනරත් රජුගේ මරණයෙන් පසු පාලනය ලබාගැනීම චූලවංශයේ 95 හා 96 පරිච්ඡේද මත පදනම් වේ. පෘතුගීසි සහ ලන්දේසි සම්බන්ධ යුධ හා රාජ්‍යතාන්ත්‍රික කරුණු සඳහා චූලවංශ පරිවර්තනයේ විවරණ සහ යුරෝපීය වාර්තාද භාවිත කළ යුතුය. චූලවංශය උඩරට පාර්ශ්වයට හිතකර වංශකතා දෘෂ්ටිකෝණයකින් සිදුවීම් විස්තර කරන බැවින් ඒවා පෘතුගීසි සහ ලන්දේසි වාර්තා සමඟ සසඳා භාවිත කළ යුතුය. රාජසිංහගේ බිසෝවරුන්ගේ පෞද්ගලික නම්, සම්පූර්ණ දරු ලැයිස්තුව සහ ඔහුට සෘජුව අයත් නිශ්චිත ඉදිකිරීම් තහවුරු නොවූ බැවින් අනුමාන තොරතුරු ඇතුළත් කර නැත.",
+            "en": "The birth, genealogy, division of territory and accession of Rajasinha II are based on Chapters 95 and 96 of the Culavamsa. Military and diplomatic events involving the Portuguese and Dutch should also be compared with the translator's historical commentary and European records. Since the Culavamsa presents events from a Kandyan chronicle perspective, its claims should be compared with Portuguese and Dutch documentation. Personal names of the Madhura queens, a complete list of children and unverified constructions have not been added."
+        }
+    },
+    "seo": {
+        "title": {
+            "si": "දෙවන රාජසිංහ රජතුමා | මහනුවර රාජධානිය",
+            "en": "King Rajasinha II | Kingdom of Kandy"
+        },
+        "description": {
+            "si": "මහා අස්ථාන නමින් උපන් දෙවන රාජසිංහ රජතුමාගේ පවුල, පාලනය, ගන්නෝරුව සටන, පෘතුගීසි විරෝධී සටන්, ලන්දේසි සන්ධානය සහ මහනුවර රාජධානියේ ඉතිහාසය පිළිබඳ තහවුරු කළ සම්පූර්ණ විස්තරය.",
+            "en": "Explore the verified history, family, reign, Battle of Gannoruwa, Portuguese wars and Dutch alliance of King Rajasinha II of Kandy."
+        },
+        "keywords": {
+            "si": [
+                "දෙවන රාජසිංහ",
+                "රාජසිංහ රජු",
+                "මහා අස්ථාන",
+                "සෙනරත් රජු",
+                "කුසුමාසන දේවිය",
+                "දෝන කතරිනා",
+                "කුමාරසිංහ",
+                "විජයපාල",
+                "ගන්නෝරුව සටන",
+                "රන්දෙණිවෙල සටන",
+                "පෘතුගීසි පාලනය",
+                "ලන්දේසි පාලනය",
+                "මහනුවර රාජධානිය",
+                "දෙවන විමලධර්මසූරිය"
+            ],
+            "en": [
+                "King Rajasinha II",
+                "Rajasinghe II",
+                "Maha Asthana",
+                "King Senarat",
+                "Kusumasana Devi",
+                "Dona Catherina",
+                "Prince Kumarasinha",
+                "Prince Vijayapala",
+                "Battle of Gannoruwa",
+                "Battle of Randeniwela",
+                "Portuguese Ceylon",
+                "Dutch East India Company",
+                "Kingdom of Kandy",
+                "Vimaladharmasuriya II"
+            ]
+        }
+    }
+}

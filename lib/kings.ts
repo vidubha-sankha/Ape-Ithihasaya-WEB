@@ -64,6 +64,12 @@ export interface KingData {
     dateStatus?: string;
     dateNote?: LocalizedText;
 
+    earlierRegionalAuthority?: {
+      startYear?: number | null;
+      endYear?: number | null;
+      display: LocalizedText;
+    };
+
     regionalReign?: {
       startYear?: number | null;
       endYear?: number | null;
@@ -120,6 +126,8 @@ export interface KingData {
 
     siblingIds?: string[];
     halfSiblingIds?: string[];
+    halfBrotherIds?: string[];
+    halfSisterIds?: string[];
     cousinIds?: string[];
 
     brotherInLawIds?: string[];
@@ -164,6 +172,8 @@ export interface KingData {
 
       siblings?: string[];
       halfSiblings?: string[];
+      halfBrothers?: string[];
+      halfSisters?: string[];
       cousins?: string[];
 
       brothersInLaw?: string[];
@@ -209,6 +219,8 @@ export interface KingData {
 
       siblings?: string[];
       halfSiblings?: string[];
+      halfBrothers?: string[];
+      halfSisters?: string[];
       cousins?: string[];
 
       brothersInLaw?: string[];
@@ -345,6 +357,8 @@ export interface KingData {
     description?: LocalizedText;
     sourceStatus?: string;
   }>;
+
+  constructionNotes?: LocalizedText;
 
   foreignRelations?: Array<{
     countryId: string;

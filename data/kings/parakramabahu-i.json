@@ -1,0 +1,1370 @@
+{
+    "id": "parakramabahu-i",
+    "slug": "parakramabahu-i",
+    "type": "person",
+    "roles": [
+        "king",
+        "emperor",
+        "unifier",
+        "military-leader",
+        "irrigation-reformer",
+        "administrator",
+        "religious-reformer",
+        "patron-of-architecture"
+    ],
+    "status": "published",
+    "rulerNumber": {
+        "royalChronologyOrder": null,
+        "monarchOrder": null,
+        "kingdomOrder": 5
+    },
+    "rulerClassification": {
+        "type": "monarch",
+        "isMonarch": true,
+        "isInterregnumRuler": false,
+        "isForeignRuler": false,
+        "isJointRuler": false,
+        "isRegionalRuler": true,
+        "isIslandwideRuler": true,
+        "wasFormallyConsecrated": true
+    },
+    "name": {
+        "si": "මහ පරාක්‍රමබාහු රජතුමා",
+        "en": "King Parakramabahu I"
+    },
+    "shortName": {
+        "si": "පළමුවන පරාක්‍රමබාහු",
+        "en": "Parakramabahu I"
+    },
+    "royalName": {
+        "si": "ශ්‍රී පරාක්‍රමබාහු",
+        "en": "Sri Parakramabahu"
+    },
+    "epithets": {
+        "si": [
+            "මහ පරාක්‍රමබාහු",
+            "පරාක්‍රමබාහු මහා රජු",
+            "පරාක්‍රමබාහු මහාධිරාජයා",
+            "වැව් බැඳි රජු"
+        ],
+        "en": [
+            "Parakramabahu the Great",
+            "Parakramabahu I",
+            "Sri Parakramabahu",
+            "The Great Irrigation King"
+        ]
+    },
+    "alternativeNames": {
+        "si": [
+            "පරාක්‍රමබාහු",
+            "පරාක්‍රමබාහු කුමරු",
+            "මහා පරාක්‍රමබාහු",
+            "ශ්‍රී පරාක්‍රමබාහු"
+        ],
+        "en": [
+            "Parakramabahu",
+            "Prince Parakramabahu",
+            "Parakramabahu the Great",
+            "Sri Parakramabahu"
+        ]
+    },
+    "gender": "male",
+    "kingdomId": "polonnaruwa-kingdom",
+    "dynastyId": "house-of-vijayabahu",
+    "periodId": "polonnaruwa-kingdom",
+    "regionIds": [
+        "dakkhinadesa",
+        "rajarata",
+        "ruhuna",
+        "polonnaruwa"
+    ],
+    "kingdomDisplay": {
+        "si": "පොළොන්නරු රාජධානිය",
+        "en": "Kingdom of Polonnaruwa"
+    },
+    "dynastyDisplay": {
+        "si": "විජයබාහු රාජ පරපුර",
+        "en": "Royal House of Vijayabahu"
+    },
+    "rulerNumberDisplay": {
+        "si": {
+            "royalChronology": "සම්පූර්ණ ලක්දිව රාජාවලි අංකය පසුව තහවුරු කිරීමට නියමිතය",
+            "monarch": "සම්පූර්ණ රජ අංකය පසුව තහවුරු කිරීමට නියමිතය",
+            "kingdom": "පොළොන්නරු රාජධානියේ පස්වන පාලකයා"
+        },
+        "en": {
+            "royalChronology": "The overall royal chronology number remains to be finalised",
+            "monarch": "The overall monarch number remains to be finalised",
+            "kingdom": "Fifth ruler of the Kingdom of Polonnaruwa"
+        }
+    },
+    "reign": {
+        "startYear": 1153,
+        "endYear": 1186,
+        "calendar": "CE",
+        "lengthYears": 33,
+        "display": {
+            "si": "ක්‍රි.ව. 1153 – 1186",
+            "en": "1153–1186 CE"
+        },
+        "dateStatus": "chronicle-inscription-and-historical",
+        "regionalReign": {
+            "startYear": null,
+            "endYear": 1153,
+            "display": {
+                "si": "දක්ෂිණ දේශයේ පාලකයා ලෙස බලය ගොඩනැගූ අවධිය",
+                "en": "Period of consolidation as ruler of Dakkhinadesa"
+            }
+        },
+        "islandwideReign": {
+            "startYear": 1153,
+            "endYear": 1186,
+            "display": {
+                "si": "ශ්‍රී ලංකාව එක්සත් කිරීමෙන් පසු සමස්ත රාජ්‍ය පාලනය: ක්‍රි.ව. 1153–1186",
+                "en": "Island-wide rule after reunification: 1153–1186 CE"
+            }
+        },
+        "dateNote": {
+            "si": "දෙවන ගජබාහුගේ මරණයෙන් පසු ක්‍රි.ව. 1153 දී පරාක්‍රමබාහු පොළොන්නරුවේ පාලනය ලබාගෙන සමස්ත දිවයිනේ ප්‍රධාන පාලකයා බවට පත් විය.",
+            "en": "After the death of Gajabahu II, Parakramabahu secured Polonnaruwa in 1153 and became the principal ruler of the island."
+        }
+    },
+    "predecessorId": "gajabahu-ii",
+    "successorId": "vijayabahu-ii",
+    "succession": {
+        "previousChronologyEntryId": "gajabahu-ii",
+        "nextChronologyEntryId": "vijayabahu-ii",
+        "nextMonarchId": "vijayabahu-ii",
+        "previousRulerDisplay": {
+            "si": "දෙවන ගජබාහු රජු",
+            "en": "King Gajabahu II"
+        },
+        "nextRulerDisplay": {
+            "si": "දෙවන විජයබාහු රජු",
+            "en": "King Vijayabahu II"
+        },
+        "accessionNote": {
+            "si": "දක්ෂිණ දේශයේ බලය තහවුරු කිරීමෙන් පසු පරාක්‍රමබාහු ගජබාහු IIගේ රජරට පාලනයට අභියෝග කළේය. සටන් සහ සාම ගිවිසුම් මාලාවකින් පසු ගජබාහුගේ මරණයත් සමඟ පොළොන්නරුවේ රාජ්‍ය බලය ලබාගත්තේය.",
+            "en": "After consolidating Dakkhinadesa, Parakramabahu challenged Gajabahu II in Rajarata. Following warfare and negotiated settlements, he obtained Polonnaruwa after Gajabahu's death."
+        },
+        "peaceTreatyNote": {
+            "si": "ගජබාහු සහ පරාක්‍රමබාහු ජීවිත කාලය තුළ එකිනෙකාට එරෙහිව නැවත යුද්ධ නොකිරීමට එකඟ වූ බව සංගමුව ශිලා ලේඛනයෙන් තහවුරු වේ.",
+            "en": "The Sangamuwa inscription records an agreement between Gajabahu and Parakramabahu not to wage war against each other during their lifetimes."
+        }
+    },
+    "titles": [
+        {
+            "id": "king-of-dakkhinadesa",
+            "name": {
+                "si": "දක්ෂිණ දේශයේ පාලකයා",
+                "en": "Ruler of Dakkhinadesa"
+            },
+            "description": {
+                "si": "පොළොන්නරුවේ බලය ලබාගැනීමට පෙර ඔහු දක්ෂිණ දේශයේ පාලන බලය ශක්තිමත් කළේය.",
+                "en": "Before gaining Polonnaruwa, he consolidated authority in Dakkhinadesa."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "king-of-polonnaruwa",
+            "name": {
+                "si": "පොළොන්නරු රජු",
+                "en": "King of Polonnaruwa"
+            },
+            "description": {
+                "si": "ක්‍රි.ව. 1153 සිට පොළොන්නරුව කේන්ද්‍ර කරගෙන රාජ්‍ය පාලනය කළේය.",
+                "en": "He ruled from Polonnaruwa from 1153 CE."
+            },
+            "sourceStatus": "chronicle-and-inscription"
+        },
+        {
+            "id": "unifier-of-lanka",
+            "name": {
+                "si": "ලක්දිව එක්සත් කළ පාලකයා",
+                "en": "Unifier of Lanka"
+            },
+            "description": {
+                "si": "රජරට, දක්ෂිණ දේශය සහ රුහුණ අතර පැවති දේශපාලන බෙදීම අවසන් කර දිවයින එකම බලයක් යටතට ගෙන ආවේය.",
+                "en": "He ended the political division among Rajarata, Dakkhinadesa and Ruhuna and established island-wide authority."
+            },
+            "sourceStatus": "chronicle-and-historical"
+        }
+    ],
+    "family": {
+        "fatherId": "manabharana-dakkhinadesa",
+        "motherId": "ratnavali-princess",
+        "paternalGrandfatherId": "pandyan-prince-mitta-consort",
+        "paternalGrandmotherId": "mitta-princess",
+        "maternalGrandfatherId": "vijayabahu-i",
+        "maternalGrandmotherId": "tilokasundari",
+        "paternalUncleIds": [
+            "kittisirimegha",
+            "sirivallabha"
+        ],
+        "siblingIds": [
+            "mitta-parakramabahu-sister",
+            "pabhavati-princess"
+        ],
+        "spouseIds": [
+            "lilavati-queen-parakramabahu"
+        ],
+        "childIds": [],
+        "cousinIds": [
+            "manabharana-of-ruhuna",
+            "gajabahu-ii"
+        ],
+        "brotherInLawIds": [
+            "gajabahu-ii"
+        ]
+    },
+    "familyDisplay": {
+        "si": {
+            "father": "මානාභරණ කුමරු — දක්ෂිණ දේශයේ පාලකයා",
+            "mother": "රත්නාවලී කුමරිය",
+            "paternalGrandfather": "පාණ්ඩ්‍ය රාජ කුමරු — නම පැහැදිලිව තහවුරු නොවේ",
+            "paternalGrandmother": "මිත්තා කුමරිය",
+            "maternalGrandfather": "මහ විජයබාහු රජතුමා",
+            "maternalGrandmother": "තිලෝකසුන්දරී බිසව",
+            "paternalUncles": [
+                "කිත්තිසිරිමේඝ කුමරු",
+                "සිරිවල්ලභ කුමරු"
+            ],
+            "siblings": [
+                "මිත්තා කුමරිය",
+                "පභාවතී කුමරිය"
+            ],
+            "spouses": [
+                "ලීලාවතී බිසව"
+            ],
+            "children": [],
+            "cousins": [
+                "රුහුණේ මානාභරණ කුමරු",
+                "දෙවන ගජබාහු රජු"
+            ],
+            "brothersInLaw": [
+                "දෙවන ගජබාහු රජු — රාජවංශීය සහ විවාහ සම්බන්ධතාව අනුව"
+            ]
+        },
+        "en": {
+            "father": "Prince Manabharana — ruler of Dakkhinadesa",
+            "mother": "Princess Ratnavali",
+            "paternalGrandfather": "Pandyan prince — personal name not firmly established",
+            "paternalGrandmother": "Princess Mitta",
+            "maternalGrandfather": "King Vijayabahu I",
+            "maternalGrandmother": "Queen Tilokasundari",
+            "paternalUncles": [
+                "Prince Kittisirimegha",
+                "Prince Sirivallabha"
+            ],
+            "siblings": [
+                "Princess Mitta",
+                "Princess Pabhavati"
+            ],
+            "spouses": [
+                "Queen Lilavati"
+            ],
+            "children": [],
+            "cousins": [
+                "Prince Manabharana of Ruhuna",
+                "King Gajabahu II"
+            ],
+            "brothersInLaw": [
+                "King Gajabahu II — through dynastic and marital connections"
+            ]
+        }
+    },
+    "familyTree": {
+        "si": [
+            "මහ විජයබාහු රජතුමා සහ තිලෝකසුන්දරී බිසව",
+            "රත්නාවලී කුමරිය",
+            "රත්නාවලී කුමරිය සහ මානාභරණ කුමරු",
+            "මහ පරාක්‍රමබාහු රජතුමා"
+        ],
+        "en": [
+            "King Vijayabahu I and Queen Tilokasundari",
+            "Princess Ratnavali",
+            "Princess Ratnavali and Prince Manabharana",
+            "King Parakramabahu I"
+        ]
+    },
+    "childrenBySpouse": [
+        {
+            "spouseId": "lilavati-queen-parakramabahu",
+            "spouseName": {
+                "si": "ලීලාවතී බිසව",
+                "en": "Queen Lilavati"
+            },
+            "childIds": [],
+            "childrenDisplay": {
+                "si": [],
+                "en": []
+            },
+            "sourceStatus": "no-confirmed-named-children"
+        }
+    ],
+    "familyNotes": {
+        "si": [
+            "මහ පරාක්‍රමබාහුගේ පියා දක්ෂිණ දේශයේ පාලක මානාභරණ කුමරුය.",
+            "ඔහුගේ මව මහ විජයබාහු Iගේ දියණියක ලෙස සැලකෙන රත්නාවලී කුමරියයි.",
+            "මිත්තා සහ පභාවතී ඔහුගේ සහෝදරියන් ලෙස චූලවංශ පවුල් සටහන්වල සඳහන් වේ.",
+            "ලීලාවතී ඔහුගේ ප්‍රධාන මහේෂිකාව ලෙස සඳහන් වන අතර, පරාක්‍රමබාහුගේ මරණයෙන් පසු ඇය පසුකාලීනව ශ්‍රී ලංකාවේ රැජිනක ලෙස පාලනය කළාය.",
+            "මහ පරාක්‍රමබාහුට අයත් තහවුරු කළ නාමික දරුවන් පිළිබඳ ප්‍රධාන වංශකතා සහ ශිලා ලේඛනවල පැහැදිලි එකඟතාවක් නොමැත.",
+            "ඒ නිසා දරුවන් පිළිබඳ අනුමාන නාම මෙම දත්ත ගොනුවට ඇතුළත් කර නැත."
+        ],
+        "en": [
+            "Parakramabahu's father was Prince Manabharana, ruler of Dakkhinadesa.",
+            "His mother was Princess Ratnavali, associated with the family of Vijayabahu I.",
+            "Mitta and Pabhavati are recorded as his sisters in chronicle genealogy.",
+            "Lilavati is identified as his principal queen and later ruled Sri Lanka in her own right.",
+            "The principal chronicles and inscriptions do not provide a clearly agreed list of named children of Parakramabahu.",
+            "No speculative children have therefore been included."
+        ]
+    },
+    "birth": {
+        "year": 1123,
+        "calendar": "CE",
+        "placeId": "punkhagama",
+        "display": {
+            "si": "ක්‍රි.ව. 1123 පමණ, දක්ෂිණ දේශයේ පුංඛගාම ප්‍රදේශය",
+            "en": "Around 1123 CE, probably at Punkhagama in Dakkhinadesa"
+        },
+        "dateStatus": "traditional-and-approximate"
+    },
+    "death": {
+        "year": 1186,
+        "calendar": "CE",
+        "placeId": "polonnaruwa",
+        "display": {
+            "si": "ක්‍රි.ව. 1186, පොළොන්නරුව",
+            "en": "1186 CE, Polonnaruwa"
+        },
+        "dateStatus": "historical"
+    },
+    "capital": {
+        "id": "polonnaruwa",
+        "name": {
+            "si": "පොළොන්නරුව",
+            "en": "Polonnaruwa"
+        },
+        "role": {
+            "si": "එක්සත් ශ්‍රී ලංකාවේ රාජකීය, පරිපාලන, ආගමික හා හමුදා අගනුවර",
+            "en": "Royal, administrative, religious and military capital of the unified kingdom"
+        }
+    },
+    "image": {
+        "main": "/images/kings/parakramabahu-i.webp",
+        "thumbnail": "/images/kings/thumbnails/parakramabahu-i.webp",
+        "alt": {
+            "si": "මහ පරාක්‍රමබාහු රජතුමාගේ කලාත්මක ඓතිහාසික ප්‍රතිනිර්මාණය",
+            "en": "Artistic historical reconstruction of King Parakramabahu I"
+        },
+        "caption": {
+            "si": "මෙය මහ පරාක්‍රමබාහු රජතුමාගේ කලාත්මක ප්‍රතිනිර්මාණයකි. සමකාලීන සැබෑ රූපයක් නොවේ.",
+            "en": "An artistic reconstruction of King Parakramabahu I; this is not a surviving contemporary portrait."
+        },
+        "isReconstruction": true
+    },
+    "famousStatement": {
+        "si": "අහසින් වැටෙන එක් දිය බිඳක්වත් මිනිසාට ප්‍රයෝජනවත් නොවී මුහුදට ගලා යාමට ඉඩ නොදිය යුතුය.",
+        "en": "Not even a small quantity of rainwater should flow to the sea without benefiting the people.",
+        "sourceStatus": "chronicle-paraphrase",
+        "note": {
+            "si": "මෙය චූලවංශයේ දක්වන අදහසෙහි ප්‍රචලිත සාරාංශ පරිවර්තනයකි; වචනෙන් වචනය සෘජු උපුටාගැනීමක් ලෙස නොපෙන්විය යුතුය.",
+            "en": "This is a popular paraphrase of the policy expressed in the Culavamsa and should not be presented as an exact verbatim quotation."
+        }
+    },
+    "summary": {
+        "si": "මහ පරාක්‍රමබාහු රජතුමා ශ්‍රී ලංකාවේ පොළොන්නරු යුගයේ ශ්‍රේෂ්ඨතම පාලකයන්ගෙන් එක් අයෙකි. මානාභරණ කුමරුගේ සහ රත්නාවලී කුමරියගේ පුත්‍රයා වූ ඔහු දක්ෂිණ දේශයේ බලය ගොඩනඟා, ගජබාහු II සහ රුහුණේ මානාභරණගේ පාර්ශ්ව සමඟ දීර්ඝ සටන්වලින් පසු ශ්‍රී ලංකාව නැවත එක්සත් කළේය. ක්‍රි.ව. 1153 සිට 1186 දක්වා පාලනය කළ ඔහු පොළොන්නරුව අගනුවර විශාල වශයෙන් සංවර්ධනය කළේය. පරාක්‍රම සමුද්‍රය ඇතුළු වාරිමාර්ග පද්ධති ඉදි කිරීම හා ප්‍රතිසංස්කරණය කිරීම, කෘෂිකර්මාන්තය දියුණු කිරීම, බෞද්ධ සංඝයා ප්‍රතිසංවිධානය කිරීම, ගල් විහාරය, ලංකාතිලකය සහ ආලාහන පිරිවෙන ආශ්‍රිත ආගමික නිර්මාණ සංවර්ධනය කිරීම ඔහුගේ විශිෂ්ට සේවාවන් අතර වේ. ඔහු රාමඤ්ඤ දේශයට නාවික මෙහෙයුමක්ද, පාණ්ඩ්‍ය රාජ්‍යයේ සිවිල් යුද්ධයට සම්බන්ධ දකුණු ඉන්දීය හමුදා මෙහෙයුමක්ද සිදු කළේය.",
+        "en": "King Parakramabahu I was one of the greatest rulers of the Polonnaruwa period. The son of Prince Manabharana and Princess Ratnavali, he consolidated Dakkhinadesa and reunified Sri Lanka after prolonged conflicts involving Gajabahu II and Manabharana of Ruhuna. Ruling from 1153 to 1186, he greatly expanded Polonnaruwa, developed and restored irrigation systems including Parakrama Samudra, promoted agriculture, reorganised the Buddhist Sangha and supported major religious complexes such as Gal Vihara, Lankatilaka and Alahana Pirivena. His reign also included a naval expedition against Ramanna and military involvement in the Pandyan succession conflict in South India."
+    },
+    "biography": {
+        "si": [
+            {
+                "id": "introduction",
+                "heading": "හැඳින්වීම",
+                "paragraphs": [
+                    "මහ පරාක්‍රමබාහු රජතුමා පොළොන්නරු යුගයේ දේශපාලන, යුධ, ආර්ථික, ආගමික සහ වාරිමාර්ග ඉතිහාසයේ විශිෂ්ටතම පාලකයෙකි.",
+                    "ඔහුගේ පාලනය ශ්‍රී ලංකාව නැවත එක්සත් කිරීම, පොළොන්නරුව අධිරාජ්‍යමය අගනුවරක් ලෙස සංවර්ධනය කිරීම සහ විශාල වාරිමාර්ග වැඩසටහනක් ක්‍රියාත්මක කිරීම නිසා ප්‍රසිද්ධය."
+                ]
+            },
+            {
+                "id": "birth-and-parentage",
+                "heading": "උපත සහ පවුල් පසුබිම",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු ක්‍රි.ව. 1123 පමණ දක්ෂිණ දේශයේ උපත ලැබූ බව සාමාන්‍යයෙන් සැලකේ.",
+                    "ඔහුගේ පියා මානාභරණ කුමරු වන අතර මව රත්නාවලී කුමරියයි. රත්නාවලී මහ විජයබාහු Iගේ රාජ පරපුරට අයත් වූ බැවින් පරාක්‍රමබාහුට පොළොන්නරු සිහසුන සඳහා ශක්තිමත් රාජවංශීය හිමිකමක් තිබුණි."
+                ]
+            },
+            {
+                "id": "childhood",
+                "heading": "ළමා කාලය",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු උපන් පසු කෙටි කාලයකින් ඔහුගේ පියා මානාභරණ මිය ගියේය.",
+                    "ඔහුගේ මව රත්නාවලී සහ සහෝදරියන් සමඟ රුහුණේ මහානාගහුල රාජ සභාවට ගොස් සිරිවල්ලභගේ ආරක්ෂාව යටතේ ජීවත් වූ බව චූලවංශ සම්ප්‍රදායේ සඳහන් වේ."
+                ]
+            },
+            {
+                "id": "education-and-training",
+                "heading": "අධ්‍යාපනය සහ පුහුණුව",
+                "paragraphs": [
+                    "තරුණ පරාක්‍රමබාහු රාජ්‍ය පාලනය, යුධ උපක්‍රම, රාජ්‍යතාන්ත්‍රික සබඳතා, නීතිය සහ ආර්ථික කළමනාකරණය පිළිබඳ පුහුණුව ලැබූ බව ඔහුගේ පසුකාලීන ක්‍රියාකාරකම්වලින් පෙනේ.",
+                    "ඔහු ප්‍රාදේශීය පාලකයන්ගේ බලය, මාර්ග, බලකොටු, වරාය සහ සම්පත් පිළිබඳ සෘජුව දැනුවත් වීමට විවිධ ප්‍රදේශවල සංචාරය කළේය."
+                ]
+            },
+            {
+                "id": "journey-to-rajarata",
+                "heading": "රජරටට ගිය ගමන",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු තරුණ වියේදී දෙවන ගජබාහුගේ පොළොන්නරු රාජ සභාවට ගියේය.",
+                    "මුලදී ගජබාහු ඔහුට ගෞරවයෙන් සැලකුවද, ඔහුගේ දක්ෂතාව, ජනප්‍රියත්වය සහ රාජ්‍ය හිමිකම නිසා දෙපාර්ශ්වය අතර සැකය වර්ධනය විය."
+                ]
+            },
+            {
+                "id": "rule-of-dakkhinadesa",
+                "heading": "දක්ෂිණ දේශයේ බලය ලබාගැනීම",
+                "paragraphs": [
+                    "කිත්තිසිරිමේඝගේ මරණයෙන් පසු පරාක්‍රමබාහු දක්ෂිණ දේශයේ පාලන බලය ලබාගත්තේය.",
+                    "ඔහු පරිපාලනය, බදු රැස් කිරීම, හමුදා සංවිධානය සහ කෘෂිකාර්මික නිෂ්පාදනය ශක්තිමත් කර අනාගත එක්සත් කිරීමේ සටන සඳහා දක්ෂිණ දේශය ශක්තිමත් පදනමක් බවට පත් කළේය."
+                ]
+            },
+            {
+                "id": "economic-preparation",
+                "heading": "ආර්ථික හා හමුදා සූදානම",
+                "paragraphs": [
+                    "රජරටට එරෙහිව සටන් කිරීමට පෙර පරාක්‍රමබාහු දක්ෂිණ දේශයේ ආදායම, ධාන්‍ය නිෂ්පාදනය, හමුදා සැපයුම් සහ ගබඩා පද්ධති සංවිධානය කළේය.",
+                    "වැව් සහ ඇළ මාර්ග ප්‍රතිසංස්කරණය කිරීමෙන් කෘෂිකාර්මික අතිරික්තයක් ගොඩනඟා දිගුකාලීන යුද්ධයක් පවත්වාගෙන යාමට අවශ්‍ය සම්පත් ලබාගත්තේය."
+                ]
+            },
+            {
+                "id": "conflict-with-gajabahu",
+                "heading": "දෙවන ගජබාහු සමඟ බල අරගලය",
+                "paragraphs": [
+                    "දක්ෂිණ දේශයේ බලය තහවුරු කළ පරාක්‍රමබාහු රජරට පාලනය කළ ගජබාහු IIට අභියෝග කළේය.",
+                    "දෙපාර්ශ්වයේ හමුදා අතර බලකොටු, මාර්ග, වරාය සහ රජරට ප්‍රධාන ප්‍රදේශ පාලනය කිරීම සඳහා සටන් ගණනාවක් ඇති විය.",
+                    "චූලවංශය මෙම සටන් පරාක්‍රමබාහුගේ පාර්ශ්වයට වඩාත් හිතකරව විස්තර කරන බැවින්, සටන් විස්තර source qualification එකක් සමඟ පෙන්විය යුතුය."
+                ]
+            },
+            {
+                "id": "sangamuwa-treaty",
+                "heading": "සංගමුව සාම ගිවිසුම",
+                "paragraphs": [
+                    "යුද්ධයෙන් පසු ගජබාහු සහ පරාක්‍රමබාහු අතර භික්ෂූන්ගේ මැදිහත්වීමෙන් සාම ගිවිසුමක් ඇති විය.",
+                    "සංගමුව ශිලා ලේඛනය අනුව ඔවුන් ජීවිත කාලය තුළ එකිනෙකාට එරෙහිව නැවත යුද්ධ නොකිරීමට සහ එක් අයෙකු මියගිය පසු ජීවත්ව සිටින අනෙක් පාලකයාට රාජ්‍යය හිමිවීමට එකඟ වූහ."
+                ]
+            },
+            {
+                "id": "war-with-manabharana",
+                "heading": "රුහුණේ මානාභරණ සමඟ යුද්ධය",
+                "paragraphs": [
+                    "ගජබාහු සහ පරාක්‍රමබාහු අතර ගැටුම්වලට රුහුණේ මානාභරණද මැදිහත් විය.",
+                    "මානාභරණ රජරටේ බලය ලබාගැනීමට උත්සාහ කළ අතර ගජබාහු අල්ලාගත් අවස්ථාවක්ද චූලවංශයේ සඳහන් වේ.",
+                    "පරාක්‍රමබාහුගේ හමුදා මානාභරණගේ බලය බිඳ දමා ගජබාහු නිදහස් කළේය."
+                ]
+            },
+            {
+                "id": "unification",
+                "heading": "ශ්‍රී ලංකාව එක්සත් කිරීම",
+                "paragraphs": [
+                    "ගජබාහුගේ මරණයෙන් පසු පරාක්‍රමබාහු පොළොන්නරුවේ බලය ලබාගත්තේය.",
+                    "රුහුණ සහ අනෙකුත් ප්‍රදේශවල පැවති ප්‍රතිරෝධ පරාජය කිරීමෙන් පසු රජරට, දක්ෂිණ දේශය සහ රුහුණ එකම පාලනයක් යටතට ගෙන ආවේය.",
+                    "මෙම එක්සත් කිරීමෙන් පොළොන්නරු රාජධානිය දේශපාලන හා හමුදා බලයේ උච්චතම අවධියකට පැමිණියේය."
+                ]
+            },
+            {
+                "id": "coronation",
+                "heading": "රාජාභිෂේකය",
+                "paragraphs": [
+                    "ක්‍රි.ව. 1153 දී පරාක්‍රමබාහු පොළොන්නරුවේ රාජ්‍ය බලය ලබාගෙන නිල රාජාභිෂේකය සිදු කළේය.",
+                    "එතැන් සිට ඔහු මහ පරාක්‍රමබාහු හෙවත් පළමුවන පරාක්‍රමබාහු ලෙස සමස්ත ලංකාවේ පාලකයා විය."
+                ]
+            },
+            {
+                "id": "administration",
+                "heading": "පරිපාලනය",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු රජු මධ්‍යගත රාජ්‍ය පාලනයක් ගොඩනඟා පළාත් පාලකයන්, රාජකීය නිලධාරීන්, හමුදා නායකයන් සහ ආදායම් නිලධාරීන් පාලනය කළේය.",
+                    "රාජ්‍ය ආදායම්, බදු, ගබඩා, වෙළඳාම සහ රාජකාරී සේවය විධිමත්ව සංවිධානය කළේය.",
+                    "රාජ්‍ය සේවකයන්ගේ ක්‍රියාකාරකම් අධීක්ෂණය කර රාජකීය නියෝග ක්‍රියාත්මක කිරීම සඳහා සවිමත් පරිපාලන පද්ධතියක් පවත්වාගෙන ගියේය."
+                ]
+            },
+            {
+                "id": "army-and-navy",
+                "heading": "හමුදාව සහ නාවික බලය",
+                "paragraphs": [
+                    "ඔහු පාබල, අශ්වාරෝහක, අලි හමුදා, දුනු හමුදා සහ නාවික ඒකක ඇතුළත් විශාල හමුදා පද්ධතියක් පවත්වාගෙන ගියේය.",
+                    "දේශීය යුද්ධවලට අමතරව රාමඤ්ඤ දේශයට සහ දකුණු ඉන්දියාවට හමුදා යැවීමට හැකි නාවික බලයක් ගොඩනඟා තිබුණි.",
+                    "ලංකාපුර දණ්ඩනායක, කිත්ති නගරගිරි සහ රක්ඛ වැනි හමුදා නායකයන් ඔහුගේ යුධ මෙහෙයුම්වල වැදගත් කාර්යභාරයක් ඉටු කළහ."
+                ]
+            },
+            {
+                "id": "irrigation-policy",
+                "heading": "වාරිමාර්ග ප්‍රතිපත්තිය",
+                "paragraphs": [
+                    "මහ පරාක්‍රමබාහුගේ පාලනයේ ප්‍රධාන අරමුණක් වූයේ සෑම ජල සම්පතක්ම කෘෂිකර්මාන්තයට හා ජනතා යහපතට භාවිත කිරීමයි.",
+                    "ඔහු පැරණි වැව්, අමුණු සහ ඇළ මාර්ග ප්‍රතිසංස්කරණය කළ අතර නව ජලාශ සහ ජල බෙදාහැරීමේ පද්ධති ඉදිකළේය.",
+                    "මෙම වැඩසටහන් රජයේ ආදායම, ආහාර නිෂ්පාදනය සහ යුධ හමුදාව සඳහා අවශ්‍ය සැපයුම් වැඩි කිරීමට උපකාරී විය."
+                ]
+            },
+            {
+                "id": "parakrama-samudra",
+                "heading": "පරාක්‍රම සමුද්‍රය",
+                "paragraphs": [
+                    "පරාක්‍රම සමුද්‍රය මහ පරාක්‍රමබාහුගේ වාරිමාර්ග වැඩසටහනේ විශිෂ්ටතම නිර්මාණය ලෙස සැලකේ.",
+                    "පැරණි ජලාශ සහ ජල මාර්ග කිහිපයක් ඒකාබද්ධ කර විශාල ජල සංචිතයක් ගොඩනඟා පොළොන්නරුව සහ අවට කෘෂිකාර්මික භූමි සඳහා ජලය සැපයීය.",
+                    "පරාක්‍රම සමුද්‍ර ටැම් ලිපිය එම ජලාශය ලෝකයාගේ යහපත සඳහා පරාක්‍රමබාහු විසින් නිර්මාණය කළ බව සඳහන් කරයි."
+                ]
+            },
+            {
+                "id": "agriculture",
+                "heading": "කෘෂිකර්මාන්තය",
+                "paragraphs": [
+                    "වාරිමාර්ග වැඩසටහන මඟින් අත්හැර දමා තිබූ කුඹුරු නැවත වගා කිරීමට සහ නව කෘෂිකාර්මික ඉඩම් විවෘත කිරීමට හැකි විය.",
+                    "ධාන්‍ය නිෂ්පාදනය වැඩි කිරීමෙන් රටේ ආහාර ආරක්ෂාව, රාජ්‍ය ආදායම සහ විදේශ වෙළඳාම ශක්තිමත් කළේය."
+                ]
+            },
+            {
+                "id": "economy-and-trade",
+                "heading": "ආර්ථිකය සහ වෙළඳාම",
+                "paragraphs": [
+                    "පරාක්‍රමබාහුගේ ආර්ථික ප්‍රතිපත්තියේ පදනම වූයේ කෘෂිකාර්මික අතිරික්තය, බදු ආදායම, රාජකීය ගබඩා සහ විදේශ වෙළඳාමයි.",
+                    "වරාය, වෙළඳ මාර්ග සහ මුහුදු සම්බන්ධතා ආරක්ෂා කිරීමෙන් දකුණු ඉන්දියාව සහ අග්නිදිග ආසියාව සමඟ වෙළඳාම පවත්වාගෙන ගියේය.",
+                    "එහෙත් විශාල ඉදිකිරීම් සහ යුධ මෙහෙයුම් ජනතාවට බදු සහ රාජකාරී සේවා බරක් ඇති කළ හැකි බව නූතන පර්යේෂණවලදී සලකා බලයි."
+                ]
+            },
+            {
+                "id": "buddhist-reform",
+                "heading": "බෞද්ධ සංඝ ප්‍රතිසංවිධානය",
+                "paragraphs": [
+                    "විවිධ නිකායන් සහ විනය සම්ප්‍රදායන් අතර පැවති ගැටලු නිරාකරණය කිරීමට පරාක්‍රමබාහු රජු සංඝ සභාවක් පැවැත්වීය.",
+                    "භික්ෂු විනය ශක්තිමත් කිරීම, අවිනයගරුක භික්ෂූන් ඉවත් කිරීම සහ සංඝ පරිපාලනය ක්‍රමවත් කිරීම සඳහා නීති හා කතිකාවත් හඳුන්වා දුන්නේය.",
+                    "මෙම ප්‍රතිසංවිධානයේදී මහා විහාර සම්ප්‍රදායට ප්‍රමුඛත්වය ලබා දුන් බව වංශකතා සඳහන් කරයි."
+                ]
+            },
+            {
+                "id": "religious-constructions",
+                "heading": "ආගමික ඉදිකිරීම්",
+                "paragraphs": [
+                    "පරාක්‍රමබාහුගේ පාලන සමයේ පොළොන්නරුවේ ගල් විහාරය, ලංකාතිලක පිළිමගෙය, ආලාහන පිරිවෙන සහ අනෙකුත් ආගමික මධ්‍යස්ථාන සංවර්ධනය විය.",
+                    "මෙම නිර්මාණ ගෘහ නිර්මාණ ශිල්පය, ගල් කැටයම් කලාව, බුද්ධ ප්‍රතිමා නිර්මාණය සහ සංඝ අධ්‍යාපනයේ ඉහළ මට්ටමක් නිරූපණය කරයි."
+                ]
+            },
+            {
+                "id": "gal-vihara",
+                "heading": "ගල් විහාරය",
+                "paragraphs": [
+                    "ගල් විහාරය හෙවත් උත්තරාරාමය පොළොන්නරුවේ ප්‍රසිද්ධ ගල් කැටයම් බෞද්ධ මධ්‍යස්ථානයකි.",
+                    "එහි එකම ගල් පර්වතයක කැටයම් කළ හිඳි, සිටි සහ සැතපෙන බුද්ධ ප්‍රතිමා පුරාණ ශ්‍රී ලාංකික ශිල්පයේ විශිෂ්ට නිර්මාණ ලෙස සැලකේ."
+                ]
+            },
+            {
+                "id": "foreign-relations",
+                "heading": "විදේශ සබඳතා",
+                "paragraphs": [
+                    "පරාක්‍රමබාහු දකුණු ඉන්දියානු රාජ්‍යයන්, රාමඤ්ඤ දේශය සහ ඉන්දියානු සාගර වෙළඳ ජාල සමඟ සබඳතා පැවැත්වීය.",
+                    "රාජ්‍යතාන්ත්‍රික දූත සේවා, විවාහ හා රාජවංශ සම්බන්ධතා, ආගමික සම්බන්ධතා සහ හමුදා මෙහෙයුම් ඔහුගේ විදේශ ප්‍රතිපත්තියේ අංග විය."
+                ]
+            },
+            {
+                "id": "ramanna-campaign",
+                "heading": "රාමඤ්ඤ දේශයට නාවික මෙහෙයුම",
+                "paragraphs": [
+                    "රාමඤ්ඤ දේශයේ පාලකයා විසින් ශ්‍රී ලාංකික දූතයන්ට සිදු කළ අගෞරවයක් සහ වෙළඳ සීමා පිළිබඳ ගැටලු හේතුවෙන් පරාක්‍රමබාහු නාවික හමුදාවක් යැවූ බව චූලවංශය සඳහන් කරයි.",
+                    "කිත්ති නගරගිරි ඇතුළු හමුදා නායකයන් මෙම මෙහෙයුම මෙහෙයවූ අතර, දෙවනගල ශිලා ලේඛනය රාමඤ්ඤ මෙහෙයුමට සම්බන්ධ හමුදා සේවය පිළිබඳ වැදගත් සාක්ෂියකි."
+                ]
+            },
+            {
+                "id": "pandyan-campaign",
+                "heading": "පාණ්ඩ්‍ය රාජ්‍යයේ හමුදා මෙහෙයුම",
+                "paragraphs": [
+                    "පාණ්ඩ්‍ය රාජ්‍යයේ සිහසුන් අර්බුදයකදී පරාක්‍රමබාහු පාණ්ඩ්‍ය පාලක පරාක්‍රම පාණ්ඩ්‍යගේ පාර්ශ්වයට සහාය දීමට ලංකාපුර දණ්ඩනායකගේ නායකත්වයෙන් හමුදාවක් යැවීය.",
+                    "ශ්‍රී ලාංකික හමුදා රාමේශ්වරම් සහ දකුණු ඉන්දියාවේ ප්‍රදේශ කිහිපයක සටන් කළ අතර, මෙම මෙහෙයුම චෝළ සහ පාණ්ඩ්‍ය දේශපාලනය සමඟ දිගුකාලීන ගැටුමකට පත්විය.",
+                    "චූලවංශය ශ්‍රී ලාංකික ජයග්‍රහණ අවධාරණය කළද, දකුණු ඉන්දීය ශිලා ලේඛන ශ්‍රී ලාංකික හමුදාව පසුබැසීමට සිදු වූ අවස්ථාද වාර්තා කරයි."
+                ]
+            },
+            {
+                "id": "hospitals-and-welfare",
+                "heading": "රෝහල් සහ ජනතා සුභසාධනය",
+                "paragraphs": [
+                    "චූලවංශ සම්ප්‍රදාය අනුව පරාක්‍රමබාහු රෝගීන් සඳහා රෝහල්, ඖෂධ, වෛද්‍යවරුන් සහ සේවකයන් සැපයීමට කටයුතු කළේය.",
+                    "ආගමික ආයතන, වන්දනාකරුවන්, දුප්පතුන් සහ සංඝයා සඳහා ආහාර හා පහසුකම් ලබා දීමට රාජ්‍ය ආදායම් වෙන් කළේය."
+                ]
+            },
+            {
+                "id": "historical-importance",
+                "heading": "ඓතිහාසික වැදගත්කම",
+                "paragraphs": [
+                    "මහ පරාක්‍රමබාහුගේ පාලනය පොළොන්නරු රාජධානියේ දේශපාලන, ආර්ථික, යුධ සහ සංස්කෘතික උච්චතම අවධිය ලෙස සැලකේ.",
+                    "ඔහු ශ්‍රී ලංකාව එක්සත් කර වාරිමාර්ග, කෘෂිකර්මාන්තය, බෞද්ධ ආයතන සහ පොළොන්නරු නගරය විශාල වශයෙන් සංවර්ධනය කළේය.",
+                    "එහෙත් ඔහුගේ විශාල යුධ හා ඉදිකිරීම් වැඩසටහන් රාජ්‍ය භාණ්ඩාගාරයට සහ ජනතාවගේ සේවා බරට ඇති කළ බලපෑමද ඓතිහාසික ඇගයීමේදී සැලකිල්ලට ගත යුතුය."
+                ]
+            }
+        ],
+        "en": [
+            {
+                "id": "introduction",
+                "heading": "Introduction",
+                "paragraphs": [
+                    "King Parakramabahu I was one of the greatest political, military, economic and irrigation rulers of the Polonnaruwa period.",
+                    "His reign is renowned for reunifying Sri Lanka, expanding Polonnaruwa and undertaking an extensive programme of irrigation and religious reform."
+                ]
+            },
+            {
+                "id": "birth-and-family",
+                "heading": "Birth and Royal Family",
+                "paragraphs": [
+                    "Parakramabahu was probably born around 1123 in Dakkhinadesa.",
+                    "His father was Prince Manabharana and his mother was Princess Ratnavali, who belonged to the royal lineage of Vijayabahu I."
+                ]
+            },
+            {
+                "id": "rise-in-dakkhinadesa",
+                "heading": "Rise in Dakkhinadesa",
+                "paragraphs": [
+                    "Parakramabahu inherited authority in Dakkhinadesa and transformed it into a strong political, military and economic base.",
+                    "He reorganised administration, strengthened the army and expanded agricultural production before challenging Rajarata."
+                ]
+            },
+            {
+                "id": "reunification",
+                "heading": "Reunification of Sri Lanka",
+                "paragraphs": [
+                    "Parakramabahu fought prolonged conflicts involving Gajabahu II and Manabharana of Ruhuna.",
+                    "After Gajabahu's death and the defeat of southern resistance, he brought Rajarata, Dakkhinadesa and Ruhuna under a single monarchy."
+                ]
+            },
+            {
+                "id": "irrigation",
+                "heading": "Irrigation and Agriculture",
+                "paragraphs": [
+                    "Parakramabahu restored ancient reservoirs and canals and constructed new water-management systems.",
+                    "Parakrama Samudra became the principal symbol of his hydraulic policy and supported agricultural production around Polonnaruwa."
+                ]
+            },
+            {
+                "id": "buddhist-reform",
+                "heading": "Reform of the Buddhist Sangha",
+                "paragraphs": [
+                    "The king sponsored a major reorganisation of the Buddhist Sangha.",
+                    "Disciplinary standards were enforced and the Mahavihara tradition was given institutional predominance."
+                ]
+            },
+            {
+                "id": "foreign-campaigns",
+                "heading": "Foreign Campaigns",
+                "paragraphs": [
+                    "Parakramabahu dispatched a naval expedition against Ramanna and intervened in the Pandyan succession war in South India.",
+                    "These campaigns demonstrate the maritime and regional ambitions of the Polonnaruwa monarchy."
+                ]
+            },
+            {
+                "id": "legacy",
+                "heading": "Historical Legacy",
+                "paragraphs": [
+                    "Parakramabahu's reign is commonly considered the political and cultural high point of the Polonnaruwa Kingdom.",
+                    "His irrigation, architecture, religious reforms and military campaigns left a major legacy, although their financial and labour costs must also be considered."
+                ]
+            }
+        ]
+    },
+    "majorEvents": [
+        {
+            "id": "birth",
+            "order": 1,
+            "year": 1123,
+            "type": "birth",
+            "name": {
+                "si": "පරාක්‍රමබාහු කුමරුගේ උපත",
+                "en": "Birth of Prince Parakramabahu"
+            },
+            "description": {
+                "si": "මානාභරණ කුමරුට සහ රත්නාවලී කුමරියට පරාක්‍රමබාහු උපත ලැබීය.",
+                "en": "Parakramabahu was born to Prince Manabharana and Princess Ratnavali."
+            },
+            "sourceStatus": "chronicle-tradition"
+        },
+        {
+            "id": "death-of-father",
+            "order": 2,
+            "year": null,
+            "type": "family-event",
+            "name": {
+                "si": "මානාභරණ කුමරුගේ මරණය",
+                "en": "Death of Prince Manabharana"
+            },
+            "description": {
+                "si": "පරාක්‍රමබාහුගේ ළමා කාලයේදී ඔහුගේ පියා මියගිය අතර පවුල රුහුණේ ආරක්ෂාව යටතට ගියේය.",
+                "en": "His father died during Parakramabahu's childhood, and the family moved under the protection of the Ruhuna court."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "journey-to-polonnaruwa",
+            "order": 3,
+            "year": null,
+            "type": "political-journey",
+            "name": {
+                "si": "පොළොන්නරු රාජ සභාවට පැමිණීම",
+                "en": "Journey to the Court of Polonnaruwa"
+            },
+            "description": {
+                "si": "තරුණ පරාක්‍රමබාහු දෙවන ගජබාහුගේ රාජ සභාවට පැමිණ රජරටේ දේශපාලනය සෘජුව අධ්‍යයනය කළේය.",
+                "en": "The young prince visited the court of Gajabahu II and gained direct experience of Rajarata politics."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "rule-of-dakkhinadesa",
+            "order": 4,
+            "year": null,
+            "type": "regional-rule",
+            "name": {
+                "si": "දක්ෂිණ දේශයේ පාලනය ලබාගැනීම",
+                "en": "Assumption of Authority in Dakkhinadesa"
+            },
+            "description": {
+                "si": "දක්ෂිණ දේශයේ පාලන බලය ලබාගෙන ආර්ථික හා හමුදා පදනමක් ගොඩනැඟීය.",
+                "en": "He assumed authority in Dakkhinadesa and created a strong economic and military base."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "irrigation-development-dakkhinadesa",
+            "order": 5,
+            "year": null,
+            "type": "irrigation-development",
+            "name": {
+                "si": "දක්ෂිණ දේශයේ වාරිමාර්ග සංවර්ධනය",
+                "en": "Development of Irrigation in Dakkhinadesa"
+            },
+            "description": {
+                "si": "යුද්ධයට අවශ්‍ය ආහාර හා ආදායම ලබාගැනීමට වාරිමාර්ග සහ කෘෂිකාර්මික නිෂ්පාදනය සංවර්ධනය කළේය.",
+                "en": "He developed irrigation and agriculture to secure food and revenue for future campaigns."
+            },
+            "sourceStatus": "chronicle-based"
+        },
+        {
+            "id": "war-with-gajabahu",
+            "order": 6,
+            "year": null,
+            "type": "civil-war",
+            "name": {
+                "si": "දෙවන ගජබාහු සමඟ යුද්ධය",
+                "en": "War with Gajabahu II"
+            },
+            "description": {
+                "si": "රජරට සහ පොළොන්නරුවේ පාලනය සඳහා දෙපාර්ශ්වය අතර සටන් ආරම්භ විය.",
+                "en": "War began between the two rulers for control of Rajarata and Polonnaruwa."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "sangamuwa-treaty",
+            "order": 7,
+            "year": null,
+            "type": "peace-treaty",
+            "name": {
+                "si": "සංගමුව සාම ගිවිසුම",
+                "en": "Sangamuwa Peace Treaty"
+            },
+            "description": {
+                "si": "ගජබාහු සහ පරාක්‍රමබාහු නැවත යුද්ධ නොකිරීමට එකඟ වූහ.",
+                "en": "Gajabahu and Parakramabahu agreed not to wage war against one another."
+            },
+            "sourceStatus": "primary-inscription"
+        },
+        {
+            "id": "capture-of-polonnaruwa",
+            "order": 8,
+            "year": 1153,
+            "type": "capture-of-capital",
+            "name": {
+                "si": "පොළොන්නරුවේ පාලනය ලබාගැනීම",
+                "en": "Acquisition of Polonnaruwa"
+            },
+            "description": {
+                "si": "ගජබාහුගේ මරණයෙන් පසු පරාක්‍රමබාහු පොළොන්නරුවේ රාජ්‍ය බලය ලබාගත්තේය.",
+                "en": "Parakramabahu obtained royal authority at Polonnaruwa after Gajabahu's death."
+            },
+            "sourceStatus": "chronicle-and-historical"
+        },
+        {
+            "id": "coronation",
+            "order": 9,
+            "year": 1153,
+            "type": "coronation",
+            "name": {
+                "si": "සමස්ත ලංකාවේ රජු ලෙස රාජාභිෂේකය",
+                "en": "Coronation as King of Lanka"
+            },
+            "description": {
+                "si": "ක්‍රි.ව. 1153 දී පොළොන්නරුවේ රාජාභිෂේකය සිදු කළේය.",
+                "en": "He was consecrated at Polonnaruwa in 1153 CE."
+            },
+            "sourceStatus": "historical"
+        },
+        {
+            "id": "suppression-of-ruhuna-resistance",
+            "order": 10,
+            "year": null,
+            "type": "internal-war",
+            "name": {
+                "si": "රුහුණේ ප්‍රතිරෝධය පරාජය කිරීම",
+                "en": "Suppression of Resistance in Ruhuna"
+            },
+            "description": {
+                "si": "සුගලා දේවියගේ පාර්ශ්වය ඇතුළු දකුණු ප්‍රතිරෝධ පරාජය කර දිවයින එක්සත් කළේය.",
+                "en": "Southern resistance, including the faction of Queen Sugala, was defeated."
+            },
+            "sourceStatus": "culavamsa"
+        },
+        {
+            "id": "reunification-of-lanka",
+            "order": 11,
+            "year": null,
+            "type": "political-unification",
+            "name": {
+                "si": "ශ්‍රී ලංකාව නැවත එක්සත් කිරීම",
+                "en": "Reunification of Sri Lanka"
+            },
+            "description": {
+                "si": "රජරට, දක්ෂිණ දේශය සහ රුහුණ එකම පාලනයක් යටතට ගෙන ආවේය.",
+                "en": "Rajarata, Dakkhinadesa and Ruhuna were brought under one monarchy."
+            },
+            "sourceStatus": "historical"
+        },
+        {
+            "id": "sangha-reform",
+            "order": 12,
+            "year": null,
+            "type": "religious-reform",
+            "name": {
+                "si": "බෞද්ධ සංඝයා ප්‍රතිසංවිධානය",
+                "en": "Reorganisation of the Buddhist Sangha"
+            },
+            "description": {
+                "si": "භික්ෂු විනය ශක්තිමත් කර සංඝ පරිපාලනය එකම ක්‍රමයකට ගෙන ආවේය.",
+                "en": "Monastic discipline was strengthened and the Sangha was reorganised."
+            },
+            "sourceStatus": "chronicle-and-inscription"
+        },
+        {
+            "id": "parakrama-samudra",
+            "order": 13,
+            "year": null,
+            "type": "irrigation-construction",
+            "name": {
+                "si": "පරාක්‍රම සමුද්‍රය සංවර්ධනය",
+                "en": "Development of Parakrama Samudra"
+            },
+            "description": {
+                "si": "විශාල ජල සම්පත් පද්ධතියක් ලෙස පරාක්‍රම සමුද්‍රය ඉදිකර සංවර්ධනය කළේය.",
+                "en": "Parakrama Samudra was constructed and developed as a major irrigation system."
+            },
+            "sourceStatus": "inscription-and-archaeology"
+        },
+        {
+            "id": "gal-vihara",
+            "order": 14,
+            "year": null,
+            "type": "religious-construction",
+            "name": {
+                "si": "ගල් විහාරය සංවර්ධනය",
+                "en": "Development of Gal Vihara"
+            },
+            "description": {
+                "si": "උත්තරාරාමයේ ගල් කැටයම් බුද්ධ ප්‍රතිමා සහ විහාර සංකීර්ණය සංවර්ධනය කළේය.",
+                "en": "The rock-cut Buddha images and monastery of Uttararama were developed."
+            },
+            "sourceStatus": "archaeology-and-chronicle"
+        },
+        {
+            "id": "ramanna-expedition",
+            "order": 15,
+            "year": null,
+            "type": "naval-campaign",
+            "name": {
+                "si": "රාමඤ්ඤ දේශයට නාවික මෙහෙයුම",
+                "en": "Naval Expedition against Ramanna"
+            },
+            "description": {
+                "si": "රාමඤ්ඤ දේශයට නාවික හමුදාවක් යවා හමුදා මෙහෙයුමක් සිදු කළේය.",
+                "en": "A naval force was dispatched in a punitive campaign against Ramanna."
+            },
+            "sourceStatus": "culavamsa-and-devanagala-inscription"
+        },
+        {
+            "id": "pandyan-war",
+            "order": 16,
+            "year": 1167,
+            "type": "foreign-war",
+            "name": {
+                "si": "පාණ්ඩ්‍ය රාජ්‍යයේ සිහසුන් යුද්ධයට මැදිහත්වීම",
+                "en": "Intervention in the Pandyan Succession War"
+            },
+            "description": {
+                "si": "ලංකාපුර දණ්ඩනායකගේ නායකත්වයෙන් දකුණු ඉන්දියාවට හමුදාවක් යැවීය.",
+                "en": "An army under Lankapura Dandanayaka was dispatched to South India."
+            },
+            "sourceStatus": "culavamsa-and-south-indian-inscriptions"
+        },
+        {
+            "id": "death",
+            "order": 17,
+            "year": 1186,
+            "type": "death",
+            "name": {
+                "si": "මහ පරාක්‍රමබාහු රජතුමාගේ අභාවය",
+                "en": "Death of King Parakramabahu I"
+            },
+            "description": {
+                "si": "ක්‍රි.ව. 1186 දී වසර තිස්තුනක පාලනයෙන් පසු අභාවප්‍රාප්ත විය.",
+                "en": "He died in 1186 after a reign of approximately thirty-three years."
+            },
+            "sourceStatus": "historical"
+        }
+    ],
+    "achievements": [
+        {
+            "id": "reunified-sri-lanka",
+            "title": {
+                "si": "ශ්‍රී ලංකාව නැවත එක්සත් කිරීම",
+                "en": "Reunification of Sri Lanka"
+            }
+        },
+        {
+            "id": "developed-polonnaruwa",
+            "title": {
+                "si": "පොළොන්නරුව අධිරාජ්‍යමය අගනුවරක් ලෙස සංවර්ධනය කිරීම",
+                "en": "Development of Polonnaruwa as an Imperial Capital"
+            }
+        },
+        {
+            "id": "parakrama-samudra",
+            "title": {
+                "si": "පරාක්‍රම සමුද්‍රය සංවර්ධනය කිරීම",
+                "en": "Development of Parakrama Samudra"
+            }
+        },
+        {
+            "id": "irrigation-restoration",
+            "title": {
+                "si": "වැව්, අමුණු සහ ඇළ මාර්ග විශාල වශයෙන් ප්‍රතිසංස්කරණය කිරීම",
+                "en": "Large-scale Restoration of Reservoirs and Canals"
+            }
+        },
+        {
+            "id": "agriculture-development",
+            "title": {
+                "si": "කෘෂිකාර්මික නිෂ්පාදනය සහ ආහාර ආරක්ෂාව වැඩි කිරීම",
+                "en": "Expansion of Agriculture and Food Production"
+            }
+        },
+        {
+            "id": "sangha-reform",
+            "title": {
+                "si": "බෞද්ධ සංඝයා ප්‍රතිසංවිධානය කිරීම",
+                "en": "Reorganisation of the Buddhist Sangha"
+            }
+        },
+        {
+            "id": "gal-vihara",
+            "title": {
+                "si": "ගල් විහාරය සහ උත්තරාරාමය සංවර්ධනය කිරීම",
+                "en": "Development of Gal Vihara and Uttararama"
+            }
+        },
+        {
+            "id": "foreign-naval-power",
+            "title": {
+                "si": "විදේශ හමුදා මෙහෙයුම් සඳහා නාවික බලයක් ගොඩනැඟීම",
+                "en": "Development of Maritime Power for Overseas Campaigns"
+            }
+        },
+        {
+            "id": "administrative-centralisation",
+            "title": {
+                "si": "මධ්‍යගත රාජ්‍ය පරිපාලනය ශක්තිමත් කිරීම",
+                "en": "Strengthening Centralised Administration"
+            }
+        },
+        {
+            "id": "international-influence",
+            "title": {
+                "si": "දකුණු ඉන්දියාව සහ අග්නිදිග ආසියාව දක්වා දේශපාලන බලපෑම පුළුල් කිරීම",
+                "en": "Expansion of Political Influence into South India and Southeast Asia"
+            }
+        }
+    ],
+    "constructions": [
+        {
+            "id": "parakrama-samudra",
+            "type": "reservoir",
+            "name": {
+                "si": "පරාක්‍රම සමුද්‍රය",
+                "en": "Parakrama Samudra"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "පැරණි ජලාශ සහ ජල මාර්ග කිහිපයක් ඒකාබද්ධ කර සංවර්ධනය කළ විශාල වාරිමාර්ග ජලාශ පද්ධතියකි.",
+                "en": "A major irrigation reservoir system developed by integrating several earlier tanks and waterways."
+            },
+            "sourceStatus": "inscription-archaeology-and-chronicle"
+        },
+        {
+            "id": "gal-vihara",
+            "type": "rock-temple",
+            "name": {
+                "si": "ගල් විහාරය / උත්තරාරාමය",
+                "en": "Gal Vihara / Uttararama"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "එකම ගල් පර්වතයක කැටයම් කළ බුද්ධ ප්‍රතිමා සමූහයක් සහිත ප්‍රසිද්ධ බෞද්ධ විහාර සංකීර්ණයකි.",
+                "en": "A celebrated Buddhist monastic complex containing Buddha images carved from a single rock face."
+            },
+            "sourceStatus": "archaeology-and-chronicle"
+        },
+        {
+            "id": "lankatilaka-image-house",
+            "type": "image-house",
+            "name": {
+                "si": "ලංකාතිලක පිළිමගෙය",
+                "en": "Lankatilaka Image House"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "ඉහළ බිත්ති සහ විශාල බුද්ධ ප්‍රතිමාවකින් සමන්විත පොළොන්නරු යුගයේ විශිෂ්ට පිළිමගෙයකි.",
+                "en": "A monumental Polonnaruwa image house with towering walls and a large Buddha image."
+            },
+            "sourceStatus": "archaeological"
+        },
+        {
+            "id": "alahana-pirivena",
+            "type": "monastic-university",
+            "name": {
+                "si": "ආලාහන පිරිවෙන",
+                "en": "Alahana Pirivena"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "භික්ෂු අධ්‍යාපනය, නේවාසික පහසුකම් සහ ආගමික කටයුතු සඳහා සංවර්ධනය කළ විශාල විහාර සංකීර්ණයකි.",
+                "en": "A large monastic and educational complex developed for Buddhist study and residence."
+            },
+            "sourceStatus": "archaeological-and-chronicle"
+        },
+        {
+            "id": "royal-palace-parakramabahu",
+            "type": "royal-palace",
+            "name": {
+                "si": "මහ පරාක්‍රමබාහුගේ රාජ මාලිගය",
+                "en": "Royal Palace of Parakramabahu"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "රාජකීය පරිපාලනය සහ වාසස්ථානය සඳහා භාවිත වූ විශාල බහුමහල් මාලිගා සංකීර්ණයකි.",
+                "en": "A large multi-storeyed palace complex used for royal residence and administration."
+            },
+            "sourceStatus": "archaeological-and-chronicle"
+        },
+        {
+            "id": "council-chamber-parakramabahu",
+            "type": "council-hall",
+            "name": {
+                "si": "රාජ සභා මණ්ඩපය",
+                "en": "Royal Council Chamber"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "රාජ්‍ය පරිපාලන රැස්වීම් සහ නිල උත්සව සඳහා භාවිත වූ සභා ගොඩනැගිල්ලකි.",
+                "en": "A council building used for royal administration and official assemblies."
+            },
+            "sourceStatus": "archaeological"
+        },
+        {
+            "id": "hospital-complex-polonnaruwa",
+            "type": "hospital",
+            "name": {
+                "si": "පොළොන්නරු රෝහල් සංකීර්ණ",
+                "en": "Hospital Complexes of Polonnaruwa"
+            },
+            "location": {
+                "si": "පොළොන්නරුව",
+                "en": "Polonnaruwa"
+            },
+            "description": {
+                "si": "රෝගීන් සඳහා ප්‍රතිකාර, නේවාසික පහසුකම් සහ ඖෂධ සැපයීමට සංවිධානය කළ ආයතන වේ.",
+                "en": "Institutions organised to provide medical treatment, accommodation and medicines."
+            },
+            "sourceStatus": "chronicle-and-archaeological-context"
+        }
+    ],
+    "constructionExclusions": [
+        {
+            "id": "rankoth-vehera",
+            "name": {
+                "si": "රන්කොත් වෙහෙර",
+                "en": "Rankoth Vehera"
+            },
+            "reason": {
+                "si": "රන්කොත් වෙහෙර සාමාන්‍යයෙන් නිශ්ශංකමල්ල රජුගේ කාලයට අයත් කරයි. එය මහ පරාක්‍රමබාහුගේ ඉදිකිරීමක් ලෙස මෙම දත්ත ගොනුවේ ඇතුළත් කර නැත.",
+                "en": "Rankoth Vehera is generally attributed to King Nissanka Malla and is therefore not listed here as a construction of Parakramabahu I."
+            }
+        }
+    ],
+    "foreignCampaigns": [
+        {
+            "id": "ramanna-campaign",
+            "destination": {
+                "si": "රාමඤ්ඤ දේශය",
+                "en": "Ramanna"
+            },
+            "modernRegion": {
+                "si": "වර්තමාන මියන්මාරයේ පහළ ප්‍රදේශ",
+                "en": "Lower Myanmar"
+            },
+            "type": "naval-punitive-expedition",
+            "commanders": [
+                "kitti-nagaragiri"
+            ],
+            "description": {
+                "si": "ශ්‍රී ලාංකික දූතයන්ට සිදු කළ අගෞරව සහ වෙළඳ ගැටලු හේතුවෙන් නාවික හමුදා මෙහෙයුමක් යැවීය.",
+                "en": "A naval punitive expedition was launched following diplomatic insults and disputes affecting trade."
+            },
+            "sourceStatus": "culavamsa-and-devanagala-inscription"
+        },
+        {
+            "id": "pandyan-campaign",
+            "destination": {
+                "si": "පාණ්ඩ්‍ය රාජධානිය",
+                "en": "Pandyan Kingdom"
+            },
+            "modernRegion": {
+                "si": "දකුණු ඉන්දියාව",
+                "en": "South India"
+            },
+            "type": "military-intervention",
+            "commanders": [
+                "lankapura-dandanayaka",
+                "jagadvijaya-dandanayaka"
+            ],
+            "description": {
+                "si": "පාණ්ඩ්‍ය සිහසුන් අර්බුදයේදී පරාක්‍රම පාණ්ඩ්‍යගේ පාර්ශ්වයට සහාය දීමට හමුදා යැවීය.",
+                "en": "Forces were sent to support the faction of Parakrama Pandya during the Pandyan succession conflict."
+            },
+            "sourceStatus": "culavamsa-and-south-indian-inscriptions"
+        }
+    ],
+    "foreignRelations": [
+        {
+            "countryId": "ramanna",
+            "countryName": {
+                "si": "රාමඤ්ඤ දේශය",
+                "en": "Ramanna"
+            },
+            "relationshipTypes": [
+                "diplomatic",
+                "trade",
+                "military"
+            ],
+            "description": {
+                "si": "රාජ්‍යතාන්ත්‍රික හා වෙළඳ ගැටුම් අවසානයේ නාවික හමුදා මෙහෙයුමකට පත්විය.",
+                "en": "Diplomatic and commercial disputes eventually resulted in a naval campaign."
+            }
+        },
+        {
+            "countryId": "pandya",
+            "countryName": {
+                "si": "පාණ්ඩ්‍ය රාජධානිය",
+                "en": "Pandyan Kingdom"
+            },
+            "relationshipTypes": [
+                "military-alliance",
+                "succession-intervention",
+                "trade"
+            ],
+            "description": {
+                "si": "පාණ්ඩ්‍ය සිහසුන් අර්බුදයට සෘජුව හමුදා මැදිහත්වීමක් සිදු කළේය.",
+                "en": "The kingdom directly intervened militarily in the Pandyan succession conflict."
+            }
+        },
+        {
+            "countryId": "chola",
+            "countryName": {
+                "si": "චෝළ රාජධානිය",
+                "en": "Chola Kingdom"
+            },
+            "relationshipTypes": [
+                "military-rivalry",
+                "regional-politics"
+            ],
+            "description": {
+                "si": "පාණ්ඩ්‍ය යුද්ධය හේතුවෙන් චෝළ හමුදා සහ ශ්‍රී ලාංකික හමුදා අතර දකුණු ඉන්දියාවේ ගැටුම් ඇති විය.",
+                "en": "The Pandyan war brought Sri Lankan forces into conflict with Chola armies in South India."
+            }
+        }
+    ],
+    "relatedInscriptions": [
+        {
+            "id": "sangamuwa-peace-inscription",
+            "name": {
+                "si": "සංගමුව සාම ගිවිසුම් ශිලා ලේඛනය",
+                "en": "Sangamuwa Peace Treaty Inscription"
+            },
+            "importance": {
+                "si": "දෙවන ගජබාහු සහ පරාක්‍රමබාහු අතර ඇති වූ දේශපාලන එකඟතාව තහවුරු කරන ප්‍රධාන ශිලා ලේඛන සාක්ෂියකි.",
+                "en": "Primary inscriptional evidence for the political agreement between Gajabahu II and Parakramabahu."
+            },
+            "sourceStatus": "primary-inscription"
+        },
+        {
+            "id": "parakrama-samudra-pillar-inscription",
+            "name": {
+                "si": "පරාක්‍රම සමුද්‍ර ටැම් ලිපිය",
+                "en": "Parakrama Samudra Pillar Inscription"
+            },
+            "importance": {
+                "si": "පරාක්‍රම සමුද්‍රය ලෝකයාගේ ප්‍රයෝජනය සඳහා පරාක්‍රමබාහු විසින් ඉදිකළ බව සඳහන් කරයි.",
+                "en": "Records that the reservoir was constructed by Parakramabahu for the benefit of the world."
+            },
+            "sourceStatus": "primary-inscription"
+        },
+        {
+            "id": "devanagala-inscription",
+            "name": {
+                "si": "දෙවනගල ශිලා ලේඛනය",
+                "en": "Devanagala Rock Inscription"
+            },
+            "importance": {
+                "si": "රාමඤ්ඤ දේශයට යැවූ හමුදා මෙහෙයුම සහ කිත්ති නගරගිරිගේ සේවය පිළිබඳ වැදගත් සාක්ෂියකි.",
+                "en": "Important evidence concerning the Ramanna campaign and the service of Kitti Nagaragiri."
+            },
+            "sourceStatus": "primary-inscription"
+        }
+    ],
+    "examNotes": {
+        "si": [
+            "පියා – දක්ෂිණ දේශයේ මානාභරණ කුමරු.",
+            "මව – රත්නාවලී කුමරිය.",
+            "උපත – ක්‍රි.ව. 1123 පමණ.",
+            "රාජ්‍ය කාලය – ක්‍රි.ව. 1153–1186.",
+            "පෙර පාලකයා – දෙවන ගජබාහු රජු.",
+            "පසු පාලකයා – දෙවන විජයබාහු රජු.",
+            "දක්ෂිණ දේශයේ බලය ගොඩනඟා ශ්‍රී ලංකාව එක්සත් කළේය.",
+            "පොළොන්නරුව රාජකීය සහ පරිපාලන අගනුවර ලෙස විශාල වශයෙන් සංවර්ධනය කළේය.",
+            "පරාක්‍රම සමුද්‍රය ඇතුළු වැව් සහ ඇළ මාර්ග සංවර්ධනය කළේය.",
+            "කෘෂිකර්මාන්තය සහ ධාන්‍ය නිෂ්පාදනය වැඩි කළේය.",
+            "බෞද්ධ සංඝයා ප්‍රතිසංවිධානය කළේය.",
+            "ගල් විහාරය, ලංකාතිලකය සහ ආලාහන පිරිවෙන සංවර්ධනය කළේය.",
+            "රාමඤ්ඤ දේශයට නාවික හමුදා මෙහෙයුමක් යැවීය.",
+            "පාණ්ඩ්‍ය සිහසුන් යුද්ධයට ශ්‍රී ලාංකික හමුදා යැවීය.",
+            "ලංකාපුර දණ්ඩනායක දකුණු ඉන්දීය මෙහෙයුමේ ප්‍රධාන හමුදා නායකයෙකි.",
+            "රන්කොත් වෙහෙර ඔහුගේ ඉදිකිරීමක් ලෙස නොගත යුතුය; එය නිශ්ශංකමල්ල රජු සමඟ සම්බන්ධ වේ.",
+            "තහවුරු කළ නාමික දරුවන් පිළිබඳ පැහැදිලි වාර්තා නොමැත.",
+            "පොළොන්නරු යුගයේ දේශපාලන හා සංස්කෘතික උච්චතම අවධිය ඔහුගේ පාලනය සමඟ සම්බන්ධ වේ."
+        ],
+        "en": [
+            "Father – Prince Manabharana of Dakkhinadesa.",
+            "Mother – Princess Ratnavali.",
+            "Born around 1123 CE.",
+            "Reigned from 1153 to 1186 CE.",
+            "Predecessor – Gajabahu II.",
+            "Successor – Vijayabahu II.",
+            "Consolidated Dakkhinadesa and reunified Sri Lanka.",
+            "Greatly developed Polonnaruwa as a royal and administrative capital.",
+            "Developed reservoirs and canals including Parakrama Samudra.",
+            "Expanded agriculture and grain production.",
+            "Reorganised the Buddhist Sangha.",
+            "Developed Gal Vihara, Lankatilaka and Alahana Pirivena.",
+            "Dispatched a naval expedition against Ramanna.",
+            "Intervened militarily in the Pandyan succession war.",
+            "Lankapura Dandanayaka was a major commander in the South Indian campaign.",
+            "Rankoth Vehera should not be attributed to him; it is associated with Nissanka Malla.",
+            "No clearly confirmed list of named children survives.",
+            "His reign represents the political and cultural high point of the Polonnaruwa era."
+        ]
+    },
+    "essaySummary": {
+        "si": "මහ පරාක්‍රමබාහු රජතුමා ශ්‍රී ලංකාවේ පොළොන්නරු යුගයේ ශ්‍රේෂ්ඨතම පාලකයන්ගෙන් එක් අයෙකි. මානාභරණ කුමරුගේ සහ රත්නාවලී කුමරියගේ පුත්‍රයා වූ ඔහු මුලින් දක්ෂිණ දේශයේ බලය ගොඩනඟා ගත්තේය. දෙවන ගජබාහු සහ රුහුණේ මානාභරණගේ පාර්ශ්ව සමඟ පැවති දීර්ඝ සටන්වලින් පසු ශ්‍රී ලංකාව නැවත එක්සත් කළ ඔහු ක්‍රි.ව. 1153 සිට 1186 දක්වා පාලනය කළේය. පොළොන්නරුව අගනුවර විශාල වශයෙන් සංවර්ධනය කර පරාක්‍රම සමුද්‍රය ඇතුළු වැව්, අමුණු සහ ඇළ මාර්ග ඉදිකිරීම හා ප්‍රතිසංස්කරණය කළේය. කෘෂිකාර්මික නිෂ්පාදනය, රාජ්‍ය ආදායම සහ වෙළඳාම වර්ධනය කළ අතර බෞද්ධ සංඝයා ප්‍රතිසංවිධානය කළේය. ගල් විහාරය, ලංකාතිලක පිළිමගෙය සහ ආලාහන පිරිවෙන වැනි ආගමික මධ්‍යස්ථාන ඔහුගේ පාලන සමයේ සංවර්ධනය විය. රාමඤ්ඤ දේශයට නාවික හමුදා මෙහෙයුමක් යැවූ අතර පාණ්ඩ්‍ය රාජ්‍යයේ සිහසුන් අර්බුදයට ශ්‍රී ලාංකික හමුදාවක් මඟින් මැදිහත් විය. එබැවින් මහ පරාක්‍රමබාහුගේ පාලනය පොළොන්නරු රාජධානියේ දේශපාලන, ආර්ථික, යුධ සහ සංස්කෘතික උච්චතම අවධිය ලෙස සැලකේ.",
+        "en": "King Parakramabahu I was one of the greatest rulers of the Polonnaruwa period. The son of Prince Manabharana and Princess Ratnavali, he first consolidated his authority in Dakkhinadesa. After prolonged conflicts involving Gajabahu II and Manabharana of Ruhuna, he reunified Sri Lanka and ruled from 1153 to 1186. He greatly developed Polonnaruwa and constructed or restored reservoirs, dams and canals, most famously Parakrama Samudra. His policies expanded agricultural production, royal revenue and trade, while his religious programme reorganised the Buddhist Sangha. Major religious centres including Gal Vihara, Lankatilaka and Alahana Pirivena developed under his patronage. He dispatched a naval expedition against Ramanna and intervened militarily in the Pandyan succession conflict. His reign is therefore considered the political, economic, military and cultural high point of the Polonnaruwa Kingdom."
+    },
+    "sourceIds": [
+        "culavamsa-chapters-62-79",
+        "sangamuwa-peace-inscription",
+        "parakrama-samudra-pillar-inscription",
+        "devanagala-rock-inscription",
+        "south-indian-pandyan-and-chola-inscriptions",
+        "archaeological-survey-polonnaruwa",
+        "inscriptions-of-ceylon-volume-vi"
+    ],
+    "sourceStatus": {
+        "overall": "chronicle-primary-inscription-and-archaeology-supported",
+        "notes": {
+            "si": "මහ පරාක්‍රමබාහුගේ ජීවිතය සහ යුධ මෙහෙයුම් පිළිබඳ ප්‍රධාන වාර්තාව චූලවංශයයි. සංගමුව, පරාක්‍රම සමුද්‍ර සහ දෙවනගල ශිලා ලේඛන ඔහුගේ දේශපාලන, වාරිමාර්ග සහ විදේශ හමුදා කටයුතු පිළිබඳ වැදගත් ප්‍රාථමික සාක්ෂි සපයයි. චූලවංශය පරාක්‍රමබාහුගේ පාලනය ප්‍රශංසා කරමින් රචනා වූ නිසා යුධ ජයග්‍රහණ සහ ඉදිකිරීම් සංඛ්‍යා ශිලා ලේඛන, පුරාවිද්‍යාත්මක සාක්ෂි සහ දකුණු ඉන්දීය මූලාශ්‍ර සමඟ සසඳා පෙන්විය යුතුය. රන්කොත් වෙහෙර මහ පරාක්‍රමබාහුට අයත් නොවන අතර සාමාන්‍යයෙන් නිශ්ශංකමල්ල රජු සමඟ සම්බන්ධ කරයි.",
+            "en": "The Culavamsa is the principal narrative source for the life and campaigns of Parakramabahu I. The Sangamuwa, Parakrama Samudra and Devanagala inscriptions provide important primary evidence concerning his political settlements, irrigation programme and overseas campaign. Since the Culavamsa strongly praises Parakramabahu, claims regarding military victories and the scale of construction should be compared with inscriptions, archaeology and South Indian records. Rankoth Vehera is not attributed to Parakramabahu I and is generally associated with King Nissanka Malla."
+        }
+    },
+    "seo": {
+        "title": {
+            "si": "මහ පරාක්‍රමබාහු රජතුමා | පොළොන්නරු රාජධානිය",
+            "en": "King Parakramabahu I | Parakramabahu the Great"
+        },
+        "description": {
+            "si": "ශ්‍රී ලංකාව එක්සත් කළ මහ පරාක්‍රමබාහු රජතුමාගේ පවුල, පාලනය, සටන්, පරාක්‍රම සමුද්‍රය, වාරිමාර්ග, ගල් විහාරය, බෞද්ධ ප්‍රතිසංස්කරණ, රාමඤ්ඤ සහ පාණ්ඩ්‍ය හමුදා මෙහෙයුම් පිළිබඳ සම්පූර්ණ විස්තරය.",
+            "en": "Explore the family, reign, wars, reunification, Parakrama Samudra, irrigation policy, Gal Vihara, Buddhist reforms and overseas campaigns of King Parakramabahu I."
+        },
+        "keywords": {
+            "si": [
+                "මහ පරාක්‍රමබාහු",
+                "පළමුවන පරාක්‍රමබාහු",
+                "පරාක්‍රමබාහු මහා රජු",
+                "පොළොන්නරු රාජධානිය",
+                "පරාක්‍රම සමුද්‍රය",
+                "ගල් විහාරය",
+                "ලංකාතිලකය",
+                "ආලාහන පිරිවෙන",
+                "මානාභරණ",
+                "රත්නාවලී",
+                "දෙවන ගජබාහු",
+                "සංගමුව ගිවිසුම",
+                "රාමඤ්ඤ මෙහෙයුම",
+                "පාණ්ඩ්‍ය යුද්ධය",
+                "ලංකාපුර දණ්ඩනායක"
+            ],
+            "en": [
+                "King Parakramabahu I",
+                "Parakramabahu the Great",
+                "Maha Parakramabahu",
+                "Polonnaruwa Kingdom",
+                "Parakrama Samudra",
+                "Gal Vihara",
+                "Lankatilaka",
+                "Alahana Pirivena",
+                "Prince Manabharana",
+                "Princess Ratnavali",
+                "Gajabahu II",
+                "Sangamuwa treaty",
+                "Ramanna campaign",
+                "Pandyan war",
+                "Lankapura Dandanayaka"
+            ]
+        }
+    }
+}

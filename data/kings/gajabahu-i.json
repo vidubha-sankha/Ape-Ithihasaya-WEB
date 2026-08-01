@@ -6,34 +6,28 @@
     "king"
   ],
   "status": "published",
-
   "name": {
-    "si": "පළමුවන ගජබාහු රජු (ගජබාහුගාමිණී)",
-    "en": "King Gajabahu I (Gajabahugamini)"
+    "si": "පළමුවන ගජබාහු රජු (ගජබාහුක ගාමිණී)",
+    "en": "King Gajabahu I (Gajabahuka gamini)"
   },
-
   "shortName": {
     "si": "පළමුවන ගජබාහු",
     "en": "Gajabahu I"
   },
-
   "alternativeNames": {
     "si": [
-      "ගජබාහුගාමිණී",
+      "ගජබාහුක ගාමිණී",
       "ගජබා රජ"
     ],
     "en": [
-      "Gajabahugamini",
+      "Gajabahuka Gamini",
       "Gajabahu I"
     ]
   },
-
   "gender": "male",
-
   "kingdomId": "anuradhapura-kingdom",
   "dynastyId": "first-lambakanna-dynasty",
   "periodId": "anuradhapura-kingdom",
-
   "reign": {
     "startYear": 114,
     "endYear": 136,
@@ -45,10 +39,8 @@
     "lengthYears": 22,
     "dateStatus": "historical"
   },
-
   "predecessorId": "vankanasika-tissa",
   "successorId": "mahallaka-naga",
-
   "family": {
     "fatherId": "vankanasika-tissa",
     "motherId": "mahamatta",
@@ -56,7 +48,6 @@
     "childIds": [],
     "fatherInLawIds": []
   },
-
   "familyDisplay": {
     "si": {
       "father": "වංකනාසික තිස්ස රජු",
@@ -73,12 +64,10 @@
       "children": []
     }
   },
-
   "capital": {
     "si": "අනුරාධපුරය",
     "en": "Anuradhapura"
   },
-
   "image": {
     "main": "/images/kings/gajabahu-i.webp",
     "thumbnail": "/images/kings/gajabahu-i.webp",
@@ -88,12 +77,10 @@
     },
     "isReconstruction": true
   },
-
   "summary": {
-    "si": "පළමුවන ගජබාහු රජු (ගජබාහුගාමිණී) අනුරාධපුර රාජධානියේ ප්රබල පාලකයෙකි. ඔහු සොළී රටට ගොස් සිංහල සිරකරුවන් 12,000ක් සහ පත්තිනි දේවියගේ සලඹ ඇතුළු පූජනීය වස්තු නැවත ලංකාවට රැගෙන ආ බව ජනප්රවාද සහ රාජාවලියේ සඳහන් වේ.",
-    "en": "King Gajabahu I (Gajabahugamini) was a celebrated ruler of Anuradhapura. Historical tradition and chronicles recall his expedition to South India (Chola kingdom) to rescue 12,000 captives and retrieve sacred items including Goddess Pattini's anklet."
+    "si": "පළමුවන ගජබාහු රජු (ගජබාහුක ගාමිණී) අනුරාධපුර රාජධානියේ ප්රබල පාලකයෙකි. ඔහු සොළී රටට ගොස් සිංහල සිරකරුවන් 12,000ක් සහ පත්තිනි දේවියගේ සලඹ ඇතුළු පූජනීය වස්තු නැවත ලංකාවට රැගෙන ආ බව ජනප්රවාද සහ රාජාවලියේ සඳහන් වේ.",
+    "en": "King Gajabahu I (Gajabahuka gamini) was a celebrated ruler of Anuradhapura. Historical tradition and chronicles recall his expedition to South India (Chola kingdom) to rescue 12,000 captives and retrieve sacred items including Goddess Pattini's anklet."
   },
-
   "biography": {
     "si": [
       {
@@ -111,7 +98,6 @@
         ]
       }
     ],
-
     "en": [
       {
         "heading": "Introduction",
@@ -129,7 +115,6 @@
       }
     ]
   },
-
   "constructions": [
     {
       "id": "ramavihara",
@@ -145,7 +130,6 @@
       "sourceStatus": "chronicle"
     }
   ],
-
   "majorEvents": [
     {
       "id": "chola-expedition",
@@ -157,7 +141,6 @@
       "sourceStatus": "chronicle-and-tradition"
     }
   ],
-
   "relationships": [
     {
       "personId": "vankanasika-tissa",
@@ -168,12 +151,10 @@
       "relationship": "mother"
     }
   ],
-
   "sourceIds": [
     "mahavamsa-chapter-35",
     "rajavaliya"
   ],
-
   "sourceStatus": {
     "overall": "chronicle-and-tradition",
     "notes": {
@@ -181,14 +162,13 @@
       "en": "Reign details are recorded in Mahavamsa, while the Chola campaign and Pattini cult origins are highlighted in Rajavaliya and oral tradition."
     }
   },
-
   "seo": {
     "title": {
       "si": "පළමුවන ගජබාහු රජු | අනුරාධපුර රාජධානිය",
       "en": "King Gajabahu I | Anuradhapura Kingdom"
     },
     "description": {
-      "si": "පළමුවන ගජබාහු රජුගේ (ගජබාහුගාමිණී) පාලන සමය, සොළී දේශයට කළ ගමන සහ ඓතිහාසික සේවාවන්.",
+      "si": "පළමුවන ගජබාහු රජුගේ (ගජබාහුක ගාමිණී) පාලන සමය, සොළී දේශයට කළ ගමන සහ ඓතිහාසික සේවාවන්.",
       "en": "Explore the reign, South Indian expedition, and legacy of King Gajabahu I of Anuradhapura."
     },
     "keywords": {
